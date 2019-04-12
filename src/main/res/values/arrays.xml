@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="output_format">
+        <item>Auto</item>
+        <item>Original</item>
+        <item>HLS</item>
+        <item>HTTP</item>
+    </string-array>
+    <string-array name="output_format_id">
+        <item>auto</item>
+        <item>original</item>
+        <item>hls</item>
+        <item>http</item>
+    </string-array>
+</resources>

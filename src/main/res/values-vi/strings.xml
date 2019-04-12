@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lbl_version" source="google_translate">Phiên bản</string>
+    <string name="lbl_portal" source="google_translate">Cổng thông tin</string>
+    <string name="lbl_prefshththtml" source="google_translate">Cài đặt</string>
+    <string name="lbl_account" source="google_translate">Tài khoản</string>
+    <string name="lbl_sign_out" source="google_translate">Đăng xuất</string>
+    <string name="menu_prefs" source="google_translate">Cài đặt</string>
+    <string name="menu_profile" source="google_translate">Thông tin người dùng</string>
+    <string name="menu_services" source="google_translate">Dịch vụ</string>
+    <string name="menu_clearcache" source="google_translate">Xóa bộ nhớ cache</string>
+    <string name="menu_quit" source="google_translate">Thoát</string>
+    <string name="menu_action_fail" source="google_translate">Không thể thực hiện hành động này với động cơ không hoạt động</string>
+    <string name="dialog_wait" source="google_translate">Xin vui lòng chờ</string>
+    <string name="dialog_unpack" source="google_translate">Giải nén</string>
+    <string name="dialog_start" source="google_translate">Bắt đầu</string>
+    <string name="dialog_prefs" source="google_translate">Lấy sở thích</string>
+    <string name="dialog_services" source="google_translate">Lấy danh sách các dịch vụ</string>
+    <string name="dialog_cache" source="google_translate">Xóa bộ nhớ cache</string>
+    <string name="dialog_shutdown" source="google_translate">Tắt máy</string>
+    <string name="dialog_no_connection" source="google_translate">Không có kết nối internet có sẵn. Dịch vụ Ace Stream Engine sẽ tự khởi động sau khi kết nối.</string>
+    <string name="task_prefs_fail" source="google_translate">Lấy lỗi cài đặt</string>
+    <string name="task_services_fail" source="google_translate">Lấy lỗi dịch vụ</string>
+    <string name="start_ok" source="google_translate">Bắt đầu thành công</string>
+    <string name="start_fail" source="google_translate">Bắt đầu thất bại</string>
+    <string name="notify_starting" source="google_translate">Nhàn rỗi</string>
+    <string name="notify_unpack" source="google_translate">Giải nén trong quá trình</string>
+    <string name="notify_unpack_complete" source="google_translate">Giải nén xong</string>
+    <string name="notify_connect" source="google_translate">Kết nối</string>
+    <string name="notify_connect_complete" source="google_translate">Kết nối hoàn tất</string>
+    <string name="notify_running" source="google_translate">Đang chạy</string>
+    <string name="notify_stopped" source="google_translate">Ngừng</string>
+    <string name="notify_error" source="google_translate">lỗi</string>
+    <string name="notify_wait_connection" source="google_translate">Không có kết nối mạng</string>
+    <string name="prefs_group_main" source="google_translate">Sở thích chính</string>
+    <string name="prefs_item_mobile" source="google_translate">Truy cập dữ liệu mạng di động</string>
+    <string name="prefs_item_mobile_summary" source="google_translate">Cho phép truy cập dữ liệu qua mạng di động</string>
+    <string name="prefs_item_vod_buffer" source="google_translate">Bộ đệm VOD, s</string>
+    <string name="prefs_item_live_buffer" source="google_translate">Bộ đệm sống, s</string>
+    <string name="prefs_item_download_limit" source="google_translate">Giới hạn tải xuống (0 - không giới hạn), Kb / s</string>
+    <string name="prefs_item_upload_limit" source="google_translate">Giới hạn tải lên (0 - không giới hạn), Kb / s</string>
+    <string name="prefs_group_advanced" source="google_translate">Tùy chọn nâng cao</string>
+    <string name="prefs_item_port" source="google_translate">Hải cảng</string>
+    <string name="prefs_item_total_max_connects" source="google_translate">Tối đa kết nối</string>
+    <string name="prefs_item_download_max_connects" source="google_translate">Tải xuống tối đa kết nối</string>
+    <string name="prefs_group_profile" source="google_translate">Thông tin người dùng</string>
+    <string name="prefs_item_gender" source="google_translate">Giới tính</string>
+    <string name="prefs_item_age" source="google_translate">Tuổi tác</string>
+    <string name="prefs_item_login" source="google_translate">Đăng nhập</string>
+    <string name="prefs_item_password" source="google_translate">Mật khẩu</string>
+    <string name="prefs_gender_value_male" source="google_translate">Nam giới</string>
+    <string name="prefs_gender_value_female" source="google_translate">Giống cái</string>
+    <string name="prefs_age_value_under13" source="google_translate">Dưới 13 tuổi</string>
+    <string name="prefs_age_value_above64" source="google_translate">Trên 64</string>
+    <string name="prefs_group_cache" source="google_translate">Cài đặt bộ nhớ cache</string>
+    <string name="prefs_item_disk_cache_limit" source="google_translate">Giới hạn bộ nhớ cache của đĩa, Mb</string>
+    <string name="prefs_item_memory_cache_limit" source="google_translate">Giới hạn bộ nhớ RAM, Mb</string>
+    <string name="prefs_item_cache_dir" source="google_translate">Thư mục bộ nhớ cache</string>
+    <string name="prefs_cache_live_use_disk" source="google_translate">Sử dụng đĩa để sống</string>
+    <string name="prefs_cache_vod_use_disk" source="google_translate">Sử dụng đĩa cho VOD</string>
+    <string name="prefs_output_format_live" source="google_translate">Định dạng đầu ra (Trực tiếp)</string>
+    <string name="prefs_output_format_vod" source="google_translate">Định dạng đầu ra (VOD)</string>
+    <string name="extension_name" source="google_translate">Tên:</string>
+    <string name="extension_description" source="google_translate">Sự miêu tả:</string>
+    <string name="extension_issued_by" source="google_translate">Phát hành bởi:</string>
+    <string name="extension_url" source="google_translate">Url:</string>
+    <string name="extension_enabled" source="google_translate">Đã bật:</string>
+    <string name="extension_valid_from" source="google_translate">Có hiệu lực từ:</string>
+    <string name="extension_valid_to" source="google_translate">Có hiệu lực đến:</string>
+    <string name="no_services" source="google_translate">Không có dịch vụ</string>
+    <string name="message_unsupported_cpu" source="google_translate">CPU của bạn chưa được hỗ trợ.</string>
+    <string name="starting" source="google_translate">Bắt đầu đào</string>
+    <string name="starting_player" source="google_translate">Người chơi bắt đầu</string>
+    <string name="install" source="google_translate">cài đặt, dựng lên</string>
+    <string name="close" source="google_translate">Gần</string>
+    <string name="no_players" source="google_translate">Không tìm thấy người chơi</string>
+    <string name="failed_to_start" source="google_translate">Không thể bắt đầu</string>
+    <string name="option_proxy_server" source="google_translate">Máy chủ proxy</string>
+    <string name="option_generic_premium" source="google_translate">Cao cấp</string>
+    <string name="activate" source="google_translate">Kích hoạt</string>
+    <string name="prompt_email" source="google_translate">E-mail</string>
+    <string name="prompt_password" source="google_translate">Mật khẩu</string>
+    <string name="action_sign_in" source="google_translate">Đăng nhập</string>
+    <string name="action_sign_in_or_register" source="google_translate">Đăng nhập / Đăng ký</string>
+    <string name="action_sign_out" source="google_translate">Đăng xuất</string>
+    <string name="error_invalid_email" source="google_translate">Địa chỉ email này không hợp lệ</string>
+    <string name="error_invalid_password" source="google_translate">Mật khẩu này quá ngắn</string>
+    <string name="error_field_required" source="google_translate">Lĩnh vực này là bắt buộc</string>
+    <string name="upgrage_user_level" source="google_translate">Nâng cấp</string>
+    <string name="select_file" source="google_translate">Chọn tập tin</string>
+    <string name="auth_error_user_not_found" source="google_translate">Không tìm thấy người dùng</string>
+    <string name="auth_error_user_disabled" source="google_translate">Người dùng bị vô hiệu hóa</string>
+    <string name="auth_error_bad_password" source="google_translate">Mật khẩu này không đúng</string>
+    <string name="auth_internal_error" source="google_translate">Lỗi bên trong. Vui lòng thử lại sau.</string>
+    <string name="auth_network_error" source="google_translate">Lỗi mạng. Vui lòng thử lại sau.</string>
+    <string name="auth_failed_error" source="google_translate">Auth thất bại. Vui lòng thử lại sau.</string>
+    <string name="uninstall" source="google_translate">Gỡ cài đặt</string>
+    <string name="uninstall_prev_version_to_continue" source="google_translate">Bạn cần gỡ cài đặt phiên bản trước để tiếp tục</string>
+    <string name="prefs_allow_intranet_access" source="google_translate">Cho phép truy cập mạng nội bộ</string>
+    <string name="prefs_allow_remote_access" source="google_translate">Cho phép truy cập từ xa</string>
+    <string name="error" source="google_translate">lỗi</string>
+    <string name="select_player" source="google_translate">Chọn máy nghe nhạc</string>
+    <string name="attention" source="google_translate">Chú ý</string>
+    <string name="home" source="google_translate">Nhà</string>
+    <string name="remote_control" source="google_translate">Điều khiển từ xa</string>
+    <string name="please_try_again" source="google_translate">Vui lòng thử lại</string>
+    <string name="cannot_start_playback" source="google_translate">Không thể bắt đầu phát lại</string>
+    <string name="device_disconnected" source="google_translate">thiết bị ngắt kết nối</string>
+    <string name="connection_failed" source="google_translate">Kết nối thất bại</string>
+    <string name="buffering" source="google_translate">Bộ đệm</string>
+    <string name="remember_choice" source="google_translate">Nhớ lựa chọn</string>
+    <string name="prefs_transcode_ac3" source="google_translate">Chuyển mã chỉ AC3 sang AAC cho HLS</string>
+    <string name="ok_sure" source="google_translate">OK chắc chắn</string>
+    <string name="no_thanks" source="google_translate">Không, cám ơn</string>
+    <string name="rate_yes" source="google_translate">Vâng!</string>
+    <string name="rate_not" source="google_translate">Không thực sự</string>
+    <string name="rate_do_you_like" source="google_translate">Thưởng thức Ace Stream?</string>
+    <string name="rate_on_google" source="google_translate">Thế còn đánh giá trên Google Play thì sao?</string>
+    <string name="rate_give_feedback" source="google_translate">Bạn có phiền cho chúng tôi một số thông tin phản hồi?</string>
+    <string name="prefs_transcode_audio" source="google_translate">Chuyển mã tất cả âm thanh sang AAC cho HLS</string>
+    <string name="want_restart" source="google_translate">Bạn có muốn tiếp tục phát lại từ vị trí cuối cùng?</string>
+    <string name="restart_from_beginning" source="google_translate">Bắt đầu lại từ đầu</string>
+    <string name="menu_content_id" source="google_translate">Nhập ID nội dung</string>
+    <string name="enter_content_id" source="google_translate">Nhập ID nội dung</string>
+    <string name="bad_content_id" source="google_translate">ID nội dung xấu</string>
+    <string name="send" source="google_translate">Gửi</string>
+    <string name="report_problem" source="google_translate">Báo cáo sự cố</string>
+    <string name="report_has_been_sent" source="google_translate">Báo cáo đã được gửi</string>
+    <string name="report_failed" source="google_translate">Báo cáo thất bại</string>
+    <string name="allow_mobile_networks" source="google_translate">Cho phép sử dụng mạng di động?</string>
+    <string name="problem_description" source="google_translate">Mô tả vấn đề</string>
+    <string name="directory_is_not_writable" source="google_translate">Thư mục không thể ghi</string>
+    <string name="device_storage" source="google_translate">Thiết bị lưu trữ</string>
+    <string name="sd_card" source="google_translate">Thẻ SD</string>
+    <string name="select_directory" source="google_translate">Chọn thư mục</string>
+    <string name="select_category" source="google_translate">Chọn danh mục</string>
+    <string name="language" source="google_translate">Ngôn ngữ</string>
+    <string name="sign_in_or_register" source="google_translate">Đăng nhập hoặc đăng ký trong Ace Stream</string>
+    <string name="sign_in_or_register_continue" source="google_translate">Đăng nhập hoặc đăng ký để tiếp tục</string>
+    <string name="selected_player" source="google_translate">Người chơi được chọn</string>
+    <string name="opengl_usage" source="google_translate">Sử dụng OpenGL ES2</string>
+    <string name="auto" source="google_translate">Tự động</string>
+    <string name="force_on" source="google_translate">Buộc</string>
+    <string name="force_off" source="google_translate">Buộc tắt</string>
+    <string name="video_hardware_acceleration" source="google_translate">Tăng tốc phần cứng video</string>
+    <string name="disabled" source="google_translate">Tàn tật</string>
+    <string name="decoding_acceleration" source="google_translate">Giải mã gia tốc</string>
+    <string name="full_acceleration" source="google_translate">Tăng tốc hoàn toàn</string>
+    <string name="show_debug_info" source="google_translate">Hiển thị thông tin gỡ lỗi</string>
+    <string name="enable_debug_logging" source="google_translate">Cho phép ghi nhật ký gỡ lỗi</string>
+    <string name="start_acecast_server" source="google_translate">Khởi động máy chủ AceCast</string>
+    <string name="avi_opendml_warning" source="google_translate">Video này có thể không phát lại chính xác trong trình phát Ace Stream. Chọn người chơi khác?</string>
+    <string name="player_preferences" source="google_translate">Cài đặt trình phát</string>
+    <string name="ads_preferences" source="google_translate">Cài đặt quảng cáo</string>
+    <string name="ads_preferences_short" source="google_translate">Quảng cáo</string>
+    <string name="show_lock_button" source="google_translate">Hiển thị nút khóa</string>
+    <string name="engine_preferences" source="google_translate">Cài đặt động cơ</string>
+    <string name="engine_preferences_short" source="google_translate">Động cơ</string>
+    <string name="need_proxy_server_option" source="google_translate">Bạn cần kích hoạt tùy chọn Máy chủ Proxy để xem nội dung trong trình phát bên ngoài. Hoặc bạn có thể xem nội dung miễn phí trong Ace Player</string>
+    <string name="need_proxy_server_option_tmp" source="google_translate">Để xem nội dung, bạn cần kích hoạt tùy chọn Máy chủ Proxy hoặc nâng cấp ứng dụng Ace Stream</string>
+    <string name="pause_on_audiofocus_loss" source="google_translate">Tạm dừng mất thính lực</string>
+    <string name="upgrade" source="google_translate">Nâng cấp</string>
+    <string name="to_continue_visit_link" source="google_translate">Để tiếp tục truy cập liên kết này:</string>
+    <string name="and_enter_pin" source="google_translate">và nhập mã PIN:</string>
+    <string name="gdpr_consent" source="google_translate">Đồng ý GDPR</string>
+    <string name="show_rewarded_ads" source="google_translate">Hiển thị quảng cáo có thưởng</string>
+    <string name="show_ads_on_main_screen" source="google_translate">Hiển thị quảng cáo trên màn hình chính</string>
+    <string name="show_ads_on_preroll" source="google_translate">Hiển thị quảng cáo trên preroll</string>
+    <string name="show_ads_on_pause" source="google_translate">Hiển thị quảng cáo tạm dừng</string>
+    <string name="show_ads_on_close" source="google_translate">Hiển thị quảng cáo khi người chơi đóng</string>
+    <string name="agreement" source="google_translate">Hiệp định</string>
+    <string name="license_agreement" source="google_translate">Thỏa thuận cấp phép</string>
+    <string name="privacy_policy" source="google_translate">Chính sách bảo mật</string>
+    <string name="application_version" source="google_translate">Phiên bản ứng dụng</string>
+    <string name="disable_ads" source="google_translate">Vô hiệu hóa quảng cáo</string>
+    <string name="learn_more" source="google_translate">Tìm hiểu thêm</string>
+    <string name="skip_ad" source="google_translate">Bỏ qua quảng cáo</string>
+    <string name="you_can_skip_this_ad_in" source="google_translate">Bạn có thể bỏ qua quảng cáo này trong %d</string>
+    <string name="clearing_cache_etc" source="google_translate">Xóa bộ nhớ cache</string>
+    <string name="cache_cleared" source="google_translate">Đã xóa bộ nhớ cache</string>
+    <string name="not_connected_to_engine" source="google_translate">Không kết nối với động cơ</string>
+    <string name="gdpr_consent_pref_title" source="google_translate">Đồng ý GDPR</string>
+    <string name="gdpr_consent_pref_summary" source="google_translate">Đồng ý GDPR</string>
+    <string name="application" source="google_translate">Ứng dụng</string>
+    <string name="device_name" source="google_translate">Tên thiết bị</string>
+    <string name="empty_playlist" source="google_translate">Danh sách phát trống</string>
+    <string name="profile" source="google_translate">Hồ sơ</string>
+    <string name="not_selected" source="google_translate">Không được chọn</string>
+    <string name="restart_application" source="google_translate">Khỏi động lại ưng dụng</string>
+    <string name="restart_confirmation" source="google_translate">Khởi động lại ứng dụng bây giờ?</string>
+    <string name="parsing_transport_files" source="google_translate">Phân tích cú pháp tập tin vận chuyển</string>
+    <string name="user_profile" source="google_translate">Thông tin người dùng</string>
+    <string name="account_balance" source="google_translate">Số dư tài khoản</string>
+</resources>

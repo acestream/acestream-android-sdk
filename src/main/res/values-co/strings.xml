@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lbl_version" source="google_translate">Version</string>
+    <string name="lbl_portal" source="google_translate">Portal d \'infurmazione</string>
+    <string name="lbl_prefshththtml" source="google_translate">Settings</string>
+    <string name="lbl_account" source="google_translate">Cuntu</string>
+    <string name="lbl_sign_out" source="google_translate">Sorte</string>
+    <string name="menu_prefs" source="google_translate">Settings</string>
+    <string name="menu_profile" source="google_translate">U perfilu di u vostru situ</string>
+    <string name="menu_services" source="google_translate">Servizi</string>
+    <string name="menu_clearcache" source="google_translate">Clear cache</string>
+    <string name="menu_quit" source="google_translate">Quit</string>
+    <string name="menu_action_fail" source="google_translate">Ùn pudete micca eseguisce questu attuzione cù un attive engine</string>
+    <string name="dialog_wait" source="google_translate">Aghjalesi</string>
+    <string name="dialog_unpack" source="google_translate">Unpacking</string>
+    <string name="dialog_start" source="google_translate">Starting</string>
+    <string name="dialog_prefs" source="google_translate">Ricercà preferenzi</string>
+    <string name="dialog_services" source="google_translate">Recuperazione lista di servizii</string>
+    <string name="dialog_cache" source="google_translate">Cumpagnamentu di cache</string>
+    <string name="dialog_shutdown" source="google_translate">Cumpagnamentu</string>
+    <string name="dialog_no_connection" source="google_translate">No cunnessione internet. U serviziu di Ace Stream Engine accumarà automaticamente dopu a cunnessione.</string>
+    <string name="task_prefs_fail" source="google_translate">Avete di ricercà messageru</string>
+    <string name="task_services_fail" source="google_translate">Errore di servizariu di servizien</string>
+    <string name="start_ok" source="google_translate">Pruvene successu</string>
+    <string name="start_fail" source="google_translate">Start failed</string>
+    <string name="notify_starting" source="google_translate">Idle</string>
+    <string name="notify_unpack" source="google_translate">Despacking in process</string>
+    <string name="notify_unpack_complete" source="google_translate">Cumprà issu dispertu</string>
+    <string name="notify_connect" source="google_translate">Cunnessu</string>
+    <string name="notify_connect_complete" source="google_translate">Cumplicazione cumplette</string>
+    <string name="notify_running" source="google_translate">Running</string>
+    <string name="notify_stopped" source="google_translate">Stopped</string>
+    <string name="notify_error" source="google_translate">Errore</string>
+    <string name="notify_wait_connection" source="google_translate">Nisuna pagina di cunnessione di a pagina</string>
+    <string name="prefs_group_main" source="google_translate">Preferenze principali</string>
+    <string name="prefs_item_mobile" source="google_translate">Adupità di datu di rete mobile</string>
+    <string name="prefs_item_mobile_summary" source="google_translate">Hà attivatu l\'accessu di dati à i riti mobile</string>
+    <string name="prefs_item_vod_buffer" source="google_translate">U Bancarottu VOD, s</string>
+    <string name="prefs_item_live_buffer" source="google_translate">Live buffer, s</string>
+    <string name="prefs_item_download_limit" source="google_translate">Limitu di u download (0 - senza fine), Kb / s</string>
+    <string name="prefs_item_upload_limit" source="google_translate">Limitu di upload (0 - no limit), Kb / s</string>
+    <string name="prefs_group_advanced" source="google_translate">I preferiti avanzati</string>
+    <string name="prefs_item_port" source="google_translate">Portu</string>
+    <string name="prefs_item_total_max_connects" source="google_translate">Max si cunghjunteghja</string>
+    <string name="prefs_item_download_max_connects" source="google_translate">A cunnessione màghiera</string>
+    <string name="prefs_group_profile" source="google_translate">U perfilu di u vostru situ</string>
+    <string name="prefs_item_gender" source="google_translate">Genere</string>
+    <string name="prefs_item_age" source="google_translate">Età</string>
+    <string name="prefs_item_login" source="google_translate">Login</string>
+    <string name="prefs_item_password" source="google_translate">Codice</string>
+    <string name="prefs_gender_value_male" source="google_translate">Male</string>
+    <string name="prefs_gender_value_female" source="google_translate">Female</string>
+    <string name="prefs_age_value_under13" source="google_translate">Sottu 13</string>
+    <string name="prefs_age_value_above64" source="google_translate">64</string>
+    <string name="prefs_group_cache" source="google_translate">Cache settings</string>
+    <string name="prefs_item_disk_cache_limit" source="google_translate">Limitu di cache discu, Mb</string>
+    <string name="prefs_item_memory_cache_limit" source="google_translate">Limitu RAM cache, Mb</string>
+    <string name="prefs_item_cache_dir" source="google_translate">Cache</string>
+    <string name="prefs_cache_live_use_disk" source="google_translate">Utilizà u discu in diretta</string>
+    <string name="prefs_cache_vod_use_disk" source="google_translate">Utilizare u discu per VOD</string>
+    <string name="prefs_output_format_live" source="google_translate">Formatu di sale (Live)</string>
+    <string name="prefs_output_format_vod" source="google_translate">Formatu di sale (VOD)</string>
+    <string name="extension_name" source="google_translate">Name:</string>
+    <string name="extension_description" source="google_translate">Description:</string>
+    <string name="extension_issued_by" source="google_translate">Issatu da:</string>
+    <string name="extension_url" source="google_translate">Url:</string>
+    <string name="extension_enabled" source="google_translate">Habilitata:</string>
+    <string name="extension_valid_from" source="google_translate">Validità da:</string>
+    <string name="extension_valid_to" source="google_translate">Vàlidu Per:</string>
+    <string name="no_services" source="google_translate">Nisun servizio</string>
+    <string name="message_unsupported_cpu" source="google_translate">U CPU ùn hè micca supportatu.</string>
+    <string name="starting" source="google_translate">Inizio ...</string>
+    <string name="starting_player" source="google_translate">Partituista ...</string>
+    <string name="install" source="google_translate">Installa</string>
+    <string name="close" source="google_translate">Chiudere</string>
+    <string name="no_players" source="google_translate">Nisun attore truvatu</string>
+    <string name="failed_to_start" source="google_translate">Ùn avianu principiatu</string>
+    <string name="option_proxy_server" source="google_translate">Proxy Server</string>
+    <string name="option_generic_premium" source="google_translate">Premium</string>
+    <string name="activate" source="google_translate">Activate</string>
+    <string name="prompt_email" source="google_translate">Email</string>
+    <string name="prompt_password" source="google_translate">Codice</string>
+    <string name="action_sign_in" source="google_translate">Firmà lu</string>
+    <string name="action_sign_in_or_register" source="google_translate">Sign in / Registra</string>
+    <string name="action_sign_out" source="google_translate">Sorte</string>
+    <string name="error_invalid_email" source="google_translate">Stu indirizzu email ùn hè micca validu</string>
+    <string name="error_invalid_password" source="google_translate">Sta dumanda hè troppu corta</string>
+    <string name="error_field_required" source="google_translate">Stu campu hè dumandatu</string>
+    <string name="upgrage_user_level" source="google_translate">Upgrade</string>
+    <string name="select_file" source="google_translate">Select file</string>
+    <string name="auth_error_user_not_found" source="google_translate">Ùn ghjuvedu micca truvatu</string>
+    <string name="auth_error_user_disabled" source="google_translate">L\'utilizatori hè disattivatu</string>
+    <string name="auth_error_bad_password" source="google_translate">Stu password hè incorrectu</string>
+    <string name="auth_internal_error" source="google_translate">Errore internu. Pruvate dopu.</string>
+    <string name="auth_network_error" source="google_translate">Network error. Pruvate dopu.</string>
+    <string name="auth_failed_error" source="google_translate">Auth falla. Pruvate dopu.</string>
+    <string name="uninstall" source="google_translate">Uninstall</string>
+    <string name="uninstall_prev_version_to_continue" source="google_translate">Avete bisognu di uninstall a versione previa per continuà</string>
+    <string name="prefs_allow_intranet_access" source="google_translate">Permettenu accessu intranet</string>
+    <string name="prefs_allow_remote_access" source="google_translate">Permettenu accessu remota</string>
+    <string name="error" source="google_translate">Errore</string>
+    <string name="select_player" source="google_translate">Select player</string>
+    <string name="attention" source="google_translate">Attenzione</string>
+    <string name="home" source="google_translate">Home</string>
+    <string name="remote_control" source="google_translate">Cuntrollu Remote</string>
+    <string name="please_try_again" source="google_translate">Pruvate di novu</string>
+    <string name="cannot_start_playback" source="google_translate">Ùn pudete ripete u playback</string>
+    <string name="device_disconnected" source="google_translate">Discu discu connected</string>
+    <string name="connection_failed" source="google_translate">A cunnessione fiada</string>
+    <string name="buffering" source="google_translate">Buffering</string>
+    <string name="remember_choice" source="google_translate">Ricordate scelte</string>
+    <string name="prefs_transcode_ac3" source="google_translate">U codice solu AC3 à AAC per HLS</string>
+    <string name="ok_sure" source="google_translate">È sicuru</string>
+    <string name="no_thanks" source="google_translate">No, graziosu</string>
+    <string name="rate_yes" source="google_translate">Iè!</string>
+    <string name="rate_not" source="google_translate">Micca essatamente</string>
+    <string name="rate_do_you_like" source="google_translate">À prufittà di Ace Stream?</string>
+    <string name="rate_on_google" source="google_translate">Cuminciamu a qualificazione di Google Play, allura?</string>
+    <string name="rate_give_feedback" source="google_translate">Vulete averma dà un pocu di feedback?</string>
+    <string name="prefs_transcode_audio" source="google_translate">Codice l\'audio à AAC per HLS</string>
+    <string name="want_restart" source="google_translate">Vulete ripiglià a riputazione da l\'ultima pusizioni?</string>
+    <string name="restart_from_beginning" source="google_translate">Partenza da u principiu</string>
+    <string name="menu_content_id" source="google_translate">Scrive ID di cuntenutu</string>
+    <string name="enter_content_id" source="google_translate">Scrive ID di cuntenutu</string>
+    <string name="bad_content_id" source="google_translate">Cuntinutu Cuntinutu</string>
+    <string name="send" source="google_translate">Mandà</string>
+    <string name="report_problem" source="google_translate">Avissi un prublema</string>
+    <string name="report_has_been_sent" source="google_translate">U rapportu hè statu mandatu</string>
+    <string name="report_failed" source="google_translate">U rapportu falla</string>
+    <string name="allow_mobile_networks" source="google_translate">Permettemu utilizatori di rete multiline?</string>
+    <string name="problem_description" source="google_translate">A lista di prublemi</string>
+    <string name="directory_is_not_writable" source="google_translate">Ùn hè scrittu direttu</string>
+    <string name="device_storage" source="google_translate">Storage Device</string>
+    <string name="sd_card" source="google_translate">SD Card</string>
+    <string name="select_directory" source="google_translate">Elencu di scelta</string>
+    <string name="select_category" source="google_translate">Select category</string>
+    <string name="language" source="google_translate">Lingua</string>
+    <string name="sign_in_or_register" source="google_translate">Signu o cunta in l\'Ace Stream</string>
+    <string name="sign_in_or_register_continue" source="google_translate">Signu in o ristau per continuà</string>
+    <string name="selected_player" source="google_translate">Jugadoru Seleccionatu</string>
+    <string name="opengl_usage" source="google_translate">Ugliu OpenGL ES2</string>
+    <string name="auto" source="google_translate">Auto</string>
+    <string name="force_on" source="google_translate">Force on</string>
+    <string name="force_off" source="google_translate">Force Off</string>
+    <string name="video_hardware_acceleration" source="google_translate">Video Acceleration in software</string>
+    <string name="disabled" source="google_translate">Disabled</string>
+    <string name="decoding_acceleration" source="google_translate">Acigrami Dechelenza</string>
+    <string name="full_acceleration" source="google_translate">Full Acceleration</string>
+    <string name="show_debug_info" source="google_translate">Amparà l\'infurmazioni di debug</string>
+    <string name="enable_debug_logging" source="google_translate">Hà attivatu debug logging</string>
+    <string name="start_acecast_server" source="google_translate">Inicì AceCast Server</string>
+    <string name="avi_opendml_warning" source="google_translate">Stu video ùn pò micca esse ripirtinamente in Ace Stream player. Sceglite un altru attore?</string>
+    <string name="player_preferences" source="google_translate">A paràmetre</string>
+    <string name="ads_preferences" source="google_translate">I pusizioni di publicazioni</string>
+    <string name="ads_preferences_short" source="google_translate">Ads</string>
+    <string name="show_lock_button" source="google_translate">Uchjarate u buttone</string>
+    <string name="engine_preferences" source="google_translate">Parizzioni di u mutore</string>
+    <string name="engine_preferences_short" source="google_translate">Engine</string>
+    <string name="need_proxy_server_option" source="google_translate">Avete bisognu di attivà l\'opzione Proxy Server per vede u cuntenutu in i ghjucadores esterni. O pudete vede cuntenutu in liberu in Ace Player</string>
+    <string name="need_proxy_server_option_tmp" source="google_translate">Per guardà cuntenutu, avete bisogna à attivà l\'opzione Proxy Server o l\'aghjurnamentu d\'App Stream Ace</string>
+    <string name="pause_on_audiofocus_loss" source="google_translate">Pause à perdita audiofocus</string>
+    <string name="upgrade" source="google_translate">Upgrade</string>
+    <string name="to_continue_visit_link" source="google_translate">Per andà visitate stu ligame:</string>
+    <string name="and_enter_pin" source="google_translate">è entre in PIN:</string>
+    <string name="gdpr_consent" source="google_translate">Cumente di GDPR</string>
+    <string name="show_rewarded_ads" source="google_translate">Rispondi ricenti</string>
+    <string name="show_ads_on_main_screen" source="google_translate">Ammisione nantu à a pantalla principale</string>
+    <string name="show_ads_on_preroll" source="google_translate">Advertsement su prerollu</string>
+    <string name="show_ads_on_pause" source="google_translate">Amparenti nantu à pausa</string>
+    <string name="show_ads_on_close" source="google_translate">Ammustra annunzii in u ghjugnu cerchellu</string>
+    <string name="agreement" source="google_translate">\'Accoddu</string>
+    <string name="license_agreement" source="google_translate">Acordulu di licenza</string>
+    <string name="privacy_policy" source="google_translate">Politica privata</string>
+    <string name="application_version" source="google_translate">A versione di applicazione</string>
+    <string name="disable_ads" source="google_translate">Disattivu publicità</string>
+    <string name="learn_more" source="google_translate">Sapè ne di più</string>
+    <string name="skip_ad" source="google_translate">Saltate l\'Ad</string>
+    <string name="you_can_skip_this_ad_in" source="google_translate">Pudete scopre este annu in %d</string>
+    <string name="clearing_cache_etc" source="google_translate">Cumpressamentu di cache ...</string>
+    <string name="cache_cleared" source="google_translate">Cache hà apartu</string>
+    <string name="not_connected_to_engine" source="google_translate">Ùn cunnessu à u mutore</string>
+    <string name="gdpr_consent_pref_title" source="google_translate">Cumente di GDPR</string>
+    <string name="gdpr_consent_pref_summary" source="google_translate">Cumente di GDPR</string>
+    <string name="application" source="google_translate">Applicazione</string>
+    <string name="device_name" source="google_translate">Device name</string>
+    <string name="empty_playlist" source="google_translate">Playlistu vacu</string>
+    <string name="profile" source="google_translate">Prufilu</string>
+    <string name="not_selected" source="google_translate">Micca sceltu</string>
+    <string name="restart_application" source="google_translate">Appena di restart</string>
+    <string name="restart_confirmation" source="google_translate">Appena di restartà ora?</string>
+    <string name="parsing_transport_files" source="google_translate">Parsing transport files</string>
+    <string name="user_profile" source="google_translate">U perfilu di u vostru situ</string>
+    <string name="account_balance" source="google_translate">Balance Accounts</string>
+</resources>

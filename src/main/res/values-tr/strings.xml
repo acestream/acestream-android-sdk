@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lbl_version" source="google_translate">versiyon</string>
+    <string name="lbl_portal" source="google_translate">Bilgi portalı</string>
+    <string name="lbl_prefshththtml" source="google_translate">Ayarlar</string>
+    <string name="lbl_account" source="google_translate">hesap</string>
+    <string name="lbl_sign_out" source="google_translate">Oturumu Kapat</string>
+    <string name="menu_prefs" source="google_translate">Ayarlar</string>
+    <string name="menu_profile" source="google_translate">Kullanıcı profili</string>
+    <string name="menu_services" source="google_translate">Hizmetler</string>
+    <string name="menu_clearcache" source="google_translate">Önbelleği temizle</string>
+    <string name="menu_quit" source="google_translate">çıkmak</string>
+    <string name="menu_action_fail" source="google_translate">Etkin olmayan motorla bu eylem yürütülemiyor</string>
+    <string name="dialog_wait" source="google_translate">Lütfen bekle</string>
+    <string name="dialog_unpack" source="google_translate">Ambalajın açılması</string>
+    <string name="dialog_start" source="google_translate">Başlangıç</string>
+    <string name="dialog_prefs" source="google_translate">Tercihleri alma</string>
+    <string name="dialog_services" source="google_translate">Hizmetlerin alınması</string>
+    <string name="dialog_cache" source="google_translate">Önbelleği temizleme</string>
+    <string name="dialog_shutdown" source="google_translate">Shutdowning</string>
+    <string name="dialog_no_connection" source="google_translate">Kullanılabilir internet bağlantısı yok. Ace Stream Engine servisi bağlantıdan sonra otomatik olarak başlayacaktır.</string>
+    <string name="task_prefs_fail" source="google_translate">Ayarlar alınıyor hatası</string>
+    <string name="task_services_fail" source="google_translate">Hizmetler alınıyor hatası</string>
+    <string name="start_ok" source="google_translate">Başla</string>
+    <string name="start_fail" source="google_translate">Başlat başarısız</string>
+    <string name="notify_starting" source="google_translate">boş</string>
+    <string name="notify_unpack" source="google_translate">Süreci açma işlemi</string>
+    <string name="notify_unpack_complete" source="google_translate">Paketin açılması tamamlandı</string>
+    <string name="notify_connect" source="google_translate">Bağlanıyor</string>
+    <string name="notify_connect_complete" source="google_translate">Bağlanma tamamlandı</string>
+    <string name="notify_running" source="google_translate">Koşu</string>
+    <string name="notify_stopped" source="google_translate">Durduruldu</string>
+    <string name="notify_error" source="google_translate">Hata</string>
+    <string name="notify_wait_connection" source="google_translate">Kullanılabilir ağ bağlantısı yok</string>
+    <string name="prefs_group_main" source="google_translate">Ana tercihler</string>
+    <string name="prefs_item_mobile" source="google_translate">Mobil ağlar veri erişimi</string>
+    <string name="prefs_item_mobile_summary" source="google_translate">Mobil ağlar üzerinden veri erişimini etkinleştir</string>
+    <string name="prefs_item_vod_buffer" source="google_translate">VOD tamponu, s</string>
+    <string name="prefs_item_live_buffer" source="google_translate">Canlı arabellek, s</string>
+    <string name="prefs_item_download_limit" source="google_translate">İndirme sınırı (0 - sınır yok), Kb / s</string>
+    <string name="prefs_item_upload_limit" source="google_translate">Yükleme limiti (0 - limit yok), Kb / s</string>
+    <string name="prefs_group_advanced" source="google_translate">Gelişmiş tercihler</string>
+    <string name="prefs_item_port" source="google_translate">Liman</string>
+    <string name="prefs_item_total_max_connects" source="google_translate">Max bağlanır</string>
+    <string name="prefs_item_download_max_connects" source="google_translate">Max connect indir</string>
+    <string name="prefs_group_profile" source="google_translate">Kullanıcı profili</string>
+    <string name="prefs_item_gender" source="google_translate">Cinsiyet</string>
+    <string name="prefs_item_age" source="google_translate">Yaş</string>
+    <string name="prefs_item_login" source="google_translate">Oturum aç</string>
+    <string name="prefs_item_password" source="google_translate">Parola</string>
+    <string name="prefs_gender_value_male" source="google_translate">Erkek</string>
+    <string name="prefs_gender_value_female" source="google_translate">Kadın</string>
+    <string name="prefs_age_value_under13" source="google_translate">13 altı</string>
+    <string name="prefs_age_value_above64" source="google_translate">64\'ün üstünde</string>
+    <string name="prefs_group_cache" source="google_translate">Önbellek ayarları</string>
+    <string name="prefs_item_disk_cache_limit" source="google_translate">Disk önbelleği sınırı, Mb</string>
+    <string name="prefs_item_memory_cache_limit" source="google_translate">RAM önbellek sınırı, Mb</string>
+    <string name="prefs_item_cache_dir" source="google_translate">Önbellek dizini</string>
+    <string name="prefs_cache_live_use_disk" source="google_translate">Canlı kullanmak için disk kullan</string>
+    <string name="prefs_cache_vod_use_disk" source="google_translate">VOD için disk kullan</string>
+    <string name="prefs_output_format_live" source="google_translate">Çıkış formatı (Canlı)</string>
+    <string name="prefs_output_format_vod" source="google_translate">Çıkış formatı (VOD)</string>
+    <string name="extension_name" source="google_translate">Adı:</string>
+    <string name="extension_description" source="google_translate">Açıklama:</string>
+    <string name="extension_issued_by" source="google_translate">Veren kuruluş:</string>
+    <string name="extension_url" source="google_translate">URL:</string>
+    <string name="extension_enabled" source="google_translate">Etkin:</string>
+    <string name="extension_valid_from" source="google_translate">Kadar geçerli:</string>
+    <string name="extension_valid_to" source="google_translate">Geçerli Olduğu Alan:</string>
+    <string name="no_services" source="google_translate">Hizmet yok</string>
+    <string name="message_unsupported_cpu" source="google_translate">İşlemciniz henüz desteklenmiyor.</string>
+    <string name="starting" source="google_translate">Başlangıç…</string>
+    <string name="starting_player" source="google_translate">Oyuncu başlatılıyor…</string>
+    <string name="install" source="google_translate">kurmak</string>
+    <string name="close" source="google_translate">Kapat</string>
+    <string name="no_players" source="google_translate">Oyuncu bulunamadı</string>
+    <string name="failed_to_start" source="google_translate">Başlatılamadı</string>
+    <string name="option_proxy_server" source="google_translate">Proxy sunucu</string>
+    <string name="option_generic_premium" source="google_translate">Ödül</string>
+    <string name="activate" source="google_translate">etkinleştirmek</string>
+    <string name="prompt_email" source="google_translate">E-posta</string>
+    <string name="prompt_password" source="google_translate">Parola</string>
+    <string name="action_sign_in" source="google_translate">oturum aç</string>
+    <string name="action_sign_in_or_register" source="google_translate">Giriş yap / Kayıt ol</string>
+    <string name="action_sign_out" source="google_translate">oturumu Kapat</string>
+    <string name="error_invalid_email" source="google_translate">Bu e-posta adresi geçersiz</string>
+    <string name="error_invalid_password" source="google_translate">Bu şifre çok kısa</string>
+    <string name="error_field_required" source="google_translate">Bu alan gereklidir</string>
+    <string name="upgrage_user_level" source="google_translate">Yükselt</string>
+    <string name="select_file" source="google_translate">Dosya Seç</string>
+    <string name="auth_error_user_not_found" source="google_translate">Kullanıcı bulunamadı</string>
+    <string name="auth_error_user_disabled" source="google_translate">Kullanıcı devre dışı</string>
+    <string name="auth_error_bad_password" source="google_translate">Bu şifre yanlış</string>
+    <string name="auth_internal_error" source="google_translate">İç hata. Lütfen daha sonra tekrar deneyin.</string>
+    <string name="auth_network_error" source="google_translate">Ağ hatası. Lütfen daha sonra tekrar deneyin.</string>
+    <string name="auth_failed_error" source="google_translate">Yetkilendirme başarısız oldu. Lütfen daha sonra tekrar deneyin.</string>
+    <string name="uninstall" source="google_translate">Kaldırma</string>
+    <string name="uninstall_prev_version_to_continue" source="google_translate">Devam etmek için önceki sürümü kaldırmanız gerekiyor.</string>
+    <string name="prefs_allow_intranet_access" source="google_translate">İntranet erişimine izin ver</string>
+    <string name="prefs_allow_remote_access" source="google_translate">Uzaktan erişime izin ver</string>
+    <string name="error" source="google_translate">Hata</string>
+    <string name="select_player" source="google_translate">Oyuncu seç</string>
+    <string name="attention" source="google_translate">Dikkat</string>
+    <string name="home" source="google_translate">Ev</string>
+    <string name="remote_control" source="google_translate">Uzaktan kumanda</string>
+    <string name="please_try_again" source="google_translate">Lütfen tekrar deneyin</string>
+    <string name="cannot_start_playback" source="google_translate">Oynatma başlatılamıyor</string>
+    <string name="device_disconnected" source="google_translate">cihaz bağlantısı koptu</string>
+    <string name="connection_failed" source="google_translate">Bağlantı kurulamadı</string>
+    <string name="buffering" source="google_translate">tamponlama</string>
+    <string name="remember_choice" source="google_translate">Seçimi hatırla</string>
+    <string name="prefs_transcode_ac3" source="google_translate">HLS için sadece AC3\'ten AAC\'ye dönüşüm</string>
+    <string name="ok_sure" source="google_translate">Tabii olur</string>
+    <string name="no_thanks" source="google_translate">Hayır teşekkürler</string>
+    <string name="rate_yes" source="google_translate">Evet!</string>
+    <string name="rate_not" source="google_translate">Pek sayılmaz</string>
+    <string name="rate_do_you_like" source="google_translate">Ace Stream\'in tadını çıkarıyor musunuz?</string>
+    <string name="rate_on_google" source="google_translate">O zaman Google Play\'de bir oylamaya ne dersiniz?</string>
+    <string name="rate_give_feedback" source="google_translate">Bize biraz geri bildirim verir misiniz?</string>
+    <string name="prefs_transcode_audio" source="google_translate">HLS için tüm sesleri AAC\'ye dönüştürün</string>
+    <string name="want_restart" source="google_translate">Oynatmaya son pozisyondan devam etmek ister misiniz?</string>
+    <string name="restart_from_beginning" source="google_translate">Baştan başla</string>
+    <string name="menu_content_id" source="google_translate">İçerik Kimliği girin</string>
+    <string name="enter_content_id" source="google_translate">İçerik Kimliği girin</string>
+    <string name="bad_content_id" source="google_translate">Kötü İçerik Kimliği</string>
+    <string name="send" source="google_translate">göndermek</string>
+    <string name="report_problem" source="google_translate">Sorun bildir</string>
+    <string name="report_has_been_sent" source="google_translate">Rapor gönderildi</string>
+    <string name="report_failed" source="google_translate">Rapor başarısız</string>
+    <string name="allow_mobile_networks" source="google_translate">Mobil şebeke kullanımına izin verilsin mi?</string>
+    <string name="problem_description" source="google_translate">Sorun Açıklaması</string>
+    <string name="directory_is_not_writable" source="google_translate">Dizin yazılabilir değil</string>
+    <string name="device_storage" source="google_translate">Cihaz Belleği</string>
+    <string name="sd_card" source="google_translate">Hafıza kartı</string>
+    <string name="select_directory" source="google_translate">Dizin seç</string>
+    <string name="select_category" source="google_translate">Kategori seç</string>
+    <string name="language" source="google_translate">Dil</string>
+    <string name="sign_in_or_register" source="google_translate">Ace Stream\'e giriş yapın veya kaydolun</string>
+    <string name="sign_in_or_register_continue" source="google_translate">Devam etmek için oturum açın veya kaydolun</string>
+    <string name="selected_player" source="google_translate">Seçilmiş Oyuncu</string>
+    <string name="opengl_usage" source="google_translate">OpenGL ES2 Kullanımı</string>
+    <string name="auto" source="google_translate">Oto</string>
+    <string name="force_on" source="google_translate">Zorla</string>
+    <string name="force_off" source="google_translate">Zorla</string>
+    <string name="video_hardware_acceleration" source="google_translate">Video Donanımı Hızlandırma</string>
+    <string name="disabled" source="google_translate">engelli</string>
+    <string name="decoding_acceleration" source="google_translate">Kod Çözme Hızlandırma</string>
+    <string name="full_acceleration" source="google_translate">Tam hızlanma</string>
+    <string name="show_debug_info" source="google_translate">Hata ayıklama bilgilerini göster</string>
+    <string name="enable_debug_logging" source="google_translate">Hata ayıklama günlüğünü etkinleştir</string>
+    <string name="start_acecast_server" source="google_translate">AceCast Sunucusunu Başlat</string>
+    <string name="avi_opendml_warning" source="google_translate">Bu video Ace Stream oynatıcısında düzgün oynatılmayabilir. Başka bir oyuncu mu seçtin?</string>
+    <string name="player_preferences" source="google_translate">Oynatıcı ayarları</string>
+    <string name="ads_preferences" source="google_translate">Reklam ayarları</string>
+    <string name="ads_preferences_short" source="google_translate">Reklamlar</string>
+    <string name="show_lock_button" source="google_translate">Kilit düğmesini göster</string>
+    <string name="engine_preferences" source="google_translate">Motor ayarları</string>
+    <string name="engine_preferences_short" source="google_translate">Motor</string>
+    <string name="need_proxy_server_option" source="google_translate">İçeriği harici oynatıcılarda izlemek için Proxy Sunucusu seçeneğini etkinleştirmeniz gerekir. Veya Ace Player\'da içeriği ücretsiz olarak izleyebilirsiniz</string>
+    <string name="need_proxy_server_option_tmp" source="google_translate">İçeriği izlemek için Proxy Sunucu seçeneğini etkinleştirmeniz veya Ace Stream uygulamasını yükseltmeniz gerekir</string>
+    <string name="pause_on_audiofocus_loss" source="google_translate">Ses odak kaybını duraklat</string>
+    <string name="upgrade" source="google_translate">Yükselt</string>
+    <string name="to_continue_visit_link" source="google_translate">Bu bağlantıyı ziyaret etmeye devam etmek için:</string>
+    <string name="and_enter_pin" source="google_translate">ve PIN kodunu girin:</string>
+    <string name="gdpr_consent" source="google_translate">GSYİH izni</string>
+    <string name="show_rewarded_ads" source="google_translate">Ödüllendirilen reklamları göster</string>
+    <string name="show_ads_on_main_screen" source="google_translate">Reklamları ana ekranda göster</string>
+    <string name="show_ads_on_preroll" source="google_translate">Reklamları preroll\'de göster</string>
+    <string name="show_ads_on_pause" source="google_translate">Reklamları duraklatıldığında göster</string>
+    <string name="show_ads_on_close" source="google_translate">Oynatıcıdaki reklamları göster kapat</string>
+    <string name="agreement" source="google_translate">anlaşma</string>
+    <string name="license_agreement" source="google_translate">Lisans anlaşması</string>
+    <string name="privacy_policy" source="google_translate">Gizlilik Politikası</string>
+    <string name="application_version" source="google_translate">Uygulama sürümü</string>
+    <string name="disable_ads" source="google_translate">Reklamları devre dışı bırak</string>
+    <string name="learn_more" source="google_translate">Daha fazla bilgi edin</string>
+    <string name="skip_ad" source="google_translate">Reklamı geç</string>
+    <string name="you_can_skip_this_ad_in" source="google_translate">Bu reklamı %d içinde atlayabilirsiniz.</string>
+    <string name="clearing_cache_etc" source="google_translate">Önbellek temizleniyor…</string>
+    <string name="cache_cleared" source="google_translate">Önbellek temizlendi</string>
+    <string name="not_connected_to_engine" source="google_translate">Motora bağlı değil</string>
+    <string name="gdpr_consent_pref_title" source="google_translate">GSYİH izni</string>
+    <string name="gdpr_consent_pref_summary" source="google_translate">GSYİH izni</string>
+    <string name="application" source="google_translate">Uygulama</string>
+    <string name="device_name" source="google_translate">Cihaz adı</string>
+    <string name="empty_playlist" source="google_translate">Boş oynatma listesi</string>
+    <string name="profile" source="google_translate">Profil</string>
+    <string name="not_selected" source="google_translate">Seçili değil</string>
+    <string name="restart_application" source="google_translate">Uygulamayı yeniden başlatın</string>
+    <string name="restart_confirmation" source="google_translate">Uygulamayı şimdi yeniden başlat</string>
+    <string name="parsing_transport_files" source="google_translate">Aktarım dosyalarının ayrıştırılması</string>
+    <string name="user_profile" source="google_translate">Kullanıcı profili</string>
+    <string name="account_balance" source="google_translate">Hesap bakiyesi</string>
+</resources>

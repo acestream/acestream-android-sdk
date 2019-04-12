@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lbl_version" source="google_translate">Version</string>
+    <string name="lbl_portal" source="google_translate">Information portal</string>
+    <string name="lbl_prefshththtml" source="google_translate">Indstillinger</string>
+    <string name="lbl_account" source="google_translate">Konto</string>
+    <string name="lbl_sign_out" source="google_translate">Log ud</string>
+    <string name="menu_prefs" source="google_translate">Indstillinger</string>
+    <string name="menu_profile" source="google_translate">Brugerprofil</string>
+    <string name="menu_services" source="google_translate">Services</string>
+    <string name="menu_clearcache" source="google_translate">Ryd cache</string>
+    <string name="menu_quit" source="google_translate">Afslut</string>
+    <string name="menu_action_fail" source="google_translate">Kan ikke udføre denne handling med uaktiv motor</string>
+    <string name="dialog_wait" source="google_translate">Vent venligst</string>
+    <string name="dialog_unpack" source="google_translate">udpakning</string>
+    <string name="dialog_start" source="google_translate">Starter</string>
+    <string name="dialog_prefs" source="google_translate">Henter præferencer</string>
+    <string name="dialog_services" source="google_translate">Henter liste over tjenester</string>
+    <string name="dialog_cache" source="google_translate">Rydning af cache</string>
+    <string name="dialog_shutdown" source="google_translate">Shutdowning</string>
+    <string name="dialog_no_connection" source="google_translate">Ingen tilgængelig internetforbindelse. Ace Stream Engine service starter automatisk efter tilslutning.</string>
+    <string name="task_prefs_fail" source="google_translate">Henter indstillingsfejl</string>
+    <string name="task_services_fail" source="google_translate">Henter tjenester fejl</string>
+    <string name="start_ok" source="google_translate">Start lykkes</string>
+    <string name="start_fail" source="google_translate">Start fejlede</string>
+    <string name="notify_starting" source="google_translate">Ledig</string>
+    <string name="notify_unpack" source="google_translate">Udpakning i gang</string>
+    <string name="notify_unpack_complete" source="google_translate">Udpakning afsluttet</string>
+    <string name="notify_connect" source="google_translate">Tilslutning</string>
+    <string name="notify_connect_complete" source="google_translate">Tilslutning færdiggjort</string>
+    <string name="notify_running" source="google_translate">Løb</string>
+    <string name="notify_stopped" source="google_translate">Holdt op</string>
+    <string name="notify_error" source="google_translate">Fejl</string>
+    <string name="notify_wait_connection" source="google_translate">Ingen tilgængelig netværksforbindelse</string>
+    <string name="prefs_group_main" source="google_translate">Hovedindstillinger</string>
+    <string name="prefs_item_mobile" source="google_translate">Dataadgang til mobilnetværk</string>
+    <string name="prefs_item_mobile_summary" source="google_translate">Aktivér dataadgang via mobilnetværk</string>
+    <string name="prefs_item_vod_buffer" source="google_translate">VOD buffer, s</string>
+    <string name="prefs_item_live_buffer" source="google_translate">Levende buffer, s</string>
+    <string name="prefs_item_download_limit" source="google_translate">Download grænse (0 - ingen grænse), Kb / s</string>
+    <string name="prefs_item_upload_limit" source="google_translate">Upload grænse (0 - ingen grænse), Kb / s</string>
+    <string name="prefs_group_advanced" source="google_translate">Avancerede præferencer</string>
+    <string name="prefs_item_port" source="google_translate">Havn</string>
+    <string name="prefs_item_total_max_connects" source="google_translate">Max forbinder</string>
+    <string name="prefs_item_download_max_connects" source="google_translate">Download max tilslutninger</string>
+    <string name="prefs_group_profile" source="google_translate">Brugerprofil</string>
+    <string name="prefs_item_gender" source="google_translate">Køn</string>
+    <string name="prefs_item_age" source="google_translate">Alder</string>
+    <string name="prefs_item_login" source="google_translate">Log på</string>
+    <string name="prefs_item_password" source="google_translate">Adgangskode</string>
+    <string name="prefs_gender_value_male" source="google_translate">Han</string>
+    <string name="prefs_gender_value_female" source="google_translate">Kvinde</string>
+    <string name="prefs_age_value_under13" source="google_translate">Under 13</string>
+    <string name="prefs_age_value_above64" source="google_translate">Over 64</string>
+    <string name="prefs_group_cache" source="google_translate">Cache-indstillinger</string>
+    <string name="prefs_item_disk_cache_limit" source="google_translate">Diskcache-grænse, Mb</string>
+    <string name="prefs_item_memory_cache_limit" source="google_translate">RAM cache grænse, Mb</string>
+    <string name="prefs_item_cache_dir" source="google_translate">Cache-bibliotek</string>
+    <string name="prefs_cache_live_use_disk" source="google_translate">Brug disk til live</string>
+    <string name="prefs_cache_vod_use_disk" source="google_translate">Brug disk til VOD</string>
+    <string name="prefs_output_format_live" source="google_translate">Output format (Live)</string>
+    <string name="prefs_output_format_vod" source="google_translate">Output format (VOD)</string>
+    <string name="extension_name" source="google_translate">Navn:</string>
+    <string name="extension_description" source="google_translate">Beskrivelse:</string>
+    <string name="extension_issued_by" source="google_translate">Udstedt af:</string>
+    <string name="extension_url" source="google_translate">url:</string>
+    <string name="extension_enabled" source="google_translate">Aktiveret:</string>
+    <string name="extension_valid_from" source="google_translate">Gældende fra:</string>
+    <string name="extension_valid_to" source="google_translate">Gyldig til:</string>
+    <string name="no_services" source="google_translate">Ingen tjenester</string>
+    <string name="message_unsupported_cpu" source="google_translate">Din CPU understøttes endnu ikke.</string>
+    <string name="starting" source="google_translate">Starter ...</string>
+    <string name="starting_player" source="google_translate">Starter spiller ...</string>
+    <string name="install" source="google_translate">Installere</string>
+    <string name="close" source="google_translate">Tæt</string>
+    <string name="no_players" source="google_translate">Ingen spillere fundet</string>
+    <string name="failed_to_start" source="google_translate">Kunne ikke starte</string>
+    <string name="option_proxy_server" source="google_translate">Proxyserver</string>
+    <string name="option_generic_premium" source="google_translate">Præmie</string>
+    <string name="activate" source="google_translate">Aktiver</string>
+    <string name="prompt_email" source="google_translate">E-mail</string>
+    <string name="prompt_password" source="google_translate">Adgangskode</string>
+    <string name="action_sign_in" source="google_translate">Log ind</string>
+    <string name="action_sign_in_or_register" source="google_translate">Log ind Registrer</string>
+    <string name="action_sign_out" source="google_translate">Log ud</string>
+    <string name="error_invalid_email" source="google_translate">Denne emailadresse er ugyldig</string>
+    <string name="error_invalid_password" source="google_translate">Denne adgangskode er for kort</string>
+    <string name="error_field_required" source="google_translate">dette felt er påkrævet</string>
+    <string name="upgrage_user_level" source="google_translate">opgradering</string>
+    <string name="select_file" source="google_translate">Vælg fil</string>
+    <string name="auth_error_user_not_found" source="google_translate">Bruger ikke fundet</string>
+    <string name="auth_error_user_disabled" source="google_translate">Bruger er deaktiveret</string>
+    <string name="auth_error_bad_password" source="google_translate">Denne adgangskode er forkert</string>
+    <string name="auth_internal_error" source="google_translate">Intern fejl. Prøv venligst senere.</string>
+    <string name="auth_network_error" source="google_translate">Netværksfejl. Prøv venligst senere.</string>
+    <string name="auth_failed_error" source="google_translate">Auth mislykkedes. Prøv venligst senere.</string>
+    <string name="uninstall" source="google_translate">Afinstaller</string>
+    <string name="uninstall_prev_version_to_continue" source="google_translate">Du skal afinstallere tidligere version for at fortsætte</string>
+    <string name="prefs_allow_intranet_access" source="google_translate">Tillad intranetadgang</string>
+    <string name="prefs_allow_remote_access" source="google_translate">Tillad fjernadgang</string>
+    <string name="error" source="google_translate">Fejl</string>
+    <string name="select_player" source="google_translate">Vælg afspiller</string>
+    <string name="attention" source="google_translate">Opmærksomhed</string>
+    <string name="home" source="google_translate">Hjem</string>
+    <string name="remote_control" source="google_translate">Fjernbetjening</string>
+    <string name="please_try_again" source="google_translate">Prøv igen</string>
+    <string name="cannot_start_playback" source="google_translate">Kan ikke starte afspilningen</string>
+    <string name="device_disconnected" source="google_translate">Enheden er afbrudt</string>
+    <string name="connection_failed" source="google_translate">Forbindelsen mislykkedes</string>
+    <string name="buffering" source="google_translate">Buffering</string>
+    <string name="remember_choice" source="google_translate">Husk valg</string>
+    <string name="prefs_transcode_ac3" source="google_translate">Transcode kun AC3 til AAC for HLS</string>
+    <string name="ok_sure" source="google_translate">Ok selvfølgelig</string>
+    <string name="no_thanks" source="google_translate">Nej tak</string>
+    <string name="rate_yes" source="google_translate">Ja!</string>
+    <string name="rate_not" source="google_translate">Ikke rigtig</string>
+    <string name="rate_do_you_like" source="google_translate">Nyd Ace Stream?</string>
+    <string name="rate_on_google" source="google_translate">Hvad med en vurdering på Google Play, så?</string>
+    <string name="rate_give_feedback" source="google_translate">Har du noget imod at give os nogle tilbagemeldinger?</string>
+    <string name="prefs_transcode_audio" source="google_translate">Transcode all lyd til AAC for HLS</string>
+    <string name="want_restart" source="google_translate">Vil du genoptage afspilningen fra den sidste position?</string>
+    <string name="restart_from_beginning" source="google_translate">Start fra begyndelsen</string>
+    <string name="menu_content_id" source="google_translate">Indtast indholds-ID</string>
+    <string name="enter_content_id" source="google_translate">Indtast indholds-ID</string>
+    <string name="bad_content_id" source="google_translate">Dårlig indholds-ID</string>
+    <string name="send" source="google_translate">Sende</string>
+    <string name="report_problem" source="google_translate">Rapporter et problem</string>
+    <string name="report_has_been_sent" source="google_translate">Rapporten er blevet sendt</string>
+    <string name="report_failed" source="google_translate">Rapporten mislykkedes</string>
+    <string name="allow_mobile_networks" source="google_translate">Tillad brug af mobilnetværk?</string>
+    <string name="problem_description" source="google_translate">Problem Beskrivelse</string>
+    <string name="directory_is_not_writable" source="google_translate">Directory er ikke skrivbar</string>
+    <string name="device_storage" source="google_translate">Enhedslager</string>
+    <string name="sd_card" source="google_translate">SD kort</string>
+    <string name="select_directory" source="google_translate">Vælg mappe</string>
+    <string name="select_category" source="google_translate">Vælg Kategori</string>
+    <string name="language" source="google_translate">Sprog</string>
+    <string name="sign_in_or_register" source="google_translate">Log ind eller registrer dig i Ace Stream</string>
+    <string name="sign_in_or_register_continue" source="google_translate">Log ind eller registrer for at fortsætte</string>
+    <string name="selected_player" source="google_translate">Udvalgt spiller</string>
+    <string name="opengl_usage" source="google_translate">OpenGL ES2 brug</string>
+    <string name="auto" source="google_translate">Auto</string>
+    <string name="force_on" source="google_translate">Force On</string>
+    <string name="force_off" source="google_translate">Force Off</string>
+    <string name="video_hardware_acceleration" source="google_translate">Video Hardware Acceleration</string>
+    <string name="disabled" source="google_translate">handicappet</string>
+    <string name="decoding_acceleration" source="google_translate">Afkodning Acceleration</string>
+    <string name="full_acceleration" source="google_translate">Fuld acceleration</string>
+    <string name="show_debug_info" source="google_translate">Vis fejloplysninger</string>
+    <string name="enable_debug_logging" source="google_translate">Aktivér debug logging</string>
+    <string name="start_acecast_server" source="google_translate">Start AceCast Server</string>
+    <string name="avi_opendml_warning" source="google_translate">Denne video afspilles muligvis ikke korrekt i Ace Stream-afspilleren. Vælg en anden spiller?</string>
+    <string name="player_preferences" source="google_translate">Spillerindstillinger</string>
+    <string name="ads_preferences" source="google_translate">Annonceindstillinger</string>
+    <string name="ads_preferences_short" source="google_translate">annoncer</string>
+    <string name="show_lock_button" source="google_translate">Vis låseknap</string>
+    <string name="engine_preferences" source="google_translate">Motorindstillinger</string>
+    <string name="engine_preferences_short" source="google_translate">motor</string>
+    <string name="need_proxy_server_option" source="google_translate">Du skal aktivere Proxy Server-indstillingen for at se indhold i eksterne spillere. Eller du kan se indhold gratis i Ace Player</string>
+    <string name="need_proxy_server_option_tmp" source="google_translate">For at se indhold skal du aktivere Proxy Server-indstillingen eller opgradere Ace Stream-appen</string>
+    <string name="pause_on_audiofocus_loss" source="google_translate">Hold pause på lydfokus tab</string>
+    <string name="upgrade" source="google_translate">opgradering</string>
+    <string name="to_continue_visit_link" source="google_translate">For at fortsætte besøge dette link:</string>
+    <string name="and_enter_pin" source="google_translate">og indtast PIN:</string>
+    <string name="gdpr_consent" source="google_translate">GDPR-samtykke</string>
+    <string name="show_rewarded_ads" source="google_translate">Vis belønnede annoncer</string>
+    <string name="show_ads_on_main_screen" source="google_translate">Vis annoncer på hovedskærmen</string>
+    <string name="show_ads_on_preroll" source="google_translate">Vis annoncer på preroll</string>
+    <string name="show_ads_on_pause" source="google_translate">Vis annoncer i pause</string>
+    <string name="show_ads_on_close" source="google_translate">Vis annoncer på afspiller tæt</string>
+    <string name="agreement" source="google_translate">Aftale</string>
+    <string name="license_agreement" source="google_translate">Licensaftale</string>
+    <string name="privacy_policy" source="google_translate">Fortrolighedspolitik</string>
+    <string name="application_version" source="google_translate">Applikationsversion</string>
+    <string name="disable_ads" source="google_translate">Deaktiver annoncer</string>
+    <string name="learn_more" source="google_translate">Lær mere</string>
+    <string name="skip_ad" source="google_translate">Spring annoncen over</string>
+    <string name="you_can_skip_this_ad_in" source="google_translate">Du kan springe over denne annonce i %d</string>
+    <string name="clearing_cache_etc" source="google_translate">Rydning af cache ...</string>
+    <string name="cache_cleared" source="google_translate">Cache ryddet</string>
+    <string name="not_connected_to_engine" source="google_translate">Ikke tilsluttet motor</string>
+    <string name="gdpr_consent_pref_title" source="google_translate">GDPR-samtykke</string>
+    <string name="gdpr_consent_pref_summary" source="google_translate">GDPR-samtykke</string>
+    <string name="application" source="google_translate">Ansøgning</string>
+    <string name="device_name" source="google_translate">Enhedsnavn</string>
+    <string name="empty_playlist" source="google_translate">Tom spilleliste</string>
+    <string name="profile" source="google_translate">Profil</string>
+    <string name="not_selected" source="google_translate">Ikke valgt</string>
+    <string name="restart_application" source="google_translate">Genstart applikationen</string>
+    <string name="restart_confirmation" source="google_translate">Genstart ansøgningen nu?</string>
+    <string name="parsing_transport_files" source="google_translate">Analysering af transportfiler</string>
+    <string name="user_profile" source="google_translate">Brugerprofil</string>
+    <string name="account_balance" source="google_translate">Kontosaldo</string>
+</resources>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lbl_version" source="google_translate">Versio</string>
+    <string name="lbl_portal" source="google_translate">Tietoportaali</string>
+    <string name="lbl_prefshththtml" source="google_translate">asetukset</string>
+    <string name="lbl_account" source="google_translate">Tili</string>
+    <string name="lbl_sign_out" source="google_translate">Kirjaudu ulos</string>
+    <string name="menu_prefs" source="google_translate">asetukset</string>
+    <string name="menu_profile" source="google_translate">Käyttäjäprofiili</string>
+    <string name="menu_services" source="google_translate">Palvelut</string>
+    <string name="menu_clearcache" source="google_translate">Tyhjennä välimuisti</string>
+    <string name="menu_quit" source="google_translate">Lopettaa</string>
+    <string name="menu_action_fail" source="google_translate">Tätä toimintoa ei voi suorittaa aktiivisella moottorilla</string>
+    <string name="dialog_wait" source="google_translate">Odota</string>
+    <string name="dialog_unpack" source="google_translate">unpacking</string>
+    <string name="dialog_start" source="google_translate">aloittaminen</string>
+    <string name="dialog_prefs" source="google_translate">Asetusten hakeminen</string>
+    <string name="dialog_services" source="google_translate">Palvelujen luettelon hakeminen</string>
+    <string name="dialog_cache" source="google_translate">Välimuistin tyhjentäminen</string>
+    <string name="dialog_shutdown" source="google_translate">Shutdowning</string>
+    <string name="dialog_no_connection" source="google_translate">Ei käytettävissä Internet-yhteyttä. Ace Stream Engine -palvelu käynnistyy automaattisesti yhteyden jälkeen.</string>
+    <string name="task_prefs_fail" source="google_translate">Asetusten virheen hakeminen</string>
+    <string name="task_services_fail" source="google_translate">Palvelun virhe</string>
+    <string name="start_ok" source="google_translate">Käynnistä onnistuu</string>
+    <string name="start_fail" source="google_translate">Käynnistys epäonnistui</string>
+    <string name="notify_starting" source="google_translate">tyhjäkäynti</string>
+    <string name="notify_unpack" source="google_translate">Pakkauksen purkaminen prosessissa</string>
+    <string name="notify_unpack_complete" source="google_translate">Pakkauksen purkaminen on valmis</string>
+    <string name="notify_connect" source="google_translate">Liittäminen</string>
+    <string name="notify_connect_complete" source="google_translate">Liitäntä on valmis</string>
+    <string name="notify_running" source="google_translate">Running</string>
+    <string name="notify_stopped" source="google_translate">pysäytetty</string>
+    <string name="notify_error" source="google_translate">Virhe</string>
+    <string name="notify_wait_connection" source="google_translate">Ei käytettävissä olevaa verkkoyhteyttä</string>
+    <string name="prefs_group_main" source="google_translate">Tärkeimmät asetukset</string>
+    <string name="prefs_item_mobile" source="google_translate">Mobiiliverkkojen tietojen käyttö</string>
+    <string name="prefs_item_mobile_summary" source="google_translate">Ota käyttöön tiedonsiirto mobiiliverkkojen kautta</string>
+    <string name="prefs_item_vod_buffer" source="google_translate">VOD-puskuri, s</string>
+    <string name="prefs_item_live_buffer" source="google_translate">Live-puskuri, s</string>
+    <string name="prefs_item_download_limit" source="google_translate">Latausraja (0 - ei rajaa), Kb / s</string>
+    <string name="prefs_item_upload_limit" source="google_translate">Latausraja (0 - no limit), Kb / s</string>
+    <string name="prefs_group_advanced" source="google_translate">Lisäasetukset</string>
+    <string name="prefs_item_port" source="google_translate">portti</string>
+    <string name="prefs_item_total_max_connects" source="google_translate">Max yhdistää</string>
+    <string name="prefs_item_download_max_connects" source="google_translate">Lataa max -liitännät</string>
+    <string name="prefs_group_profile" source="google_translate">Käyttäjäprofiili</string>
+    <string name="prefs_item_gender" source="google_translate">sukupuoli</string>
+    <string name="prefs_item_age" source="google_translate">Ikä</string>
+    <string name="prefs_item_login" source="google_translate">Kirjaudu sisään</string>
+    <string name="prefs_item_password" source="google_translate">Salasana</string>
+    <string name="prefs_gender_value_male" source="google_translate">Uros</string>
+    <string name="prefs_gender_value_female" source="google_translate">Nainen</string>
+    <string name="prefs_age_value_under13" source="google_translate">Alle 13</string>
+    <string name="prefs_age_value_above64" source="google_translate">Yllä 64</string>
+    <string name="prefs_group_cache" source="google_translate">Välimuistiasetukset</string>
+    <string name="prefs_item_disk_cache_limit" source="google_translate">Levyn välimuistiraja, Mb</string>
+    <string name="prefs_item_memory_cache_limit" source="google_translate">RAM-välimuistiraja, Mb</string>
+    <string name="prefs_item_cache_dir" source="google_translate">Välimuistihakemisto</string>
+    <string name="prefs_cache_live_use_disk" source="google_translate">Käytä levyä eläväksi</string>
+    <string name="prefs_cache_vod_use_disk" source="google_translate">Käytä levyä VOD: lle</string>
+    <string name="prefs_output_format_live" source="google_translate">Tulostusmuoto (Live)</string>
+    <string name="prefs_output_format_vod" source="google_translate">Tulostusmuoto (VOD)</string>
+    <string name="extension_name" source="google_translate">Nimi:</string>
+    <string name="extension_description" source="google_translate">Kuvaus:</string>
+    <string name="extension_issued_by" source="google_translate">Myöntänyt:</string>
+    <string name="extension_url" source="google_translate">url:</string>
+    <string name="extension_enabled" source="google_translate">käytössä:</string>
+    <string name="extension_valid_from" source="google_translate">Voimassa:</string>
+    <string name="extension_valid_to" source="google_translate">Voimassa:</string>
+    <string name="no_services" source="google_translate">Ei palveluja</string>
+    <string name="message_unsupported_cpu" source="google_translate">CPUa ei vielä tueta.</string>
+    <string name="starting" source="google_translate">Starting ...</string>
+    <string name="starting_player" source="google_translate">Aloittava pelaaja…</string>
+    <string name="install" source="google_translate">Asentaa</string>
+    <string name="close" source="google_translate">kiinni</string>
+    <string name="no_players" source="google_translate">Pelaajaa ei löytynyt</string>
+    <string name="failed_to_start" source="google_translate">Käynnistys epäonnistui</string>
+    <string name="option_proxy_server" source="google_translate">Välityspalvelin</string>
+    <string name="option_generic_premium" source="google_translate">palkkio</string>
+    <string name="activate" source="google_translate">Aktivoida</string>
+    <string name="prompt_email" source="google_translate">Sähköposti</string>
+    <string name="prompt_password" source="google_translate">Salasana</string>
+    <string name="action_sign_in" source="google_translate">Kirjaudu sisään</string>
+    <string name="action_sign_in_or_register" source="google_translate">Kirjaudu sisään / rekisteröidy</string>
+    <string name="action_sign_out" source="google_translate">Kirjaudu ulos</string>
+    <string name="error_invalid_email" source="google_translate">Tämä sähköpostiosoite on virheellinen</string>
+    <string name="error_invalid_password" source="google_translate">Tämä salasana on liian lyhyt</string>
+    <string name="error_field_required" source="google_translate">Tämä kenttä pitää täyttää</string>
+    <string name="upgrage_user_level" source="google_translate">parantaa</string>
+    <string name="select_file" source="google_translate">Valitse tiedosto</string>
+    <string name="auth_error_user_not_found" source="google_translate">Käyttäjää ei löydy</string>
+    <string name="auth_error_user_disabled" source="google_translate">Käyttäjä on poistettu käytöstä</string>
+    <string name="auth_error_bad_password" source="google_translate">Tämä salasana on virheellinen</string>
+    <string name="auth_internal_error" source="google_translate">Sisäinen virhe. Ole hyvä ja yritä myöhemmin.</string>
+    <string name="auth_network_error" source="google_translate">Verkkovirhe. Ole hyvä ja yritä myöhemmin.</string>
+    <string name="auth_failed_error" source="google_translate">Auth epäonnistui. Ole hyvä ja yritä myöhemmin.</string>
+    <string name="uninstall" source="google_translate">Uninstall</string>
+    <string name="uninstall_prev_version_to_continue" source="google_translate">Jatkaaksesi sinun on poistettava aiempi versio</string>
+    <string name="prefs_allow_intranet_access" source="google_translate">Salli intranet-käyttöoikeus</string>
+    <string name="prefs_allow_remote_access" source="google_translate">Salli etäkäyttö</string>
+    <string name="error" source="google_translate">Virhe</string>
+    <string name="select_player" source="google_translate">Valitse soitin</string>
+    <string name="attention" source="google_translate">Huomio</string>
+    <string name="home" source="google_translate">Koti</string>
+    <string name="remote_control" source="google_translate">Kaukosäädin</string>
+    <string name="please_try_again" source="google_translate">Yritä uudelleen</string>
+    <string name="cannot_start_playback" source="google_translate">Toistoa ei voi aloittaa</string>
+    <string name="device_disconnected" source="google_translate">Laite irrotettiin</string>
+    <string name="connection_failed" source="google_translate">Yhteys epäonnistui</string>
+    <string name="buffering" source="google_translate">puskurointi</string>
+    <string name="remember_choice" source="google_translate">Muista valinta</string>
+    <string name="prefs_transcode_ac3" source="google_translate">Transcode vain AC3 AAC: ksi HLS: lle</string>
+    <string name="ok_sure" source="google_translate">OK toki</string>
+    <string name="no_thanks" source="google_translate">Ei kiitos</string>
+    <string name="rate_yes" source="google_translate">Joo!</string>
+    <string name="rate_not" source="google_translate">Ei oikeastaan</string>
+    <string name="rate_do_you_like" source="google_translate">Ace-virran nauttiminen?</string>
+    <string name="rate_on_google" source="google_translate">Entä sitten Google Playn luokitus?</string>
+    <string name="rate_give_feedback" source="google_translate">Haluaisitko antaa meille palautetta?</string>
+    <string name="prefs_transcode_audio" source="google_translate">Transcode kaikki äänet AAC: ksi HLS: lle</string>
+    <string name="want_restart" source="google_translate">Haluatko jatkaa toistoa viimeisestä sijainnista?</string>
+    <string name="restart_from_beginning" source="google_translate">Aloita alusta</string>
+    <string name="menu_content_id" source="google_translate">Anna sisällön tunnus</string>
+    <string name="enter_content_id" source="google_translate">Anna sisällön tunnus</string>
+    <string name="bad_content_id" source="google_translate">Huono sisällön tunnus</string>
+    <string name="send" source="google_translate">Lähettää</string>
+    <string name="report_problem" source="google_translate">Ilmoita ongelmasta</string>
+    <string name="report_has_been_sent" source="google_translate">Raportti on lähetetty</string>
+    <string name="report_failed" source="google_translate">Raportti epäonnistui</string>
+    <string name="allow_mobile_networks" source="google_translate">Salli mobiiliverkkojen käyttö?</string>
+    <string name="problem_description" source="google_translate">Ongelman kuvaus</string>
+    <string name="directory_is_not_writable" source="google_translate">Hakemistoa ei voi kirjoittaa</string>
+    <string name="device_storage" source="google_translate">Laitteen tallennus</string>
+    <string name="sd_card" source="google_translate">Sd kortti</string>
+    <string name="select_directory" source="google_translate">Valitse hakemisto</string>
+    <string name="select_category" source="google_translate">Valitse kategoria</string>
+    <string name="language" source="google_translate">Kieli</string>
+    <string name="sign_in_or_register" source="google_translate">Kirjaudu sisään tai rekisteröidy Ace Streamiin</string>
+    <string name="sign_in_or_register_continue" source="google_translate">Kirjaudu sisään tai rekisteröidy jatkaaksesi</string>
+    <string name="selected_player" source="google_translate">Valittu soitin</string>
+    <string name="opengl_usage" source="google_translate">OpenGL ES2 -käyttö</string>
+    <string name="auto" source="google_translate">Auto</string>
+    <string name="force_on" source="google_translate">Pakota</string>
+    <string name="force_off" source="google_translate">Pakota</string>
+    <string name="video_hardware_acceleration" source="google_translate">Videon laitteiston kiihdytys</string>
+    <string name="disabled" source="google_translate">Liikuntarajoitteinen</string>
+    <string name="decoding_acceleration" source="google_translate">Dekoodaus kiihtyvyys</string>
+    <string name="full_acceleration" source="google_translate">Täysi kiihdytys</string>
+    <string name="show_debug_info" source="google_translate">Näytä virheenkorjaustiedot</string>
+    <string name="enable_debug_logging" source="google_translate">Ota käyttöön virheenkorjauksen kirjaaminen</string>
+    <string name="start_acecast_server" source="google_translate">Käynnistä AceCast-palvelin</string>
+    <string name="avi_opendml_warning" source="google_translate">Tämä video ei ehkä toistu oikein Ace Stream -soittimessa. Valitse toinen pelaaja?</string>
+    <string name="player_preferences" source="google_translate">Soittimen asetukset</string>
+    <string name="ads_preferences" source="google_translate">Mainosten asetukset</string>
+    <string name="ads_preferences_short" source="google_translate">mainoksia</string>
+    <string name="show_lock_button" source="google_translate">Näytä lukituspainike</string>
+    <string name="engine_preferences" source="google_translate">Moottorin asetukset</string>
+    <string name="engine_preferences_short" source="google_translate">Moottori</string>
+    <string name="need_proxy_server_option" source="google_translate">Proxy Server -vaihtoehto on aktivoitava, jos haluat katsella sisältöä ulkoisissa soittimissa. Tai voit katsella sisältöä ilmaiseksi Ace Playerissa</string>
+    <string name="need_proxy_server_option_tmp" source="google_translate">Jos haluat katsella sisältöä, sinun täytyy aktivoida Proxy Server -vaihtoehto tai päivittää Ace Stream -sovellus</string>
+    <string name="pause_on_audiofocus_loss" source="google_translate">Keskeytä audiofocus-menetys</string>
+    <string name="upgrade" source="google_translate">parantaa</string>
+    <string name="to_continue_visit_link" source="google_translate">Jatka tätä linkkiä:</string>
+    <string name="and_enter_pin" source="google_translate">ja anna PIN-koodi:</string>
+    <string name="gdpr_consent" source="google_translate">GDPR-suostumus</string>
+    <string name="show_rewarded_ads" source="google_translate">Näytä palkitut mainokset</string>
+    <string name="show_ads_on_main_screen" source="google_translate">Näytä mainokset päänäytössä</string>
+    <string name="show_ads_on_preroll" source="google_translate">Näytä mainokset esiasetuksessa</string>
+    <string name="show_ads_on_pause" source="google_translate">Näytä mainokset taukotilassa</string>
+    <string name="show_ads_on_close" source="google_translate">Näytä mainokset lähellä pelaajaa</string>
+    <string name="agreement" source="google_translate">sopimus</string>
+    <string name="license_agreement" source="google_translate">Lisenssisopimus</string>
+    <string name="privacy_policy" source="google_translate">Tietosuojakäytäntö</string>
+    <string name="application_version" source="google_translate">Sovellusversio</string>
+    <string name="disable_ads" source="google_translate">Poista mainokset käytöstä</string>
+    <string name="learn_more" source="google_translate">Lisätietoja</string>
+    <string name="skip_ad" source="google_translate">Ohita mainos</string>
+    <string name="you_can_skip_this_ad_in" source="google_translate">Voit ohittaa tämän mainoksen %d</string>
+    <string name="clearing_cache_etc" source="google_translate">Välimuistin poistaminen…</string>
+    <string name="cache_cleared" source="google_translate">Välimuisti tyhjennetty</string>
+    <string name="not_connected_to_engine" source="google_translate">Ei ole kytketty moottoriin</string>
+    <string name="gdpr_consent_pref_title" source="google_translate">GDPR-suostumus</string>
+    <string name="gdpr_consent_pref_summary" source="google_translate">GDPR-suostumus</string>
+    <string name="application" source="google_translate">hakemus</string>
+    <string name="device_name" source="google_translate">Laitteen nimi</string>
+    <string name="empty_playlist" source="google_translate">Tyhjennä soittolista</string>
+    <string name="profile" source="google_translate">Profiili</string>
+    <string name="not_selected" source="google_translate">Ei valittu</string>
+    <string name="restart_application" source="google_translate">Käynnistä sovellus uudelleen</string>
+    <string name="restart_confirmation" source="google_translate">Käynnistä sovellus uudelleen nyt?</string>
+    <string name="parsing_transport_files" source="google_translate">Liikennetiedostojen jäsentäminen</string>
+    <string name="user_profile" source="google_translate">Käyttäjäprofiili</string>
+    <string name="account_balance" source="google_translate">Tilin saldo</string>
+</resources>

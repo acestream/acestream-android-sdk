@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lbl_version" source="google_translate">Versija</string>
+    <string name="lbl_portal" source="google_translate">Informacijos portalas</string>
+    <string name="lbl_prefshththtml" source="google_translate">Nustatymai</string>
+    <string name="lbl_account" source="google_translate">Paskyra</string>
+    <string name="lbl_sign_out" source="google_translate">Atsijungti</string>
+    <string name="menu_prefs" source="google_translate">Nustatymai</string>
+    <string name="menu_profile" source="google_translate">Vartotojo profilis</string>
+    <string name="menu_services" source="google_translate">Paslaugos</string>
+    <string name="menu_clearcache" source="google_translate">Išvalyti talpyklą</string>
+    <string name="menu_quit" source="google_translate">Baigti</string>
+    <string name="menu_action_fail" source="google_translate">Negalima atlikti šio veiksmo su neaktyviu varikliu</string>
+    <string name="dialog_wait" source="google_translate">Prašau palauk</string>
+    <string name="dialog_unpack" source="google_translate">Išpakavimas</string>
+    <string name="dialog_start" source="google_translate">Pradedama</string>
+    <string name="dialog_prefs" source="google_translate">Nuostatų priėmimas</string>
+    <string name="dialog_services" source="google_translate">Paslaugų sąrašo gavimas</string>
+    <string name="dialog_cache" source="google_translate">Išvalyti talpyklą</string>
+    <string name="dialog_shutdown" source="google_translate">Išjungimas</string>
+    <string name="dialog_no_connection" source="google_translate">Nėra interneto ryšio. „Ace Stream Engine“ tarnyba automatiškai pradės veikti po ryšio.</string>
+    <string name="task_prefs_fail" source="google_translate">Nustatymų klaidos gavimas</string>
+    <string name="task_services_fail" source="google_translate">Paslaugų klaida</string>
+    <string name="start_ok" source="google_translate">Pradėti sėkmingai</string>
+    <string name="start_fail" source="google_translate">Pradėti nepavyko</string>
+    <string name="notify_starting" source="google_translate">Laukimo režimas</string>
+    <string name="notify_unpack" source="google_translate">Išpakavimas proceso metu</string>
+    <string name="notify_unpack_complete" source="google_translate">Išpakavimas baigtas</string>
+    <string name="notify_connect" source="google_translate">Prisijungimas</string>
+    <string name="notify_connect_complete" source="google_translate">Prisijungimas baigtas</string>
+    <string name="notify_running" source="google_translate">Veikia</string>
+    <string name="notify_stopped" source="google_translate">Sustabdytas</string>
+    <string name="notify_error" source="google_translate">Klaida</string>
+    <string name="notify_wait_connection" source="google_translate">Nėra tinklo ryšio</string>
+    <string name="prefs_group_main" source="google_translate">Pagrindinės nuostatos</string>
+    <string name="prefs_item_mobile" source="google_translate">Mobiliųjų tinklų duomenų prieiga</string>
+    <string name="prefs_item_mobile_summary" source="google_translate">Įgalinti duomenų prieigą per mobiliuosius tinklus</string>
+    <string name="prefs_item_vod_buffer" source="google_translate">VOD buferis, s</string>
+    <string name="prefs_item_live_buffer" source="google_translate">Tiesioginis buferis, s</string>
+    <string name="prefs_item_download_limit" source="google_translate">Atsisiuntimo riba (0 - be ribos), Kb / s</string>
+    <string name="prefs_item_upload_limit" source="google_translate">Įkėlimo riba (0 - be ribos), Kb / s</string>
+    <string name="prefs_group_advanced" source="google_translate">Išplėstinės nuostatos</string>
+    <string name="prefs_item_port" source="google_translate">Uostas</string>
+    <string name="prefs_item_total_max_connects" source="google_translate">Max prisijungia</string>
+    <string name="prefs_item_download_max_connects" source="google_translate">Atsisiųskite maks</string>
+    <string name="prefs_group_profile" source="google_translate">Vartotojo profilis</string>
+    <string name="prefs_item_gender" source="google_translate">Lytis</string>
+    <string name="prefs_item_age" source="google_translate">Amžius</string>
+    <string name="prefs_item_login" source="google_translate">Prisijungti</string>
+    <string name="prefs_item_password" source="google_translate">Slaptažodis</string>
+    <string name="prefs_gender_value_male" source="google_translate">Patinas</string>
+    <string name="prefs_gender_value_female" source="google_translate">Moteris</string>
+    <string name="prefs_age_value_under13" source="google_translate">Iki 13 metų</string>
+    <string name="prefs_age_value_above64" source="google_translate">Virš 64</string>
+    <string name="prefs_group_cache" source="google_translate">„Cache“ nustatymai</string>
+    <string name="prefs_item_disk_cache_limit" source="google_translate">Disko talpyklos riba, Mb</string>
+    <string name="prefs_item_memory_cache_limit" source="google_translate">RAM talpyklos riba, Mb</string>
+    <string name="prefs_item_cache_dir" source="google_translate">„Cache“ katalogas</string>
+    <string name="prefs_cache_live_use_disk" source="google_translate">Naudokite diską gyvai</string>
+    <string name="prefs_cache_vod_use_disk" source="google_translate">Naudokite diską VOD</string>
+    <string name="prefs_output_format_live" source="google_translate">Išvesties formatas (Live)</string>
+    <string name="prefs_output_format_vod" source="google_translate">Išvesties formatas (VOD)</string>
+    <string name="extension_name" source="google_translate">Vardas:</string>
+    <string name="extension_description" source="google_translate">Apibūdinimas:</string>
+    <string name="extension_issued_by" source="google_translate">Išleido:</string>
+    <string name="extension_url" source="google_translate">URL:</string>
+    <string name="extension_enabled" source="google_translate">Įjungtas:</string>
+    <string name="extension_valid_from" source="google_translate">Galioja nuo:</string>
+    <string name="extension_valid_to" source="google_translate">Galioja:</string>
+    <string name="no_services" source="google_translate">Nėra paslaugų</string>
+    <string name="message_unsupported_cpu" source="google_translate">Jūsų CPU dar nepalaikomas.</string>
+    <string name="starting" source="google_translate">Nuo…</string>
+    <string name="starting_player" source="google_translate">Pradedantis žaidėjas…</string>
+    <string name="install" source="google_translate">Diegti</string>
+    <string name="close" source="google_translate">Uždaryti</string>
+    <string name="no_players" source="google_translate">Nerasta jokių žaidėjų</string>
+    <string name="failed_to_start" source="google_translate">Nepavyko paleisti</string>
+    <string name="option_proxy_server" source="google_translate">Tarpinis serveris</string>
+    <string name="option_generic_premium" source="google_translate">Premija</string>
+    <string name="activate" source="google_translate">Suaktyvinti</string>
+    <string name="prompt_email" source="google_translate">El. Paštas</string>
+    <string name="prompt_password" source="google_translate">Slaptažodis</string>
+    <string name="action_sign_in" source="google_translate">Prisijungti</string>
+    <string name="action_sign_in_or_register" source="google_translate">Prisijungti / Registruotis</string>
+    <string name="action_sign_out" source="google_translate">Atsijungti</string>
+    <string name="error_invalid_email" source="google_translate">Šis el. Pašto adresas neteisingas</string>
+    <string name="error_invalid_password" source="google_translate">Šis slaptažodis yra per trumpas</string>
+    <string name="error_field_required" source="google_translate">Šį lauką būtina užpildyti</string>
+    <string name="upgrage_user_level" source="google_translate">Patobulinti</string>
+    <string name="select_file" source="google_translate">Pasirinkite failą</string>
+    <string name="auth_error_user_not_found" source="google_translate">Vartotojas nerastas</string>
+    <string name="auth_error_user_disabled" source="google_translate">Vartotojas yra išjungtas</string>
+    <string name="auth_error_bad_password" source="google_translate">Šis slaptažodis neteisingas</string>
+    <string name="auth_internal_error" source="google_translate">Vidinė klaida. Bandykite vėliau.</string>
+    <string name="auth_network_error" source="google_translate">Tinklo klaida. Bandykite vėliau.</string>
+    <string name="auth_failed_error" source="google_translate">Auth nepavyko. Bandykite vėliau.</string>
+    <string name="uninstall" source="google_translate">Pašalinti</string>
+    <string name="uninstall_prev_version_to_continue" source="google_translate">Kad tęstumėte, turite pašalinti ankstesnę versiją</string>
+    <string name="prefs_allow_intranet_access" source="google_translate">Leisti naudotis intraneto prieiga</string>
+    <string name="prefs_allow_remote_access" source="google_translate">Leisti nuotolinę prieigą</string>
+    <string name="error" source="google_translate">Klaida</string>
+    <string name="select_player" source="google_translate">Pasirinkite grotuvą</string>
+    <string name="attention" source="google_translate">Dėmesio</string>
+    <string name="home" source="google_translate">Namai</string>
+    <string name="remote_control" source="google_translate">Nuotolinio valdymo pultas</string>
+    <string name="please_try_again" source="google_translate">Prašau, pabandykite dar kartą</string>
+    <string name="cannot_start_playback" source="google_translate">Negalima paleisti atkūrimo</string>
+    <string name="device_disconnected" source="google_translate">Įrenginys atjungtas</string>
+    <string name="connection_failed" source="google_translate">Nepavyko prisijungti</string>
+    <string name="buffering" source="google_translate">Buferizavimas</string>
+    <string name="remember_choice" source="google_translate">Prisiminti pasirinkimą</string>
+    <string name="prefs_transcode_ac3" source="google_translate">Pakeiskite tik AC3 į AAC už HLS</string>
+    <string name="ok_sure" source="google_translate">Gerai žinoma</string>
+    <string name="no_thanks" source="google_translate">Ne, ačiū</string>
+    <string name="rate_yes" source="google_translate">Taip!</string>
+    <string name="rate_not" source="google_translate">Ne visai</string>
+    <string name="rate_do_you_like" source="google_translate">Mėgaukitės „Ace Stream“?</string>
+    <string name="rate_on_google" source="google_translate">Taigi, kaip apie „Google Play“ reitingą?</string>
+    <string name="rate_give_feedback" source="google_translate">Ar norėtumėte mums pateikti atsiliepimų?</string>
+    <string name="prefs_transcode_audio" source="google_translate">Visus garsus perkoduokite į AAC HLS</string>
+    <string name="want_restart" source="google_translate">Ar norite tęsti atkūrimą iš paskutinės padėties?</string>
+    <string name="restart_from_beginning" source="google_translate">Pradėkite nuo pradžios</string>
+    <string name="menu_content_id" source="google_translate">Įveskite turinio ID</string>
+    <string name="enter_content_id" source="google_translate">Įveskite turinio ID</string>
+    <string name="bad_content_id" source="google_translate">Blogas turinio ID</string>
+    <string name="send" source="google_translate">Siųsti</string>
+    <string name="report_problem" source="google_translate">Pranešti apie problemą</string>
+    <string name="report_has_been_sent" source="google_translate">Ataskaita buvo išsiųsta</string>
+    <string name="report_failed" source="google_translate">Ataskaita nepavyko</string>
+    <string name="allow_mobile_networks" source="google_translate">Leisti naudoti mobiliojo ryšio tinklus?</string>
+    <string name="problem_description" source="google_translate">Problemos aprašymas</string>
+    <string name="directory_is_not_writable" source="google_translate">Rodyklė nėra rašoma</string>
+    <string name="device_storage" source="google_translate">Įrenginio saugojimas</string>
+    <string name="sd_card" source="google_translate">SD kortelė</string>
+    <string name="select_directory" source="google_translate">Pasirinkite katalogą</string>
+    <string name="select_category" source="google_translate">Pasirinkite kategoriją</string>
+    <string name="language" source="google_translate">Kalba</string>
+    <string name="sign_in_or_register" source="google_translate">Prisijunkite arba užsiregistruokite „Ace Stream“</string>
+    <string name="sign_in_or_register_continue" source="google_translate">Jei norite tęsti, prisijunkite arba užsiregistruokite</string>
+    <string name="selected_player" source="google_translate">Pasirinktas grotuvas</string>
+    <string name="opengl_usage" source="google_translate">OpenGL ES2 naudojimas</string>
+    <string name="auto" source="google_translate">Automatinis</string>
+    <string name="force_on" source="google_translate">Įjungta</string>
+    <string name="force_off" source="google_translate">Išjungti</string>
+    <string name="video_hardware_acceleration" source="google_translate">Vaizdo aparatūros spartinimas</string>
+    <string name="disabled" source="google_translate">Išjungta</string>
+    <string name="decoding_acceleration" source="google_translate">Dekodavimo pagreitis</string>
+    <string name="full_acceleration" source="google_translate">Visas greitėjimas</string>
+    <string name="show_debug_info" source="google_translate">Rodyti derinimo informaciją</string>
+    <string name="enable_debug_logging" source="google_translate">Įgalinti derinimo registravimą</string>
+    <string name="start_acecast_server" source="google_translate">Paleiskite „AceCast“ serverį</string>
+    <string name="avi_opendml_warning" source="google_translate">Šis vaizdo įrašas gali būti neatkuriamas tinkamai „Ace Stream“ grotuve. Pasirinkite kitą žaidėją?</string>
+    <string name="player_preferences" source="google_translate">Žaidėjo nustatymai</string>
+    <string name="ads_preferences" source="google_translate">Skelbimų nustatymai</string>
+    <string name="ads_preferences_short" source="google_translate">Skelbimai</string>
+    <string name="show_lock_button" source="google_translate">Rodyti užrakto mygtuką</string>
+    <string name="engine_preferences" source="google_translate">Variklio nustatymai</string>
+    <string name="engine_preferences_short" source="google_translate">Variklis</string>
+    <string name="need_proxy_server_option" source="google_translate">Jei norite žiūrėti išorinių žaidėjų turinį, turite įjungti „Proxy Server“ parinktį. Arba galite žiūrėti turinį nemokamai „Ace Player“</string>
+    <string name="need_proxy_server_option_tmp" source="google_translate">Norėdami peržiūrėti turinį, turite įjungti „Proxy Server“ parinktį arba atnaujinti „Ace Stream“ programą</string>
+    <string name="pause_on_audiofocus_loss" source="google_translate">Pristabdykite audiofokuso nuostolius</string>
+    <string name="upgrade" source="google_translate">Patobulinti</string>
+    <string name="to_continue_visit_link" source="google_translate">Jei norite tęsti, apsilankykite šioje nuorodoje:</string>
+    <string name="and_enter_pin" source="google_translate">ir įveskite PIN:</string>
+    <string name="gdpr_consent" source="google_translate">GDPR sutikimas</string>
+    <string name="show_rewarded_ads" source="google_translate">Rodyti apdovanotus skelbimus</string>
+    <string name="show_ads_on_main_screen" source="google_translate">Rodyti skelbimus pagrindiniame ekrane</string>
+    <string name="show_ads_on_preroll" source="google_translate">Rodyti skelbimus „preroll“</string>
+    <string name="show_ads_on_pause" source="google_translate">Rodyti skelbimus pertraukoje</string>
+    <string name="show_ads_on_close" source="google_translate">Rodyti skelbimus grotuve</string>
+    <string name="agreement" source="google_translate">Susitarimas</string>
+    <string name="license_agreement" source="google_translate">Licencijos sutartis</string>
+    <string name="privacy_policy" source="google_translate">Privatumo politika</string>
+    <string name="application_version" source="google_translate">Programos versija</string>
+    <string name="disable_ads" source="google_translate">Išjungti skelbimus</string>
+    <string name="learn_more" source="google_translate">Sužinokite daugiau</string>
+    <string name="skip_ad" source="google_translate">Praleisti skelbimą</string>
+    <string name="you_can_skip_this_ad_in" source="google_translate">Šį skelbimą galite praleisti %d</string>
+    <string name="clearing_cache_etc" source="google_translate">Išvalyti talpyklą ...</string>
+    <string name="cache_cleared" source="google_translate">Išsaugota talpykla</string>
+    <string name="not_connected_to_engine" source="google_translate">Neprijungtas prie variklio</string>
+    <string name="gdpr_consent_pref_title" source="google_translate">GDPR sutikimas</string>
+    <string name="gdpr_consent_pref_summary" source="google_translate">GDPR sutikimas</string>
+    <string name="application" source="google_translate">Taikymas</string>
+    <string name="device_name" source="google_translate">Įrenginio pavadinimas</string>
+    <string name="empty_playlist" source="google_translate">Tuščias grojaraštis</string>
+    <string name="profile" source="google_translate">Profilis</string>
+    <string name="not_selected" source="google_translate">Nepasirinkta</string>
+    <string name="restart_application" source="google_translate">Paleiskite programą iš naujo</string>
+    <string name="restart_confirmation" source="google_translate">Dabar iš naujo paleiskite programą?</string>
+    <string name="parsing_transport_files" source="google_translate">Transporto failų analizė</string>
+    <string name="user_profile" source="google_translate">Vartotojo profilis</string>
+    <string name="account_balance" source="google_translate">Sąskaitos balansas</string>
+</resources>

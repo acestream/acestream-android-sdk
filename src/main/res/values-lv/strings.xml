@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lbl_version" source="google_translate">Versija</string>
+    <string name="lbl_portal" source="google_translate">Informācijas portāls</string>
+    <string name="lbl_prefshththtml" source="google_translate">Iestatījumi</string>
+    <string name="lbl_account" source="google_translate">Konts</string>
+    <string name="lbl_sign_out" source="google_translate">Izrakstīties</string>
+    <string name="menu_prefs" source="google_translate">Iestatījumi</string>
+    <string name="menu_profile" source="google_translate">Lietotāja profils</string>
+    <string name="menu_services" source="google_translate">Pakalpojumi</string>
+    <string name="menu_clearcache" source="google_translate">Iztīrīt kešatmiņu</string>
+    <string name="menu_quit" source="google_translate">Iziet</string>
+    <string name="menu_action_fail" source="google_translate">Nevar izpildīt šo darbību ar neaktīvu dzinēju</string>
+    <string name="dialog_wait" source="google_translate">Lūdzu uzgaidiet</string>
+    <string name="dialog_unpack" source="google_translate">Izsaiņošana</string>
+    <string name="dialog_start" source="google_translate">Sākums</string>
+    <string name="dialog_prefs" source="google_translate">Preferenču izgūšana</string>
+    <string name="dialog_services" source="google_translate">Pakalpojumu saraksta ielāde</string>
+    <string name="dialog_cache" source="google_translate">Kešatmiņas tīrīšana</string>
+    <string name="dialog_shutdown" source="google_translate">Shutdowning</string>
+    <string name="dialog_no_connection" source="google_translate">Nav pieejams interneta pieslēgums. Ace Stream Engine pakalpojums automātiski sāksies pēc savienojuma.</string>
+    <string name="task_prefs_fail" source="google_translate">Iestatījumu kļūdas izgūšana</string>
+    <string name="task_services_fail" source="google_translate">Pakalpojumu kļūda</string>
+    <string name="start_ok" source="google_translate">Sākt izdodas</string>
+    <string name="start_fail" source="google_translate">Sākums neizdevās</string>
+    <string name="notify_starting" source="google_translate">Gaidīšanas režīms</string>
+    <string name="notify_unpack" source="google_translate">Izsaiņošana procesā</string>
+    <string name="notify_unpack_complete" source="google_translate">Izsaiņošana ir pabeigta</string>
+    <string name="notify_connect" source="google_translate">Savienošana</string>
+    <string name="notify_connect_complete" source="google_translate">Savienošana pabeigta</string>
+    <string name="notify_running" source="google_translate">Darbojas</string>
+    <string name="notify_stopped" source="google_translate">Apturēts</string>
+    <string name="notify_error" source="google_translate">Kļūda</string>
+    <string name="notify_wait_connection" source="google_translate">Nav pieejams tīkla savienojums</string>
+    <string name="prefs_group_main" source="google_translate">Galvenās preferences</string>
+    <string name="prefs_item_mobile" source="google_translate">Mobilo sakaru tīklu piekļuve datiem</string>
+    <string name="prefs_item_mobile_summary" source="google_translate">Iespējot datu piekļuvi mobilajos tīklos</string>
+    <string name="prefs_item_vod_buffer" source="google_translate">VOD buferis, s</string>
+    <string name="prefs_item_live_buffer" source="google_translate">Live buferis, s</string>
+    <string name="prefs_item_download_limit" source="google_translate">Lejupielādes ierobežojums (0 - bez ierobežojuma), Kb / s</string>
+    <string name="prefs_item_upload_limit" source="google_translate">Augšupielādes ierobežojums (0 - bez ierobežojuma), Kb / s</string>
+    <string name="prefs_group_advanced" source="google_translate">Papildu preferences</string>
+    <string name="prefs_item_port" source="google_translate">Osta</string>
+    <string name="prefs_item_total_max_connects" source="google_translate">Max savieno</string>
+    <string name="prefs_item_download_max_connects" source="google_translate">Lejupielādēt max savienojumus</string>
+    <string name="prefs_group_profile" source="google_translate">Lietotāja profils</string>
+    <string name="prefs_item_gender" source="google_translate">Dzimums</string>
+    <string name="prefs_item_age" source="google_translate">Vecums</string>
+    <string name="prefs_item_login" source="google_translate">Pieslēgties</string>
+    <string name="prefs_item_password" source="google_translate">Parole</string>
+    <string name="prefs_gender_value_male" source="google_translate">Vīrietis</string>
+    <string name="prefs_gender_value_female" source="google_translate">Sieviete</string>
+    <string name="prefs_age_value_under13" source="google_translate">Līdz 13 gadu vecumam</string>
+    <string name="prefs_age_value_above64" source="google_translate">Virs 64</string>
+    <string name="prefs_group_cache" source="google_translate">Kešatmiņas iestatījumi</string>
+    <string name="prefs_item_disk_cache_limit" source="google_translate">Diska kešatmiņas ierobežojums, Mb</string>
+    <string name="prefs_item_memory_cache_limit" source="google_translate">RAM kešatmiņas ierobežojums, Mb</string>
+    <string name="prefs_item_cache_dir" source="google_translate">Kešatmiņas katalogs</string>
+    <string name="prefs_cache_live_use_disk" source="google_translate">Izmantojiet disku dzīvošanai</string>
+    <string name="prefs_cache_vod_use_disk" source="google_translate">Izmantojiet disku VOD</string>
+    <string name="prefs_output_format_live" source="google_translate">Izejas formāts (Live)</string>
+    <string name="prefs_output_format_vod" source="google_translate">Izejas formāts (VOD)</string>
+    <string name="extension_name" source="google_translate">Nosaukums:</string>
+    <string name="extension_description" source="google_translate">Apraksts:</string>
+    <string name="extension_issued_by" source="google_translate">Izdevējs:</string>
+    <string name="extension_url" source="google_translate">URL:</string>
+    <string name="extension_enabled" source="google_translate">Iespējots:</string>
+    <string name="extension_valid_from" source="google_translate">Derīgs no:</string>
+    <string name="extension_valid_to" source="google_translate">Derīgs:</string>
+    <string name="no_services" source="google_translate">Nav pakalpojumu</string>
+    <string name="message_unsupported_cpu" source="google_translate">Jūsu CPU vēl nav atbalstīts.</string>
+    <string name="starting" source="google_translate">Sākot ...</string>
+    <string name="starting_player" source="google_translate">Startējošais spēlētājs…</string>
+    <string name="install" source="google_translate">Uzstādīt</string>
+    <string name="close" source="google_translate">Aizvērt</string>
+    <string name="no_players" source="google_translate">Neviens spēlētājs nav atrasts</string>
+    <string name="failed_to_start" source="google_translate">Neizdevās sākt</string>
+    <string name="option_proxy_server" source="google_translate">Proxy serveris</string>
+    <string name="option_generic_premium" source="google_translate">Premium</string>
+    <string name="activate" source="google_translate">Aktivizēt</string>
+    <string name="prompt_email" source="google_translate">E-pasts</string>
+    <string name="prompt_password" source="google_translate">Parole</string>
+    <string name="action_sign_in" source="google_translate">Ielogoties</string>
+    <string name="action_sign_in_or_register" source="google_translate">Pierakstīties / reģistrēties</string>
+    <string name="action_sign_out" source="google_translate">Izrakstīties</string>
+    <string name="error_invalid_email" source="google_translate">Šī e-pasta adrese nav derīga</string>
+    <string name="error_invalid_password" source="google_translate">Šī parole ir pārāk īsa</string>
+    <string name="error_field_required" source="google_translate">Šis lauks ir obligāts</string>
+    <string name="upgrage_user_level" source="google_translate">Jaunināt</string>
+    <string name="select_file" source="google_translate">Izvēlieties failu</string>
+    <string name="auth_error_user_not_found" source="google_translate">Lietotājs nav atrasts</string>
+    <string name="auth_error_user_disabled" source="google_translate">Lietotājs ir atspējots</string>
+    <string name="auth_error_bad_password" source="google_translate">Šī parole nav pareiza</string>
+    <string name="auth_internal_error" source="google_translate">Iekšēja kļūda. Lūdzu, mēģiniet vēlāk.</string>
+    <string name="auth_network_error" source="google_translate">Tīkla kļūda. Lūdzu, mēģiniet vēlāk.</string>
+    <string name="auth_failed_error" source="google_translate">Auth neizdevās. Lūdzu, mēģiniet vēlāk.</string>
+    <string name="uninstall" source="google_translate">Atinstalēt</string>
+    <string name="uninstall_prev_version_to_continue" source="google_translate">Lai turpinātu, jums ir nepieciešams atinstalēt iepriekšējo versiju</string>
+    <string name="prefs_allow_intranet_access" source="google_translate">Atļaut iekštīkla piekļuvi</string>
+    <string name="prefs_allow_remote_access" source="google_translate">Atļaut attālo piekļuvi</string>
+    <string name="error" source="google_translate">Kļūda</string>
+    <string name="select_player" source="google_translate">Izvēlieties atskaņotāju</string>
+    <string name="attention" source="google_translate">Uzmanību</string>
+    <string name="home" source="google_translate">Mājas</string>
+    <string name="remote_control" source="google_translate">Tālvadība</string>
+    <string name="please_try_again" source="google_translate">Lūdzu mēģiniet vēlreiz</string>
+    <string name="cannot_start_playback" source="google_translate">Nevar sākt atskaņošanu</string>
+    <string name="device_disconnected" source="google_translate">Ierīce ir atvienota</string>
+    <string name="connection_failed" source="google_translate">Savienojums neizdevās</string>
+    <string name="buffering" source="google_translate">Buferēšana</string>
+    <string name="remember_choice" source="google_translate">Atcerieties izvēli</string>
+    <string name="prefs_transcode_ac3" source="google_translate">Pārveidojiet tikai AC3 uz AAC HLS</string>
+    <string name="ok_sure" source="google_translate">Labi, pārliecinieties</string>
+    <string name="no_thanks" source="google_translate">Nē paldies</string>
+    <string name="rate_yes" source="google_translate">Jā!</string>
+    <string name="rate_not" source="google_translate">Ne īsti</string>
+    <string name="rate_do_you_like" source="google_translate">Vai baudīt Ace Stream?</string>
+    <string name="rate_on_google" source="google_translate">Kā tad par reitingu pakalpojumā Google Play?</string>
+    <string name="rate_give_feedback" source="google_translate">Vai jūs domājat, ka sniegtu mums dažas atsauksmes?</string>
+    <string name="prefs_transcode_audio" source="google_translate">Pārveidojiet visus audio ierakstus uz AAC HLS</string>
+    <string name="want_restart" source="google_translate">Vai vēlaties atsākt atskaņošanu no pēdējās pozīcijas?</string>
+    <string name="restart_from_beginning" source="google_translate">Sāciet no sākuma</string>
+    <string name="menu_content_id" source="google_translate">Ievadiet satura ID</string>
+    <string name="enter_content_id" source="google_translate">Ievadiet satura ID</string>
+    <string name="bad_content_id" source="google_translate">Slikts satura ID</string>
+    <string name="send" source="google_translate">Sūtīt</string>
+    <string name="report_problem" source="google_translate">Ziņojiet par problēmu</string>
+    <string name="report_has_been_sent" source="google_translate">Ziņojums ir nosūtīts</string>
+    <string name="report_failed" source="google_translate">Ziņojums neizdevās</string>
+    <string name="allow_mobile_networks" source="google_translate">Vai atļaut mobilo sakaru tīklu lietošanu?</string>
+    <string name="problem_description" source="google_translate">Problēmas apraksts</string>
+    <string name="directory_is_not_writable" source="google_translate">Katalogs nav rakstāms</string>
+    <string name="device_storage" source="google_translate">Ierīces glabāšana</string>
+    <string name="sd_card" source="google_translate">SD karte</string>
+    <string name="select_directory" source="google_translate">Atlasiet direktoriju</string>
+    <string name="select_category" source="google_translate">Izvēlieties kategoriju</string>
+    <string name="language" source="google_translate">Valoda</string>
+    <string name="sign_in_or_register" source="google_translate">Pierakstieties vai reģistrējieties Ace Stream</string>
+    <string name="sign_in_or_register_continue" source="google_translate">Lai turpinātu, pierakstieties vai reģistrējieties</string>
+    <string name="selected_player" source="google_translate">Atlasītais atskaņotājs</string>
+    <string name="opengl_usage" source="google_translate">OpenGL ES2 lietošana</string>
+    <string name="auto" source="google_translate">Automātiski</string>
+    <string name="force_on" source="google_translate">Spēka ieslēgšana</string>
+    <string name="force_off" source="google_translate">Spēka izslēgšana</string>
+    <string name="video_hardware_acceleration" source="google_translate">Video aparatūras paātrinājums</string>
+    <string name="disabled" source="google_translate">Atspējots</string>
+    <string name="decoding_acceleration" source="google_translate">Dekodēšanas paātrinājums</string>
+    <string name="full_acceleration" source="google_translate">Pilns paātrinājums</string>
+    <string name="show_debug_info" source="google_translate">Rādīt atkļūdošanas informāciju</string>
+    <string name="enable_debug_logging" source="google_translate">Iespējot atkļūdošanas reģistrēšanu</string>
+    <string name="start_acecast_server" source="google_translate">Sāciet AceCast serveri</string>
+    <string name="avi_opendml_warning" source="google_translate">Šis video var netikt pareizi atskaņots Ace Stream atskaņotājā. Izvēlieties citu atskaņotāju?</string>
+    <string name="player_preferences" source="google_translate">Spēlētāja iestatījumi</string>
+    <string name="ads_preferences" source="google_translate">Reklāmu iestatījumi</string>
+    <string name="ads_preferences_short" source="google_translate">Reklāmas</string>
+    <string name="show_lock_button" source="google_translate">Rādīt bloķēšanas pogu</string>
+    <string name="engine_preferences" source="google_translate">Motora iestatījumi</string>
+    <string name="engine_preferences_short" source="google_translate">Dzinējs</string>
+    <string name="need_proxy_server_option" source="google_translate">Lai skatītu saturu ārējos atskaņotājos, ir jāaktivizē starpniekservera iespēja. Vai arī varat skatīties saturu bez maksas Ace Player</string>
+    <string name="need_proxy_server_option_tmp" source="google_translate">Lai skatītu saturu, jums ir jāaktivizē starpniekservera opcija vai jāatjaunina Ace Stream lietotne</string>
+    <string name="pause_on_audiofocus_loss" source="google_translate">Pārtraukt audiofokusa zudumu</string>
+    <string name="upgrade" source="google_translate">Jaunināt</string>
+    <string name="to_continue_visit_link" source="google_translate">Lai turpinātu, apmeklējiet šo saiti:</string>
+    <string name="and_enter_pin" source="google_translate">un ievadiet PIN:</string>
+    <string name="gdpr_consent" source="google_translate">GDPR piekrišana</string>
+    <string name="show_rewarded_ads" source="google_translate">Rādīt atalgotās reklāmas</string>
+    <string name="show_ads_on_main_screen" source="google_translate">Rādīt reklāmas galvenajā ekrānā</string>
+    <string name="show_ads_on_preroll" source="google_translate">Rādīt reklāmas priekšautā</string>
+    <string name="show_ads_on_pause" source="google_translate">Rādīt reklāmas pauzē</string>
+    <string name="show_ads_on_close" source="google_translate">Rādīt reklāmas spēlētājam tuvu</string>
+    <string name="agreement" source="google_translate">Nolīgums</string>
+    <string name="license_agreement" source="google_translate">Licences līgums</string>
+    <string name="privacy_policy" source="google_translate">Privātuma politika</string>
+    <string name="application_version" source="google_translate">Lietojumprogrammas versija</string>
+    <string name="disable_ads" source="google_translate">Atspējot reklāmas</string>
+    <string name="learn_more" source="google_translate">Uzzināt vairāk</string>
+    <string name="skip_ad" source="google_translate">Izlaist reklāmu</string>
+    <string name="you_can_skip_this_ad_in" source="google_translate">Šo reklāmu varat izlaist %d</string>
+    <string name="clearing_cache_etc" source="google_translate">Kešatmiņas tīrīšana ...</string>
+    <string name="cache_cleared" source="google_translate">Tīrīta kešatmiņa</string>
+    <string name="not_connected_to_engine" source="google_translate">Nav pievienots dzinējam</string>
+    <string name="gdpr_consent_pref_title" source="google_translate">GDPR piekrišana</string>
+    <string name="gdpr_consent_pref_summary" source="google_translate">GDPR piekrišana</string>
+    <string name="application" source="google_translate">Pieteikums</string>
+    <string name="device_name" source="google_translate">Ierīces nosaukums</string>
+    <string name="empty_playlist" source="google_translate">Tukšs atskaņošanas saraksts</string>
+    <string name="profile" source="google_translate">Profils</string>
+    <string name="not_selected" source="google_translate">Nav atlasīts</string>
+    <string name="restart_application" source="google_translate">Restartējiet programmu</string>
+    <string name="restart_confirmation" source="google_translate">Vai tagad restartējiet programmu?</string>
+    <string name="parsing_transport_files" source="google_translate">Transporta failu veidošana</string>
+    <string name="user_profile" source="google_translate">Lietotāja profils</string>
+    <string name="account_balance" source="google_translate">Konta atlikums</string>
+</resources>

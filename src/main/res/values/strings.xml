@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">Ace Stream Engine</string>
+    <string name="app_title" translatable="false">Ace Stream Engine</string>
+    <string name="main_affinity" translatable="false">org.acestream.affinity.main</string>
+
+    <string name="internal_error" translatable="false">Internal error</string>
+
+    <string name="lbl_version">Version</string>
+    <string name="lbl_portal">Information portal</string>
+    <string name="lbl_prefshththtml">Settings</string>
+    <string name="lbl_account">Account</string>
+    <string name="lbl_sign_out">Sign Out</string>
+
+    <string name="menu_prefs">Settings</string>
+    <string name="menu_profile">User profile</string>
+    <string name="menu_services">Services</string>
+    <string name="menu_clearcache">Clear cache</string>
+    <string name="menu_quit">Quit</string>
+    <string name="menu_action_fail">Cannot execute this action with unactive engine</string>
+
+    <string name="dialog_wait">Please wait</string>
+    <string name="dialog_unpack">Unpacking</string>
+    <string name="dialog_start">Starting</string>
+    <string name="dialog_prefs">Retrieving preferences</string>
+    <string name="dialog_services">Retrieving list of services</string>
+    <string name="dialog_cache">Clearing cache</string>
+    <string name="dialog_shutdown">Shutdowning</string>
+    <string name="dialog_no_connection">No available internet connection. Ace Stream Engine service will start automatically after connection.</string>
+
+    <string name="task_prefs_fail">Retrieving settings error</string>
+    <string name="task_services_fail">Retrieving services error</string>
+
+    <string name="start_ok">Start succeed</string>
+    <string name="start_fail">Start failed</string>
+
+    <string name="notify_starting">Idle</string>
+    <string name="notify_unpack">Unpacking in process</string>
+    <string name="notify_unpack_complete">Unpacking completed</string>
+    <string name="notify_connect">Connecting</string>
+    <string name="notify_connect_complete">Connecting completed</string>
+    <string name="notify_running">Running</string>
+    <string name="notify_stopped">Stopped</string>
+    <string name="notify_error">Error</string>
+    <string name="notify_wait_connection">No available network connection</string>
+
+    <string name="prefs_group_main">Main preferences</string>
+    <string name="prefs_item_mobile">Mobile networks data access</string>
+    <string name="prefs_item_mobile_summary">Enable data access over mobile networks</string>
+    <string name="prefs_item_vod_buffer">VOD buffer, s</string>
+    <string name="prefs_item_live_buffer">Live buffer, s</string>
+    <string name="prefs_item_download_limit">Download limit (0 - no limit), Kb/s</string>
+    <string name="prefs_item_upload_limit">Upload limit (0 - no limit), Kb/s</string>
+
+    <string name="prefs_group_advanced">Advanced preferences</string>
+    <string name="prefs_item_port">Port</string>
+    <string name="prefs_item_total_max_connects">Max connects</string>
+    <string name="prefs_item_download_max_connects">Download max connects</string>
+
+    <string name="prefs_group_profile">User profile</string>
+    <string name="prefs_item_gender">Gender</string>
+    <string name="prefs_item_age">Age</string>
+
+    <string name="prefs_item_login">Login</string>
+    <string name="prefs_item_password">Password</string>
+
+    <string name="prefs_gender_value_male">Male</string>
+    <string name="prefs_gender_value_female">Female</string>
+    <string name="prefs_age_value_under13">Under 13</string>
+    <string name="prefs_age_value_above64">Above 64</string>
+
+    <string name="prefs_group_cache">Cache settings</string>
+    <string name="prefs_item_disk_cache_limit">Disk cache limit, Mb</string>
+    <string name="prefs_item_memory_cache_limit">RAM cache limit, Mb</string>
+    <string name="prefs_item_cache_dir">Cache directory</string>
+    <string name="prefs_cache_live_use_disk">Use disk for live</string>
+    <string name="prefs_cache_vod_use_disk">Use disk for VOD</string>
+
+    <string name="prefs_output_format_live">Output format (Live)</string>
+    <string name="prefs_output_format_vod">Output format (VOD)</string>
+
+    <string name="extension_name">Name:</string>
+    <string name="extension_description">Description:</string>
+    <string name="extension_issued_by">Issued by:</string>
+    <string name="extension_url">Url:</string>
+    <string name="extension_enabled">Enabled:</string>
+    <string name="extension_valid_from">Valid From:</string>
+    <string name="extension_valid_to">Valid To:</string>
+    <string name="no_services">No services</string>
+
+    <string name="message_empty" translatable="false" />
+    <string name="message_unsupported_cpu">Your CPU is not supported yet.</string>
+
+    <string name="starting">Starting…</string>
+    <string name="starting_player">Starting player…</string>
+    <string name="install">Install</string>
+    <string name="close">Close</string>
+    <string name="no_players">No players found</string>
+    <string name="failed_to_start">Failed to start</string>
+    <string name="status_prebuffering" formatted="false">Prebuffering %d%%\nPeers: %d\nDL: %d Kb/s</string>
+    <string name="status_buffering" formatted="false">Buffering %d%%\nPeers: %d\nDL: %d Kb/s</string>
+    <string name="status_checking" formatted="false">Checking %d%%</string>
+
+    <plurals name="numberOfPeers">
+        <item quantity="one">%d peer</item>
+        <item quantity="other">%d peers</item>
+    </plurals>
+
+    <string name="option_proxy_server">Proxy Server</string>
+    <string name="option_generic_premium">Premium</string>
+
+    <string name="notification_missing_option">You have to activate option "%s" to continue</string>
+    <string name="notification_visit_site">Go to this site to proceed:\n%s</string>
+    <string name="activate">Activate</string>
+    <string name="failed_to_decode_json_response" translatable="false">Failed to decode JSON response</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_or_register">Sign in / Register</string>
+    <string name="action_sign_out">Sign out</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+
+    <string name="error_field_required">This field is required</string>
+    <string name="sign_in_agreement">By signing up, I agree to Ace Stream\'s <a href="http://www.acestream.org/license_en.html">License Agreement</a></string>
+    <string name="sign_in_prompt">Sign in to continue to Ace Stream</string>
+    <string name="upgrage_user_level">Upgrade</string>
+    <string name="select_file">Select file</string>
+
+    <string name="auth_error_user_not_found">User not found</string>
+    <string name="auth_error_user_disabled">User is disabled</string>
+    <string name="auth_error_bad_password">This password is incorrect</string>
+    <string name="auth_internal_error">Internal error. Please try later.</string>
+    <string name="auth_network_error">Network error. Please try later.</string>
+    <string name="auth_failed_error">Auth failed. Please try later.</string>
+
+    <string name="topup_button_title">Balance: %.2f USD  /  Topup</string>
+    <string name="topup_button_title_short">%.2f$ / Topup</string>
+    <string name="bonuses_button_title">Bonuses: %.2f</string>
+
+    <plurals name="daysLeft">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <string name="uninstall">Uninstall</string>
+    <string name="uninstall_prev_version_to_continue">You need to uninstall previous version to continue</string>
+    <string name="prefs_allow_intranet_access">Allow intranet access</string>
+    <string name="prefs_allow_remote_access">Allow remote access</string>
+    <string name="error">Error</string>
+    <string name="select_player">Select player</string>
+    <string name="attention">Attention</string>
+    <string name="helping" translatable="false">Helping: %d</string>
+    <string name="download_rate" translatable="false">DL: %d</string>
+    <string name="upload_rate" translatable="false">UL: %d</string>
+    <string name="home">Home</string>
+    <string name="remote_control">Remote Control</string>
+    <string name="status_prebuffering_short">Prebuffering %d%%</string>
+    <string name="status_checking_short">Checking %d%%</string>
+    <string name="please_try_again">Please, try again</string>
+    <string name="cannot_start_playback">Cannot start playback</string>
+    <string name="device_disconnected">Device disconnected</string>
+    <string name="connection_failed">Connection failed</string>
+    <string name="buffering">Buffering</string>
+    <string name="remember_choice">Remember choice</string>
+    <string name="prefs_transcode_ac3">Transcode only AC3 to AAC for HLS</string>
+    <string name="ok_sure">OK, sure</string>
+    <string name="no_thanks">No, thanks</string>
+    <string name="rate_yes">Yes!</string>
+    <string name="rate_not">Not really</string>
+    <string name="rate_do_you_like">Enjoying Ace Stream?</string>
+    <string name="rate_on_google">How about a rating on the Google Play, then?</string>
+    <string name="rate_give_feedback">Would you mind giving us some feedback?</string>
+    <string name="prefs_transcode_audio">Transcode all audio to AAC for HLS</string>
+    <string name="want_restart">Do you want to resume playback from the last position?</string>
+    <string name="restart_from_beginning">Start from beginning</string>
+    <string name="menu_content_id">Enter Content ID</string>
+    <string name="enter_content_id">Enter Content ID</string>
+    <string name="bad_content_id">Bad Content ID</string>
+    <string name="google" translatable="false">Google</string>
+    <string name="send">Send</string>
+    <string name="report_problem">Report a problem</string>
+    <string name="report_has_been_sent">Report has been sent</string>
+    <string name="report_failed">Report failed</string>
+    <string name="allow_mobile_networks">Allow mobile networks usage?</string>
+    <string name="problem_description">Problem description</string>
+    <string name="directory_is_not_writable">Directory is not writable</string>
+    <string name="device_storage">Device Storage</string>
+    <string name="sd_card">SD Card</string>
+    <string name="select_directory">Select directory</string>
+    <string name="select_category">Select category</string>
+    <string name="language">Language</string>
+    <string name="sign_in_or_register">Sign in or register in the Ace Stream</string>
+    <string name="sign_in_or_register_continue">Sign in or register to continue</string>
+    <string name="selected_player">Selected Player</string>
+    <string name="opengl_usage">OpenGL ES2 Usage</string>
+    <string name="auto">Auto</string>
+    <string name="force_on">Force On</string>
+    <string name="force_off">Force Off</string>
+    <string name="video_hardware_acceleration">Video Hardware Acceleration</string>
+    <string name="disabled">Disabled</string>
+    <string name="decoding_acceleration">Decoding Acceleration</string>
+    <string name="full_acceleration">Full Acceleration</string>
+    <string name="show_debug_info">Show debug info</string>
+    <string name="enable_debug_logging">Enable debug logging</string>
+    <string name="start_acecast_server">Start AceCast Server</string>
+    <string name="avi_opendml_warning">This video may not playback correctly in Ace Stream player. Choose another player?</string>
+
+    <string name="default_notification_channel_name" translatable="false">Ace Stream Notifications</string>
+    <string name="default_notification_channel_description" translatable="false">Ace Stream Notifications</string>
+
+    <string name="service_notification_channel_name" translatable="false">Ace Stream Service</string>
+    <string name="service_notification_channel_description" translatable="false">Ace Stream Service Notifications</string>
+
+    <string name="player_preferences">Player settings</string>
+    <string name="ads_preferences">Ads settings</string>
+    <string name="ads_preferences_short">Ads</string>
+    <string name="show_lock_button">Show lock button</string>
+    <string name="engine_preferences">Engine settings</string>
+    <string name="engine_preferences_short">Engine</string>
+
+    <string name="need_proxy_server_option">You need to activate Proxy Server option to watch content in external players. Or you can watch content for free in Ace Player</string>
+    <string name="need_proxy_server_option_tmp">To watch content you need to activate Proxy Server option or upgrade Ace Stream app</string>
+    <string name="pause_on_audiofocus_loss">Pause on audiofocus loss</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="to_continue_visit_link">To continue visit this link:</string>
+    <string name="and_enter_pin">and enter PIN:</string>
+
+    <string name="gdpr_consent">GDPR Consent</string>
+    <string name="show_rewarded_ads">Show rewarded ads</string>
+    <string name="show_ads_on_main_screen">Show ads on main screen</string>
+    <string name="show_ads_on_preroll">Show ads on preroll</string>
+    <string name="show_ads_on_pause">Show ads on pause</string>
+    <string name="show_ads_on_close">Show ads on player close</string>
+
+    <string name="agreement">Agreement</string>
+    <string name="license_agreement">License agreement</string>
+    <string name="user_agreement">User agreement</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="application_version">Application version</string>
+    <string name="disable_ads">Disable ads</string>
+    <string name="learn_more">Learn more</string>
+    <string name="skip_ad">Skip Ad</string>
+    <string name="you_can_skip_this_ad_in">You can skip this ad in %d</string>
+
+    <string name="maintain_notification_message" translatable="false">Maintain</string>
+    <string name="clearing_cache_etc">Clearing cache…</string>
+    <string name="cache_cleared">Cache cleared</string>
+    <string name="not_connected_to_engine">Not connected to engine</string>
+
+    <string name="gdpr_consent_pref_title">GDPR Consent</string>
+    <string name="gdpr_consent_pref_summary">GDPR Consent</string>
+
+    <string name="application">Application</string>
+    <string name="device_name">Device name</string>
+
+    <string name="empty_playlist">Empty playlist</string>
+    <string name="profile">Profile</string>
+    <string name="not_selected">Not selected</string>
+    <string name="restart_application">Restart application</string>
+    <string name="restart_confirmation">Restart application now?</string>
+    <string name="parsing_transport_files">Parsing transport files</string>
+    <string name="user_profile">User profile</string>
+    <string name="account_balance">Account balance</string>
+    <string name="playback_error">Playback error</string>
+    <string name="show_bonus_ads_question">Show bonus ads?</string>
+    <string name="always_show_rewarded_ads">Always show rewarded ads</string>
+    <string name="resume">Resume</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="ace_stream" translatable="false">Ace Stream</string>
+    <string name="live_streams">Live streams</string>
+    <string name="all_live_streams">All live streams</string>
+    <string name="video_torrents">Video torrents</string>
+    <string name="audio_torrents">Audio torrents</string>
+    <string name="all_torrents">All torrents</string>
+    <string name="main">Main</string>
+    <string name="media_player">Media player</string>
+    <string name="acestream_server">Ace Stream server (engine)</string>
+    <string name="media_player_settings">Media player settings</string>
+    <string name="acestream_server_settings">Ace Stream server (engine) settings</string>
+    <string name="sign_out">Sign out</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_in_acestream">Sign in with Ace Stream</string>
+    <string name="sign_in_google">Sign in with Google</string>
+    <string name="torrent_files">Torrent files</string>
+    <string name="video_files">Video files</string>
+    <string name="audio_files">Audio files</string>
+    <string name="select_language">Select language</string>
+    <string name="retry">Retry</string>
+    <string name="failed_to_load_web_page">Failed to load web page</string>
+
+    <string name="sign_in_to_get_bonuses">Only registered users can get bonuses for ads. Do you want to sign in?</string>
+</resources>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lbl_version" source="google_translate">பதிப்பு</string>
+    <string name="lbl_portal" source="google_translate">தகவல் போர்டல்</string>
+    <string name="lbl_prefshththtml" source="google_translate">அமைப்புகள்</string>
+    <string name="lbl_account" source="google_translate">கணக்கு</string>
+    <string name="lbl_sign_out" source="google_translate">வெளியேறு</string>
+    <string name="menu_prefs" source="google_translate">அமைப்புகள்</string>
+    <string name="menu_profile" source="google_translate">பயனர் சுயவிவரம்</string>
+    <string name="menu_services" source="google_translate">சேவைகள்</string>
+    <string name="menu_clearcache" source="google_translate">அழி கேச்</string>
+    <string name="menu_quit" source="google_translate">விட்டுவிட</string>
+    <string name="menu_action_fail" source="google_translate">செயல்திறன்மிக்க இயந்திரத்துடன் இந்த செயலை இயக்க முடியாது</string>
+    <string name="dialog_wait" source="google_translate">காத்திருக்கவும்</string>
+    <string name="dialog_unpack" source="google_translate">கட்டவிழ்த்தல்</string>
+    <string name="dialog_start" source="google_translate">தொடங்கி</string>
+    <string name="dialog_prefs" source="google_translate">விருப்பங்களை மீட்டெடுக்கிறது</string>
+    <string name="dialog_services" source="google_translate">சேவைகளின் பட்டியலை மீட்டெடுத்தல்</string>
+    <string name="dialog_cache" source="google_translate">காசோலை அழித்தல்</string>
+    <string name="dialog_shutdown" source="google_translate">Shutdowning</string>
+    <string name="dialog_no_connection" source="google_translate">இணைய இணைப்பு இல்லை. ஏஸ் ஸ்ட்ரீம் என்ஜின் சேவை தானாகவே இணைப்புக்கு பிறகு தொடங்கும்.</string>
+    <string name="task_prefs_fail" source="google_translate">அமைப்புகளை பிழை மீட்டெடுக்கிறது</string>
+    <string name="task_services_fail" source="google_translate">சேவைகள் பிழை மீட்டெடுக்கிறது</string>
+    <string name="start_ok" source="google_translate">வெற்றிபெறவும்</string>
+    <string name="start_fail" source="google_translate">தொடக்கத்தில் தோல்வி</string>
+    <string name="notify_starting" source="google_translate">பணியின்றி</string>
+    <string name="notify_unpack" source="google_translate">செயல்பாட்டில் துறக்கிறேன்</string>
+    <string name="notify_unpack_complete" source="google_translate">முடிப்பதை முடிக்கவில்லை</string>
+    <string name="notify_connect" source="google_translate">இணைக்கிறது</string>
+    <string name="notify_connect_complete" source="google_translate">இணைத்தல் முடிந்தது</string>
+    <string name="notify_running" source="google_translate">இயங்கும்</string>
+    <string name="notify_stopped" source="google_translate">நிறுத்தப்பட்டது</string>
+    <string name="notify_error" source="google_translate">பிழை</string>
+    <string name="notify_wait_connection" source="google_translate">கிடைக்காத பிணைய இணைப்பு இல்லை</string>
+    <string name="prefs_group_main" source="google_translate">முக்கிய விருப்பத்தேர்வுகள்</string>
+    <string name="prefs_item_mobile" source="google_translate">மொபைல் நெட்வொர்க்குகள் தரவு அணுகல்</string>
+    <string name="prefs_item_mobile_summary" source="google_translate">மொபைல் நெட்வொர்க்குகள் வழியாக தரவு அணுகலை இயக்கு</string>
+    <string name="prefs_item_vod_buffer" source="google_translate">VOD இடையகம், கள்</string>
+    <string name="prefs_item_live_buffer" source="google_translate">லைவ் இடையர், கள்</string>
+    <string name="prefs_item_download_limit" source="google_translate">பதிவிறக்க வரம்பு (0 - வரம்பு இல்லை), Kb / s</string>
+    <string name="prefs_item_upload_limit" source="google_translate">பதிவேற்ற வரம்பு (0 - வரம்பு இல்லை), Kb / s</string>
+    <string name="prefs_group_advanced" source="google_translate">மேம்பட்ட விருப்பத்தேர்வுகள்</string>
+    <string name="prefs_item_port" source="google_translate">போர்ட்</string>
+    <string name="prefs_item_total_max_connects" source="google_translate">மேக்ஸ் இணைக்கிறது</string>
+    <string name="prefs_item_download_max_connects" source="google_translate">பதிவிறக்கம் அதிகபட்சம் இணைக்கிறது</string>
+    <string name="prefs_group_profile" source="google_translate">பயனர் சுயவிவரம்</string>
+    <string name="prefs_item_gender" source="google_translate">பாலினம்</string>
+    <string name="prefs_item_age" source="google_translate">வயது</string>
+    <string name="prefs_item_login" source="google_translate">உள் நுழை</string>
+    <string name="prefs_item_password" source="google_translate">கடவுச்சொல்</string>
+    <string name="prefs_gender_value_male" source="google_translate">ஆண்</string>
+    <string name="prefs_gender_value_female" source="google_translate">பெண்</string>
+    <string name="prefs_age_value_under13" source="google_translate">13 வயதிற்கு கீழ்</string>
+    <string name="prefs_age_value_above64" source="google_translate">64 க்கு மேல்</string>
+    <string name="prefs_group_cache" source="google_translate">Cache அமைப்புகள்</string>
+    <string name="prefs_item_disk_cache_limit" source="google_translate">வட்டு தற்காலிக நினைவகம், Mb</string>
+    <string name="prefs_item_memory_cache_limit" source="google_translate">RAM கேச் வரம்பு, Mb</string>
+    <string name="prefs_item_cache_dir" source="google_translate">Cache அடைவு</string>
+    <string name="prefs_cache_live_use_disk" source="google_translate">நேரடி வட்டில் பயன்படுத்தவும்</string>
+    <string name="prefs_cache_vod_use_disk" source="google_translate">VOD க்கான வட்டு பயன்படுத்தவும்</string>
+    <string name="prefs_output_format_live" source="google_translate">வெளியீட்டு வடிவம் (லைவ்)</string>
+    <string name="prefs_output_format_vod" source="google_translate">வெளியீட்டு வடிவம் (VOD)</string>
+    <string name="extension_name" source="google_translate">பெயர்:</string>
+    <string name="extension_description" source="google_translate">விளக்கம்:</string>
+    <string name="extension_issued_by" source="google_translate">வழங்கியவர்:</string>
+    <string name="extension_url" source="google_translate">URL:</string>
+    <string name="extension_enabled" source="google_translate">இயக்கப்பட்டது:</string>
+    <string name="extension_valid_from" source="google_translate">செல்லுபடியாகும்:</string>
+    <string name="extension_valid_to" source="google_translate">செல்லுபடியாகும்:</string>
+    <string name="no_services" source="google_translate">சேவைகள் இல்லை</string>
+    <string name="message_unsupported_cpu" source="google_translate">உங்கள் CPU இன்னும் ஆதரிக்கப்படவில்லை.</string>
+    <string name="starting" source="google_translate">தொடங்குகிறது ...</string>
+    <string name="starting_player" source="google_translate">வீரர் தொடங்குகிறது ...</string>
+    <string name="install" source="google_translate">நிறுவ</string>
+    <string name="close" source="google_translate">நெருக்கமான</string>
+    <string name="no_players" source="google_translate">வீரர்கள் இல்லை</string>
+    <string name="failed_to_start" source="google_translate">தொடங்குவதில் தோல்வி</string>
+    <string name="option_proxy_server" source="google_translate">பதிலாள் சேவையகம்</string>
+    <string name="option_generic_premium" source="google_translate">பிரீமியம்</string>
+    <string name="activate" source="google_translate">செயல்படுத்த</string>
+    <string name="prompt_email" source="google_translate">மின்னஞ்சல்</string>
+    <string name="prompt_password" source="google_translate">கடவுச்சொல்</string>
+    <string name="action_sign_in" source="google_translate">உள்நுழைக</string>
+    <string name="action_sign_in_or_register" source="google_translate">உள்நுழை / பதிவு</string>
+    <string name="action_sign_out" source="google_translate">வெளியேறு</string>
+    <string name="error_invalid_email" source="google_translate">இந்த மின்னஞ்சல் முகவரி தவறானது</string>
+    <string name="error_invalid_password" source="google_translate">இந்த கடவுச்சொல் மிகவும் குறுகியதாக உள்ளது</string>
+    <string name="error_field_required" source="google_translate">இந்த புலம் தேவை</string>
+    <string name="upgrage_user_level" source="google_translate">மேம்படுத்தல்</string>
+    <string name="select_file" source="google_translate">கோப்பைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="auth_error_user_not_found" source="google_translate">பயனர் காணப்படவில்லை</string>
+    <string name="auth_error_user_disabled" source="google_translate">பயனர் முடக்கப்பட்டுள்ளது</string>
+    <string name="auth_error_bad_password" source="google_translate">இந்த கடவுச்சொல் தவறானது</string>
+    <string name="auth_internal_error" source="google_translate">உள்ளக பிழை. தயவுசெய்து பின்னர் முயற்சிக்கவும்.</string>
+    <string name="auth_network_error" source="google_translate">நெட்வொர்க் பிழை. தயவுசெய்து பின்னர் முயற்சிக்கவும்.</string>
+    <string name="auth_failed_error" source="google_translate">அங்கீகாரம் தோல்வியடைந்தது. தயவுசெய்து பின்னர் முயற்சிக்கவும்.</string>
+    <string name="uninstall" source="google_translate">நீக்குதல்</string>
+    <string name="uninstall_prev_version_to_continue" source="google_translate">தொடர முந்தைய பதிப்பை நிறுவல்நீக்கம் செய்ய வேண்டும்</string>
+    <string name="prefs_allow_intranet_access" source="google_translate">உள் அணுகலை அனுமதி</string>
+    <string name="prefs_allow_remote_access" source="google_translate">தொலைநிலை அணுகலை அனுமதி</string>
+    <string name="error" source="google_translate">பிழை</string>
+    <string name="select_player" source="google_translate">பிளேயரைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="attention" source="google_translate">கவனம்</string>
+    <string name="home" source="google_translate">முகப்பு</string>
+    <string name="remote_control" source="google_translate">தொலையியக்கி</string>
+    <string name="please_try_again" source="google_translate">தயவுசெய்து மீண்டும் முயற்சி செய்க</string>
+    <string name="cannot_start_playback" source="google_translate">பின்னணி தொடங்க முடியாது</string>
+    <string name="device_disconnected" source="google_translate">சாதனம் துண்டிக்கப்பட்டது</string>
+    <string name="connection_failed" source="google_translate">இணைப்பு தோல்வியடைந்தது</string>
+    <string name="buffering" source="google_translate">இடைநிலைப்படுத்துகிறது</string>
+    <string name="remember_choice" source="google_translate">தேர்வு நினைவிருக்கவும்</string>
+    <string name="prefs_transcode_ac3" source="google_translate">HLS க்கான AAC க்கு மட்டுமே AC3 ஐ டிரான்ஸ் குறியீடாக மாற்றும்</string>
+    <string name="ok_sure" source="google_translate">சரி நிச்சயமாக</string>
+    <string name="no_thanks" source="google_translate">இல்லை, நன்றி</string>
+    <string name="rate_yes" source="google_translate">ஆம்!</string>
+    <string name="rate_not" source="google_translate">உண்மையில் இல்லை</string>
+    <string name="rate_do_you_like" source="google_translate">ஏஸ் ஸ்ட்ரீம் அனுபவிக்கிறதா?</string>
+    <string name="rate_on_google" source="google_translate">Google Play இல் மதிப்பீடு செய்வது எப்படி?</string>
+    <string name="rate_give_feedback" source="google_translate">சில கருத்துக்களை எங்களுக்குத் தருவதாக நீங்கள் நினைப்பீர்களா?</string>
+    <string name="prefs_transcode_audio" source="google_translate">HLS க்கான அனைத்து ஆடியோகளையும் AAC க்கு மாற்றுதல்</string>
+    <string name="want_restart" source="google_translate">கடைசி நிலையில் இருந்து பின்னணி மீண்டும் தொடர விரும்புகிறீர்களா?</string>
+    <string name="restart_from_beginning" source="google_translate">தொடக்கத்தில் இருந்து தொடங்கவும்</string>
+    <string name="menu_content_id" source="google_translate">உள்ளடக்க ஐடியை உள்ளிடவும்</string>
+    <string name="enter_content_id" source="google_translate">உள்ளடக்க ஐடியை உள்ளிடவும்</string>
+    <string name="bad_content_id" source="google_translate">தவறான உள்ளடக்க ஐடி</string>
+    <string name="send" source="google_translate">அனுப்புக</string>
+    <string name="report_problem" source="google_translate">சிக்கலைப் புகாரளி</string>
+    <string name="report_has_been_sent" source="google_translate">அறிக்கை அனுப்பப்பட்டது</string>
+    <string name="report_failed" source="google_translate">அறிக்கை தோல்வியடைந்தது</string>
+    <string name="allow_mobile_networks" source="google_translate">மொபைல் நெட்வொர்க்குகள் பயன்பாட்டை அனுமதிக்கவா?</string>
+    <string name="problem_description" source="google_translate">பிரச்சனை பற்றிய விபரம்</string>
+    <string name="directory_is_not_writable" source="google_translate">அடைவு எழுதக்கூடியது அல்ல</string>
+    <string name="device_storage" source="google_translate">சாதன சேமிப்பகம்</string>
+    <string name="sd_card" source="google_translate">பாதுகாப்பான எண்ணியல் அட்டை</string>
+    <string name="select_directory" source="google_translate">அடைவு தேர்ந்தெடு</string>
+    <string name="select_category" source="google_translate">பிரிவை தேர்வு செய்க</string>
+    <string name="language" source="google_translate">மொழி</string>
+    <string name="sign_in_or_register" source="google_translate">ஏஸ் ஸ்ட்ரீமில் உள்நுழையவும் அல்லது பதிவு செய்யவும்</string>
+    <string name="sign_in_or_register_continue" source="google_translate">தொடர்ந்து உள்நுழையவும் அல்லது பதிவு செய்யவும்</string>
+    <string name="selected_player" source="google_translate">தேர்ந்தெடுக்கப்பட்ட பிளேயர்</string>
+    <string name="opengl_usage" source="google_translate">OpenGL ES2 பயன்பாடு</string>
+    <string name="auto" source="google_translate">ஆட்டோ</string>
+    <string name="force_on" source="google_translate">படை மீது</string>
+    <string name="force_off" source="google_translate">நிறுத்து</string>
+    <string name="video_hardware_acceleration" source="google_translate">வீடியோ வன்பொருள் முடுக்கம்</string>
+    <string name="disabled" source="google_translate">முடக்கப்பட்டது</string>
+    <string name="decoding_acceleration" source="google_translate">முடுக்கம் முடுக்கம்</string>
+    <string name="full_acceleration" source="google_translate">முழு முடுக்கம்</string>
+    <string name="show_debug_info" source="google_translate">பிழைத்திருத்த தகவலைக் காட்டு</string>
+    <string name="enable_debug_logging" source="google_translate">பிழைத்திருத்தலை இயக்கு</string>
+    <string name="start_acecast_server" source="google_translate">AceCast சேவையகத்தைத் தொடங்கவும்</string>
+    <string name="avi_opendml_warning" source="google_translate">இந்த வீடியோ ஏஸ் ஸ்ட்ரீம் பிளேயரில் சரியாக இயங்காமல் போகலாம். மற்றொரு பிளேயரைத் தேர்வுசெய்யவா?</string>
+    <string name="player_preferences" source="google_translate">பிளேயர் அமைப்புகள்</string>
+    <string name="ads_preferences" source="google_translate">விளம்பரங்கள் அமைப்புகள்</string>
+    <string name="ads_preferences_short" source="google_translate">விளம்பரங்கள்</string>
+    <string name="show_lock_button" source="google_translate">பூட்டு பொத்தானைக் காட்டு</string>
+    <string name="engine_preferences" source="google_translate">இயந்திர அமைப்புகள்</string>
+    <string name="engine_preferences_short" source="google_translate">எஞ்சின்</string>
+    <string name="need_proxy_server_option" source="google_translate">வெளிப்புற வீரர்கள் உள்ளடக்கத்தை பார்க்க நீங்கள் பதிலாள் சேவையக விருப்பத்தை செயல்படுத்த வேண்டும். அல்லது ஏஸ் ப்ளேயரில் இலவசமாக உள்ளடக்கத்தை பார்க்கலாம்</string>
+    <string name="need_proxy_server_option_tmp" source="google_translate">உள்ளடக்கத்தைப் பார்க்க நீங்கள் ப்ராக்ஸி சேவையக விருப்பத்தை செயல்படுத்த அல்லது ஏஸ் ஸ்ட்ரீம் பயன்பாட்டை மேம்படுத்த வேண்டும்</string>
+    <string name="pause_on_audiofocus_loss" source="google_translate">ஆடியோஃபோகஸ் இழப்புக்கு இடைநிறுத்தம்</string>
+    <string name="upgrade" source="google_translate">மேம்படுத்தல்</string>
+    <string name="to_continue_visit_link" source="google_translate">தொடர்ந்து இந்த இணைப்பைப் பார்வையிட:</string>
+    <string name="and_enter_pin" source="google_translate">PIN ஐ உள்ளிடவும்:</string>
+    <string name="gdpr_consent" source="google_translate">ஜி.டி.பிஆர் ஒப்புதல்</string>
+    <string name="show_rewarded_ads" source="google_translate">வெகுமதி விளம்பரங்களைக் காண்பி</string>
+    <string name="show_ads_on_main_screen" source="google_translate">முக்கிய திரையில் விளம்பரங்களைக் காட்டு</string>
+    <string name="show_ads_on_preroll" source="google_translate">விளம்பரங்களில் விளம்பரங்களைக் காண்பி</string>
+    <string name="show_ads_on_pause" source="google_translate">இடைநிறுத்தத்தில் விளம்பரங்களைக் காட்டு</string>
+    <string name="show_ads_on_close" source="google_translate">வீரர் நெருக்கமான விளம்பரங்களைக் காட்டு</string>
+    <string name="agreement" source="google_translate">ஒப்பந்தம்</string>
+    <string name="license_agreement" source="google_translate">உரிம ஒப்பந்தத்தின்</string>
+    <string name="privacy_policy" source="google_translate">தனியுரிமை கொள்கை</string>
+    <string name="application_version" source="google_translate">பயன்பாடு பதிப்பு</string>
+    <string name="disable_ads" source="google_translate">விளம்பரங்களை முடக்கவும்</string>
+    <string name="learn_more" source="google_translate">மேலும் அறிக</string>
+    <string name="skip_ad" source="google_translate">விளம்பரம் தவிர்க்கவும்</string>
+    <string name="you_can_skip_this_ad_in" source="google_translate">%d இல் இந்த விளம்பரத்தை தவிர்க்கலாம்</string>
+    <string name="clearing_cache_etc" source="google_translate">கேச் சுத்தமாக்குகிறது ...</string>
+    <string name="cache_cleared" source="google_translate">கேச் அழிக்கப்பட்டது</string>
+    <string name="not_connected_to_engine" source="google_translate">இயந்திரத்துடன் இணைக்கப்படவில்லை</string>
+    <string name="gdpr_consent_pref_title" source="google_translate">ஜி.டி.பிஆர் ஒப்புதல்</string>
+    <string name="gdpr_consent_pref_summary" source="google_translate">ஜி.டி.பிஆர் ஒப்புதல்</string>
+    <string name="application" source="google_translate">விண்ணப்ப</string>
+    <string name="device_name" source="google_translate">சாதனத்தின் பெயர்</string>
+    <string name="empty_playlist" source="google_translate">வெற்று பிளேலிஸ்ட்</string>
+    <string name="profile" source="google_translate">விவரம்</string>
+    <string name="not_selected" source="google_translate">தேர்ந்தெடுக்கப்படவில்லை</string>
+    <string name="restart_application" source="google_translate">விண்ணப்பத்தை மறுதொடக்கம் செய்யுங்கள்</string>
+    <string name="restart_confirmation" source="google_translate">இப்போது பயன்பாட்டை மறுதொடக்கம் செய்கிறீர்களா?</string>
+    <string name="parsing_transport_files" source="google_translate">போக்குவரத்து கோப்புகளை பாகுபடுத்தி</string>
+    <string name="user_profile" source="google_translate">பயனர் சுயவிவரம்</string>
+    <string name="account_balance" source="google_translate">கணக்கு இருப்பு</string>
+</resources>

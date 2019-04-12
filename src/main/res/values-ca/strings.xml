@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lbl_version" source="google_translate">Versió</string>
+    <string name="lbl_portal" source="google_translate">Portal d\'informació</string>
+    <string name="lbl_prefshththtml" source="google_translate">Configuració</string>
+    <string name="lbl_account" source="google_translate">Compte</string>
+    <string name="lbl_sign_out" source="google_translate">Tanca sessió</string>
+    <string name="menu_prefs" source="google_translate">Configuració</string>
+    <string name="menu_profile" source="google_translate">Perfil d\'usuari</string>
+    <string name="menu_services" source="google_translate">Serveis</string>
+    <string name="menu_clearcache" source="google_translate">Netejar memòria cau</string>
+    <string name="menu_quit" source="google_translate">Sortiu</string>
+    <string name="menu_action_fail" source="google_translate">No es pot executar aquesta acció amb motor no actiu</string>
+    <string name="dialog_wait" source="google_translate">Espereu</string>
+    <string name="dialog_unpack" source="google_translate">Desempaquetant</string>
+    <string name="dialog_start" source="google_translate">Començant</string>
+    <string name="dialog_prefs" source="google_translate">S\'estan recuperant les preferències</string>
+    <string name="dialog_services" source="google_translate">Recuperació de la llista de serveis</string>
+    <string name="dialog_cache" source="google_translate">S\'està netejant la memòria cau</string>
+    <string name="dialog_shutdown" source="google_translate">Apagat</string>
+    <string name="dialog_no_connection" source="google_translate">No hi ha connexió a Internet disponible. El servei Ace Stream Engine s\'iniciarà automàticament després de la connexió.</string>
+    <string name="task_prefs_fail" source="google_translate">S\'està recuperant l\'error de configuració</string>
+    <string name="task_services_fail" source="google_translate">S\'està recuperant l\'error dels serveis</string>
+    <string name="start_ok" source="google_translate">Comenceu a triomfar</string>
+    <string name="start_fail" source="google_translate">No s\'ha pogut iniciar</string>
+    <string name="notify_starting" source="google_translate">Ociós</string>
+    <string name="notify_unpack" source="google_translate">Desempaquetant en procés</string>
+    <string name="notify_unpack_complete" source="google_translate">Desembalatge completat</string>
+    <string name="notify_connect" source="google_translate">Connexió</string>
+    <string name="notify_connect_complete" source="google_translate">S\'ha completat la connexió</string>
+    <string name="notify_running" source="google_translate">Corrent</string>
+    <string name="notify_stopped" source="google_translate">S\'ha aturat</string>
+    <string name="notify_error" source="google_translate">Error</string>
+    <string name="notify_wait_connection" source="google_translate">No hi ha connexió de xarxa disponible</string>
+    <string name="prefs_group_main" source="google_translate">Principals preferències</string>
+    <string name="prefs_item_mobile" source="google_translate">Accés a dades de xarxes mòbils</string>
+    <string name="prefs_item_mobile_summary" source="google_translate">Activa l\'accés a les dades mitjançant xarxes mòbils</string>
+    <string name="prefs_item_vod_buffer" source="google_translate">Buffer de VOD, s</string>
+    <string name="prefs_item_live_buffer" source="google_translate">Buffer en viu, s</string>
+    <string name="prefs_item_download_limit" source="google_translate">Límit de baixada (0 - sense límit), Kb / s</string>
+    <string name="prefs_item_upload_limit" source="google_translate">Límit de càrrega (0 - sense límit), Kb / s</string>
+    <string name="prefs_group_advanced" source="google_translate">Preferències avançades</string>
+    <string name="prefs_item_port" source="google_translate">Port</string>
+    <string name="prefs_item_total_max_connects" source="google_translate">Max es connecta</string>
+    <string name="prefs_item_download_max_connects" source="google_translate">Baixa max connects</string>
+    <string name="prefs_group_profile" source="google_translate">Perfil d\'usuari</string>
+    <string name="prefs_item_gender" source="google_translate">Gènere</string>
+    <string name="prefs_item_age" source="google_translate">Edat</string>
+    <string name="prefs_item_login" source="google_translate">iniciar Sessió</string>
+    <string name="prefs_item_password" source="google_translate">Contrasenya</string>
+    <string name="prefs_gender_value_male" source="google_translate">Home</string>
+    <string name="prefs_gender_value_female" source="google_translate">Dona</string>
+    <string name="prefs_age_value_under13" source="google_translate">Menors de 13 anys</string>
+    <string name="prefs_age_value_above64" source="google_translate">Per sobre de 64</string>
+    <string name="prefs_group_cache" source="google_translate">Configuració de la memòria cau</string>
+    <string name="prefs_item_disk_cache_limit" source="google_translate">Límit de memòria cau de disc, Mb</string>
+    <string name="prefs_item_memory_cache_limit" source="google_translate">Límit de la memòria RAM, Mb</string>
+    <string name="prefs_item_cache_dir" source="google_translate">Directori de memòria cau</string>
+    <string name="prefs_cache_live_use_disk" source="google_translate">Utilitzeu el disc per viure</string>
+    <string name="prefs_cache_vod_use_disk" source="google_translate">Utilitzeu el disc per a VOD</string>
+    <string name="prefs_output_format_live" source="google_translate">Format de sortida (en viu)</string>
+    <string name="prefs_output_format_vod" source="google_translate">Format de sortida (VOD)</string>
+    <string name="extension_name" source="google_translate">Nom:</string>
+    <string name="extension_description" source="google_translate">Descripció:</string>
+    <string name="extension_issued_by" source="google_translate">Emès per:</string>
+    <string name="extension_url" source="google_translate">Url:</string>
+    <string name="extension_enabled" source="google_translate">Activat:</string>
+    <string name="extension_valid_from" source="google_translate">Vàlid des de:</string>
+    <string name="extension_valid_to" source="google_translate">Vàlid per a:</string>
+    <string name="no_services" source="google_translate">Sense serveis</string>
+    <string name="message_unsupported_cpu" source="google_translate">La teva CPU encara no és compatible.</string>
+    <string name="starting" source="google_translate">S\'està iniciant ...</string>
+    <string name="starting_player" source="google_translate">Jugador iniciant ...</string>
+    <string name="install" source="google_translate">Instal·lar</string>
+    <string name="close" source="google_translate">Tanca</string>
+    <string name="no_players" source="google_translate">No s\'ha trobat cap jugador</string>
+    <string name="failed_to_start" source="google_translate">No s\'ha pogut iniciar</string>
+    <string name="option_proxy_server" source="google_translate">Servidor intermediari</string>
+    <string name="option_generic_premium" source="google_translate">Premium</string>
+    <string name="activate" source="google_translate">Activa</string>
+    <string name="prompt_email" source="google_translate">Correu electrònic</string>
+    <string name="prompt_password" source="google_translate">Contrasenya</string>
+    <string name="action_sign_in" source="google_translate">Inicieu sessió</string>
+    <string name="action_sign_in_or_register" source="google_translate">Inicieu sessió / registreu-vos</string>
+    <string name="action_sign_out" source="google_translate">Tanca sessió</string>
+    <string name="error_invalid_email" source="google_translate">Aquesta adreça electrònica no és vàlida</string>
+    <string name="error_invalid_password" source="google_translate">Aquesta contrasenya és massa curta</string>
+    <string name="error_field_required" source="google_translate">Aquest camp és obligatori</string>
+    <string name="upgrage_user_level" source="google_translate">Actualització</string>
+    <string name="select_file" source="google_translate">Seleccioneu un fitxer</string>
+    <string name="auth_error_user_not_found" source="google_translate">Usuari no trobat</string>
+    <string name="auth_error_user_disabled" source="google_translate">L\'usuari està desactivat</string>
+    <string name="auth_error_bad_password" source="google_translate">Aquesta contrasenya és incorrecta</string>
+    <string name="auth_internal_error" source="google_translate">Error intern. Proveu-ho més tard.</string>
+    <string name="auth_network_error" source="google_translate">Error de connexió. Proveu-ho més tard.</string>
+    <string name="auth_failed_error" source="google_translate">Auth ha fallat. Proveu-ho més tard.</string>
+    <string name="uninstall" source="google_translate">Desinstal·lació</string>
+    <string name="uninstall_prev_version_to_continue" source="google_translate">Heu de desinstal·lar la versió anterior per continuar</string>
+    <string name="prefs_allow_intranet_access" source="google_translate">Permet l\'accés a la intranet</string>
+    <string name="prefs_allow_remote_access" source="google_translate">Permet l\'accés remot</string>
+    <string name="error" source="google_translate">Error</string>
+    <string name="select_player" source="google_translate">Seleccioneu un jugador</string>
+    <string name="attention" source="google_translate">Atenció</string>
+    <string name="home" source="google_translate">Inici</string>
+    <string name="remote_control" source="google_translate">Control remot</string>
+    <string name="please_try_again" source="google_translate">Siusplau torna-ho a provar</string>
+    <string name="cannot_start_playback" source="google_translate">No es pot iniciar la reproducció</string>
+    <string name="device_disconnected" source="google_translate">Dispositiu desconnectat</string>
+    <string name="connection_failed" source="google_translate">Connexió fallida</string>
+    <string name="buffering" source="google_translate">Buffering</string>
+    <string name="remember_choice" source="google_translate">Recordeu l\'elecció</string>
+    <string name="prefs_transcode_ac3" source="google_translate">Transcode només AC3 a AAC per HLS</string>
+    <string name="ok_sure" source="google_translate">D\'acord, segur</string>
+    <string name="no_thanks" source="google_translate">No gràcies</string>
+    <string name="rate_yes" source="google_translate">Sí</string>
+    <string name="rate_not" source="google_translate">No realment</string>
+    <string name="rate_do_you_like" source="google_translate">Gaudint d\'Ace Stream?</string>
+    <string name="rate_on_google" source="google_translate">Què tal una habilitació a Google Play, llavors?</string>
+    <string name="rate_give_feedback" source="google_translate">T\'importa donar-nos algun comentari?</string>
+    <string name="prefs_transcode_audio" source="google_translate">Transcodifica tot l\'àudio a AAC per HLS</string>
+    <string name="want_restart" source="google_translate">Voleu reprendre la reproducció des de la darrera posició?</string>
+    <string name="restart_from_beginning" source="google_translate">Comença des del començament</string>
+    <string name="menu_content_id" source="google_translate">Introduïu l\'identificador de contingut</string>
+    <string name="enter_content_id" source="google_translate">Introduïu l\'identificador de contingut</string>
+    <string name="bad_content_id" source="google_translate">Identificador de contingut incorrecte</string>
+    <string name="send" source="google_translate">Enviar</string>
+    <string name="report_problem" source="google_translate">Informar d\'un problema</string>
+    <string name="report_has_been_sent" source="google_translate">S\'ha enviat un informe</string>
+    <string name="report_failed" source="google_translate">Error de l\'informe</string>
+    <string name="allow_mobile_networks" source="google_translate">Permetre l\'ús de xarxes mòbils?</string>
+    <string name="problem_description" source="google_translate">Descripció del problema</string>
+    <string name="directory_is_not_writable" source="google_translate">El directori no es pot escriure</string>
+    <string name="device_storage" source="google_translate">Emmagatzematge del dispositiu</string>
+    <string name="sd_card" source="google_translate">Targeta SD</string>
+    <string name="select_directory" source="google_translate">Seleccioneu el directori</string>
+    <string name="select_category" source="google_translate">Selecciona la categoria</string>
+    <string name="language" source="google_translate">Llenguatge</string>
+    <string name="sign_in_or_register" source="google_translate">Inicieu sessió o registreu-vos a Ace Stream</string>
+    <string name="sign_in_or_register_continue" source="google_translate">Inicieu sessió o registreu-vos per continuar</string>
+    <string name="selected_player" source="google_translate">Jugador seleccionat</string>
+    <string name="opengl_usage" source="google_translate">Ús OpenGL ES2</string>
+    <string name="auto" source="google_translate">Auto</string>
+    <string name="force_on" source="google_translate">Force On</string>
+    <string name="force_off" source="google_translate">Força fora</string>
+    <string name="video_hardware_acceleration" source="google_translate">Acceleració de maquinari de vídeo</string>
+    <string name="disabled" source="google_translate">Desactivat</string>
+    <string name="decoding_acceleration" source="google_translate">Acceleració per a la descodificació</string>
+    <string name="full_acceleration" source="google_translate">Acceleració completa</string>
+    <string name="show_debug_info" source="google_translate">Mostra la informació de depuració</string>
+    <string name="enable_debug_logging" source="google_translate">Habilita el registre de depuració</string>
+    <string name="start_acecast_server" source="google_translate">Comenceu el servidor AceCast</string>
+    <string name="avi_opendml_warning" source="google_translate">És possible que aquest vídeo no es reprodueixi correctament a Ace Stream reproductor. Tria un altre jugador?</string>
+    <string name="player_preferences" source="google_translate">Configuració del reproductor</string>
+    <string name="ads_preferences" source="google_translate">Configuració dels anuncis</string>
+    <string name="ads_preferences_short" source="google_translate">Anuncis</string>
+    <string name="show_lock_button" source="google_translate">Mostra el botó de bloqueig</string>
+    <string name="engine_preferences" source="google_translate">Configuració del motor</string>
+    <string name="engine_preferences_short" source="google_translate">Motor</string>
+    <string name="need_proxy_server_option" source="google_translate">Heu d\'activar l\'opció Proxy Server per veure el contingut dels reproductors externs. O podeu veure contingut de forma gratuïta a Ace Player</string>
+    <string name="need_proxy_server_option_tmp" source="google_translate">Per mirar contingut, heu d\'activar l\'opció Proxy Server o actualitzar l\'aplicació Ace Stream</string>
+    <string name="pause_on_audiofocus_loss" source="google_translate">Pausa en la pèrdua d\'audiofoc</string>
+    <string name="upgrade" source="google_translate">Actualització</string>
+    <string name="to_continue_visit_link" source="google_translate">Per continuar, visiteu aquest enllaç:</string>
+    <string name="and_enter_pin" source="google_translate">i introduïu el PIN:</string>
+    <string name="gdpr_consent" source="google_translate">Consentiment de GDPR</string>
+    <string name="show_rewarded_ads" source="google_translate">Mostra anuncis premiats</string>
+    <string name="show_ads_on_main_screen" source="google_translate">Mostra anuncis a la pantalla principal</string>
+    <string name="show_ads_on_preroll" source="google_translate">Mostra anuncis a preroll</string>
+    <string name="show_ads_on_pause" source="google_translate">Mostra anuncis en pausa</string>
+    <string name="show_ads_on_close" source="google_translate">Mostra els anuncis al reproductor tancat</string>
+    <string name="agreement" source="google_translate">Acord</string>
+    <string name="license_agreement" source="google_translate">Acord de llicència</string>
+    <string name="privacy_policy" source="google_translate">Política de privacitat</string>
+    <string name="application_version" source="google_translate">Versió d\'aplicació</string>
+    <string name="disable_ads" source="google_translate">Desactiva anuncis</string>
+    <string name="learn_more" source="google_translate">Aprèn més</string>
+    <string name="skip_ad" source="google_translate">Saltar anunci</string>
+    <string name="you_can_skip_this_ad_in" source="google_translate">Podeu ometre aquest anunci a %d</string>
+    <string name="clearing_cache_etc" source="google_translate">S\'està netejant la memòria cau ...</string>
+    <string name="cache_cleared" source="google_translate">S\'ha eliminat la memòria cau</string>
+    <string name="not_connected_to_engine" source="google_translate">No connectat al motor</string>
+    <string name="gdpr_consent_pref_title" source="google_translate">Consentiment de GDPR</string>
+    <string name="gdpr_consent_pref_summary" source="google_translate">Consentiment de GDPR</string>
+    <string name="application" source="google_translate">Sol·licitud</string>
+    <string name="device_name" source="google_translate">Nom del dispositiu</string>
+    <string name="empty_playlist" source="google_translate">Llista de reproducció buida</string>
+    <string name="profile" source="google_translate">Perfil</string>
+    <string name="not_selected" source="google_translate">No seleccionat</string>
+    <string name="restart_application" source="google_translate">Reinicia l\'aplicació</string>
+    <string name="restart_confirmation" source="google_translate">Torna a iniciar l\'aplicació ara?</string>
+    <string name="parsing_transport_files" source="google_translate">Analitzant els fitxers de transport</string>
+    <string name="user_profile" source="google_translate">Perfil d\'usuari</string>
+    <string name="account_balance" source="google_translate">Saldo del compte</string>
+</resources>

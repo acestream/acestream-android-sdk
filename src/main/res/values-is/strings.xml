@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lbl_version" source="google_translate">Útgáfa</string>
+    <string name="lbl_portal" source="google_translate">Upplýsingamiðstöð</string>
+    <string name="lbl_prefshththtml" source="google_translate">Stillingar</string>
+    <string name="lbl_account" source="google_translate">Reikningur</string>
+    <string name="lbl_sign_out" source="google_translate">Útskrá</string>
+    <string name="menu_prefs" source="google_translate">Stillingar</string>
+    <string name="menu_profile" source="google_translate">Notendaprófíll</string>
+    <string name="menu_services" source="google_translate">Þjónusta</string>
+    <string name="menu_clearcache" source="google_translate">Hreinsa skyndiminni</string>
+    <string name="menu_quit" source="google_translate">Hætta</string>
+    <string name="menu_action_fail" source="google_translate">Ekki er hægt að framkvæma þessa aðgerð með óvirkum vél</string>
+    <string name="dialog_wait" source="google_translate">Vinsamlegast bíðið</string>
+    <string name="dialog_unpack" source="google_translate">Upphlaðið</string>
+    <string name="dialog_start" source="google_translate">Byrjun</string>
+    <string name="dialog_prefs" source="google_translate">Sæki óskir</string>
+    <string name="dialog_services" source="google_translate">Sæki lista yfir þjónustu</string>
+    <string name="dialog_cache" source="google_translate">Hreinsa skyndiminni</string>
+    <string name="dialog_shutdown" source="google_translate">Shutdowning</string>
+    <string name="dialog_no_connection" source="google_translate">Engin tiltæk nettenging. Ace Stream Vélþjónustan hefst sjálfkrafa eftir tengingu.</string>
+    <string name="task_prefs_fail" source="google_translate">Sæki stillingarvillu</string>
+    <string name="task_services_fail" source="google_translate">Sækir þjónustusvilla</string>
+    <string name="start_ok" source="google_translate">Byrja að ná árangri</string>
+    <string name="start_fail" source="google_translate">Byrjun mistókst</string>
+    <string name="notify_starting" source="google_translate">Aðgerðalaus</string>
+    <string name="notify_unpack" source="google_translate">Uppfylling í gangi</string>
+    <string name="notify_unpack_complete" source="google_translate">Uppfylling lokið</string>
+    <string name="notify_connect" source="google_translate">Tengist</string>
+    <string name="notify_connect_complete" source="google_translate">Tenging lokið</string>
+    <string name="notify_running" source="google_translate">Hlaupandi</string>
+    <string name="notify_stopped" source="google_translate">Stöðvuð</string>
+    <string name="notify_error" source="google_translate">Villa</string>
+    <string name="notify_wait_connection" source="google_translate">Engin tiltæk nettengingu</string>
+    <string name="prefs_group_main" source="google_translate">Helstu óskir</string>
+    <string name="prefs_item_mobile" source="google_translate">Gagnaaðgang farsímaneta</string>
+    <string name="prefs_item_mobile_summary" source="google_translate">Gakktu úr gagnaaðgangi yfir farsímanet</string>
+    <string name="prefs_item_vod_buffer" source="google_translate">VOD biðminni, s</string>
+    <string name="prefs_item_live_buffer" source="google_translate">Lifandi biðminni, s</string>
+    <string name="prefs_item_download_limit" source="google_translate">Niðurhal takmörk (0 - engin takmörk), Kb / s</string>
+    <string name="prefs_item_upload_limit" source="google_translate">Hlaða takmörk (0 - engin takmörk), Kb / s</string>
+    <string name="prefs_group_advanced" source="google_translate">Ítarlegar stillingar</string>
+    <string name="prefs_item_port" source="google_translate">Höfn</string>
+    <string name="prefs_item_total_max_connects" source="google_translate">Max tengist</string>
+    <string name="prefs_item_download_max_connects" source="google_translate">Hlaða niður hámarks tengingu</string>
+    <string name="prefs_group_profile" source="google_translate">Notendaprófíll</string>
+    <string name="prefs_item_gender" source="google_translate">Kyn</string>
+    <string name="prefs_item_age" source="google_translate">Aldur</string>
+    <string name="prefs_item_login" source="google_translate">Skrá inn</string>
+    <string name="prefs_item_password" source="google_translate">Lykilorð</string>
+    <string name="prefs_gender_value_male" source="google_translate">Karlkyns</string>
+    <string name="prefs_gender_value_female" source="google_translate">Kona</string>
+    <string name="prefs_age_value_under13" source="google_translate">Undir 13</string>
+    <string name="prefs_age_value_above64" source="google_translate">Yfir 64</string>
+    <string name="prefs_group_cache" source="google_translate">Skyndiminni stillingar</string>
+    <string name="prefs_item_disk_cache_limit" source="google_translate">Diskur skyndiminni, Mb</string>
+    <string name="prefs_item_memory_cache_limit" source="google_translate">RAM skyndiminni, Mb</string>
+    <string name="prefs_item_cache_dir" source="google_translate">Skyndiminni</string>
+    <string name="prefs_cache_live_use_disk" source="google_translate">Notaðu diskinn til að lifa</string>
+    <string name="prefs_cache_vod_use_disk" source="google_translate">Notaðu disk fyrir VOD</string>
+    <string name="prefs_output_format_live" source="google_translate">Output snið (Live)</string>
+    <string name="prefs_output_format_vod" source="google_translate">Output snið (VOD)</string>
+    <string name="extension_name" source="google_translate">Nafn:</string>
+    <string name="extension_description" source="google_translate">Lýsing:</string>
+    <string name="extension_issued_by" source="google_translate">Gefið út af:</string>
+    <string name="extension_url" source="google_translate">Url:</string>
+    <string name="extension_enabled" source="google_translate">Virkja:</string>
+    <string name="extension_valid_from" source="google_translate">Gildir frá:</string>
+    <string name="extension_valid_to" source="google_translate">Gildir til:</string>
+    <string name="no_services" source="google_translate">Engin þjónusta</string>
+    <string name="message_unsupported_cpu" source="google_translate">CPU þín er ekki studd ennþá.</string>
+    <string name="starting" source="google_translate">Byrjar ...</string>
+    <string name="starting_player" source="google_translate">Byrjar leikmaður ...</string>
+    <string name="install" source="google_translate">Setja upp</string>
+    <string name="close" source="google_translate">Loka</string>
+    <string name="no_players" source="google_translate">Engar leikmenn fundust</string>
+    <string name="failed_to_start" source="google_translate">Mistókst að byrja</string>
+    <string name="option_proxy_server" source="google_translate">Proxy Server</string>
+    <string name="option_generic_premium" source="google_translate">Premium</string>
+    <string name="activate" source="google_translate">Virkja</string>
+    <string name="prompt_email" source="google_translate">Email</string>
+    <string name="prompt_password" source="google_translate">Lykilorð</string>
+    <string name="action_sign_in" source="google_translate">Skráðu þig inn</string>
+    <string name="action_sign_in_or_register" source="google_translate">Skráðu þig inn / Nýskráning</string>
+    <string name="action_sign_out" source="google_translate">Útskrá</string>
+    <string name="error_invalid_email" source="google_translate">Þetta netfang er ógilt</string>
+    <string name="error_invalid_password" source="google_translate">Þetta lykilorð er of stutt</string>
+    <string name="error_field_required" source="google_translate">Þetta reit er krafist</string>
+    <string name="upgrage_user_level" source="google_translate">Uppfærsla</string>
+    <string name="select_file" source="google_translate">Veldu skrá</string>
+    <string name="auth_error_user_not_found" source="google_translate">Notandi finnst ekki</string>
+    <string name="auth_error_user_disabled" source="google_translate">Notandi er óvirkur</string>
+    <string name="auth_error_bad_password" source="google_translate">Þetta lykilorð er rangt</string>
+    <string name="auth_internal_error" source="google_translate">Innri villa. Vinsamlegast reyndu síðar.</string>
+    <string name="auth_network_error" source="google_translate">Net villa. Vinsamlegast reyndu síðar.</string>
+    <string name="auth_failed_error" source="google_translate">Auth mistókst. Vinsamlegast reyndu síðar.</string>
+    <string name="uninstall" source="google_translate">Uninstall</string>
+    <string name="uninstall_prev_version_to_continue" source="google_translate">Þú þarft að fjarlægja fyrri útgáfu til að halda áfram</string>
+    <string name="prefs_allow_intranet_access" source="google_translate">Leyfa aðgang að netinu</string>
+    <string name="prefs_allow_remote_access" source="google_translate">Leyfa fjarlægri aðgangur</string>
+    <string name="error" source="google_translate">Villa</string>
+    <string name="select_player" source="google_translate">Veldu leikmaður</string>
+    <string name="attention" source="google_translate">Athygli</string>
+    <string name="home" source="google_translate">Heim</string>
+    <string name="remote_control" source="google_translate">Fjarstýring</string>
+    <string name="please_try_again" source="google_translate">Vinsamlegast reyndu aftur</string>
+    <string name="cannot_start_playback" source="google_translate">Ekki er hægt að hefja spilun</string>
+    <string name="device_disconnected" source="google_translate">Tæki ótengdur</string>
+    <string name="connection_failed" source="google_translate">Tenging mistókst</string>
+    <string name="buffering" source="google_translate">Buffering</string>
+    <string name="remember_choice" source="google_translate">Mundu að velja</string>
+    <string name="prefs_transcode_ac3" source="google_translate">Umritaðu aðeins AC3 til AAC fyrir HLS</string>
+    <string name="ok_sure" source="google_translate">Allt í lagi</string>
+    <string name="no_thanks" source="google_translate">Nei takk</string>
+    <string name="rate_yes" source="google_translate">Já!</string>
+    <string name="rate_not" source="google_translate">Eiginlega ekki</string>
+    <string name="rate_do_you_like" source="google_translate">Njóttu Ace Stream?</string>
+    <string name="rate_on_google" source="google_translate">Hvað með einkunnina á Google Play, þá?</string>
+    <string name="rate_give_feedback" source="google_translate">Viltu hafa í huga að gefa okkur nokkrar athugasemdir?</string>
+    <string name="prefs_transcode_audio" source="google_translate">Umritaðu öll hljóð í AAC fyrir HLS</string>
+    <string name="want_restart" source="google_translate">Viltu halda áfram spilun frá síðustu stöðu?</string>
+    <string name="restart_from_beginning" source="google_translate">Byrja frá upphafi</string>
+    <string name="menu_content_id" source="google_translate">Sláðu inn Content ID</string>
+    <string name="enter_content_id" source="google_translate">Sláðu inn Content ID</string>
+    <string name="bad_content_id" source="google_translate">Bad Content ID</string>
+    <string name="send" source="google_translate">Senda</string>
+    <string name="report_problem" source="google_translate">Tilkynna um vandamál</string>
+    <string name="report_has_been_sent" source="google_translate">Skýrsla hefur verið send</string>
+    <string name="report_failed" source="google_translate">Skýrsla mistókst</string>
+    <string name="allow_mobile_networks" source="google_translate">Leyfa notkun farsíma farsímans?</string>
+    <string name="problem_description" source="google_translate">Vandamála lýsing</string>
+    <string name="directory_is_not_writable" source="google_translate">Símaskrá er ekki skrifað</string>
+    <string name="device_storage" source="google_translate">Tæki Bílskúr</string>
+    <string name="sd_card" source="google_translate">SD kort</string>
+    <string name="select_directory" source="google_translate">Veldu möppu</string>
+    <string name="select_category" source="google_translate">Veldu flokk</string>
+    <string name="language" source="google_translate">Tungumál</string>
+    <string name="sign_in_or_register" source="google_translate">Skráðu þig inn eða skráðu þig í Ace Stream</string>
+    <string name="sign_in_or_register_continue" source="google_translate">Skráðu þig inn eða skráðu þig til að halda áfram</string>
+    <string name="selected_player" source="google_translate">Valdar leikmaður</string>
+    <string name="opengl_usage" source="google_translate">OpenGL ES2 notkun</string>
+    <string name="auto" source="google_translate">Sjálfvirk</string>
+    <string name="force_on" source="google_translate">Kraftur á</string>
+    <string name="force_off" source="google_translate">Kveiktu á</string>
+    <string name="video_hardware_acceleration" source="google_translate">Video Vélbúnaður hröðun</string>
+    <string name="disabled" source="google_translate">Óvirk</string>
+    <string name="decoding_acceleration" source="google_translate">Afkóðunarhraða</string>
+    <string name="full_acceleration" source="google_translate">Full hröðun</string>
+    <string name="show_debug_info" source="google_translate">Sýna kembiforrit upplýsingar</string>
+    <string name="enable_debug_logging" source="google_translate">Virkja innskráningu flókna</string>
+    <string name="start_acecast_server" source="google_translate">Byrjaðu AceCast Server</string>
+    <string name="avi_opendml_warning" source="google_translate">Þetta myndband getur ekki spilað rétt í Ace Stream leikmaður. Veldu annan leikmann?</string>
+    <string name="player_preferences" source="google_translate">Spilarastillingar</string>
+    <string name="ads_preferences" source="google_translate">Auglýsingar stillingar</string>
+    <string name="ads_preferences_short" source="google_translate">Auglýsingar</string>
+    <string name="show_lock_button" source="google_translate">Sýna læsingartakki</string>
+    <string name="engine_preferences" source="google_translate">Vélstillingar</string>
+    <string name="engine_preferences_short" source="google_translate">Vél</string>
+    <string name="need_proxy_server_option" source="google_translate">Þú þarft að virkja Proxy Server valkostinn til að horfa á efni í utanaðkomandi leikmönnum. Eða þú getur horft á efni ókeypis í Ace Player</string>
+    <string name="need_proxy_server_option_tmp" source="google_translate">Til að horfa á efni sem þú þarft að virkja Proxy Server valkost eða uppfæra Ace Stream app</string>
+    <string name="pause_on_audiofocus_loss" source="google_translate">Hlé á hljóðfókusfalli</string>
+    <string name="upgrade" source="google_translate">Uppfærsla</string>
+    <string name="to_continue_visit_link" source="google_translate">Til að halda áfram að heimsækja þennan tengil:</string>
+    <string name="and_enter_pin" source="google_translate">og sláðu inn PIN:</string>
+    <string name="gdpr_consent" source="google_translate">GDPR Samþykki</string>
+    <string name="show_rewarded_ads" source="google_translate">Sýna verðlaunaðar auglýsingar</string>
+    <string name="show_ads_on_main_screen" source="google_translate">Sýna auglýsingar á aðalskjánum</string>
+    <string name="show_ads_on_preroll" source="google_translate">Sýna auglýsingar á preroll</string>
+    <string name="show_ads_on_pause" source="google_translate">Sýna auglýsingar í hlé</string>
+    <string name="show_ads_on_close" source="google_translate">Sýna auglýsingar á spilara nálægt</string>
+    <string name="agreement" source="google_translate">Samningur</string>
+    <string name="license_agreement" source="google_translate">Leyfisskilmálar</string>
+    <string name="privacy_policy" source="google_translate">Friðhelgisstefna</string>
+    <string name="application_version" source="google_translate">Umsókn útgáfa</string>
+    <string name="disable_ads" source="google_translate">Slökkva á auglýsingum</string>
+    <string name="learn_more" source="google_translate">Læra meira</string>
+    <string name="skip_ad" source="google_translate">Sleppa auglýsingu</string>
+    <string name="you_can_skip_this_ad_in" source="google_translate">Þú getur sleppt þessari auglýsingu í %d</string>
+    <string name="clearing_cache_etc" source="google_translate">Hreinsa skyndiminni ...</string>
+    <string name="cache_cleared" source="google_translate">Skyndiminni hreinsað</string>
+    <string name="not_connected_to_engine" source="google_translate">Ekki tengdur við vél</string>
+    <string name="gdpr_consent_pref_title" source="google_translate">GDPR Samþykki</string>
+    <string name="gdpr_consent_pref_summary" source="google_translate">GDPR Samþykki</string>
+    <string name="application" source="google_translate">Umsókn</string>
+    <string name="device_name" source="google_translate">Nafn tækis</string>
+    <string name="empty_playlist" source="google_translate">Tóm spilunarlisti</string>
+    <string name="profile" source="google_translate">Prófíll</string>
+    <string name="not_selected" source="google_translate">Ekki valið</string>
+    <string name="restart_application" source="google_translate">Endurræstu forritið</string>
+    <string name="restart_confirmation" source="google_translate">Endurræstu forrit núna?</string>
+    <string name="parsing_transport_files" source="google_translate">Flokka flutningsskrár</string>
+    <string name="user_profile" source="google_translate">Notendaprófíll</string>
+    <string name="account_balance" source="google_translate">Staða reiknings</string>
+</resources>

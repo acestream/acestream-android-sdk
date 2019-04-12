@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lbl_version" source="google_translate">번역</string>
+    <string name="lbl_portal" source="google_translate">정보 포털</string>
+    <string name="lbl_prefshththtml" source="google_translate">설정</string>
+    <string name="lbl_account" source="google_translate">계정</string>
+    <string name="lbl_sign_out" source="google_translate">로그 아웃</string>
+    <string name="menu_prefs" source="google_translate">설정</string>
+    <string name="menu_profile" source="google_translate">유저 프로필</string>
+    <string name="menu_services" source="google_translate">서비스</string>
+    <string name="menu_clearcache" source="google_translate">캐시 지우기</string>
+    <string name="menu_quit" source="google_translate">떠나다</string>
+    <string name="menu_action_fail" source="google_translate">비활성 엔진으로이 작업을 실행할 수 없습니다.</string>
+    <string name="dialog_wait" source="google_translate">기다려주세요.</string>
+    <string name="dialog_unpack" source="google_translate">포장 풀기</string>
+    <string name="dialog_start" source="google_translate">시작 중</string>
+    <string name="dialog_prefs" source="google_translate">환경 설정 가져 오기</string>
+    <string name="dialog_services" source="google_translate">서비스 목록 검색 중</string>
+    <string name="dialog_cache" source="google_translate">캐시 지우기</string>
+    <string name="dialog_shutdown" source="google_translate">셧다운</string>
+    <string name="dialog_no_connection" source="google_translate">사용 가능한 인터넷 연결이 없습니다. Ace Stream Engine 서비스는 연결 후 자동으로 시작됩니다.</string>
+    <string name="task_prefs_fail" source="google_translate">설정 오류 검색 중</string>
+    <string name="task_services_fail" source="google_translate">서비스 오류 검색 중</string>
+    <string name="start_ok" source="google_translate">시작 성공</string>
+    <string name="start_fail" source="google_translate">시작 실패</string>
+    <string name="notify_starting" source="google_translate">게으른</string>
+    <string name="notify_unpack" source="google_translate">진행 중 포장 풀기</string>
+    <string name="notify_unpack_complete" source="google_translate">포장 풀기가 완료되었습니다.</string>
+    <string name="notify_connect" source="google_translate">연결 중</string>
+    <string name="notify_connect_complete" source="google_translate">연결이 완료되었습니다.</string>
+    <string name="notify_running" source="google_translate">달리는</string>
+    <string name="notify_stopped" source="google_translate">중지됨</string>
+    <string name="notify_error" source="google_translate">오류</string>
+    <string name="notify_wait_connection" source="google_translate">사용 가능한 네트워크 연결 없음</string>
+    <string name="prefs_group_main" source="google_translate">주요 환경 설정</string>
+    <string name="prefs_item_mobile" source="google_translate">모바일 네트워크 데이터 액세스</string>
+    <string name="prefs_item_mobile_summary" source="google_translate">모바일 네트워크에서 데이터 액세스 사용</string>
+    <string name="prefs_item_vod_buffer" source="google_translate">VOD 버퍼, s</string>
+    <string name="prefs_item_live_buffer" source="google_translate">라이브 버퍼, s</string>
+    <string name="prefs_item_download_limit" source="google_translate">다운로드 제한 (0 - 제한 없음), Kb / s</string>
+    <string name="prefs_item_upload_limit" source="google_translate">업로드 한도 (0 - 제한 없음), Kb / s</string>
+    <string name="prefs_group_advanced" source="google_translate">고급 환경 설정</string>
+    <string name="prefs_item_port" source="google_translate">포트</string>
+    <string name="prefs_item_total_max_connects" source="google_translate">최대 연결</string>
+    <string name="prefs_item_download_max_connects" source="google_translate">max connections 다운로드</string>
+    <string name="prefs_group_profile" source="google_translate">유저 프로필</string>
+    <string name="prefs_item_gender" source="google_translate">성별</string>
+    <string name="prefs_item_age" source="google_translate">나이</string>
+    <string name="prefs_item_login" source="google_translate">로그인</string>
+    <string name="prefs_item_password" source="google_translate">암호</string>
+    <string name="prefs_gender_value_male" source="google_translate">남성</string>
+    <string name="prefs_gender_value_female" source="google_translate">여자</string>
+    <string name="prefs_age_value_under13" source="google_translate">13 세 미만</string>
+    <string name="prefs_age_value_above64" source="google_translate">64 세 이상</string>
+    <string name="prefs_group_cache" source="google_translate">캐시 설정</string>
+    <string name="prefs_item_disk_cache_limit" source="google_translate">디스크 캐시 한계, Mb</string>
+    <string name="prefs_item_memory_cache_limit" source="google_translate">RAM 캐시 한계, Mb</string>
+    <string name="prefs_item_cache_dir" source="google_translate">캐시 디렉토리</string>
+    <string name="prefs_cache_live_use_disk" source="google_translate">라이브 디스크 사용</string>
+    <string name="prefs_cache_vod_use_disk" source="google_translate">VOD 용 디스크 사용</string>
+    <string name="prefs_output_format_live" source="google_translate">출력 형식 (라이브)</string>
+    <string name="prefs_output_format_vod" source="google_translate">출력 형식 (VOD)</string>
+    <string name="extension_name" source="google_translate">이름:</string>
+    <string name="extension_description" source="google_translate">기술:</string>
+    <string name="extension_issued_by" source="google_translate">발행자 :</string>
+    <string name="extension_url" source="google_translate">URL :</string>
+    <string name="extension_enabled" source="google_translate">사용 :</string>
+    <string name="extension_valid_from" source="google_translate">유효:</string>
+    <string name="extension_valid_to" source="google_translate">까지 유효하다:</string>
+    <string name="no_services" source="google_translate">서비스 없음</string>
+    <string name="message_unsupported_cpu" source="google_translate">CPU가 아직 지원되지 않습니다.</string>
+    <string name="starting" source="google_translate">시작 중 ...</string>
+    <string name="starting_player" source="google_translate">플레이어 시작 중 ...</string>
+    <string name="install" source="google_translate">설치</string>
+    <string name="close" source="google_translate">닫기</string>
+    <string name="no_players" source="google_translate">플레이어가 없습니다.</string>
+    <string name="failed_to_start" source="google_translate">시작하지 못했습니다.</string>
+    <string name="option_proxy_server" source="google_translate">프록시 서버</string>
+    <string name="option_generic_premium" source="google_translate">프리미엄</string>
+    <string name="activate" source="google_translate">활성화</string>
+    <string name="prompt_email" source="google_translate">이메일</string>
+    <string name="prompt_password" source="google_translate">암호</string>
+    <string name="action_sign_in" source="google_translate">로그인</string>
+    <string name="action_sign_in_or_register" source="google_translate">로그인 / 등록</string>
+    <string name="action_sign_out" source="google_translate">로그 아웃</string>
+    <string name="error_invalid_email" source="google_translate">이 이메일 주소는 유효하지 않습니다.</string>
+    <string name="error_invalid_password" source="google_translate">이 암호는 너무 짧습니다.</string>
+    <string name="error_field_required" source="google_translate">이 입력란은 필수 항목입니다.</string>
+    <string name="upgrage_user_level" source="google_translate">업그레이드</string>
+    <string name="select_file" source="google_translate">파일 선택</string>
+    <string name="auth_error_user_not_found" source="google_translate">사용자를 찾을 수 없음</string>
+    <string name="auth_error_user_disabled" source="google_translate">사용자가 사용 중지되었습니다.</string>
+    <string name="auth_error_bad_password" source="google_translate">이 암호가 잘못되었습니다.</string>
+    <string name="auth_internal_error" source="google_translate">내부 오류. 나중에 다시 시도 해주세요.</string>
+    <string name="auth_network_error" source="google_translate">네트워크 오류. 나중에 다시 시도 해주세요.</string>
+    <string name="auth_failed_error" source="google_translate">인증에 실패했습니다. 나중에 다시 시도 해주세요.</string>
+    <string name="uninstall" source="google_translate">제거</string>
+    <string name="uninstall_prev_version_to_continue" source="google_translate">계속하려면 이전 버전을 제거해야합니다.</string>
+    <string name="prefs_allow_intranet_access" source="google_translate">인트라넷 액세스 허용</string>
+    <string name="prefs_allow_remote_access" source="google_translate">원격 액세스 허용</string>
+    <string name="error" source="google_translate">오류</string>
+    <string name="select_player" source="google_translate">플레이어 선택</string>
+    <string name="attention" source="google_translate">주의</string>
+    <string name="home" source="google_translate">집</string>
+    <string name="remote_control" source="google_translate">리모콘</string>
+    <string name="please_try_again" source="google_translate">다시 시도해주세요.</string>
+    <string name="cannot_start_playback" source="google_translate">재생을 시작할 수 없습니다.</string>
+    <string name="device_disconnected" source="google_translate">기기 분리됨</string>
+    <string name="connection_failed" source="google_translate">연결에 실패</string>
+    <string name="buffering" source="google_translate">버퍼링</string>
+    <string name="remember_choice" source="google_translate">선택을 기억하십시오.</string>
+    <string name="prefs_transcode_ac3" source="google_translate">HLS 용 AC3 만 AAC로 트랜스 코드</string>
+    <string name="ok_sure" source="google_translate">OK, 확실하다.</string>
+    <string name="no_thanks" source="google_translate">괜찮습니다</string>
+    <string name="rate_yes" source="google_translate">예!</string>
+    <string name="rate_not" source="google_translate">별로 아니에요.</string>
+    <string name="rate_do_you_like" source="google_translate">에이스 시내 즐기기?</string>
+    <string name="rate_on_google" source="google_translate">그렇다면 Google Play 등급은 어떻습니까?</string>
+    <string name="rate_give_feedback" source="google_translate">의견을 보내 주시겠습니까?</string>
+    <string name="prefs_transcode_audio" source="google_translate">모든 오디오를 HLS 용 AAC로 변환</string>
+    <string name="want_restart" source="google_translate">마지막 위치에서 재생을 다시 시작 하시겠습니까?</string>
+    <string name="restart_from_beginning" source="google_translate">처음부터 시작</string>
+    <string name="menu_content_id" source="google_translate">콘텐츠 ID 입력</string>
+    <string name="enter_content_id" source="google_translate">콘텐츠 ID 입력</string>
+    <string name="bad_content_id" source="google_translate">잘못된 콘텐츠 ID</string>
+    <string name="send" source="google_translate">보내다</string>
+    <string name="report_problem" source="google_translate">문제 신고</string>
+    <string name="report_has_been_sent" source="google_translate">보고서가 전송되었습니다.</string>
+    <string name="report_failed" source="google_translate">보고서 실패</string>
+    <string name="allow_mobile_networks" source="google_translate">모바일 네트워크 사용을 허용 하시겠습니까?</string>
+    <string name="problem_description" source="google_translate">문제 설명</string>
+    <string name="directory_is_not_writable" source="google_translate">디렉토리에 쓸 수 없습니다.</string>
+    <string name="device_storage" source="google_translate">장치 저장소</string>
+    <string name="sd_card" source="google_translate">SD 카드</string>
+    <string name="select_directory" source="google_translate">디렉토리 선택</string>
+    <string name="select_category" source="google_translate">카테고리 선택</string>
+    <string name="language" source="google_translate">언어</string>
+    <string name="sign_in_or_register" source="google_translate">에이스 스트림에 로그인하거나 등록하십시오</string>
+    <string name="sign_in_or_register_continue" source="google_translate">계속하려면 로그인 또는 등록하십시오.</string>
+    <string name="selected_player" source="google_translate">선택된 선수</string>
+    <string name="opengl_usage" source="google_translate">OpenGL ES2 사용법</string>
+    <string name="auto" source="google_translate">자동</string>
+    <string name="force_on" source="google_translate">강제 시작</string>
+    <string name="force_off" source="google_translate">강제 종료</string>
+    <string name="video_hardware_acceleration" source="google_translate">비디오 하드웨어 가속</string>
+    <string name="disabled" source="google_translate">장애인</string>
+    <string name="decoding_acceleration" source="google_translate">가속화 디코딩</string>
+    <string name="full_acceleration" source="google_translate">전체 가속</string>
+    <string name="show_debug_info" source="google_translate">디버그 정보 표시</string>
+    <string name="enable_debug_logging" source="google_translate">디버그 로깅 사용</string>
+    <string name="start_acecast_server" source="google_translate">AceCast 서버 시작</string>
+    <string name="avi_opendml_warning" source="google_translate">이 비디오는 Ace Stream 플레이어에서 올바르게 재생되지 않을 수 있습니다. 다른 플레이어를 선택 하시겠습니까?</string>
+    <string name="player_preferences" source="google_translate">플레이어 설정</string>
+    <string name="ads_preferences" source="google_translate">광고 설정</string>
+    <string name="ads_preferences_short" source="google_translate">광고</string>
+    <string name="show_lock_button" source="google_translate">잠금 버튼 표시</string>
+    <string name="engine_preferences" source="google_translate">엔진 설정</string>
+    <string name="engine_preferences_short" source="google_translate">엔진</string>
+    <string name="need_proxy_server_option" source="google_translate">외부 플레이어의 콘텐츠를 보려면 프록시 서버 옵션을 활성화해야합니다. 또는 Ace Player에서 무료로 콘텐츠를 볼 수 있습니다.</string>
+    <string name="need_proxy_server_option_tmp" source="google_translate">콘텐츠를 보려면 Proxy Server 옵션을 활성화하거나 Ace Stream 앱을 업그레이드해야합니다.</string>
+    <string name="pause_on_audiofocus_loss" source="google_translate">오디오 포커스 손실시 일시 중지</string>
+    <string name="upgrade" source="google_translate">업그레이드</string>
+    <string name="to_continue_visit_link" source="google_translate">계속하려면 다음 링크를 방문하십시오.</string>
+    <string name="and_enter_pin" source="google_translate">PIN을 입력하십시오 :</string>
+    <string name="gdpr_consent" source="google_translate">GDPR 동의</string>
+    <string name="show_rewarded_ads" source="google_translate">보상 광고 표시</string>
+    <string name="show_ads_on_main_screen" source="google_translate">기본 화면에 광고 게재</string>
+    <string name="show_ads_on_preroll" source="google_translate">프리 롤에 광고 게재</string>
+    <string name="show_ads_on_pause" source="google_translate">일시 중지시 광고 게재</string>
+    <string name="show_ads_on_close" source="google_translate">플레이어 닫기에 광고 표시</string>
+    <string name="agreement" source="google_translate">협정</string>
+    <string name="license_agreement" source="google_translate">라이센스 계약</string>
+    <string name="privacy_policy" source="google_translate">개인 정보 정책</string>
+    <string name="application_version" source="google_translate">응용 프로그램 버전</string>
+    <string name="disable_ads" source="google_translate">광고 사용 중지</string>
+    <string name="learn_more" source="google_translate">더 알아보기</string>
+    <string name="skip_ad" source="google_translate">광고를 건너 뛸 수</string>
+    <string name="you_can_skip_this_ad_in" source="google_translate"> %d에서이 광고를 건너 뛸 수 있습니다.</string>
+    <string name="clearing_cache_etc" source="google_translate">캐시 지우기 ...</string>
+    <string name="cache_cleared" source="google_translate">캐시가 지워짐</string>
+    <string name="not_connected_to_engine" source="google_translate">엔진에 연결되지 않음</string>
+    <string name="gdpr_consent_pref_title" source="google_translate">GDPR 동의</string>
+    <string name="gdpr_consent_pref_summary" source="google_translate">GDPR 동의</string>
+    <string name="application" source="google_translate">신청</string>
+    <string name="device_name" source="google_translate">장치 이름</string>
+    <string name="empty_playlist" source="google_translate">빈 재생 목록</string>
+    <string name="profile" source="google_translate">윤곽</string>
+    <string name="not_selected" source="google_translate">선택되지 않은</string>
+    <string name="restart_application" source="google_translate">응용 프로그램 다시 시작</string>
+    <string name="restart_confirmation" source="google_translate">지금 응용 프로그램을 다시 시작 하시겠습니까?</string>
+    <string name="parsing_transport_files" source="google_translate">전송 파일 구문 분석</string>
+    <string name="user_profile" source="google_translate">유저 프로필</string>
+    <string name="account_balance" source="google_translate">계정 잔액</string>
+</resources>

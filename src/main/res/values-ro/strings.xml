@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lbl_version" source="google_translate">Versiune</string>
+    <string name="lbl_portal" source="google_translate">Portal de informare</string>
+    <string name="lbl_prefshththtml" source="google_translate">Setări</string>
+    <string name="lbl_account" source="google_translate">Cont</string>
+    <string name="lbl_sign_out" source="google_translate">Sign out</string>
+    <string name="menu_prefs" source="google_translate">Setări</string>
+    <string name="menu_profile" source="google_translate">Profilul utilizatorului</string>
+    <string name="menu_services" source="google_translate">Servicii</string>
+    <string name="menu_clearcache" source="google_translate">Ștergeți memoria cache</string>
+    <string name="menu_quit" source="google_translate">Părăsi</string>
+    <string name="menu_action_fail" source="google_translate">Nu se poate executa această acțiune cu un motor activ</string>
+    <string name="dialog_wait" source="google_translate">Te rog asteapta</string>
+    <string name="dialog_unpack" source="google_translate">Despachetarea</string>
+    <string name="dialog_start" source="google_translate">Pornire</string>
+    <string name="dialog_prefs" source="google_translate">Obținerea preferințelor</string>
+    <string name="dialog_services" source="google_translate">Preluarea listei de servicii</string>
+    <string name="dialog_cache" source="google_translate">Ștergerea memoriei cache</string>
+    <string name="dialog_shutdown" source="google_translate">Shutdowning</string>
+    <string name="dialog_no_connection" source="google_translate">Nu există conexiune la internet disponibilă. Serviciul Ace Stream Motor va începe automat după conectare.</string>
+    <string name="task_prefs_fail" source="google_translate">Returnați eroarea de setări</string>
+    <string name="task_services_fail" source="google_translate">Returnați eroarea de servicii</string>
+    <string name="start_ok" source="google_translate">Începeți</string>
+    <string name="start_fail" source="google_translate">Startul a eșuat</string>
+    <string name="notify_starting" source="google_translate">Inactiv</string>
+    <string name="notify_unpack" source="google_translate">Despachetarea în proces</string>
+    <string name="notify_unpack_complete" source="google_translate">Despachetarea a fost finalizată</string>
+    <string name="notify_connect" source="google_translate">conectarea</string>
+    <string name="notify_connect_complete" source="google_translate">Conectarea a fost terminată</string>
+    <string name="notify_running" source="google_translate">Alergare</string>
+    <string name="notify_stopped" source="google_translate">Oprit</string>
+    <string name="notify_error" source="google_translate">Eroare</string>
+    <string name="notify_wait_connection" source="google_translate">Nu există o conexiune de rețea disponibilă</string>
+    <string name="prefs_group_main" source="google_translate">Principalele preferințe</string>
+    <string name="prefs_item_mobile" source="google_translate">Accesul la rețelele de date mobile</string>
+    <string name="prefs_item_mobile_summary" source="google_translate">Activați accesul la date prin intermediul rețelelor mobile</string>
+    <string name="prefs_item_vod_buffer" source="google_translate">Tampon VOD, s</string>
+    <string name="prefs_item_live_buffer" source="google_translate">Tampon live, s</string>
+    <string name="prefs_item_download_limit" source="google_translate">Limita de descărcare (0 - fără limită), Kb / s</string>
+    <string name="prefs_item_upload_limit" source="google_translate">Limită de încărcare (0 - fără limită), Kb / s</string>
+    <string name="prefs_group_advanced" source="google_translate">Preferințe avansate</string>
+    <string name="prefs_item_port" source="google_translate">Port</string>
+    <string name="prefs_item_total_max_connects" source="google_translate">Max se conectează</string>
+    <string name="prefs_item_download_max_connects" source="google_translate">Descărcați conexiunile max</string>
+    <string name="prefs_group_profile" source="google_translate">Profilul utilizatorului</string>
+    <string name="prefs_item_gender" source="google_translate">Sex</string>
+    <string name="prefs_item_age" source="google_translate">Vârstă</string>
+    <string name="prefs_item_login" source="google_translate">Logare</string>
+    <string name="prefs_item_password" source="google_translate">Parola</string>
+    <string name="prefs_gender_value_male" source="google_translate">Masculin</string>
+    <string name="prefs_gender_value_female" source="google_translate">Femeie</string>
+    <string name="prefs_age_value_under13" source="google_translate">Sub 13</string>
+    <string name="prefs_age_value_above64" source="google_translate">Peste 64 de ani</string>
+    <string name="prefs_group_cache" source="google_translate">Setările cache-ului</string>
+    <string name="prefs_item_disk_cache_limit" source="google_translate">Limita cache-ului de disc, Mb</string>
+    <string name="prefs_item_memory_cache_limit" source="google_translate">RAM limită cache, Mb</string>
+    <string name="prefs_item_cache_dir" source="google_translate">Adresă cache</string>
+    <string name="prefs_cache_live_use_disk" source="google_translate">Utilizați discul live</string>
+    <string name="prefs_cache_vod_use_disk" source="google_translate">Utilizați discul pentru VOD</string>
+    <string name="prefs_output_format_live" source="google_translate">Formatul de ieșire (live)</string>
+    <string name="prefs_output_format_vod" source="google_translate">Formatul de ieșire (VOD)</string>
+    <string name="extension_name" source="google_translate">Nume:</string>
+    <string name="extension_description" source="google_translate">Descriere:</string>
+    <string name="extension_issued_by" source="google_translate">Emis de:</string>
+    <string name="extension_url" source="google_translate">Url:</string>
+    <string name="extension_enabled" source="google_translate">Activat:</string>
+    <string name="extension_valid_from" source="google_translate">Valabil de la:</string>
+    <string name="extension_valid_to" source="google_translate">Valabil pana la:</string>
+    <string name="no_services" source="google_translate">Fără servicii</string>
+    <string name="message_unsupported_cpu" source="google_translate">CPU-ul dvs. nu este încă acceptat.</string>
+    <string name="starting" source="google_translate">Pornire…</string>
+    <string name="starting_player" source="google_translate">Pornirea jucătorului ...</string>
+    <string name="install" source="google_translate">Instalare</string>
+    <string name="close" source="google_translate">Închide</string>
+    <string name="no_players" source="google_translate">Nu au fost găsiți jucători</string>
+    <string name="failed_to_start" source="google_translate">Eroare la pornire</string>
+    <string name="option_proxy_server" source="google_translate">Server proxy</string>
+    <string name="option_generic_premium" source="google_translate">premiu</string>
+    <string name="activate" source="google_translate">Activati</string>
+    <string name="prompt_email" source="google_translate">E-mail</string>
+    <string name="prompt_password" source="google_translate">Parola</string>
+    <string name="action_sign_in" source="google_translate">conectare</string>
+    <string name="action_sign_in_or_register" source="google_translate">Conectați-vă / Inregistreaza</string>
+    <string name="action_sign_out" source="google_translate">Sign out</string>
+    <string name="error_invalid_email" source="google_translate">Această adresă e-mail este nevalidă</string>
+    <string name="error_invalid_password" source="google_translate">Această parolă este prea scurtă</string>
+    <string name="error_field_required" source="google_translate">Acest câmp este obligatoriu</string>
+    <string name="upgrage_user_level" source="google_translate">Modernizare</string>
+    <string name="select_file" source="google_translate">Selectați fișierul</string>
+    <string name="auth_error_user_not_found" source="google_translate">Utilizator nu a fost găsit</string>
+    <string name="auth_error_user_disabled" source="google_translate">Utilizatorul este dezactivat</string>
+    <string name="auth_error_bad_password" source="google_translate">Această parolă este incorectă</string>
+    <string name="auth_internal_error" source="google_translate">Eroare internă. Te rog incearca mai tarziu.</string>
+    <string name="auth_network_error" source="google_translate">Eroare de rețea. Te rog incearca mai tarziu.</string>
+    <string name="auth_failed_error" source="google_translate">Auth nu a reușit. Te rog incearca mai tarziu.</string>
+    <string name="uninstall" source="google_translate">Dezinstalați</string>
+    <string name="uninstall_prev_version_to_continue" source="google_translate">Trebuie să dezinstalați versiunea anterioară pentru a continua</string>
+    <string name="prefs_allow_intranet_access" source="google_translate">Permite accesul la intranet</string>
+    <string name="prefs_allow_remote_access" source="google_translate">Permiteți accesul la distanță</string>
+    <string name="error" source="google_translate">Eroare</string>
+    <string name="select_player" source="google_translate">Selectați un jucător</string>
+    <string name="attention" source="google_translate">Atenţie</string>
+    <string name="home" source="google_translate">Acasă</string>
+    <string name="remote_control" source="google_translate">Telecomandă</string>
+    <string name="please_try_again" source="google_translate">Vă rugăm să încercați din nou</string>
+    <string name="cannot_start_playback" source="google_translate">Nu se poate porni redarea</string>
+    <string name="device_disconnected" source="google_translate">Dispozitivul este deconectat</string>
+    <string name="connection_failed" source="google_translate">Conexiune esuata</string>
+    <string name="buffering" source="google_translate">Tamponare</string>
+    <string name="remember_choice" source="google_translate">Amintiți-vă alegerea</string>
+    <string name="prefs_transcode_ac3" source="google_translate">Transcodificați numai AC3 la AAC pentru HLS</string>
+    <string name="ok_sure" source="google_translate">OK sigur</string>
+    <string name="no_thanks" source="google_translate">Nu multumesc</string>
+    <string name="rate_yes" source="google_translate">Da!</string>
+    <string name="rate_not" source="google_translate">Nu chiar</string>
+    <string name="rate_do_you_like" source="google_translate">Bucurându-se de Ace Stream?</string>
+    <string name="rate_on_google" source="google_translate">Ce zici de o evaluare pe Google Play?</string>
+    <string name="rate_give_feedback" source="google_translate">Vrei să ne oferi niște feedback?</string>
+    <string name="prefs_transcode_audio" source="google_translate">Transcoda tot audio la AAC pentru HLS</string>
+    <string name="want_restart" source="google_translate">Doriți să reluați redarea din ultima poziție?</string>
+    <string name="restart_from_beginning" source="google_translate">Începeți de la început</string>
+    <string name="menu_content_id" source="google_translate">Introduceți codul de conținut</string>
+    <string name="enter_content_id" source="google_translate">Introduceți codul de conținut</string>
+    <string name="bad_content_id" source="google_translate">Codul de identificare rău</string>
+    <string name="send" source="google_translate">Trimite</string>
+    <string name="report_problem" source="google_translate">Raporteaza o problema</string>
+    <string name="report_has_been_sent" source="google_translate">Raportul a fost trimis</string>
+    <string name="report_failed" source="google_translate">Raportul a eșuat</string>
+    <string name="allow_mobile_networks" source="google_translate">Permiteți utilizarea rețelelor mobile?</string>
+    <string name="problem_description" source="google_translate">Descrierea problemei</string>
+    <string name="directory_is_not_writable" source="google_translate">Directorul nu este scris</string>
+    <string name="device_storage" source="google_translate">Dispozitiv de stocare</string>
+    <string name="sd_card" source="google_translate">Card SD</string>
+    <string name="select_directory" source="google_translate">Selectați directorul</string>
+    <string name="select_category" source="google_translate">Selecteaza categoria</string>
+    <string name="language" source="google_translate">Limba</string>
+    <string name="sign_in_or_register" source="google_translate">Conectați-vă sau înregistrați-vă în Ace Stream</string>
+    <string name="sign_in_or_register_continue" source="google_translate">Conectați-vă sau înregistrați-vă pentru a continua</string>
+    <string name="selected_player" source="google_translate">Jucătorul selectat</string>
+    <string name="opengl_usage" source="google_translate">Utilizarea OpenGL ES2</string>
+    <string name="auto" source="google_translate">Auto</string>
+    <string name="force_on" source="google_translate">Force On</string>
+    <string name="force_off" source="google_translate">Forțată oprită</string>
+    <string name="video_hardware_acceleration" source="google_translate">Accelerare hardware video</string>
+    <string name="disabled" source="google_translate">invalid</string>
+    <string name="decoding_acceleration" source="google_translate">Decodează accelerarea</string>
+    <string name="full_acceleration" source="google_translate">Accelerare completă</string>
+    <string name="show_debug_info" source="google_translate">Afișați informații despre depanare</string>
+    <string name="enable_debug_logging" source="google_translate">Activați înregistrarea depanării</string>
+    <string name="start_acecast_server" source="google_translate">Porniți serverul AceCast</string>
+    <string name="avi_opendml_warning" source="google_translate">Este posibil ca acest videoclip să nu fie redat corect în playerul Ace Stream. Alege alt jucator?</string>
+    <string name="player_preferences" source="google_translate">Setările playerului</string>
+    <string name="ads_preferences" source="google_translate">Setările anunțurilor</string>
+    <string name="ads_preferences_short" source="google_translate">Anunțuri</string>
+    <string name="show_lock_button" source="google_translate">Afișați butonul de blocare</string>
+    <string name="engine_preferences" source="google_translate">Setările motorului</string>
+    <string name="engine_preferences_short" source="google_translate">Motor</string>
+    <string name="need_proxy_server_option" source="google_translate">Trebuie să activați opțiunea Server Proxy pentru a viziona conținut în jucători externi. Sau puteți viziona conținut gratuit în Ace Player</string>
+    <string name="need_proxy_server_option_tmp" source="google_translate">Pentru a viziona conținutul, trebuie să activați opțiunea Proxy Server sau să actualizați aplicația Ace Stream</string>
+    <string name="pause_on_audiofocus_loss" source="google_translate">Întrerupeți pierderea audiofocus</string>
+    <string name="upgrade" source="google_translate">Modernizare</string>
+    <string name="to_continue_visit_link" source="google_translate">Pentru a continua vizitați acest link:</string>
+    <string name="and_enter_pin" source="google_translate">și introduceți codul PIN:</string>
+    <string name="gdpr_consent" source="google_translate">Consimțământul GDPR</string>
+    <string name="show_rewarded_ads" source="google_translate">Afișați anunțuri recompensate</string>
+    <string name="show_ads_on_main_screen" source="google_translate">Afișați anunțuri pe ecranul principal</string>
+    <string name="show_ads_on_preroll" source="google_translate">Afișați anunțuri în preroll</string>
+    <string name="show_ads_on_pause" source="google_translate">Afișați anunțuri în pauză</string>
+    <string name="show_ads_on_close" source="google_translate">Afișați anunțurile pe player închis</string>
+    <string name="agreement" source="google_translate">Acord</string>
+    <string name="license_agreement" source="google_translate">Acord de licențiere</string>
+    <string name="privacy_policy" source="google_translate">Politica de confidentialitate</string>
+    <string name="application_version" source="google_translate">Versiunea aplicației</string>
+    <string name="disable_ads" source="google_translate">Dezactivați anunțurile</string>
+    <string name="learn_more" source="google_translate">Aflați mai multe</string>
+    <string name="skip_ad" source="google_translate">Ștergeți anunțul</string>
+    <string name="you_can_skip_this_ad_in" source="google_translate">Puteți sări peste acest anunț în %d</string>
+    <string name="clearing_cache_etc" source="google_translate">Ștergerea memoriei cache ...</string>
+    <string name="cache_cleared" source="google_translate">Cache a fost eliminat</string>
+    <string name="not_connected_to_engine" source="google_translate">Nu este conectat la motor</string>
+    <string name="gdpr_consent_pref_title" source="google_translate">Consimțământul GDPR</string>
+    <string name="gdpr_consent_pref_summary" source="google_translate">Consimțământul GDPR</string>
+    <string name="application" source="google_translate">cerere</string>
+    <string name="device_name" source="google_translate">Nume dispozitiv</string>
+    <string name="empty_playlist" source="google_translate">Playlistul gol</string>
+    <string name="profile" source="google_translate">Profil</string>
+    <string name="not_selected" source="google_translate">Nu a fost ales</string>
+    <string name="restart_application" source="google_translate">Reporniți aplicația</string>
+    <string name="restart_confirmation" source="google_translate">Reporniți aplicația acum?</string>
+    <string name="parsing_transport_files" source="google_translate">Parsarea fișierelor de transport</string>
+    <string name="user_profile" source="google_translate">Profilul utilizatorului</string>
+    <string name="account_balance" source="google_translate">Balanța contului</string>
+</resources>

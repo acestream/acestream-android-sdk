@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lbl_version" source="google_translate">Wersja</string>
+    <string name="lbl_portal" source="google_translate">Portal informacyjny</string>
+    <string name="lbl_prefshththtml" source="google_translate">Ustawienia</string>
+    <string name="lbl_account" source="google_translate">Konto</string>
+    <string name="lbl_sign_out" source="google_translate">Wyloguj się</string>
+    <string name="menu_prefs" source="google_translate">Ustawienia</string>
+    <string name="menu_profile" source="google_translate">Profil użytkownika</string>
+    <string name="menu_services" source="google_translate">Usługi</string>
+    <string name="menu_clearcache" source="google_translate">Wyczyść pamięć podręczną</string>
+    <string name="menu_quit" source="google_translate">Porzucić</string>
+    <string name="menu_action_fail" source="google_translate">Nie można wykonać tej akcji przy użyciu nieaktywnego silnika</string>
+    <string name="dialog_wait" source="google_translate">Proszę czekać</string>
+    <string name="dialog_unpack" source="google_translate">Rozpakowywanie</string>
+    <string name="dialog_start" source="google_translate">Startowy</string>
+    <string name="dialog_prefs" source="google_translate">Pobieranie preferencji</string>
+    <string name="dialog_services" source="google_translate">Pobieranie listy usług</string>
+    <string name="dialog_cache" source="google_translate">Czyszczenie pamięci podręcznej</string>
+    <string name="dialog_shutdown" source="google_translate">Zamykanie</string>
+    <string name="dialog_no_connection" source="google_translate">Brak dostępnego połączenia internetowego. Usługa Ace Stream Engine uruchomi się automatycznie po nawiązaniu połączenia.</string>
+    <string name="task_prefs_fail" source="google_translate">Błąd pobierania ustawień</string>
+    <string name="task_services_fail" source="google_translate">Błąd pobierania usługi</string>
+    <string name="start_ok" source="google_translate">Rozpocznij sukces</string>
+    <string name="start_fail" source="google_translate">Rozpoczęcie nieudane</string>
+    <string name="notify_starting" source="google_translate">Bezczynny</string>
+    <string name="notify_unpack" source="google_translate">Rozpakowywanie w procesie</string>
+    <string name="notify_unpack_complete" source="google_translate">Rozpakowywanie zakończone</string>
+    <string name="notify_connect" source="google_translate">Złączony</string>
+    <string name="notify_connect_complete" source="google_translate">Łączenie zakończone</string>
+    <string name="notify_running" source="google_translate">Bieganie</string>
+    <string name="notify_stopped" source="google_translate">Zatrzymany</string>
+    <string name="notify_error" source="google_translate">Błąd</string>
+    <string name="notify_wait_connection" source="google_translate">Brak dostępnego połączenia sieciowego</string>
+    <string name="prefs_group_main" source="google_translate">Główne preferencje</string>
+    <string name="prefs_item_mobile" source="google_translate">Dostęp do danych w sieciach komórkowych</string>
+    <string name="prefs_item_mobile_summary" source="google_translate">Włącz dostęp do danych w sieciach komórkowych</string>
+    <string name="prefs_item_vod_buffer" source="google_translate">Bufor VOD, s</string>
+    <string name="prefs_item_live_buffer" source="google_translate">Bufor na żywo, s</string>
+    <string name="prefs_item_download_limit" source="google_translate">Limit pobierania (0 - brak limitu), Kb / s</string>
+    <string name="prefs_item_upload_limit" source="google_translate">Limit przesyłu (0 - brak limitu), Kb / s</string>
+    <string name="prefs_group_advanced" source="google_translate">Zaawansowane preferencje</string>
+    <string name="prefs_item_port" source="google_translate">Port</string>
+    <string name="prefs_item_total_max_connects" source="google_translate">Max łączy</string>
+    <string name="prefs_item_download_max_connects" source="google_translate">Pobierz max connects</string>
+    <string name="prefs_group_profile" source="google_translate">Profil użytkownika</string>
+    <string name="prefs_item_gender" source="google_translate">Płeć</string>
+    <string name="prefs_item_age" source="google_translate">Wiek</string>
+    <string name="prefs_item_login" source="google_translate">Zaloguj Się</string>
+    <string name="prefs_item_password" source="google_translate">Hasło</string>
+    <string name="prefs_gender_value_male" source="google_translate">Męski</string>
+    <string name="prefs_gender_value_female" source="google_translate">Płeć żeńska</string>
+    <string name="prefs_age_value_under13" source="google_translate">Poniżej 13 lat</string>
+    <string name="prefs_age_value_above64" source="google_translate">Powyżej 64</string>
+    <string name="prefs_group_cache" source="google_translate">Ustawienia pamięci podręcznej</string>
+    <string name="prefs_item_disk_cache_limit" source="google_translate">Limit pamięci podręcznej dysku, Mb</string>
+    <string name="prefs_item_memory_cache_limit" source="google_translate">Limit pamięci podręcznej RAM, Mb</string>
+    <string name="prefs_item_cache_dir" source="google_translate">Katalog pamięci podręcznej</string>
+    <string name="prefs_cache_live_use_disk" source="google_translate">Użyj dysku na żywo</string>
+    <string name="prefs_cache_vod_use_disk" source="google_translate">Użyj dysku do VOD</string>
+    <string name="prefs_output_format_live" source="google_translate">Format wyjściowy (na żywo)</string>
+    <string name="prefs_output_format_vod" source="google_translate">Format wyjściowy (VOD)</string>
+    <string name="extension_name" source="google_translate">Imię:</string>
+    <string name="extension_description" source="google_translate">Opis:</string>
+    <string name="extension_issued_by" source="google_translate">Wydane przez:</string>
+    <string name="extension_url" source="google_translate">URL:</string>
+    <string name="extension_enabled" source="google_translate">Włączone:</string>
+    <string name="extension_valid_from" source="google_translate">Ważny od:</string>
+    <string name="extension_valid_to" source="google_translate">Ważne do:</string>
+    <string name="no_services" source="google_translate">Brak usług</string>
+    <string name="message_unsupported_cpu" source="google_translate">Twój procesor nie jest jeszcze obsługiwany.</string>
+    <string name="starting" source="google_translate">Startowy…</string>
+    <string name="starting_player" source="google_translate">Uruchamianie gracza ...</string>
+    <string name="install" source="google_translate">zainstalować</string>
+    <string name="close" source="google_translate">Blisko</string>
+    <string name="no_players" source="google_translate">Nie znaleziono graczy</string>
+    <string name="failed_to_start" source="google_translate">Nie udało sie uruchomić</string>
+    <string name="option_proxy_server" source="google_translate">Serwer proxy</string>
+    <string name="option_generic_premium" source="google_translate">Premia</string>
+    <string name="activate" source="google_translate">Aktywuj</string>
+    <string name="prompt_email" source="google_translate">E-mail</string>
+    <string name="prompt_password" source="google_translate">Hasło</string>
+    <string name="action_sign_in" source="google_translate">Zaloguj</string>
+    <string name="action_sign_in_or_register" source="google_translate">Zaloguj się / zarejestruj</string>
+    <string name="action_sign_out" source="google_translate">Wyloguj się</string>
+    <string name="error_invalid_email" source="google_translate">Ten adres e-mail jest nieprawidłowy</string>
+    <string name="error_invalid_password" source="google_translate">To hasło jest za krótkie</string>
+    <string name="error_field_required" source="google_translate">To pole jest wymagane</string>
+    <string name="upgrage_user_level" source="google_translate">Aktualizacja</string>
+    <string name="select_file" source="google_translate">Wybierz plik</string>
+    <string name="auth_error_user_not_found" source="google_translate">Użytkownik nie znaleziony</string>
+    <string name="auth_error_user_disabled" source="google_translate">Użytkownik jest wyłączony</string>
+    <string name="auth_error_bad_password" source="google_translate">To hasło jest nieprawidłowe</string>
+    <string name="auth_internal_error" source="google_translate">Błąd wewnętrzny. Proszę spróbuj później.</string>
+    <string name="auth_network_error" source="google_translate">Błąd sieci. Proszę spróbuj później.</string>
+    <string name="auth_failed_error" source="google_translate">Autoryzacja nie powiodła się. Proszę spróbuj później.</string>
+    <string name="uninstall" source="google_translate">Odinstaluj</string>
+    <string name="uninstall_prev_version_to_continue" source="google_translate">Aby kontynuować, musisz odinstalować poprzednią wersję</string>
+    <string name="prefs_allow_intranet_access" source="google_translate">Zezwalaj na dostęp do intranetu</string>
+    <string name="prefs_allow_remote_access" source="google_translate">Pozwól na dostęp zdalny</string>
+    <string name="error" source="google_translate">Błąd</string>
+    <string name="select_player" source="google_translate">Wybierz gracza</string>
+    <string name="attention" source="google_translate">Uwaga</string>
+    <string name="home" source="google_translate">Dom</string>
+    <string name="remote_control" source="google_translate">Pilot</string>
+    <string name="please_try_again" source="google_translate">Proszę spróbuj ponownie</string>
+    <string name="cannot_start_playback" source="google_translate">Nie można rozpocząć odtwarzania</string>
+    <string name="device_disconnected" source="google_translate">Urządzenie rozłączone</string>
+    <string name="connection_failed" source="google_translate">Połączenie nieudane</string>
+    <string name="buffering" source="google_translate">Buforowanie</string>
+    <string name="remember_choice" source="google_translate">Zapamiętaj wybór</string>
+    <string name="prefs_transcode_ac3" source="google_translate">Transkoduj tylko AC3 do AAC dla HLS</string>
+    <string name="ok_sure" source="google_translate">Dobra pewnie</string>
+    <string name="no_thanks" source="google_translate">Nie, dziękuję</string>
+    <string name="rate_yes" source="google_translate">Tak!</string>
+    <string name="rate_not" source="google_translate">Nie całkiem</string>
+    <string name="rate_do_you_like" source="google_translate">Ciesz się Ace Stream?</string>
+    <string name="rate_on_google" source="google_translate">Co powiesz na ocenę w Google Play?</string>
+    <string name="rate_give_feedback" source="google_translate">Czy mógłbyś przekazać nam jakieś uwagi?</string>
+    <string name="prefs_transcode_audio" source="google_translate">Transkoduj cały dźwięk do AAC dla HLS</string>
+    <string name="want_restart" source="google_translate">Czy chcesz wznowić odtwarzanie od ostatniej pozycji?</string>
+    <string name="restart_from_beginning" source="google_translate">Zacznij od początku</string>
+    <string name="menu_content_id" source="google_translate">Wpisz identyfikator treści</string>
+    <string name="enter_content_id" source="google_translate">Wpisz identyfikator treści</string>
+    <string name="bad_content_id" source="google_translate">Zły identyfikator treści</string>
+    <string name="send" source="google_translate">Wysłać</string>
+    <string name="report_problem" source="google_translate">Zgłoś problem</string>
+    <string name="report_has_been_sent" source="google_translate">Raport został wysłany</string>
+    <string name="report_failed" source="google_translate">Raport nie powiódł się</string>
+    <string name="allow_mobile_networks" source="google_translate">Zezwalać na korzystanie z sieci komórkowych?</string>
+    <string name="problem_description" source="google_translate">Opis problemu</string>
+    <string name="directory_is_not_writable" source="google_translate">Katalog nie jest zapisywalny</string>
+    <string name="device_storage" source="google_translate">Pamięć urządzenia</string>
+    <string name="sd_card" source="google_translate">Karta SD</string>
+    <string name="select_directory" source="google_translate">Wybierz katalog</string>
+    <string name="select_category" source="google_translate">Wybierz kategorię</string>
+    <string name="language" source="google_translate">Język</string>
+    <string name="sign_in_or_register" source="google_translate">Zaloguj się lub zarejestruj się w strumieniu Ace</string>
+    <string name="sign_in_or_register_continue" source="google_translate">Zaloguj się lub zarejestruj, aby kontynuować</string>
+    <string name="selected_player" source="google_translate">Wybrany gracz</string>
+    <string name="opengl_usage" source="google_translate">Użycie OpenGL ES2</string>
+    <string name="auto" source="google_translate">Automatyczny</string>
+    <string name="force_on" source="google_translate">Wymusić na</string>
+    <string name="force_off" source="google_translate">Wymuś wyłączenie</string>
+    <string name="video_hardware_acceleration" source="google_translate">Przyspieszanie sprzętowe wideo</string>
+    <string name="disabled" source="google_translate">Wyłączone</string>
+    <string name="decoding_acceleration" source="google_translate">Dekodowanie przyspieszenia</string>
+    <string name="full_acceleration" source="google_translate">Pełna akceleracja</string>
+    <string name="show_debug_info" source="google_translate">Pokaż informacje debugowania</string>
+    <string name="enable_debug_logging" source="google_translate">Włącz rejestrowanie debugowania</string>
+    <string name="start_acecast_server" source="google_translate">Uruchom serwer AceCast</string>
+    <string name="avi_opendml_warning" source="google_translate">Ten film może nie być poprawnie odtwarzany w odtwarzaczu Ace Stream. Wybierz innego gracza?</string>
+    <string name="player_preferences" source="google_translate">Ustawienia odtwarzacza</string>
+    <string name="ads_preferences" source="google_translate">Ustawienia reklam</string>
+    <string name="ads_preferences_short" source="google_translate">Reklamy</string>
+    <string name="show_lock_button" source="google_translate">Pokaż przycisk blokady</string>
+    <string name="engine_preferences" source="google_translate">Ustawienia silnika</string>
+    <string name="engine_preferences_short" source="google_translate">Silnik</string>
+    <string name="need_proxy_server_option" source="google_translate">Musisz aktywować opcję Serwer proxy, aby oglądać zawartość w odtwarzaczach zewnętrznych. Możesz też oglądać zawartość za darmo w Ace Player</string>
+    <string name="need_proxy_server_option_tmp" source="google_translate">Aby oglądać zawartość, musisz aktywować opcję serwera proxy lub zaktualizować aplikację Ace Stream</string>
+    <string name="pause_on_audiofocus_loss" source="google_translate">Wstrzymaj utratę audiofocus</string>
+    <string name="upgrade" source="google_translate">Aktualizacja</string>
+    <string name="to_continue_visit_link" source="google_translate">Aby kontynuować, odwiedź ten link:</string>
+    <string name="and_enter_pin" source="google_translate">i wprowadź kod PIN:</string>
+    <string name="gdpr_consent" source="google_translate">Zezwolenie na GDPR</string>
+    <string name="show_rewarded_ads" source="google_translate">Pokaż reklamy z nagrodą</string>
+    <string name="show_ads_on_main_screen" source="google_translate">Wyświetlaj reklamy na głównym ekranie</string>
+    <string name="show_ads_on_preroll" source="google_translate">Wyświetlaj reklamy na preroll</string>
+    <string name="show_ads_on_pause" source="google_translate">Pokaż reklamy w przerwie</string>
+    <string name="show_ads_on_close" source="google_translate">Wyświetlaj reklamy w pobliżu gracza</string>
+    <string name="agreement" source="google_translate">Umowa</string>
+    <string name="license_agreement" source="google_translate">Umowa licencyjna</string>
+    <string name="privacy_policy" source="google_translate">Polityka prywatności</string>
+    <string name="application_version" source="google_translate">Wersja aplikacji</string>
+    <string name="disable_ads" source="google_translate">Wyłącz reklamy</string>
+    <string name="learn_more" source="google_translate">Ucz się więcej</string>
+    <string name="skip_ad" source="google_translate">Pomiń reklamę</string>
+    <string name="you_can_skip_this_ad_in" source="google_translate">Możesz pominąć tę reklamę w %d</string>
+    <string name="clearing_cache_etc" source="google_translate">Czyści pamięć podręczną ...</string>
+    <string name="cache_cleared" source="google_translate">Pamięć podręczna wyczyszczona</string>
+    <string name="not_connected_to_engine" source="google_translate">Nie podłączony do silnika</string>
+    <string name="gdpr_consent_pref_title" source="google_translate">Zezwolenie na GDPR</string>
+    <string name="gdpr_consent_pref_summary" source="google_translate">Zezwolenie na GDPR</string>
+    <string name="application" source="google_translate">Podanie</string>
+    <string name="device_name" source="google_translate">Nazwa urządzenia</string>
+    <string name="empty_playlist" source="google_translate">Pusta lista odtwarzania</string>
+    <string name="profile" source="google_translate">Profil</string>
+    <string name="not_selected" source="google_translate">Nie zaznaczone</string>
+    <string name="restart_application" source="google_translate">Zrestartuj aplikację</string>
+    <string name="restart_confirmation" source="google_translate">Zrestartuj aplikację teraz?</string>
+    <string name="parsing_transport_files" source="google_translate">Analizowanie plików transportowych</string>
+    <string name="user_profile" source="google_translate">Profil użytkownika</string>
+    <string name="account_balance" source="google_translate">Bilans konta</string>
+</resources>

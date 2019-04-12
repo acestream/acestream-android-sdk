@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lbl_version" source="google_translate">Версион</string>
+    <string name="lbl_portal" source="google_translate">Информатион портал</string>
+    <string name="lbl_prefshththtml" source="google_translate">Подешавања</string>
+    <string name="lbl_account" source="google_translate">Рачун</string>
+    <string name="lbl_sign_out" source="google_translate">Одјава</string>
+    <string name="menu_prefs" source="google_translate">Подешавања</string>
+    <string name="menu_profile" source="google_translate">Профил корисника</string>
+    <string name="menu_services" source="google_translate">Услуге</string>
+    <string name="menu_clearcache" source="google_translate">Цлеар цацхе</string>
+    <string name="menu_quit" source="google_translate">Одустати</string>
+    <string name="menu_action_fail" source="google_translate">Не можете извршити ову акцију помоћу неактивног мотора</string>
+    <string name="dialog_wait" source="google_translate">Сачекајте</string>
+    <string name="dialog_unpack" source="google_translate">Унпацкинг</string>
+    <string name="dialog_start" source="google_translate">Стартинг</string>
+    <string name="dialog_prefs" source="google_translate">Преузимање преференци</string>
+    <string name="dialog_services" source="google_translate">Преузимање листе услуга</string>
+    <string name="dialog_cache" source="google_translate">Брисање кеша</string>
+    <string name="dialog_shutdown" source="google_translate">Схутдовнинг</string>
+    <string name="dialog_no_connection" source="google_translate">Нема доступне интернетске везе. Услуга Аце Стреам Енгине ће се аутоматски покренути након повезивања.</string>
+    <string name="task_prefs_fail" source="google_translate">Дохваћање грешке поставки</string>
+    <string name="task_services_fail" source="google_translate">Грешка у преузимању услуга</string>
+    <string name="start_ok" source="google_translate">Старт Суццесс</string>
+    <string name="start_fail" source="google_translate">Старт није успио</string>
+    <string name="notify_starting" source="google_translate">Неактиван</string>
+    <string name="notify_unpack" source="google_translate">Распакивање у процесу</string>
+    <string name="notify_unpack_complete" source="google_translate">Распакивање је завршено</string>
+    <string name="notify_connect" source="google_translate">Повезивање</string>
+    <string name="notify_connect_complete" source="google_translate">Повезивање је завршено</string>
+    <string name="notify_running" source="google_translate">Трчање</string>
+    <string name="notify_stopped" source="google_translate">Стоппед</string>
+    <string name="notify_error" source="google_translate">Грешка</string>
+    <string name="notify_wait_connection" source="google_translate">Нема доступне мрежне везе</string>
+    <string name="prefs_group_main" source="google_translate">Маин преференцес</string>
+    <string name="prefs_item_mobile" source="google_translate">Приступ подацима о мобилним мрежама</string>
+    <string name="prefs_item_mobile_summary" source="google_translate">Омогућите приступ подацима преко мобилних мрежа</string>
+    <string name="prefs_item_vod_buffer" source="google_translate">ВОД бафер, с</string>
+    <string name="prefs_item_live_buffer" source="google_translate">Ливе буффер, с</string>
+    <string name="prefs_item_download_limit" source="google_translate">Довнлоад лимит (0 - без ограничења), Кб / с</string>
+    <string name="prefs_item_upload_limit" source="google_translate">Уплоад лимит (0 - без ограничења), Кб / с</string>
+    <string name="prefs_group_advanced" source="google_translate">Напредне поставке</string>
+    <string name="prefs_item_port" source="google_translate">Порт</string>
+    <string name="prefs_item_total_max_connects" source="google_translate">Мак се повезује</string>
+    <string name="prefs_item_download_max_connects" source="google_translate">Довнлоад мак цоннецт</string>
+    <string name="prefs_group_profile" source="google_translate">Профил корисника</string>
+    <string name="prefs_item_gender" source="google_translate">Род</string>
+    <string name="prefs_item_age" source="google_translate">Аге</string>
+    <string name="prefs_item_login" source="google_translate">Пријавите се</string>
+    <string name="prefs_item_password" source="google_translate">Пассворд</string>
+    <string name="prefs_gender_value_male" source="google_translate">Мушки</string>
+    <string name="prefs_gender_value_female" source="google_translate">Зенски пол</string>
+    <string name="prefs_age_value_under13" source="google_translate">Ундер 13</string>
+    <string name="prefs_age_value_above64" source="google_translate">Изнад 64</string>
+    <string name="prefs_group_cache" source="google_translate">Подешавања кеша</string>
+    <string name="prefs_item_disk_cache_limit" source="google_translate">Лимит цацхе диска, Мб</string>
+    <string name="prefs_item_memory_cache_limit" source="google_translate">РАМ цацхе лимит, Мб</string>
+    <string name="prefs_item_cache_dir" source="google_translate">Директоријум кеша</string>
+    <string name="prefs_cache_live_use_disk" source="google_translate">Користите диск за ливе</string>
+    <string name="prefs_cache_vod_use_disk" source="google_translate">Користите диск за ВОД</string>
+    <string name="prefs_output_format_live" source="google_translate">Формат излаза (уживо)</string>
+    <string name="prefs_output_format_vod" source="google_translate">Излазни формат (ВОД)</string>
+    <string name="extension_name" source="google_translate">Име:</string>
+    <string name="extension_description" source="google_translate">Опис:</string>
+    <string name="extension_issued_by" source="google_translate">Издаје:</string>
+    <string name="extension_url" source="google_translate">Урл:</string>
+    <string name="extension_enabled" source="google_translate">Омогућено:</string>
+    <string name="extension_valid_from" source="google_translate">Важи од:</string>
+    <string name="extension_valid_to" source="google_translate">Важи за:</string>
+    <string name="no_services" source="google_translate">Нема услуга</string>
+    <string name="message_unsupported_cpu" source="google_translate">Ваш ЦПУ још није подржан.</string>
+    <string name="starting" source="google_translate">Почиње…</string>
+    <string name="starting_player" source="google_translate">Покретање плејера ...</string>
+    <string name="install" source="google_translate">Инсталирај</string>
+    <string name="close" source="google_translate">Близу</string>
+    <string name="no_players" source="google_translate">Нису пронађени играчи</string>
+    <string name="failed_to_start" source="google_translate">Почетак није успио</string>
+    <string name="option_proxy_server" source="google_translate">Прокси сервер</string>
+    <string name="option_generic_premium" source="google_translate">Премиум</string>
+    <string name="activate" source="google_translate">Активирати</string>
+    <string name="prompt_email" source="google_translate">Емаил</string>
+    <string name="prompt_password" source="google_translate">Пассворд</string>
+    <string name="action_sign_in" source="google_translate">Пријавите се</string>
+    <string name="action_sign_in_or_register" source="google_translate">Пријавите се / региструјте</string>
+    <string name="action_sign_out" source="google_translate">Одјава</string>
+    <string name="error_invalid_email" source="google_translate">Ова адреса е-поште је неважећа</string>
+    <string name="error_invalid_password" source="google_translate">Ова лозинка је прекратка</string>
+    <string name="error_field_required" source="google_translate">Поље је обавезно</string>
+    <string name="upgrage_user_level" source="google_translate">Упграде</string>
+    <string name="select_file" source="google_translate">Изаберите фајл</string>
+    <string name="auth_error_user_not_found" source="google_translate">Корисник није пронађен</string>
+    <string name="auth_error_user_disabled" source="google_translate">Корисник је онемогућен</string>
+    <string name="auth_error_bad_password" source="google_translate">Ова лозинка је нетачна</string>
+    <string name="auth_internal_error" source="google_translate">Унутрашња грешка. Покушајте касније.</string>
+    <string name="auth_network_error" source="google_translate">Грешка у мрежи. Покушајте касније.</string>
+    <string name="auth_failed_error" source="google_translate">Аутх није успело. Покушајте касније.</string>
+    <string name="uninstall" source="google_translate">Деинсталирај</string>
+    <string name="uninstall_prev_version_to_continue" source="google_translate">Да бисте наставили, морате да деинсталирате претходну верзију</string>
+    <string name="prefs_allow_intranet_access" source="google_translate">Дозволи приступ интранету</string>
+    <string name="prefs_allow_remote_access" source="google_translate">Дозволи даљински приступ</string>
+    <string name="error" source="google_translate">Грешка</string>
+    <string name="select_player" source="google_translate">Изаберите плејер</string>
+    <string name="attention" source="google_translate">Пажња</string>
+    <string name="home" source="google_translate">Кућа</string>
+    <string name="remote_control" source="google_translate">Даљинско управљање</string>
+    <string name="please_try_again" source="google_translate">Молим вас, покушајте поново</string>
+    <string name="cannot_start_playback" source="google_translate">Није могуће покренути репродукцију</string>
+    <string name="device_disconnected" source="google_translate">Уређај је искључен</string>
+    <string name="connection_failed" source="google_translate">Веза није успостављена</string>
+    <string name="buffering" source="google_translate">Буфферинг</string>
+    <string name="remember_choice" source="google_translate">Запамти избор</string>
+    <string name="prefs_transcode_ac3" source="google_translate">Трансцоде само АЦ3 у ААЦ за ХЛС</string>
+    <string name="ok_sure" source="google_translate">ОК, наравно</string>
+    <string name="no_thanks" source="google_translate">Не хвала</string>
+    <string name="rate_yes" source="google_translate">Да!</string>
+    <string name="rate_not" source="google_translate">Не баш</string>
+    <string name="rate_do_you_like" source="google_translate">Уживање у Аце Стреаму?</string>
+    <string name="rate_on_google" source="google_translate">Шта мислите о оцени на Гоогле Плаи-у?</string>
+    <string name="rate_give_feedback" source="google_translate">Можете ли нам дати неке повратне информације?</string>
+    <string name="prefs_transcode_audio" source="google_translate">Трансцоде све аудио на ААЦ за ХЛС</string>
+    <string name="want_restart" source="google_translate">Желите ли да наставите репродукцију са задње позиције?</string>
+    <string name="restart_from_beginning" source="google_translate">Почните од почетка</string>
+    <string name="menu_content_id" source="google_translate">Унесите ИД садржаја</string>
+    <string name="enter_content_id" source="google_translate">Унесите ИД садржаја</string>
+    <string name="bad_content_id" source="google_translate">Неважећи ИД садржаја</string>
+    <string name="send" source="google_translate">Сенд</string>
+    <string name="report_problem" source="google_translate">Пријавите проблем</string>
+    <string name="report_has_been_sent" source="google_translate">Извештај је послат</string>
+    <string name="report_failed" source="google_translate">Извештај није успио</string>
+    <string name="allow_mobile_networks" source="google_translate">Дозволите употребу мобилних мрежа?</string>
+    <string name="problem_description" source="google_translate">Опис проблема</string>
+    <string name="directory_is_not_writable" source="google_translate">Директоријум није могуће писати</string>
+    <string name="device_storage" source="google_translate">Складиште уређаја</string>
+    <string name="sd_card" source="google_translate">СД картица</string>
+    <string name="select_directory" source="google_translate">Изаберите директоријум</string>
+    <string name="select_category" source="google_translate">Изаберите категорију</string>
+    <string name="language" source="google_translate">Језик</string>
+    <string name="sign_in_or_register" source="google_translate">Пријавите се или се региструјте у Аце Стреам</string>
+    <string name="sign_in_or_register_continue" source="google_translate">Пријавите се или се региструјте да бисте наставили</string>
+    <string name="selected_player" source="google_translate">Селецтед Плаиер</string>
+    <string name="opengl_usage" source="google_translate">ОпенГЛ ЕС2 Усаге</string>
+    <string name="auto" source="google_translate">Ауто</string>
+    <string name="force_on" source="google_translate">Форце Он</string>
+    <string name="force_off" source="google_translate">Форце Офф</string>
+    <string name="video_hardware_acceleration" source="google_translate">Видео Хардваре Аццелератион</string>
+    <string name="disabled" source="google_translate">Дисаблед</string>
+    <string name="decoding_acceleration" source="google_translate">Декодирање убрзања</string>
+    <string name="full_acceleration" source="google_translate">Фулл Аццелератион</string>
+    <string name="show_debug_info" source="google_translate">Прикажи информације о дебугу</string>
+    <string name="enable_debug_logging" source="google_translate">Омогући записивање грешака</string>
+    <string name="start_acecast_server" source="google_translate">Покрените АцеЦаст Сервер</string>
+    <string name="avi_opendml_warning" source="google_translate">Овај видео се можда неће правилно репродуковати у Аце Стреам плејеру. Изабери другог играча?</string>
+    <string name="player_preferences" source="google_translate">Подешавања плејера</string>
+    <string name="ads_preferences" source="google_translate">Подешавања огласа</string>
+    <string name="ads_preferences_short" source="google_translate">Огласи</string>
+    <string name="show_lock_button" source="google_translate">Прикажи дугме за закључавање</string>
+    <string name="engine_preferences" source="google_translate">Подешавања мотора</string>
+    <string name="engine_preferences_short" source="google_translate">Мотор</string>
+    <string name="need_proxy_server_option" source="google_translate">Потребно је да активирате опцију Проки Сервер да бисте гледали садржај у екстерним плејерима. Или можете бесплатно гледати садржај у Аце Плаиер-у</string>
+    <string name="need_proxy_server_option_tmp" source="google_translate">Да бисте гледали садржај, морате активирати опцију Проки Сервер или надоградити Аце Стреам апликацију</string>
+    <string name="pause_on_audiofocus_loss" source="google_translate">Пауза на губитку аудиофокуса</string>
+    <string name="upgrade" source="google_translate">Упграде</string>
+    <string name="to_continue_visit_link" source="google_translate">Да бисте наставили да посетите ову везу:</string>
+    <string name="and_enter_pin" source="google_translate">и унесите ПИН:</string>
+    <string name="gdpr_consent" source="google_translate">ГДПР Цонсент</string>
+    <string name="show_rewarded_ads" source="google_translate">Прикажи награђене огласе</string>
+    <string name="show_ads_on_main_screen" source="google_translate">Прикажи огласе на главном екрану</string>
+    <string name="show_ads_on_preroll" source="google_translate">Прикажи огласе на предизборној листи</string>
+    <string name="show_ads_on_pause" source="google_translate">Прикажи огласе на паузи</string>
+    <string name="show_ads_on_close" source="google_translate">Прикажи огласе на играчу близу</string>
+    <string name="agreement" source="google_translate">Договор</string>
+    <string name="license_agreement" source="google_translate">Уговор о лиценци</string>
+    <string name="privacy_policy" source="google_translate">Правила о приватности</string>
+    <string name="application_version" source="google_translate">Верзија апликације</string>
+    <string name="disable_ads" source="google_translate">Онемогући огласе</string>
+    <string name="learn_more" source="google_translate">Сазнајте више</string>
+    <string name="skip_ad" source="google_translate">Скип Ад</string>
+    <string name="you_can_skip_this_ad_in" source="google_translate">Овај оглас можете прескочити у %d</string>
+    <string name="clearing_cache_etc" source="google_translate">Брисање кеша ...</string>
+    <string name="cache_cleared" source="google_translate">Цацхе цлеар</string>
+    <string name="not_connected_to_engine" source="google_translate">Није повезан са мотором</string>
+    <string name="gdpr_consent_pref_title" source="google_translate">ГДПР Цонсент</string>
+    <string name="gdpr_consent_pref_summary" source="google_translate">ГДПР Цонсент</string>
+    <string name="application" source="google_translate">Апликација</string>
+    <string name="device_name" source="google_translate">Име уређаја</string>
+    <string name="empty_playlist" source="google_translate">Празна листа за репродукцију</string>
+    <string name="profile" source="google_translate">Профил</string>
+    <string name="not_selected" source="google_translate">Није изабран</string>
+    <string name="restart_application" source="google_translate">Рестарт апплицатион</string>
+    <string name="restart_confirmation" source="google_translate">Сада поново покрените апликацију?</string>
+    <string name="parsing_transport_files" source="google_translate">Разврставање транспортних датотека</string>
+    <string name="user_profile" source="google_translate">Профил корисника</string>
+    <string name="account_balance" source="google_translate">Стање на рачуну</string>
+</resources>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lbl_version" source="google_translate">Versiya</string>
+    <string name="lbl_portal" source="google_translate">Axborot portali</string>
+    <string name="lbl_prefshththtml" source="google_translate">Sozlamalar</string>
+    <string name="lbl_account" source="google_translate">Hisob</string>
+    <string name="lbl_sign_out" source="google_translate">Chiqish</string>
+    <string name="menu_prefs" source="google_translate">Sozlamalar</string>
+    <string name="menu_profile" source="google_translate">Foydalanuvchining profili</string>
+    <string name="menu_services" source="google_translate">Xizmatlar</string>
+    <string name="menu_clearcache" source="google_translate">Keshni tozalash</string>
+    <string name="menu_quit" source="google_translate">Chiqing</string>
+    <string name="menu_action_fail" source="google_translate">Ushbu harakatni nomutanosib dvigatel bilan bajarib bo\'lmaydi</string>
+    <string name="dialog_wait" source="google_translate">Iltimos kuting</string>
+    <string name="dialog_unpack" source="google_translate">Paketni ochish</string>
+    <string name="dialog_start" source="google_translate">Boshlash</string>
+    <string name="dialog_prefs" source="google_translate">Imkoniyatlarni qabul qilish</string>
+    <string name="dialog_services" source="google_translate">Xizmatlar ro\'yxatini olish</string>
+    <string name="dialog_cache" source="google_translate">Keshni tozalash</string>
+    <string name="dialog_shutdown" source="google_translate">Shutdowning</string>
+    <string name="dialog_no_connection" source="google_translate">Mavjud internet aloqasi yo\'q. Ace Stream Engine xizmati avtomatik ravishda ulanishdan boshlanadi.</string>
+    <string name="task_prefs_fail" source="google_translate">Sozlamalar xatoni olindi</string>
+    <string name="task_services_fail" source="google_translate">Xizmatlardagi xatolik yuz berdi</string>
+    <string name="start_ok" source="google_translate">Muvaffaqiyatli boshlang</string>
+    <string name="start_fail" source="google_translate">Ishga tushmadi</string>
+    <string name="notify_starting" source="google_translate">Bo\'ston</string>
+    <string name="notify_unpack" source="google_translate">Jarayondan chiqarib tashlash</string>
+    <string name="notify_unpack_complete" source="google_translate">Olib tashlash jarayoni tugallandi</string>
+    <string name="notify_connect" source="google_translate">Ulanmoqda</string>
+    <string name="notify_connect_complete" source="google_translate">Ulanilmoqda</string>
+    <string name="notify_running" source="google_translate">Yugurish</string>
+    <string name="notify_stopped" source="google_translate">To\'xtadi</string>
+    <string name="notify_error" source="google_translate">Xato</string>
+    <string name="notify_wait_connection" source="google_translate">Mavjud tarmoq ulanishi mavjud emas</string>
+    <string name="prefs_group_main" source="google_translate">Asosiy afzalliklar</string>
+    <string name="prefs_item_mobile" source="google_translate">Mobil tarmoqlar ma\'lumotlariga kirish</string>
+    <string name="prefs_item_mobile_summary" source="google_translate">Mobil tarmoqlarda ma\'lumotlarga kirishni yoqish</string>
+    <string name="prefs_item_vod_buffer" source="google_translate">VOD bufer, p</string>
+    <string name="prefs_item_live_buffer" source="google_translate">Jonli tampon, p</string>
+    <string name="prefs_item_download_limit" source="google_translate">Yuklab olish chegarasi (0 - chegara yo\'q), Kb / s</string>
+    <string name="prefs_item_upload_limit" source="google_translate">Yuklash limiti (0 - chegara yo\'q), Kb / s</string>
+    <string name="prefs_group_advanced" source="google_translate">Murakkab imtiyozlar</string>
+    <string name="prefs_item_port" source="google_translate">Port</string>
+    <string name="prefs_item_total_max_connects" source="google_translate">Maks ulanadi</string>
+    <string name="prefs_item_download_max_connects" source="google_translate">Maks ulanishlarni yuklab oling</string>
+    <string name="prefs_group_profile" source="google_translate">Foydalanuvchining profili</string>
+    <string name="prefs_item_gender" source="google_translate">Jins</string>
+    <string name="prefs_item_age" source="google_translate">Yoshi</string>
+    <string name="prefs_item_login" source="google_translate">Kirish</string>
+    <string name="prefs_item_password" source="google_translate">Parol</string>
+    <string name="prefs_gender_value_male" source="google_translate">Erkak</string>
+    <string name="prefs_gender_value_female" source="google_translate">Ayol</string>
+    <string name="prefs_age_value_under13" source="google_translate">13 yoshgacha</string>
+    <string name="prefs_age_value_above64" source="google_translate">64 yoshdan oshgan</string>
+    <string name="prefs_group_cache" source="google_translate">Kesh sozlamalari</string>
+    <string name="prefs_item_disk_cache_limit" source="google_translate">Disk keshining chegarasi, Mb</string>
+    <string name="prefs_item_memory_cache_limit" source="google_translate">RAM kesh chegarasi, Mb</string>
+    <string name="prefs_item_cache_dir" source="google_translate">Keshlar katalogi</string>
+    <string name="prefs_cache_live_use_disk" source="google_translate">Jonli diskni ishlatish</string>
+    <string name="prefs_cache_vod_use_disk" source="google_translate">VOD uchun diskdan foydalaning</string>
+    <string name="prefs_output_format_live" source="google_translate">Chiqish formati (Jonli)</string>
+    <string name="prefs_output_format_vod" source="google_translate">Chiqish formati (VOD)</string>
+    <string name="extension_name" source="google_translate">Ismi:</string>
+    <string name="extension_description" source="google_translate">Tavsif:</string>
+    <string name="extension_issued_by" source="google_translate">Tomonidan berilgan:</string>
+    <string name="extension_url" source="google_translate">Url:</string>
+    <string name="extension_enabled" source="google_translate">Faol:</string>
+    <string name="extension_valid_from" source="google_translate">Qabul qilingan sanasi:</string>
+    <string name="extension_valid_to" source="google_translate">Kerakli:</string>
+    <string name="no_services" source="google_translate">Xizmatlar yo\'q</string>
+    <string name="message_unsupported_cpu" source="google_translate">CPU hali qo\'llab-quvvatlanmaydi.</string>
+    <string name="starting" source="google_translate">Boshlanmoqda ...</string>
+    <string name="starting_player" source="google_translate">Pleyerni ishga tushirish ...</string>
+    <string name="install" source="google_translate">O\'rnatish</string>
+    <string name="close" source="google_translate">Yoping</string>
+    <string name="no_players" source="google_translate">Hech qanday o\'yinchi topilmadi</string>
+    <string name="failed_to_start" source="google_translate">Boshlash amalga oshmadi</string>
+    <string name="option_proxy_server" source="google_translate">Proksi-server</string>
+    <string name="option_generic_premium" source="google_translate">Premium</string>
+    <string name="activate" source="google_translate">Faollashtirish</string>
+    <string name="prompt_email" source="google_translate">E-pochta</string>
+    <string name="prompt_password" source="google_translate">Parol</string>
+    <string name="action_sign_in" source="google_translate">tizimga kirish</string>
+    <string name="action_sign_in_or_register" source="google_translate">Kirish / Ro\'yxatdan o\'tish</string>
+    <string name="action_sign_out" source="google_translate">Chiqish</string>
+    <string name="error_invalid_email" source="google_translate">Ushbu e-pochta manzili noto\'g\'ri</string>
+    <string name="error_invalid_password" source="google_translate">Bu parol juda qisqa</string>
+    <string name="error_field_required" source="google_translate">Ushbu qator to\'ldirilishi shart</string>
+    <string name="upgrage_user_level" source="google_translate">Yangilash</string>
+    <string name="select_file" source="google_translate">Faylni tanlang</string>
+    <string name="auth_error_user_not_found" source="google_translate">Foydalanuvchining topilmadi</string>
+    <string name="auth_error_user_disabled" source="google_translate">Foydalanuvchi o\'chirib qo\'yilgan</string>
+    <string name="auth_error_bad_password" source="google_translate">Ushbu parol noto\'g\'ri</string>
+    <string name="auth_internal_error" source="google_translate">Ichki xato. Keyinroq urinib ko\'ring.</string>
+    <string name="auth_network_error" source="google_translate">Tarmoq xatosi. Keyinroq urinib ko\'ring.</string>
+    <string name="auth_failed_error" source="google_translate">Tasdiqlanmadi. Keyinroq urinib ko\'ring.</string>
+    <string name="uninstall" source="google_translate">O\'chirish</string>
+    <string name="uninstall_prev_version_to_continue" source="google_translate">Davom etish uchun avvalgi versiyani o\'chirishingiz kerak</string>
+    <string name="prefs_allow_intranet_access" source="google_translate">Intranet kirishiga ruxsat berish</string>
+    <string name="prefs_allow_remote_access" source="google_translate">Masofaviy foydalanishga ruxsat berish</string>
+    <string name="error" source="google_translate">Xato</string>
+    <string name="select_player" source="google_translate">Pleerni tanlang</string>
+    <string name="attention" source="google_translate">Diqqat</string>
+    <string name="home" source="google_translate">Bosh sahifa</string>
+    <string name="remote_control" source="google_translate">Masofaviy boshqarish</string>
+    <string name="please_try_again" source="google_translate">Iltimos, yana bir bor urinib ko\'ring</string>
+    <string name="cannot_start_playback" source="google_translate">Ijroni ishga tushirib bo\'lmadi</string>
+    <string name="device_disconnected" source="google_translate">Qurilma ajratildi</string>
+    <string name="connection_failed" source="google_translate">Aloqa muvaffaqiyatsiz tugadi</string>
+    <string name="buffering" source="google_translate">Buffering</string>
+    <string name="remember_choice" source="google_translate">Tanlashni eslang</string>
+    <string name="prefs_transcode_ac3" source="google_translate">Faqat ACLni transkode uchun HLS uchun AAC</string>
+    <string name="ok_sure" source="google_translate">OK, albatta</string>
+    <string name="no_thanks" source="google_translate">Yo\'q, rahmat</string>
+    <string name="rate_yes" source="google_translate">Ha!</string>
+    <string name="rate_not" source="google_translate">Uncha emas</string>
+    <string name="rate_do_you_like" source="google_translate">Ace oqimidan foydalanishmi?</string>
+    <string name="rate_on_google" source="google_translate">Qanday qilib Google Play-ning reytingi haqida?</string>
+    <string name="rate_give_feedback" source="google_translate">Biz bilan fikr-mulohaza yuritasizmi?</string>
+    <string name="prefs_transcode_audio" source="google_translate">Barcha ovozlarni HLS uchun AACga transkod qilish</string>
+    <string name="want_restart" source="google_translate">Qayta ishlashni oxirgi holatdan davom ettirmoqchimisiz?</string>
+    <string name="restart_from_beginning" source="google_translate">Boshidan boshlang</string>
+    <string name="menu_content_id" source="google_translate">Kontent ID raqamini kiriting</string>
+    <string name="enter_content_id" source="google_translate">Kontent ID raqamini kiriting</string>
+    <string name="bad_content_id" source="google_translate">Yomon kontent ID</string>
+    <string name="send" source="google_translate">Yuborish</string>
+    <string name="report_problem" source="google_translate">Muammo haqida xabar bering</string>
+    <string name="report_has_been_sent" source="google_translate">Hisobot yuborildi</string>
+    <string name="report_failed" source="google_translate">Hisobot bajarilmadi</string>
+    <string name="allow_mobile_networks" source="google_translate">Mobil tarmoqlardan foydalanishga ruxsat berilsinmi?</string>
+    <string name="problem_description" source="google_translate">Muammo ta\'rifi</string>
+    <string name="directory_is_not_writable" source="google_translate">Katalog yozilmaydi</string>
+    <string name="device_storage" source="google_translate">Qurilma xotirasi</string>
+    <string name="sd_card" source="google_translate">SD karta</string>
+    <string name="select_directory" source="google_translate">Katalogni tanlang</string>
+    <string name="select_category" source="google_translate">Kategoriyani tanlang</string>
+    <string name="language" source="google_translate">Til</string>
+    <string name="sign_in_or_register" source="google_translate">Ace Stream-ga kiring yoki ro\'yxatdan o\'ting</string>
+    <string name="sign_in_or_register_continue" source="google_translate">Davom etish uchun tizimga kiring yoki ro\'yxatdan o\'ting</string>
+    <string name="selected_player" source="google_translate">Tanlangan aktyor</string>
+    <string name="opengl_usage" source="google_translate">OpenGL ES2 foydalanish</string>
+    <string name="auto" source="google_translate">Avto</string>
+    <string name="force_on" source="google_translate">Majburan</string>
+    <string name="force_off" source="google_translate">O\'chirish</string>
+    <string name="video_hardware_acceleration" source="google_translate">Video qo\'shish tezlashtirish</string>
+    <string name="disabled" source="google_translate">O\'chirib qo\'yildi</string>
+    <string name="decoding_acceleration" source="google_translate">Tezlashuvni dekodlash</string>
+    <string name="full_acceleration" source="google_translate">To\'liq tezlashtirish</string>
+    <string name="show_debug_info" source="google_translate">Debug ma\'lumotlarini ko\'rsatish</string>
+    <string name="enable_debug_logging" source="google_translate">Disk raskadrovka jurnalini yoqish</string>
+    <string name="start_acecast_server" source="google_translate">AceCast Serverni ishga tushiring</string>
+    <string name="avi_opendml_warning" source="google_translate">Bu video Ace Stream aktyorida to\'g\'ri o\'qilmasligi mumkin. Boshqa o\'yinchini tanlang?</string>
+    <string name="player_preferences" source="google_translate">Player sozlamalari</string>
+    <string name="ads_preferences" source="google_translate">Reklama sozlamalari</string>
+    <string name="ads_preferences_short" source="google_translate">Reklamalar</string>
+    <string name="show_lock_button" source="google_translate">Qulfni ko\'rsatish tugmasi</string>
+    <string name="engine_preferences" source="google_translate">Dvigatel sozlamalari</string>
+    <string name="engine_preferences_short" source="google_translate">Dvigatel</string>
+    <string name="need_proxy_server_option" source="google_translate">Tashqi o\'yinchilar tarkibini ko\'rish uchun Proksi-serverni yoqishingiz kerak. Yoki Ace Player-da bepul kontentni ko\'rishingiz mumkin</string>
+    <string name="need_proxy_server_option_tmp" source="google_translate">Kontentni ko\'rish uchun Proksi-serverni yoqish yoki Ace Stream ilovasini yangilash kerak</string>
+    <string name="pause_on_audiofocus_loss" source="google_translate">Audiofokus yo\'qolishida pauza qiling</string>
+    <string name="upgrade" source="google_translate">Yangilash</string>
+    <string name="to_continue_visit_link" source="google_translate">Davom etish uchun quyidagi havolani bosing:</string>
+    <string name="and_enter_pin" source="google_translate">va PIN kodni kiriting:</string>
+    <string name="gdpr_consent" source="google_translate">GDPR rozilik</string>
+    <string name="show_rewarded_ads" source="google_translate">Mukofotlangan reklamalarni ko\'rsatish</string>
+    <string name="show_ads_on_main_screen" source="google_translate">Reklamalarni asosiy ekranda ko\'rsatish</string>
+    <string name="show_ads_on_preroll" source="google_translate">E\'lonlarni preroll-da ko\'rsatish</string>
+    <string name="show_ads_on_pause" source="google_translate">Reklamalarni pauzada ko\'rsatish</string>
+    <string name="show_ads_on_close" source="google_translate">Reklamalarni yopiq reklamachida ko\'rsatish</string>
+    <string name="agreement" source="google_translate">Shartnoma</string>
+    <string name="license_agreement" source="google_translate">Litsenziya shartnomasi</string>
+    <string name="privacy_policy" source="google_translate">Maxfiylik siyosati</string>
+    <string name="application_version" source="google_translate">Ilova versiyasi</string>
+    <string name="disable_ads" source="google_translate">Reklamalarni o\'chirib qo\'yish</string>
+    <string name="learn_more" source="google_translate">Ko\'proq ma\'lumot olish</string>
+    <string name="skip_ad" source="google_translate">Reklamani bekor qilish</string>
+    <string name="you_can_skip_this_ad_in" source="google_translate">Siz ushbu reklamani %d ichida o\'tkazib yuborishingiz mumkin</string>
+    <string name="clearing_cache_etc" source="google_translate">Keshni tozalash ...</string>
+    <string name="cache_cleared" source="google_translate">Kesh tozalandi</string>
+    <string name="not_connected_to_engine" source="google_translate">Dvigatelga ulanmagan</string>
+    <string name="gdpr_consent_pref_title" source="google_translate">GDPR rozilik</string>
+    <string name="gdpr_consent_pref_summary" source="google_translate">GDPR rozilik</string>
+    <string name="application" source="google_translate">Dastur</string>
+    <string name="device_name" source="google_translate">Qurilma nomi</string>
+    <string name="empty_playlist" source="google_translate">Bo\'sh ijro ro\'yxati</string>
+    <string name="profile" source="google_translate">Foydalanuvchining profili</string>
+    <string name="not_selected" source="google_translate">Tanlanmagan</string>
+    <string name="restart_application" source="google_translate">Ilovani qayta ishga tushiring</string>
+    <string name="restart_confirmation" source="google_translate">Ilovani hozir qayta ishga tushiring?</string>
+    <string name="parsing_transport_files" source="google_translate">Transport fayllarini ajrating</string>
+    <string name="user_profile" source="google_translate">Foydalanuvchining profili</string>
+    <string name="account_balance" source="google_translate">Hisob balansi</string>
+</resources>

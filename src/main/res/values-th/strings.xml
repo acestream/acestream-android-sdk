@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lbl_version" source="google_translate">รุ่น</string>
+    <string name="lbl_portal" source="google_translate">พอร์ทัลข้อมูล</string>
+    <string name="lbl_prefshththtml" source="google_translate">การตั้งค่า</string>
+    <string name="lbl_account" source="google_translate">บัญชี</string>
+    <string name="lbl_sign_out" source="google_translate">ออกจากระบบ</string>
+    <string name="menu_prefs" source="google_translate">การตั้งค่า</string>
+    <string name="menu_profile" source="google_translate">ประวัติผู้ใช้</string>
+    <string name="menu_services" source="google_translate">บริการ</string>
+    <string name="menu_clearcache" source="google_translate">ล้างแคช</string>
+    <string name="menu_quit" source="google_translate">เลิก</string>
+    <string name="menu_action_fail" source="google_translate">ไม่สามารถดำเนินการนี้กับเอนจินที่ไม่ได้ใช้งาน</string>
+    <string name="dialog_wait" source="google_translate">โปรดรอ</string>
+    <string name="dialog_unpack" source="google_translate">การเอาออก</string>
+    <string name="dialog_start" source="google_translate">ที่เริ่มต้น</string>
+    <string name="dialog_prefs" source="google_translate">กำลังดึงค่ากำหนด</string>
+    <string name="dialog_services" source="google_translate">การดึงรายการบริการ</string>
+    <string name="dialog_cache" source="google_translate">การล้างแคช</string>
+    <string name="dialog_shutdown" source="google_translate">Shutdowning</string>
+    <string name="dialog_no_connection" source="google_translate">ไม่มีการเชื่อมต่ออินเทอร์เน็ต บริการ Ace Stream Engine จะเริ่มโดยอัตโนมัติหลังจากเชื่อมต่อ</string>
+    <string name="task_prefs_fail" source="google_translate">การเรียกค้นข้อผิดพลาดการตั้งค่า</string>
+    <string name="task_services_fail" source="google_translate">การดึงข้อผิดพลาดของบริการ</string>
+    <string name="start_ok" source="google_translate">เริ่มประสบความสำเร็จ</string>
+    <string name="start_fail" source="google_translate">การเริ่มต้นล้มเหลว</string>
+    <string name="notify_starting" source="google_translate">ว่าง</string>
+    <string name="notify_unpack" source="google_translate">กำลังเปิดออก</string>
+    <string name="notify_unpack_complete" source="google_translate">การเปิดออกเสร็จสมบูรณ์</string>
+    <string name="notify_connect" source="google_translate">การเชื่อมต่อ</string>
+    <string name="notify_connect_complete" source="google_translate">การเชื่อมต่อเสร็จสมบูรณ์</string>
+    <string name="notify_running" source="google_translate">วิ่ง</string>
+    <string name="notify_stopped" source="google_translate">หยุด</string>
+    <string name="notify_error" source="google_translate">ความผิดพลาด</string>
+    <string name="notify_wait_connection" source="google_translate">ไม่มีการเชื่อมต่อเครือข่าย</string>
+    <string name="prefs_group_main" source="google_translate">การตั้งค่าหลัก</string>
+    <string name="prefs_item_mobile" source="google_translate">การเข้าถึงข้อมูลเครือข่ายมือถือ</string>
+    <string name="prefs_item_mobile_summary" source="google_translate">เปิดใช้งานการเข้าถึงข้อมูลผ่านเครือข่ายมือถือ</string>
+    <string name="prefs_item_vod_buffer" source="google_translate">บัฟเฟอร์ VOD, s</string>
+    <string name="prefs_item_live_buffer" source="google_translate">บัฟเฟอร์สด s</string>
+    <string name="prefs_item_download_limit" source="google_translate">ดาวน์โหลดขีด จำกัด (0 - ไม่ จำกัด ), Kb / s</string>
+    <string name="prefs_item_upload_limit" source="google_translate">จำกัด การอัปโหลด (0 - ไม่ จำกัด ), Kb / s</string>
+    <string name="prefs_group_advanced" source="google_translate">การตั้งค่าขั้นสูง</string>
+    <string name="prefs_item_port" source="google_translate">ท่าเรือ</string>
+    <string name="prefs_item_total_max_connects" source="google_translate">การเชื่อมต่อสูงสุด</string>
+    <string name="prefs_item_download_max_connects" source="google_translate">ดาวน์โหลดการเชื่อมต่อสูงสุด</string>
+    <string name="prefs_group_profile" source="google_translate">ประวัติผู้ใช้</string>
+    <string name="prefs_item_gender" source="google_translate">เพศ</string>
+    <string name="prefs_item_age" source="google_translate">อายุ</string>
+    <string name="prefs_item_login" source="google_translate">เข้าสู่ระบบ</string>
+    <string name="prefs_item_password" source="google_translate">รหัสผ่าน</string>
+    <string name="prefs_gender_value_male" source="google_translate">ชาย</string>
+    <string name="prefs_gender_value_female" source="google_translate">หญิง</string>
+    <string name="prefs_age_value_under13" source="google_translate">ต่ำกว่า 13</string>
+    <string name="prefs_age_value_above64" source="google_translate">สูงกว่า 64</string>
+    <string name="prefs_group_cache" source="google_translate">การตั้งค่าแคช</string>
+    <string name="prefs_item_disk_cache_limit" source="google_translate">ขีด จำกัด แคชดิสก์, Mb</string>
+    <string name="prefs_item_memory_cache_limit" source="google_translate">ขีด จำกัด แคช RAM, Mb</string>
+    <string name="prefs_item_cache_dir" source="google_translate">ไดเรกทอรีแคช</string>
+    <string name="prefs_cache_live_use_disk" source="google_translate">ใช้ดิสก์สำหรับถ่ายทอดสด</string>
+    <string name="prefs_cache_vod_use_disk" source="google_translate">ใช้ดิสก์สำหรับ VOD</string>
+    <string name="prefs_output_format_live" source="google_translate">รูปแบบเอาท์พุท (สด)</string>
+    <string name="prefs_output_format_vod" source="google_translate">รูปแบบเอาท์พุท (VOD)</string>
+    <string name="extension_name" source="google_translate">ชื่อ:</string>
+    <string name="extension_description" source="google_translate">รายละเอียด:</string>
+    <string name="extension_issued_by" source="google_translate">ออกโดย:</string>
+    <string name="extension_url" source="google_translate">url:</string>
+    <string name="extension_enabled" source="google_translate">เปิดใช้งาน:</string>
+    <string name="extension_valid_from" source="google_translate">ใช้ได้ตั้งแต่:</string>
+    <string name="extension_valid_to" source="google_translate">ใช้ได้กับ:</string>
+    <string name="no_services" source="google_translate">ไม่มีบริการ</string>
+    <string name="message_unsupported_cpu" source="google_translate">CPU ของคุณยังไม่รองรับ</string>
+    <string name="starting" source="google_translate">เริ่มต้น ...</string>
+    <string name="starting_player" source="google_translate">กำลังเริ่มผู้เล่น ...</string>
+    <string name="install" source="google_translate">ติดตั้ง</string>
+    <string name="close" source="google_translate">ปิด</string>
+    <string name="no_players" source="google_translate">ไม่พบผู้เล่น</string>
+    <string name="failed_to_start" source="google_translate">การเริ่มต้นล้มเหลว</string>
+    <string name="option_proxy_server" source="google_translate">พร็อกซีเซิร์ฟเวอร์</string>
+    <string name="option_generic_premium" source="google_translate">เบี้ยประกันภัย</string>
+    <string name="activate" source="google_translate">กระตุ้น</string>
+    <string name="prompt_email" source="google_translate">อีเมล์</string>
+    <string name="prompt_password" source="google_translate">รหัสผ่าน</string>
+    <string name="action_sign_in" source="google_translate">ลงชื่อเข้าใช้</string>
+    <string name="action_sign_in_or_register" source="google_translate">เข้าสู่ระบบ / ลงทะเบียน</string>
+    <string name="action_sign_out" source="google_translate">ออกจากระบบ</string>
+    <string name="error_invalid_email" source="google_translate">ที่อยู่อีเมลนี้ไม่ถูกต้อง</string>
+    <string name="error_invalid_password" source="google_translate">รหัสผ่านนี้สั้นเกินไป</string>
+    <string name="error_field_required" source="google_translate">ต้องระบุข้อมูลในฟิลด์นี้</string>
+    <string name="upgrage_user_level" source="google_translate">อัพเกรด</string>
+    <string name="select_file" source="google_translate">เลือกไฟล์</string>
+    <string name="auth_error_user_not_found" source="google_translate">ไม่พบชื่อผู้ใช้</string>
+    <string name="auth_error_user_disabled" source="google_translate">ผู้ใช้ถูกปิดใช้งาน</string>
+    <string name="auth_error_bad_password" source="google_translate">รหัสผ่านนี้ไม่ถูกต้อง</string>
+    <string name="auth_internal_error" source="google_translate">ข้อผิดพลาดภายใน กรุณาลองใหม่</string>
+    <string name="auth_network_error" source="google_translate">เครือข่ายผิดพลาด กรุณาลองใหม่</string>
+    <string name="auth_failed_error" source="google_translate">การตรวจสอบสิทธิ์ล้มเหลว กรุณาลองใหม่</string>
+    <string name="uninstall" source="google_translate">ถอนการติดตั้ง</string>
+    <string name="uninstall_prev_version_to_continue" source="google_translate">คุณต้องถอนการติดตั้งเวอร์ชันก่อนหน้าเพื่อดำเนินการต่อ</string>
+    <string name="prefs_allow_intranet_access" source="google_translate">อนุญาตการเข้าถึงอินทราเน็ต</string>
+    <string name="prefs_allow_remote_access" source="google_translate">อนุญาตการเข้าถึงระยะไกล</string>
+    <string name="error" source="google_translate">ความผิดพลาด</string>
+    <string name="select_player" source="google_translate">เลือกผู้เล่น</string>
+    <string name="attention" source="google_translate">ความสนใจ</string>
+    <string name="home" source="google_translate">บ้าน</string>
+    <string name="remote_control" source="google_translate">รีโมท</string>
+    <string name="please_try_again" source="google_translate">กรุณาลองอีกครั้ง</string>
+    <string name="cannot_start_playback" source="google_translate">ไม่สามารถเริ่มเล่นได้</string>
+    <string name="device_disconnected" source="google_translate">อุปกรณ์ถูกตัดการเชื่อมต่อ</string>
+    <string name="connection_failed" source="google_translate">การเชื่อมต่อล้มเหลว</string>
+    <string name="buffering" source="google_translate">บัฟเฟอร์</string>
+    <string name="remember_choice" source="google_translate">จำทางเลือก</string>
+    <string name="prefs_transcode_ac3" source="google_translate">แปลงรหัส AC3 เป็น AAC สำหรับ HLS เท่านั้น</string>
+    <string name="ok_sure" source="google_translate">ตกลงแน่นอน</string>
+    <string name="no_thanks" source="google_translate">ไม่เป็นไรขอบคุณ</string>
+    <string name="rate_yes" source="google_translate">ใช่</string>
+    <string name="rate_not" source="google_translate">ไม่ได้จริงๆ</string>
+    <string name="rate_do_you_like" source="google_translate">เพลิดเพลินกับ Ace Stream หรือไม่</string>
+    <string name="rate_on_google" source="google_translate">ถ้างั้นเรตติ้งของ Google Play ล่ะ?</string>
+    <string name="rate_give_feedback" source="google_translate">คุณจะให้คำติชมกับเราบ้างไหม?</string>
+    <string name="prefs_transcode_audio" source="google_translate">แปลงสัญญาณเสียงทั้งหมดเป็น AAC สำหรับ HLS</string>
+    <string name="want_restart" source="google_translate">คุณต้องการเล่นต่อจากตำแหน่งสุดท้ายหรือไม่?</string>
+    <string name="restart_from_beginning" source="google_translate">เริ่มจากจุดเริ่มต้น</string>
+    <string name="menu_content_id" source="google_translate">ป้อนรหัสเนื้อหา</string>
+    <string name="enter_content_id" source="google_translate">ป้อนรหัสเนื้อหา</string>
+    <string name="bad_content_id" source="google_translate">รหัสเนื้อหาไม่ถูกต้อง</string>
+    <string name="send" source="google_translate">ส่ง</string>
+    <string name="report_problem" source="google_translate">รายงานปัญหา</string>
+    <string name="report_has_been_sent" source="google_translate">ส่งรายงานแล้ว</string>
+    <string name="report_failed" source="google_translate">รายงานล้มเหลว</string>
+    <string name="allow_mobile_networks" source="google_translate">อนุญาตให้ใช้เครือข่ายมือถือหรือไม่</string>
+    <string name="problem_description" source="google_translate">คำอธิบายปัญหา</string>
+    <string name="directory_is_not_writable" source="google_translate">ไดเรกทอรีไม่สามารถเขียนได้</string>
+    <string name="device_storage" source="google_translate">ที่เก็บอุปกรณ์</string>
+    <string name="sd_card" source="google_translate">การ์ด SD</string>
+    <string name="select_directory" source="google_translate">เลือกไดเรกทอรี</string>
+    <string name="select_category" source="google_translate">เลือกประเภท</string>
+    <string name="language" source="google_translate">ภาษา</string>
+    <string name="sign_in_or_register" source="google_translate">เข้าสู่ระบบหรือลงทะเบียนใน Ace Stream</string>
+    <string name="sign_in_or_register_continue" source="google_translate">เข้าสู่ระบบหรือลงทะเบียนเพื่อดำเนินการต่อ</string>
+    <string name="selected_player" source="google_translate">ผู้เล่นที่เลือก</string>
+    <string name="opengl_usage" source="google_translate">การใช้ OpenGL ES2</string>
+    <string name="auto" source="google_translate">รถยนต์</string>
+    <string name="force_on" source="google_translate">บังคับใช้</string>
+    <string name="force_off" source="google_translate">บังคับให้ปิด</string>
+    <string name="video_hardware_acceleration" source="google_translate">การเร่งความเร็วฮาร์ดแวร์วิดีโอ</string>
+    <string name="disabled" source="google_translate">พิการ</string>
+    <string name="decoding_acceleration" source="google_translate">ถอดรหัสการเร่งความเร็ว</string>
+    <string name="full_acceleration" source="google_translate">การเร่งความเร็วเต็ม</string>
+    <string name="show_debug_info" source="google_translate">แสดงข้อมูลการดีบัก</string>
+    <string name="enable_debug_logging" source="google_translate">เปิดใช้งานการบันทึกการดีบัก</string>
+    <string name="start_acecast_server" source="google_translate">เริ่มเซิร์ฟเวอร์ AceCast</string>
+    <string name="avi_opendml_warning" source="google_translate">วิดีโอนี้อาจเล่นไม่ถูกต้องในโปรแกรมเล่น Ace Stream เลือกผู้เล่นอื่นหรือไม่</string>
+    <string name="player_preferences" source="google_translate">การตั้งค่าผู้เล่น</string>
+    <string name="ads_preferences" source="google_translate">การตั้งค่าโฆษณา</string>
+    <string name="ads_preferences_short" source="google_translate">โฆษณา</string>
+    <string name="show_lock_button" source="google_translate">แสดงปุ่มล็อค</string>
+    <string name="engine_preferences" source="google_translate">การตั้งค่าเครื่องยนต์</string>
+    <string name="engine_preferences_short" source="google_translate">เครื่องยนต์</string>
+    <string name="need_proxy_server_option" source="google_translate">คุณต้องเปิดใช้งานตัวเลือก Proxy Server เพื่อดูเนื้อหาในเครื่องเล่นภายนอก หรือคุณสามารถรับชมเนื้อหาได้ฟรีใน Ace Player</string>
+    <string name="need_proxy_server_option_tmp" source="google_translate">ในการรับชมเนื้อหาคุณต้องเปิดใช้งานตัวเลือก Proxy Server หรืออัพเกรดแอพ Ace Stream</string>
+    <string name="pause_on_audiofocus_loss" source="google_translate">หยุดการสูญเสียสัญญาณเสียงชั่วคราว</string>
+    <string name="upgrade" source="google_translate">อัพเกรด</string>
+    <string name="to_continue_visit_link" source="google_translate">หากต้องการเข้าชมลิงก์นี้ต่อ:</string>
+    <string name="and_enter_pin" source="google_translate">และป้อน PIN:</string>
+    <string name="gdpr_consent" source="google_translate">ความยินยอมของ GDPR</string>
+    <string name="show_rewarded_ads" source="google_translate">แสดงโฆษณาที่ได้รับรางวัล</string>
+    <string name="show_ads_on_main_screen" source="google_translate">แสดงโฆษณาบนหน้าจอหลัก</string>
+    <string name="show_ads_on_preroll" source="google_translate">แสดงโฆษณาบน preroll</string>
+    <string name="show_ads_on_pause" source="google_translate">แสดงโฆษณาเมื่อหยุดชั่วคราว</string>
+    <string name="show_ads_on_close" source="google_translate">แสดงโฆษณาบนเครื่องเล่นปิด</string>
+    <string name="agreement" source="google_translate">ข้อตกลง</string>
+    <string name="license_agreement" source="google_translate">ข้อตกลง</string>
+    <string name="privacy_policy" source="google_translate">นโยบายความเป็นส่วนตัว</string>
+    <string name="application_version" source="google_translate">เวอร์ชันของแอปพลิเคชัน</string>
+    <string name="disable_ads" source="google_translate">ปิดใช้งานโฆษณา</string>
+    <string name="learn_more" source="google_translate">เรียนรู้เพิ่มเติม</string>
+    <string name="skip_ad" source="google_translate">ข้ามโฆษณา</string>
+    <string name="you_can_skip_this_ad_in" source="google_translate">คุณสามารถข้ามโฆษณานี้ได้ใน %d</string>
+    <string name="clearing_cache_etc" source="google_translate">กำลังล้างแคช ...</string>
+    <string name="cache_cleared" source="google_translate">ล้างแคชแล้ว</string>
+    <string name="not_connected_to_engine" source="google_translate">ไม่ได้เชื่อมต่อกับเครื่องยนต์</string>
+    <string name="gdpr_consent_pref_title" source="google_translate">ความยินยอมของ GDPR</string>
+    <string name="gdpr_consent_pref_summary" source="google_translate">ความยินยอมของ GDPR</string>
+    <string name="application" source="google_translate">ใบสมัคร</string>
+    <string name="device_name" source="google_translate">ชื่ออุปกรณ์</string>
+    <string name="empty_playlist" source="google_translate">เพลย์ลิสต์ว่างเปล่า</string>
+    <string name="profile" source="google_translate">ข้อมูลส่วนตัว</string>
+    <string name="not_selected" source="google_translate">ไม่ได้เลือก</string>
+    <string name="restart_application" source="google_translate">รีสตาร์ทแอปพลิเคชัน</string>
+    <string name="restart_confirmation" source="google_translate">รีสตาร์ทแอปพลิเคชันทันทีหรือไม่</string>
+    <string name="parsing_transport_files" source="google_translate">แยกไฟล์การขนส่ง</string>
+    <string name="user_profile" source="google_translate">ประวัติผู้ใช้</string>
+    <string name="account_balance" source="google_translate">ยอดเงินในบัญชี</string>
+</resources>

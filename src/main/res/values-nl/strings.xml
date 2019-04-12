@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lbl_version" source="google_translate">Versie</string>
+    <string name="lbl_portal" source="google_translate">Informatie portal</string>
+    <string name="lbl_prefshththtml" source="google_translate">instellingen</string>
+    <string name="lbl_account" source="google_translate">Account</string>
+    <string name="lbl_sign_out" source="google_translate">Afmelden</string>
+    <string name="menu_prefs" source="google_translate">instellingen</string>
+    <string name="menu_profile" source="google_translate">Gebruikersprofiel</string>
+    <string name="menu_services" source="google_translate">Diensten</string>
+    <string name="menu_clearcache" source="google_translate">Cache wissen</string>
+    <string name="menu_quit" source="google_translate">ophouden</string>
+    <string name="menu_action_fail" source="google_translate">Kan deze actie niet uitvoeren met niet-actieve engine</string>
+    <string name="dialog_wait" source="google_translate">Even geduld aub</string>
+    <string name="dialog_unpack" source="google_translate">uitpakken</string>
+    <string name="dialog_start" source="google_translate">Beginnend</string>
+    <string name="dialog_prefs" source="google_translate">Voorkeuren ophalen</string>
+    <string name="dialog_services" source="google_translate">Lijst met services ophalen</string>
+    <string name="dialog_cache" source="google_translate">Cache wissen</string>
+    <string name="dialog_shutdown" source="google_translate">Shutdowning</string>
+    <string name="dialog_no_connection" source="google_translate">Geen beschikbare internetverbinding. De Ace Stream Engine-service start automatisch na de verbinding.</string>
+    <string name="task_prefs_fail" source="google_translate">Instellingenfout ophalen</string>
+    <string name="task_services_fail" source="google_translate">Ophalen van services fout</string>
+    <string name="start_ok" source="google_translate">Begin met succes</string>
+    <string name="start_fail" source="google_translate">Start mislukt</string>
+    <string name="notify_starting" source="google_translate">nutteloos</string>
+    <string name="notify_unpack" source="google_translate">Uitpakken in behandeling</string>
+    <string name="notify_unpack_complete" source="google_translate">Uitpakken voltooid</string>
+    <string name="notify_connect" source="google_translate">Aansluiten</string>
+    <string name="notify_connect_complete" source="google_translate">Verbinden voltooid</string>
+    <string name="notify_running" source="google_translate">hardlopen</string>
+    <string name="notify_stopped" source="google_translate">gestopt</string>
+    <string name="notify_error" source="google_translate">Fout</string>
+    <string name="notify_wait_connection" source="google_translate">Geen beschikbare netwerkverbinding</string>
+    <string name="prefs_group_main" source="google_translate">Algemene voorkeuren</string>
+    <string name="prefs_item_mobile" source="google_translate">Toegangsrechten voor mobiele netwerken</string>
+    <string name="prefs_item_mobile_summary" source="google_translate">Schakel toegang tot gegevens via mobiele netwerken in</string>
+    <string name="prefs_item_vod_buffer" source="google_translate">VOD-buffer, s</string>
+    <string name="prefs_item_live_buffer" source="google_translate">Live buffer, s</string>
+    <string name="prefs_item_download_limit" source="google_translate">Downloadlimiet (0 - geen limiet), Kb / s</string>
+    <string name="prefs_item_upload_limit" source="google_translate">Uploadlimiet (0 - geen limiet), Kb / s</string>
+    <string name="prefs_group_advanced" source="google_translate">Geavanceerde voorkeuren</string>
+    <string name="prefs_item_port" source="google_translate">Haven</string>
+    <string name="prefs_item_total_max_connects" source="google_translate">Max maakt verbinding</string>
+    <string name="prefs_item_download_max_connects" source="google_translate">Max-verbindingen downloaden</string>
+    <string name="prefs_group_profile" source="google_translate">Gebruikersprofiel</string>
+    <string name="prefs_item_gender" source="google_translate">Geslacht</string>
+    <string name="prefs_item_age" source="google_translate">Leeftijd</string>
+    <string name="prefs_item_login" source="google_translate">Log in</string>
+    <string name="prefs_item_password" source="google_translate">Wachtwoord</string>
+    <string name="prefs_gender_value_male" source="google_translate">Mannetje</string>
+    <string name="prefs_gender_value_female" source="google_translate">Vrouw</string>
+    <string name="prefs_age_value_under13" source="google_translate">Jonger dan 13</string>
+    <string name="prefs_age_value_above64" source="google_translate">Boven 64</string>
+    <string name="prefs_group_cache" source="google_translate">Cache-instellingen</string>
+    <string name="prefs_item_disk_cache_limit" source="google_translate">Limiet schijfcache, Mb</string>
+    <string name="prefs_item_memory_cache_limit" source="google_translate">RAM-cachelimiet, Mb</string>
+    <string name="prefs_item_cache_dir" source="google_translate">Cachedirectory</string>
+    <string name="prefs_cache_live_use_disk" source="google_translate">Gebruik schijf voor live</string>
+    <string name="prefs_cache_vod_use_disk" source="google_translate">Gebruik schijf voor VOD</string>
+    <string name="prefs_output_format_live" source="google_translate">Uitvoerformaat (Live)</string>
+    <string name="prefs_output_format_vod" source="google_translate">Uitvoerformaat (VOD)</string>
+    <string name="extension_name" source="google_translate">Naam:</string>
+    <string name="extension_description" source="google_translate">Omschrijving:</string>
+    <string name="extension_issued_by" source="google_translate">Uitgegeven door:</string>
+    <string name="extension_url" source="google_translate">url:</string>
+    <string name="extension_enabled" source="google_translate">Ingeschakeld:</string>
+    <string name="extension_valid_from" source="google_translate">Geldig vanaf:</string>
+    <string name="extension_valid_to" source="google_translate">Geldig tot:</string>
+    <string name="no_services" source="google_translate">Geen services</string>
+    <string name="message_unsupported_cpu" source="google_translate">Je CPU wordt nog niet ondersteund.</string>
+    <string name="starting" source="google_translate">Beginnend…</string>
+    <string name="starting_player" source="google_translate">Beginnende speler ...</string>
+    <string name="install" source="google_translate">Installeren</string>
+    <string name="close" source="google_translate">Dichtbij</string>
+    <string name="no_players" source="google_translate">Geen spelers gevonden</string>
+    <string name="failed_to_start" source="google_translate">Starten mislukt</string>
+    <string name="option_proxy_server" source="google_translate">Proxy server</string>
+    <string name="option_generic_premium" source="google_translate">Premie</string>
+    <string name="activate" source="google_translate">Activeren</string>
+    <string name="prompt_email" source="google_translate">E-mail</string>
+    <string name="prompt_password" source="google_translate">Wachtwoord</string>
+    <string name="action_sign_in" source="google_translate">Aanmelden</string>
+    <string name="action_sign_in_or_register" source="google_translate">Aanmelden / registreren</string>
+    <string name="action_sign_out" source="google_translate">Afmelden</string>
+    <string name="error_invalid_email" source="google_translate">Dit e-mailadres is ongeldig</string>
+    <string name="error_invalid_password" source="google_translate">Dit wachtwoord is te kort</string>
+    <string name="error_field_required" source="google_translate">dit veld is verplicht</string>
+    <string name="upgrage_user_level" source="google_translate">Upgrade</string>
+    <string name="select_file" source="google_translate">Selecteer bestand</string>
+    <string name="auth_error_user_not_found" source="google_translate">Gebruiker niet gevonden</string>
+    <string name="auth_error_user_disabled" source="google_translate">Gebruiker is uitgeschakeld</string>
+    <string name="auth_error_bad_password" source="google_translate">Dit wachtwoord is onjuist</string>
+    <string name="auth_internal_error" source="google_translate">Interne fout. Probeer het later alstublieft.</string>
+    <string name="auth_network_error" source="google_translate">Netwerkfout. Probeer het later alstublieft.</string>
+    <string name="auth_failed_error" source="google_translate">Auth is mislukt. Probeer het later alstublieft.</string>
+    <string name="uninstall" source="google_translate">Uninstall</string>
+    <string name="uninstall_prev_version_to_continue" source="google_translate">U moet de vorige versie verwijderen om door te gaan</string>
+    <string name="prefs_allow_intranet_access" source="google_translate">Toegang tot intranet toestaan</string>
+    <string name="prefs_allow_remote_access" source="google_translate">Afstand op afstand toestaan</string>
+    <string name="error" source="google_translate">Fout</string>
+    <string name="select_player" source="google_translate">Selecteer speler</string>
+    <string name="attention" source="google_translate">Aandacht</string>
+    <string name="home" source="google_translate">Huis</string>
+    <string name="remote_control" source="google_translate">Afstandsbediening</string>
+    <string name="please_try_again" source="google_translate">Probeer het alstublieft nog een keer</string>
+    <string name="cannot_start_playback" source="google_translate">Kan het afspelen niet starten</string>
+    <string name="device_disconnected" source="google_translate">Apparaat losgekoppeld</string>
+    <string name="connection_failed" source="google_translate">Verbinding mislukt</string>
+    <string name="buffering" source="google_translate">buffering</string>
+    <string name="remember_choice" source="google_translate">Onthoud de keuze</string>
+    <string name="prefs_transcode_ac3" source="google_translate">Transcode alleen AC3 naar AAC voor HLS</string>
+    <string name="ok_sure" source="google_translate">OK zeker</string>
+    <string name="no_thanks" source="google_translate">Nee bedankt</string>
+    <string name="rate_yes" source="google_translate">Ja!</string>
+    <string name="rate_not" source="google_translate">Niet echt</string>
+    <string name="rate_do_you_like" source="google_translate">Genieten van Ace Stream?</string>
+    <string name="rate_on_google" source="google_translate">Wat dacht je van een beoordeling op Google Play?</string>
+    <string name="rate_give_feedback" source="google_translate">Zou je ons wat feedback willen geven?</string>
+    <string name="prefs_transcode_audio" source="google_translate">Transcodeer alle audio naar AAC voor HLS</string>
+    <string name="want_restart" source="google_translate">Wilt u het afspelen vanaf de laatste positie hervatten?</string>
+    <string name="restart_from_beginning" source="google_translate">Begin vanaf het begin</string>
+    <string name="menu_content_id" source="google_translate">Voer Content ID in</string>
+    <string name="enter_content_id" source="google_translate">Voer Content ID in</string>
+    <string name="bad_content_id" source="google_translate">Bad Content ID</string>
+    <string name="send" source="google_translate">Sturen</string>
+    <string name="report_problem" source="google_translate">Meld een probleem</string>
+    <string name="report_has_been_sent" source="google_translate">Rapport is verzonden</string>
+    <string name="report_failed" source="google_translate">Rapport mislukt</string>
+    <string name="allow_mobile_networks" source="google_translate">Gebruik van mobiele netwerken toestaan?</string>
+    <string name="problem_description" source="google_translate">Probleem beschrijving</string>
+    <string name="directory_is_not_writable" source="google_translate">Directory is niet schrijfbaar</string>
+    <string name="device_storage" source="google_translate">Apparaat opslag</string>
+    <string name="sd_card" source="google_translate">SD-kaart</string>
+    <string name="select_directory" source="google_translate">Selecteer map</string>
+    <string name="select_category" source="google_translate">Selecteer categorie</string>
+    <string name="language" source="google_translate">Taal</string>
+    <string name="sign_in_or_register" source="google_translate">Log in of registreer je in de Ace Stream</string>
+    <string name="sign_in_or_register_continue" source="google_translate">Log in of registreer om door te gaan</string>
+    <string name="selected_player" source="google_translate">Geselecteerde speler</string>
+    <string name="opengl_usage" source="google_translate">Gebruik OpenGL ES2</string>
+    <string name="auto" source="google_translate">Auto</string>
+    <string name="force_on" source="google_translate">Dwingen op</string>
+    <string name="force_off" source="google_translate">Force Off</string>
+    <string name="video_hardware_acceleration" source="google_translate">Video Hardware Acceleration</string>
+    <string name="disabled" source="google_translate">invalide</string>
+    <string name="decoding_acceleration" source="google_translate">Decodeerversnelling</string>
+    <string name="full_acceleration" source="google_translate">Volledige versnelling</string>
+    <string name="show_debug_info" source="google_translate">Foutopsporingsinformatie weergeven</string>
+    <string name="enable_debug_logging" source="google_translate">Schakel logboekregistratie voor foutopsporing in</string>
+    <string name="start_acecast_server" source="google_translate">Start AceCast Server</string>
+    <string name="avi_opendml_warning" source="google_translate">Deze video wordt mogelijk niet correct afgespeeld in de Ace Stream-speler. Kies een andere speler?</string>
+    <string name="player_preferences" source="google_translate">Speler instellingen</string>
+    <string name="ads_preferences" source="google_translate">Advertentie-instellingen</string>
+    <string name="ads_preferences_short" source="google_translate">advertenties</string>
+    <string name="show_lock_button" source="google_translate">Toon vergrendelingsknop</string>
+    <string name="engine_preferences" source="google_translate">Motor instellingen</string>
+    <string name="engine_preferences_short" source="google_translate">Motor</string>
+    <string name="need_proxy_server_option" source="google_translate">U moet de proxyserveroptie activeren om inhoud in externe spelers te bekijken. Of u kunt de inhoud gratis bekijken in Ace Player</string>
+    <string name="need_proxy_server_option_tmp" source="google_translate">Als u inhoud wilt bekijken, moet u de proxyserveroptie activeren of de app Ace Stream upgraden</string>
+    <string name="pause_on_audiofocus_loss" source="google_translate">Pauzeer bij audiofocusverlies</string>
+    <string name="upgrade" source="google_translate">Upgrade</string>
+    <string name="to_continue_visit_link" source="google_translate">Ga naar deze link om verder te gaan:</string>
+    <string name="and_enter_pin" source="google_translate">en voer PIN in:</string>
+    <string name="gdpr_consent" source="google_translate">GDPR-toestemming</string>
+    <string name="show_rewarded_ads" source="google_translate">Toon beloonde advertenties</string>
+    <string name="show_ads_on_main_screen" source="google_translate">Toon advertenties op het hoofdscherm</string>
+    <string name="show_ads_on_preroll" source="google_translate">Toon advertenties op preroll</string>
+    <string name="show_ads_on_pause" source="google_translate">Toon advertenties in de pauze</string>
+    <string name="show_ads_on_close" source="google_translate">Toon advertenties op speler dichtbij</string>
+    <string name="agreement" source="google_translate">Overeenkomst</string>
+    <string name="license_agreement" source="google_translate">Licentieovereenkomst</string>
+    <string name="privacy_policy" source="google_translate">Privacybeleid</string>
+    <string name="application_version" source="google_translate">Applicatie versie</string>
+    <string name="disable_ads" source="google_translate">Schakel advertenties uit</string>
+    <string name="learn_more" source="google_translate">Kom meer te weten</string>
+    <string name="skip_ad" source="google_translate">Advertentie overslaan</string>
+    <string name="you_can_skip_this_ad_in" source="google_translate">U kunt deze advertentie overslaan in %d</string>
+    <string name="clearing_cache_etc" source="google_translate">Cache wissen ...</string>
+    <string name="cache_cleared" source="google_translate">Cache gewist</string>
+    <string name="not_connected_to_engine" source="google_translate">Niet verbonden met de motor</string>
+    <string name="gdpr_consent_pref_title" source="google_translate">GDPR-toestemming</string>
+    <string name="gdpr_consent_pref_summary" source="google_translate">GDPR-toestemming</string>
+    <string name="application" source="google_translate">Toepassing</string>
+    <string name="device_name" source="google_translate">Toestelnaam</string>
+    <string name="empty_playlist" source="google_translate">Lege afspeellijst</string>
+    <string name="profile" source="google_translate">Profiel</string>
+    <string name="not_selected" source="google_translate">Niet geselecteerd</string>
+    <string name="restart_application" source="google_translate">Start de applicatie opnieuw</string>
+    <string name="restart_confirmation" source="google_translate">Start de applicatie nu opnieuw?</string>
+    <string name="parsing_transport_files" source="google_translate">Transportbestanden parseren</string>
+    <string name="user_profile" source="google_translate">Gebruikersprofiel</string>
+    <string name="account_balance" source="google_translate">Accountsaldo</string>
+</resources>

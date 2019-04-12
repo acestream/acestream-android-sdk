@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lbl_version" source="google_translate">Tionndadh</string>
+    <string name="lbl_portal" source="google_translate">Portal fiosrachaidh</string>
+    <string name="lbl_prefshththtml" source="google_translate">Roghainnean</string>
+    <string name="lbl_account" source="google_translate">Cunntas</string>
+    <string name="lbl_sign_out" source="google_translate">Soidhnig a-mach</string>
+    <string name="menu_prefs" source="google_translate">Roghainnean</string>
+    <string name="menu_profile" source="google_translate">Pròifil chleachdaiche</string>
+    <string name="menu_services" source="google_translate">Seirbheisean</string>
+    <string name="menu_clearcache" source="google_translate">Taisg air falbh</string>
+    <string name="menu_quit" source="google_translate">Cuidhtich</string>
+    <string name="menu_action_fail" source="google_translate">Cha ghabh seo a dhèanamh le einnsean neo-ghnìomhach</string>
+    <string name="dialog_wait" source="google_translate">Fuirich mionaid</string>
+    <string name="dialog_unpack" source="google_translate">A \'dì-phapadh</string>
+    <string name="dialog_start" source="google_translate">A \'tòiseachadh</string>
+    <string name="dialog_prefs" source="google_translate">A \'toirt air ais roghainnean</string>
+    <string name="dialog_services" source="google_translate">Liosta sheirbheisean a ghleidheadh</string>
+    <string name="dialog_cache" source="google_translate">A \'glanadh cache</string>
+    <string name="dialog_shutdown" source="google_translate">A \'lughdachadh</string>
+    <string name="dialog_no_connection" source="google_translate">Chan eil ceangal eadar-lìn ri fhaighinn. Tòisichidh seirbheis Inneal Stream Ace gu fèin-ghluasadach às deidh ceangal.</string>
+    <string name="task_prefs_fail" source="google_translate">A \'toirt air falbh mearachd roghainnean</string>
+    <string name="task_services_fail" source="google_translate">Mearachd seirbheisean a ghleidheadh</string>
+    <string name="start_ok" source="google_translate">Tòisich gu soirbheachadh</string>
+    <string name="start_fail" source="google_translate">Dh\'fhàillig an toiseach</string>
+    <string name="notify_starting" source="google_translate">Idle</string>
+    <string name="notify_unpack" source="google_translate">A \'dì-phapadh ann am pròiseas</string>
+    <string name="notify_unpack_complete" source="google_translate">A \'dì-phapadh crìochnaichte</string>
+    <string name="notify_connect" source="google_translate">Ceangail</string>
+    <string name="notify_connect_complete" source="google_translate">Ceangal crìochnaichte</string>
+    <string name="notify_running" source="google_translate">A \'ruith</string>
+    <string name="notify_stopped" source="google_translate">Stad</string>
+    <string name="notify_error" source="google_translate">Mearachd</string>
+    <string name="notify_wait_connection" source="google_translate">Chan eil ceangal lìonra ri fhaighinn</string>
+    <string name="prefs_group_main" source="google_translate">Prìomh roghainnean</string>
+    <string name="prefs_item_mobile" source="google_translate">Dàta lìonraidhean fònaichean ruigsinneach</string>
+    <string name="prefs_item_mobile_summary" source="google_translate">Thoir cothrom air dàta thairis air lìonraidhean gluasadach</string>
+    <string name="prefs_item_vod_buffer" source="google_translate">Gabh buidhe, s</string>
+    <string name="prefs_item_live_buffer" source="google_translate">Bufair beò, s</string>
+    <string name="prefs_item_download_limit" source="google_translate">Lìn luchdaich sìos (0 - gun chrìoch), Kb / s</string>
+    <string name="prefs_item_upload_limit" source="google_translate">Ceum upload (0 - gun chrìoch), Kb / s</string>
+    <string name="prefs_group_advanced" source="google_translate">Roghainnean adhartach</string>
+    <string name="prefs_item_port" source="google_translate">Port</string>
+    <string name="prefs_item_total_max_connects" source="google_translate">Tha Max a \'ceangal</string>
+    <string name="prefs_item_download_max_connects" source="google_translate">Luchdaich a-nuas max ceangal</string>
+    <string name="prefs_group_profile" source="google_translate">Pròifil chleachdaiche</string>
+    <string name="prefs_item_gender" source="google_translate">Gnè</string>
+    <string name="prefs_item_age" source="google_translate">Aois</string>
+    <string name="prefs_item_login" source="google_translate">Log a-steach</string>
+    <string name="prefs_item_password" source="google_translate">Facal-faire</string>
+    <string name="prefs_gender_value_male" source="google_translate">Fireann</string>
+    <string name="prefs_gender_value_female" source="google_translate">Boireann</string>
+    <string name="prefs_age_value_under13" source="google_translate">Fo aois 13</string>
+    <string name="prefs_age_value_above64" source="google_translate">Os cionn 64</string>
+    <string name="prefs_group_cache" source="google_translate">Suidhichidhean cache</string>
+    <string name="prefs_item_disk_cache_limit" source="google_translate">Crìoch cache disk, Mb</string>
+    <string name="prefs_item_memory_cache_limit" source="google_translate">Ceum cache RAM, Mb</string>
+    <string name="prefs_item_cache_dir" source="google_translate">Leabhar-seòlaidh cache</string>
+    <string name="prefs_cache_live_use_disk" source="google_translate">Cleachd an diosg airson beò</string>
+    <string name="prefs_cache_vod_use_disk" source="google_translate">Cleachd an diosg airson VOD</string>
+    <string name="prefs_output_format_live" source="google_translate">Cruth toraidh (Beò)</string>
+    <string name="prefs_output_format_vod" source="google_translate">Cruth toraidh (VOD)</string>
+    <string name="extension_name" source="google_translate">Ainm:</string>
+    <string name="extension_description" source="google_translate">Tuairisgeul:</string>
+    <string name="extension_issued_by" source="google_translate">Air fhoillseachadh le:</string>
+    <string name="extension_url" source="google_translate">Url:</string>
+    <string name="extension_enabled" source="google_translate">Cumasaichte:</string>
+    <string name="extension_valid_from" source="google_translate">Leigeil bho:</string>
+    <string name="extension_valid_to" source="google_translate">Gu dearbha:</string>
+    <string name="no_services" source="google_translate">Gun sheirbheisean</string>
+    <string name="message_unsupported_cpu" source="google_translate">Chan eil an CPU agad a \'faighinn taic fhathast.</string>
+    <string name="starting" source="google_translate">A \'tòiseachadh ...</string>
+    <string name="starting_player" source="google_translate">A \'tòiseachadh le cluicheadair ...</string>
+    <string name="install" source="google_translate">Stàlaich</string>
+    <string name="close" source="google_translate">Dùin</string>
+    <string name="no_players" source="google_translate">Chan fhaca cluicheadairean idir</string>
+    <string name="failed_to_start" source="google_translate">Dh\'fhàillig air tòiseachadh</string>
+    <string name="option_proxy_server" source="google_translate">Freiceadan Proxy</string>
+    <string name="option_generic_premium" source="google_translate">Premium</string>
+    <string name="activate" source="google_translate">Gnìomhach</string>
+    <string name="prompt_email" source="google_translate">Post-d</string>
+    <string name="prompt_password" source="google_translate">Facal-faire</string>
+    <string name="action_sign_in" source="google_translate">Soidhnig a-steach</string>
+    <string name="action_sign_in_or_register" source="google_translate">Clàraich a-steach / Clàraich</string>
+    <string name="action_sign_out" source="google_translate">Soidhnig a-mach</string>
+    <string name="error_invalid_email" source="google_translate">Tha an seòladh puist-d seo mì-dhligheach</string>
+    <string name="error_invalid_password" source="google_translate">Tha am facal-faire seo ro ghoirid</string>
+    <string name="error_field_required" source="google_translate">Tha feum air an raon seo</string>
+    <string name="upgrage_user_level" source="google_translate">Àrdachadh</string>
+    <string name="select_file" source="google_translate">Tagh faidhle</string>
+    <string name="auth_error_user_not_found" source="google_translate">Cha deach an cleachdaiche a lorg</string>
+    <string name="auth_error_user_disabled" source="google_translate">Tha an cleachdaiche ciorramach</string>
+    <string name="auth_error_bad_password" source="google_translate">Tha am facal-faire seo ceàrr</string>
+    <string name="auth_internal_error" source="google_translate">Mearachd taobh a-staigh. Feuch nas fhaide air adhart.</string>
+    <string name="auth_network_error" source="google_translate">Mearachd lìonra. Feuch nas fhaide air adhart.</string>
+    <string name="auth_failed_error" source="google_translate">Dh\'fhàillig an t-ùghdarras. Feuch nas fhaide air adhart.</string>
+    <string name="uninstall" source="google_translate">Dì-stàladh</string>
+    <string name="uninstall_prev_version_to_continue" source="google_translate">Feumaidh tu an dreach roimhe a dhì-stàladh gus leantainn ort</string>
+    <string name="prefs_allow_intranet_access" source="google_translate">Leig le inntrigeadh an ionaid</string>
+    <string name="prefs_allow_remote_access" source="google_translate">Ceadaich slighe iomallach</string>
+    <string name="error" source="google_translate">Mearachd</string>
+    <string name="select_player" source="google_translate">Tagh cluicheadair</string>
+    <string name="attention" source="google_translate">Thoir aire</string>
+    <string name="home" source="google_translate">Dachaigh</string>
+    <string name="remote_control" source="google_translate">Smachd air astar</string>
+    <string name="please_try_again" source="google_translate">Feuch ris a-rithist</string>
+    <string name="cannot_start_playback" source="google_translate">Cha ghabh tòiseachadh air bogsa-ciùil</string>
+    <string name="device_disconnected" source="google_translate">Inneal air a cheangal ri chèile</string>
+    <string name="connection_failed" source="google_translate">Dh\'fhàillig an ceangal</string>
+    <string name="buffering" source="google_translate">Bualadh</string>
+    <string name="remember_choice" source="google_translate">Cuimhnich roghainn</string>
+    <string name="prefs_transcode_ac3" source="google_translate">Tar-chòrdadh a-mhàin AC3 gu AAC airson HLS</string>
+    <string name="ok_sure" source="google_translate">Ceart gu leòr</string>
+    <string name="no_thanks" source="google_translate">Chan eil taing</string>
+    <string name="rate_yes" source="google_translate">Tha!</string>
+    <string name="rate_not" source="google_translate">Chan eil idir</string>
+    <string name="rate_do_you_like" source="google_translate">A \'còrdadh ri Ace Stream?</string>
+    <string name="rate_on_google" source="google_translate">Dè mu dheidhinn ìre air a \'ghluasad Google, an uair sin?</string>
+    <string name="rate_give_feedback" source="google_translate">Am bu mhath leat a bhith a \'toirt dhuinn beagan fios air ais?</string>
+    <string name="prefs_transcode_audio" source="google_translate">Transcode a h-uile fuaim gu AAC airson HLS</string>
+    <string name="want_restart" source="google_translate">A bheil thu airson ath-thòiseachadh a-rithist bhon t-suidheachadh mu dheireadh?</string>
+    <string name="restart_from_beginning" source="google_translate">Tòisich bho thoiseach</string>
+    <string name="menu_content_id" source="google_translate">Cuir a-steach ID susbaint</string>
+    <string name="enter_content_id" source="google_translate">Cuir a-steach ID susbaint</string>
+    <string name="bad_content_id" source="google_translate">Droch-aithne susbaint</string>
+    <string name="send" source="google_translate">Cuir</string>
+    <string name="report_problem" source="google_translate">Innis duilgheadas</string>
+    <string name="report_has_been_sent" source="google_translate">Chaidh aithisg a chuir a-steach</string>
+    <string name="report_failed" source="google_translate">Dh\'fhàillig an aithisg</string>
+    <string name="allow_mobile_networks" source="google_translate">Leig le cleachdadh lìonraidhean gluasadach?</string>
+    <string name="problem_description" source="google_translate">Tuairisgeul duilgheadas</string>
+    <string name="directory_is_not_writable" source="google_translate">Chan eil seòladh air sgrìobhadh</string>
+    <string name="device_storage" source="google_translate">Stòradh Dealan</string>
+    <string name="sd_card" source="google_translate">Cairt SD</string>
+    <string name="select_directory" source="google_translate">Tagh eòlaire</string>
+    <string name="select_category" source="google_translate">Tagh roinn</string>
+    <string name="language" source="google_translate">Cànan</string>
+    <string name="sign_in_or_register" source="google_translate">Clàraich a-steach no clàraich san Ace Stream</string>
+    <string name="sign_in_or_register_continue" source="google_translate">Clàraich a-steach no clàraich airson leantainn ort</string>
+    <string name="selected_player" source="google_translate">Air adhart gu clàr na làraich</string>
+    <string name="opengl_usage" source="google_translate">Cleachdadh OpenGL ES2</string>
+    <string name="auto" source="google_translate">Uicipeid</string>
+    <string name="force_on" source="google_translate">Force On</string>
+    <string name="force_off" source="google_translate">Feachd a-mach</string>
+    <string name="video_hardware_acceleration" source="google_translate">Luathachadh Cruaidh-bhidio Bhidio</string>
+    <string name="disabled" source="google_translate">Ciorramach</string>
+    <string name="decoding_acceleration" source="google_translate">A \'diùltadh luathachadh</string>
+    <string name="full_acceleration" source="google_translate">Luathachadh Làn</string>
+    <string name="show_debug_info" source="google_translate">Seall fiosrachadh debug</string>
+    <string name="enable_debug_logging" source="google_translate">Cumasaich logadh dùmhlachd</string>
+    <string name="start_acecast_server" source="google_translate">Taic mu Ruigsinneachd</string>
+    <string name="avi_opendml_warning" source="google_translate">Dh\'fhaoidte nach fhaod am bhidio seo a chluich gu ceart ann am player Ace Stream. Tagh cluicheadair eile?</string>
+    <string name="player_preferences" source="google_translate">Suidheachaidhean cluicheadair</string>
+    <string name="ads_preferences" source="google_translate">Suidhichidhean sanasan</string>
+    <string name="ads_preferences_short" source="google_translate">Ads</string>
+    <string name="show_lock_button" source="google_translate">Seall am putan glas</string>
+    <string name="engine_preferences" source="google_translate">Suidheachadh einnsean</string>
+    <string name="engine_preferences_short" source="google_translate">Einnsean</string>
+    <string name="need_proxy_server_option" source="google_translate">Feumaidh tu roghainn Freiceadan Proxy a ghnìomhachadh airson susbaint fhaicinn ann an cluicheadairean bhon taobh a-muigh. No faodaidh tu susbaint fhaicinn an-asgaidh ann an Ace Player</string>
+    <string name="need_proxy_server_option_tmp" source="google_translate">Gus susbaint fhaicinn feumaidh tu roghainn Freiceadan Proxy a ghnìomhachadh no aplacaid Ace Stream ùrachadh</string>
+    <string name="pause_on_audiofocus_loss" source="google_translate">Sguir air call èisteachd</string>
+    <string name="upgrade" source="google_translate">Àrdachadh</string>
+    <string name="to_continue_visit_link" source="google_translate">Gus leantainn air adhart tadhal air a \'cheangal seo:</string>
+    <string name="and_enter_pin" source="google_translate">agus cuir a-steach PIN:</string>
+    <string name="gdpr_consent" source="google_translate">Aonta GDPR</string>
+    <string name="show_rewarded_ads" source="google_translate">Seall sanasan duais</string>
+    <string name="show_ads_on_main_screen" source="google_translate">Seall sanasan air a \'phrìomh sgrìn</string>
+    <string name="show_ads_on_preroll" source="google_translate">Seall sanasachd air preroll</string>
+    <string name="show_ads_on_pause" source="google_translate">Seall sanasan a \'stad</string>
+    <string name="show_ads_on_close" source="google_translate">Seall sanasachd le cluicheadair faisg</string>
+    <string name="agreement" source="google_translate">Aonta</string>
+    <string name="license_agreement" source="google_translate">Aonta ceadachais</string>
+    <string name="privacy_policy" source="google_translate">Poileasaidh prìobhaideachd</string>
+    <string name="application_version" source="google_translate">Dreachd tagraidh</string>
+    <string name="disable_ads" source="google_translate">Sanasachd neo-chomasach</string>
+    <string name="learn_more" source="google_translate">Ionnsaich barrachd</string>
+    <string name="skip_ad" source="google_translate">Sgothach gu Ad</string>
+    <string name="you_can_skip_this_ad_in" source="google_translate">Faodaidh tu sgàineadh a dhèanamh air an ad seo ann an %d</string>
+    <string name="clearing_cache_etc" source="google_translate">A \'glanadh cache ...</string>
+    <string name="cache_cleared" source="google_translate">Cache air a ghlanadh</string>
+    <string name="not_connected_to_engine" source="google_translate">Gun ceangal ri einnsean</string>
+    <string name="gdpr_consent_pref_title" source="google_translate">Aonta GDPR</string>
+    <string name="gdpr_consent_pref_summary" source="google_translate">Aonta GDPR</string>
+    <string name="application" source="google_translate">Iarrtas</string>
+    <string name="device_name" source="google_translate">Ainm an inneal</string>
+    <string name="empty_playlist" source="google_translate">Clàr-ciùil folamh</string>
+    <string name="profile" source="google_translate">Pròifil</string>
+    <string name="not_selected" source="google_translate">Cha deach a thaghadh</string>
+    <string name="restart_application" source="google_translate">Ath-thòiseachadh tagradh</string>
+    <string name="restart_confirmation" source="google_translate">Ath-thòiseachadh tagradh a-nis?</string>
+    <string name="parsing_transport_files" source="google_translate">Faidhlichean còmhdhail parsaidh</string>
+    <string name="user_profile" source="google_translate">Pròifil chleachdaiche</string>
+    <string name="account_balance" source="google_translate">Balance cunntais</string>
+</resources>

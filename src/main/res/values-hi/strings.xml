@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lbl_version" source="google_translate">संस्करण</string>
+    <string name="lbl_portal" source="google_translate">सूचना पोर्टल</string>
+    <string name="lbl_prefshththtml" source="google_translate">सेटिंग्स</string>
+    <string name="lbl_account" source="google_translate">लेखा</string>
+    <string name="lbl_sign_out" source="google_translate">साइन आउट</string>
+    <string name="menu_prefs" source="google_translate">सेटिंग्स</string>
+    <string name="menu_profile" source="google_translate">उपयोगकर्ता प्रोफ़ाइल</string>
+    <string name="menu_services" source="google_translate">सेवाएं</string>
+    <string name="menu_clearcache" source="google_translate">कैश को साफ़ करें</string>
+    <string name="menu_quit" source="google_translate">छोड़ना</string>
+    <string name="menu_action_fail" source="google_translate">इस क्रिया को सक्रिय इंजन के साथ निष्पादित नहीं कर सकता</string>
+    <string name="dialog_wait" source="google_translate">कृपया प्रतीक्षा करें</string>
+    <string name="dialog_unpack" source="google_translate">अनपैक</string>
+    <string name="dialog_start" source="google_translate">शुरुआत में</string>
+    <string name="dialog_prefs" source="google_translate">वरीयताओं को प्राप्त करना</string>
+    <string name="dialog_services" source="google_translate">सेवाओं की सूची पुनः प्राप्त करना</string>
+    <string name="dialog_cache" source="google_translate">कैशे साफ़ करना</string>
+    <string name="dialog_shutdown" source="google_translate">Shutdowning</string>
+    <string name="dialog_no_connection" source="google_translate">कोई इंटरनेट कनेक्शन उपलब्ध नहीं है। ऐस स्ट्रीम इंजन सेवा कनेक्शन के बाद स्वचालित रूप से शुरू हो जाएगी।</string>
+    <string name="task_prefs_fail" source="google_translate">सेटिंग त्रुटि को पुनः प्राप्त करना</string>
+    <string name="task_services_fail" source="google_translate">पुनः प्राप्त करने की सेवाएँ त्रुटि</string>
+    <string name="start_ok" source="google_translate">सफल शुरू करो</string>
+    <string name="start_fail" source="google_translate">प्रारंभ विफल रहा</string>
+    <string name="notify_starting" source="google_translate">बेकार</string>
+    <string name="notify_unpack" source="google_translate">प्रक्रिया में अनपैकिंग</string>
+    <string name="notify_unpack_complete" source="google_translate">अनपैकिंग पूरी हुई</string>
+    <string name="notify_connect" source="google_translate">कनेक्ट</string>
+    <string name="notify_connect_complete" source="google_translate">जुड़ाव पूरा हुआ</string>
+    <string name="notify_running" source="google_translate">चल रहा है</string>
+    <string name="notify_stopped" source="google_translate">रोका हुआ</string>
+    <string name="notify_error" source="google_translate">त्रुटि</string>
+    <string name="notify_wait_connection" source="google_translate">कोई उपलब्ध नेटवर्क कनेक्शन नहीं</string>
+    <string name="prefs_group_main" source="google_translate">मुख्य प्राथमिकताएं</string>
+    <string name="prefs_item_mobile" source="google_translate">मोबाइल नेटवर्क डेटा एक्सेस</string>
+    <string name="prefs_item_mobile_summary" source="google_translate">मोबाइल नेटवर्क पर डेटा एक्सेस सक्षम करें</string>
+    <string name="prefs_item_vod_buffer" source="google_translate">वीओडी बफर, एस</string>
+    <string name="prefs_item_live_buffer" source="google_translate">लाइव बफर, एस</string>
+    <string name="prefs_item_download_limit" source="google_translate">डाउनलोड सीमा (0 - कोई सीमा नहीं), Kb / s</string>
+    <string name="prefs_item_upload_limit" source="google_translate">अपलोड सीमा (0 - कोई सीमा नहीं), Kb / s</string>
+    <string name="prefs_group_advanced" source="google_translate">उन्नत प्राथमिकताएँ</string>
+    <string name="prefs_item_port" source="google_translate">बंदरगाह</string>
+    <string name="prefs_item_total_max_connects" source="google_translate">मैक्स कनेक्ट करता है</string>
+    <string name="prefs_item_download_max_connects" source="google_translate">डाउनलोड अधिकतम जोड़ता है</string>
+    <string name="prefs_group_profile" source="google_translate">उपयोगकर्ता प्रोफ़ाइल</string>
+    <string name="prefs_item_gender" source="google_translate">लिंग</string>
+    <string name="prefs_item_age" source="google_translate">आयु</string>
+    <string name="prefs_item_login" source="google_translate">लॉग इन करें</string>
+    <string name="prefs_item_password" source="google_translate">पारण शब्द</string>
+    <string name="prefs_gender_value_male" source="google_translate">पुरुष</string>
+    <string name="prefs_gender_value_female" source="google_translate">महिला</string>
+    <string name="prefs_age_value_under13" source="google_translate">13 के तहत</string>
+    <string name="prefs_age_value_above64" source="google_translate">64 से ऊपर</string>
+    <string name="prefs_group_cache" source="google_translate">कैश सेटिंग्स</string>
+    <string name="prefs_item_disk_cache_limit" source="google_translate">डिस्क कैश सीमा, एमबी</string>
+    <string name="prefs_item_memory_cache_limit" source="google_translate">रैम कैश सीमा, एमबी</string>
+    <string name="prefs_item_cache_dir" source="google_translate">कैश निर्देशिका</string>
+    <string name="prefs_cache_live_use_disk" source="google_translate">लाइव के लिए डिस्क का उपयोग करें</string>
+    <string name="prefs_cache_vod_use_disk" source="google_translate">VOD के लिए डिस्क का उपयोग करें</string>
+    <string name="prefs_output_format_live" source="google_translate">आउटपुट स्वरूप (लाइव)</string>
+    <string name="prefs_output_format_vod" source="google_translate">आउटपुट स्वरूप (वीओडी)</string>
+    <string name="extension_name" source="google_translate">नाम:</string>
+    <string name="extension_description" source="google_translate">विवरण:</string>
+    <string name="extension_issued_by" source="google_translate">द्वारा जारी:</string>
+    <string name="extension_url" source="google_translate">यूआरएल:</string>
+    <string name="extension_enabled" source="google_translate">सक्षम किया गया:</string>
+    <string name="extension_valid_from" source="google_translate">से मान्य:</string>
+    <string name="extension_valid_to" source="google_translate">इस तक मान्य:</string>
+    <string name="no_services" source="google_translate">कोई सेवा नहीं</string>
+    <string name="message_unsupported_cpu" source="google_translate">आपका CPU अभी तक समर्थित नहीं है।</string>
+    <string name="starting" source="google_translate">शुरुआत में…</string>
+    <string name="starting_player" source="google_translate">खिलाड़ी शुरू ...</string>
+    <string name="install" source="google_translate">इंस्टॉल करें</string>
+    <string name="close" source="google_translate">बंद करे</string>
+    <string name="no_players" source="google_translate">कोई भी खिलाड़ी नहीं मिला</string>
+    <string name="failed_to_start" source="google_translate">प्रारंभ करने में विफल</string>
+    <string name="option_proxy_server" source="google_translate">प्रतिनिधि सर्वर</string>
+    <string name="option_generic_premium" source="google_translate">प्रीमियम</string>
+    <string name="activate" source="google_translate">सक्रिय</string>
+    <string name="prompt_email" source="google_translate">ईमेल</string>
+    <string name="prompt_password" source="google_translate">पारण शब्द</string>
+    <string name="action_sign_in" source="google_translate">दाखिल करना</string>
+    <string name="action_sign_in_or_register" source="google_translate">साइन इन / रजिस्टर</string>
+    <string name="action_sign_out" source="google_translate">साइन आउट</string>
+    <string name="error_invalid_email" source="google_translate">यह ईमेल पता अमान्य है</string>
+    <string name="error_invalid_password" source="google_translate">यह पासवर्ड बहुत छोटा है</string>
+    <string name="error_field_required" source="google_translate">यह फ़ील्ड आवश्यक है</string>
+    <string name="upgrage_user_level" source="google_translate">अपग्रेड</string>
+    <string name="select_file" source="google_translate">फ़ाइल का चयन करें</string>
+    <string name="auth_error_user_not_found" source="google_translate">उपयोगकर्ता नहीं मिला</string>
+    <string name="auth_error_user_disabled" source="google_translate">उपयोगकर्ता अक्षम है</string>
+    <string name="auth_error_bad_password" source="google_translate">यह पासवर्ड गलत है</string>
+    <string name="auth_internal_error" source="google_translate">आंतरिक गलती। बाद में कोशिश करें।</string>
+    <string name="auth_network_error" source="google_translate">नेटवर्क त्रुटि। बाद में कोशिश करें।</string>
+    <string name="auth_failed_error" source="google_translate">प्रमाणीकरण विफल रहा है। बाद में कोशिश करें।</string>
+    <string name="uninstall" source="google_translate">स्थापना रद्द करें</string>
+    <string name="uninstall_prev_version_to_continue" source="google_translate">जारी रखने के लिए आपको पिछले संस्करण की स्थापना रद्द करने की आवश्यकता है</string>
+    <string name="prefs_allow_intranet_access" source="google_translate">इंट्रानेट एक्सेस की अनुमति दें</string>
+    <string name="prefs_allow_remote_access" source="google_translate">रिमोट एक्सेस की अनुमति दें</string>
+    <string name="error" source="google_translate">त्रुटि</string>
+    <string name="select_player" source="google_translate">चुनिंदा खिलाड़ी</string>
+    <string name="attention" source="google_translate">ध्यान</string>
+    <string name="home" source="google_translate">होम</string>
+    <string name="remote_control" source="google_translate">रिमोट कंट्रोल</string>
+    <string name="please_try_again" source="google_translate">कृपया पुन: प्रयास करें</string>
+    <string name="cannot_start_playback" source="google_translate">प्लेबैक शुरू नहीं कर सकते</string>
+    <string name="device_disconnected" source="google_translate">डिवाइस डिस्कनेक्ट किया गया</string>
+    <string name="connection_failed" source="google_translate">कनेक्शन विफल</string>
+    <string name="buffering" source="google_translate">बफरिंग</string>
+    <string name="remember_choice" source="google_translate">पसंद को याद रखें</string>
+    <string name="prefs_transcode_ac3" source="google_translate">HLS के लिए AAC को केवल ट्रांसकोड AC3</string>
+    <string name="ok_sure" source="google_translate">यकीनन ठीक</string>
+    <string name="no_thanks" source="google_translate">जी नहीं, धन्यवाद</string>
+    <string name="rate_yes" source="google_translate">हाँ!</string>
+    <string name="rate_not" source="google_translate">ज़रुरी नहीं</string>
+    <string name="rate_do_you_like" source="google_translate">ऐस स्ट्रीम का आनंद?</string>
+    <string name="rate_on_google" source="google_translate">Google Play पर रेटिंग के बारे में कैसे?</string>
+    <string name="rate_give_feedback" source="google_translate">क्या आप हमें कुछ प्रतिक्रिया देना चाहेंगे?</string>
+    <string name="prefs_transcode_audio" source="google_translate">HLS के लिए AAC के लिए सभी ऑडियो ट्रांसकोड करें</string>
+    <string name="want_restart" source="google_translate">क्या आप अंतिम स्थिति से प्लेबैक फिर से शुरू करना चाहते हैं?</string>
+    <string name="restart_from_beginning" source="google_translate">शुरू से शुरू करो</string>
+    <string name="menu_content_id" source="google_translate">कंटेंट आईडी डालें</string>
+    <string name="enter_content_id" source="google_translate">कंटेंट आईडी डालें</string>
+    <string name="bad_content_id" source="google_translate">खराब कंटेंट आईडी</string>
+    <string name="send" source="google_translate">भेजना</string>
+    <string name="report_problem" source="google_translate">समस्या के बारे में बताएं</string>
+    <string name="report_has_been_sent" source="google_translate">रिपोर्ट भेज दी गई है</string>
+    <string name="report_failed" source="google_translate">रिपोर्ट विफल</string>
+    <string name="allow_mobile_networks" source="google_translate">मोबाइल नेटवर्क के उपयोग की अनुमति दें?</string>
+    <string name="problem_description" source="google_translate">समस्या का विवरण</string>
+    <string name="directory_is_not_writable" source="google_translate">निर्देशिका लेखन योग्य नहीं है</string>
+    <string name="device_storage" source="google_translate">डिवाइस स्टोरेज</string>
+    <string name="sd_card" source="google_translate">एसडी कार्ड</string>
+    <string name="select_directory" source="google_translate">निर्देशिका का चयन करें</string>
+    <string name="select_category" source="google_translate">श्रेणी का चयन करें</string>
+    <string name="language" source="google_translate">भाषा</string>
+    <string name="sign_in_or_register" source="google_translate">ऐस स्ट्रीम में साइन इन या रजिस्टर करें</string>
+    <string name="sign_in_or_register_continue" source="google_translate">जारी रखने के लिए साइन करें या पंजीकृत हो</string>
+    <string name="selected_player" source="google_translate">चयनित खिलाड़ी</string>
+    <string name="opengl_usage" source="google_translate">OpenGL ES2 उपयोग</string>
+    <string name="auto" source="google_translate">ऑटो</string>
+    <string name="force_on" source="google_translate">पर मजबूर</string>
+    <string name="force_off" source="google_translate">फोर्स ऑफ</string>
+    <string name="video_hardware_acceleration" source="google_translate">वीडियो हार्डवेयर त्वरण</string>
+    <string name="disabled" source="google_translate">विकलांग</string>
+    <string name="decoding_acceleration" source="google_translate">डीकोडिंग त्वरण</string>
+    <string name="full_acceleration" source="google_translate">पूर्ण त्वरण</string>
+    <string name="show_debug_info" source="google_translate">डिबग जानकारी दिखाएँ</string>
+    <string name="enable_debug_logging" source="google_translate">डीबग लॉगिंग सक्षम करें</string>
+    <string name="start_acecast_server" source="google_translate">AceCast सर्वर प्रारंभ करें</string>
+    <string name="avi_opendml_warning" source="google_translate">ऐस स्ट्रीम प्लेयर में यह वीडियो सही ढंग से प्लेबैक नहीं कर सकता है। कोई दूसरा खिलाड़ी चुनें?</string>
+    <string name="player_preferences" source="google_translate">प्लेयर सेटिंग्स</string>
+    <string name="ads_preferences" source="google_translate">विज्ञापन सेटिंग</string>
+    <string name="ads_preferences_short" source="google_translate">विज्ञापन</string>
+    <string name="show_lock_button" source="google_translate">लॉक बटन दिखाएं</string>
+    <string name="engine_preferences" source="google_translate">इंजन सेटिंग्स</string>
+    <string name="engine_preferences_short" source="google_translate">इंजन</string>
+    <string name="need_proxy_server_option" source="google_translate">बाहरी खिलाड़ियों में सामग्री देखने के लिए आपको प्रॉक्सी सर्वर विकल्प को सक्रिय करने की आवश्यकता है। या आप ऐस प्लेयर में मुफ्त में कंटेंट देख सकते हैं</string>
+    <string name="need_proxy_server_option_tmp" source="google_translate">सामग्री देखने के लिए आपको प्रॉक्सी सर्वर विकल्प को सक्रिय करने या ऐस स्ट्रीम ऐप को अपग्रेड करने की आवश्यकता है</string>
+    <string name="pause_on_audiofocus_loss" source="google_translate">ऑडीओफोकस हानि पर रोकें</string>
+    <string name="upgrade" source="google_translate">अपग्रेड</string>
+    <string name="to_continue_visit_link" source="google_translate">इस लिंक पर जाएं:</string>
+    <string name="and_enter_pin" source="google_translate">और पिन दर्ज करें:</string>
+    <string name="gdpr_consent" source="google_translate">जीडीपीआर सहमति</string>
+    <string name="show_rewarded_ads" source="google_translate">पुरस्कृत विज्ञापन दिखाएं</string>
+    <string name="show_ads_on_main_screen" source="google_translate">मुख्य स्क्रीन पर विज्ञापन दिखाएं</string>
+    <string name="show_ads_on_preroll" source="google_translate">प्रोलोल पर विज्ञापन दिखाएं</string>
+    <string name="show_ads_on_pause" source="google_translate">विराम पर विज्ञापन दिखाएं</string>
+    <string name="show_ads_on_close" source="google_translate">खिलाड़ी के करीब विज्ञापन दिखाएं</string>
+    <string name="agreement" source="google_translate">समझौता</string>
+    <string name="license_agreement" source="google_translate">लाइसेंस समझौता</string>
+    <string name="privacy_policy" source="google_translate">गोपनीयता नीति</string>
+    <string name="application_version" source="google_translate">एप्लिकेशन वर्जन</string>
+    <string name="disable_ads" source="google_translate">विज्ञापन अक्षम करें</string>
+    <string name="learn_more" source="google_translate">और अधिक जानें</string>
+    <string name="skip_ad" source="google_translate">विज्ञापन से आगे बढ़ें</string>
+    <string name="you_can_skip_this_ad_in" source="google_translate">आप इस विज्ञापन को %d में छोड़ सकते हैं</string>
+    <string name="clearing_cache_etc" source="google_translate">कैश साफ़ कर रहा है ...</string>
+    <string name="cache_cleared" source="google_translate">कैश क्लियर हो गया</string>
+    <string name="not_connected_to_engine" source="google_translate">इंजन से जुड़ा नहीं</string>
+    <string name="gdpr_consent_pref_title" source="google_translate">जीडीपीआर सहमति</string>
+    <string name="gdpr_consent_pref_summary" source="google_translate">जीडीपीआर सहमति</string>
+    <string name="application" source="google_translate">आवेदन</string>
+    <string name="device_name" source="google_translate">यन्त्र का नाम</string>
+    <string name="empty_playlist" source="google_translate">खाली प्लेलिस्ट</string>
+    <string name="profile" source="google_translate">प्रोफाइल</string>
+    <string name="not_selected" source="google_translate">नहीं चुने गए</string>
+    <string name="restart_application" source="google_translate">एप्लिकेशन को पुनरारंभ करें</string>
+    <string name="restart_confirmation" source="google_translate">अब आवेदन पुनः आरंभ करें?</string>
+    <string name="parsing_transport_files" source="google_translate">पार्सिंग परिवहन फ़ाइलें</string>
+    <string name="user_profile" source="google_translate">उपयोगकर्ता प्रोफ़ाइल</string>
+    <string name="account_balance" source="google_translate">खाते में शेष</string>
+</resources>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lbl_version" source="google_translate">Versioon</string>
+    <string name="lbl_portal" source="google_translate">Infoportaal</string>
+    <string name="lbl_prefshththtml" source="google_translate">Seaded</string>
+    <string name="lbl_account" source="google_translate">Konto</string>
+    <string name="lbl_sign_out" source="google_translate">Logi välja</string>
+    <string name="menu_prefs" source="google_translate">Seaded</string>
+    <string name="menu_profile" source="google_translate">Kasutajaprofiil</string>
+    <string name="menu_services" source="google_translate">Teenused</string>
+    <string name="menu_clearcache" source="google_translate">Tühjenda vahemälu</string>
+    <string name="menu_quit" source="google_translate">Lõpeta</string>
+    <string name="menu_action_fail" source="google_translate">Seda toimingut ei saa käivitada mitteaktiivse mootoriga</string>
+    <string name="dialog_wait" source="google_translate">Palun oota</string>
+    <string name="dialog_unpack" source="google_translate">Lahtipakkimine</string>
+    <string name="dialog_start" source="google_translate">Alustamine</string>
+    <string name="dialog_prefs" source="google_translate">Eelistuste otsimine</string>
+    <string name="dialog_services" source="google_translate">Teenuste nimekirja allalaadimine</string>
+    <string name="dialog_cache" source="google_translate">Vahemälu tühjendamine</string>
+    <string name="dialog_shutdown" source="google_translate">Sulgemine</string>
+    <string name="dialog_no_connection" source="google_translate">Interneti-ühendus puudub. Ace Stream Engine teenus käivitub automaatselt pärast ühendust.</string>
+    <string name="task_prefs_fail" source="google_translate">Seadete vea allalaadimine</string>
+    <string name="task_services_fail" source="google_translate">Teenuste tõrkeotsing</string>
+    <string name="start_ok" source="google_translate">Start õnnestub</string>
+    <string name="start_fail" source="google_translate">Algus ebaõnnestus</string>
+    <string name="notify_starting" source="google_translate">Idle</string>
+    <string name="notify_unpack" source="google_translate">Lahtipakkimine protsessis</string>
+    <string name="notify_unpack_complete" source="google_translate">Lahtipakkimine on lõpetatud</string>
+    <string name="notify_connect" source="google_translate">Ühendamine</string>
+    <string name="notify_connect_complete" source="google_translate">Ühendamine on lõpetatud</string>
+    <string name="notify_running" source="google_translate">Running</string>
+    <string name="notify_stopped" source="google_translate">Peatatud</string>
+    <string name="notify_error" source="google_translate">Viga</string>
+    <string name="notify_wait_connection" source="google_translate">Võrguühendust pole saadaval</string>
+    <string name="prefs_group_main" source="google_translate">Peamised eelistused</string>
+    <string name="prefs_item_mobile" source="google_translate">Mobiilsidevõrkude andmetele juurdepääs</string>
+    <string name="prefs_item_mobile_summary" source="google_translate">Luba andmeside mobiilsidevõrkude kaudu</string>
+    <string name="prefs_item_vod_buffer" source="google_translate">VOD puhver, s</string>
+    <string name="prefs_item_live_buffer" source="google_translate">Live puhver, s</string>
+    <string name="prefs_item_download_limit" source="google_translate">Allalaadimispiir (0 - piiranguteta), Kb / s</string>
+    <string name="prefs_item_upload_limit" source="google_translate">Üleslaadimise piirang (0 - no limit), Kb / s</string>
+    <string name="prefs_group_advanced" source="google_translate">Täpsemad eelistused</string>
+    <string name="prefs_item_port" source="google_translate">Sadam</string>
+    <string name="prefs_item_total_max_connects" source="google_translate">Max ühendab</string>
+    <string name="prefs_item_download_max_connects" source="google_translate">Allalaadimine max ühendub</string>
+    <string name="prefs_group_profile" source="google_translate">Kasutajaprofiil</string>
+    <string name="prefs_item_gender" source="google_translate">Sugu</string>
+    <string name="prefs_item_age" source="google_translate">Vanus</string>
+    <string name="prefs_item_login" source="google_translate">Logi sisse</string>
+    <string name="prefs_item_password" source="google_translate">Parool</string>
+    <string name="prefs_gender_value_male" source="google_translate">Mees</string>
+    <string name="prefs_gender_value_female" source="google_translate">Naine</string>
+    <string name="prefs_age_value_under13" source="google_translate">Alla 13</string>
+    <string name="prefs_age_value_above64" source="google_translate">Üle 64</string>
+    <string name="prefs_group_cache" source="google_translate">Vahemälu seaded</string>
+    <string name="prefs_item_disk_cache_limit" source="google_translate">Ketta vahemälu piirang, Mb</string>
+    <string name="prefs_item_memory_cache_limit" source="google_translate">RAM vahemälu limiit, Mb</string>
+    <string name="prefs_item_cache_dir" source="google_translate">Vahemälu kataloog</string>
+    <string name="prefs_cache_live_use_disk" source="google_translate">Kasuta ketta elamiseks</string>
+    <string name="prefs_cache_vod_use_disk" source="google_translate">Kasuta VOD-i ketast</string>
+    <string name="prefs_output_format_live" source="google_translate">Väljundvorming (Live)</string>
+    <string name="prefs_output_format_vod" source="google_translate">Väljundvorming (VOD)</string>
+    <string name="extension_name" source="google_translate">Nimi:</string>
+    <string name="extension_description" source="google_translate">Kirjeldus:</string>
+    <string name="extension_issued_by" source="google_translate">Väljaandja:</string>
+    <string name="extension_url" source="google_translate">URL:</string>
+    <string name="extension_enabled" source="google_translate">Lubatud:</string>
+    <string name="extension_valid_from" source="google_translate">Kehtib alates:</string>
+    <string name="extension_valid_to" source="google_translate">Kehtib:</string>
+    <string name="no_services" source="google_translate">Teenuseid pole</string>
+    <string name="message_unsupported_cpu" source="google_translate">Teie CPU-d pole veel toetatud.</string>
+    <string name="starting" source="google_translate">Alustamine…</string>
+    <string name="starting_player" source="google_translate">Alustav mängija ...</string>
+    <string name="install" source="google_translate">Installige</string>
+    <string name="close" source="google_translate">Sulge</string>
+    <string name="no_players" source="google_translate">Ühtegi mängijat ei leitud</string>
+    <string name="failed_to_start" source="google_translate">Käivitamine ebaõnnestus</string>
+    <string name="option_proxy_server" source="google_translate">Proxy server</string>
+    <string name="option_generic_premium" source="google_translate">Premium</string>
+    <string name="activate" source="google_translate">Aktiveeri</string>
+    <string name="prompt_email" source="google_translate">E-post</string>
+    <string name="prompt_password" source="google_translate">Parool</string>
+    <string name="action_sign_in" source="google_translate">Logi sisse</string>
+    <string name="action_sign_in_or_register" source="google_translate">Logi sisse / Registreeru</string>
+    <string name="action_sign_out" source="google_translate">Logi välja</string>
+    <string name="error_invalid_email" source="google_translate">See e-posti aadress on kehtetu</string>
+    <string name="error_invalid_password" source="google_translate">See parool on liiga lühike</string>
+    <string name="error_field_required" source="google_translate">Selle välja täitmine on kohustuslik</string>
+    <string name="upgrage_user_level" source="google_translate">Uuenda</string>
+    <string name="select_file" source="google_translate">Valige fail</string>
+    <string name="auth_error_user_not_found" source="google_translate">Kasutaja ei leitud</string>
+    <string name="auth_error_user_disabled" source="google_translate">Kasutaja on keelatud</string>
+    <string name="auth_error_bad_password" source="google_translate">See parool on vale</string>
+    <string name="auth_internal_error" source="google_translate">Sisemine viga. Palun proovige hiljem.</string>
+    <string name="auth_network_error" source="google_translate">Võrgu viga. Palun proovige hiljem.</string>
+    <string name="auth_failed_error" source="google_translate">Auth ebaõnnestus. Palun proovige hiljem.</string>
+    <string name="uninstall" source="google_translate">Desinstallimine</string>
+    <string name="uninstall_prev_version_to_continue" source="google_translate">Jätkamiseks peate eemaldama eelmise versiooni</string>
+    <string name="prefs_allow_intranet_access" source="google_translate">Luba intraneti juurdepääs</string>
+    <string name="prefs_allow_remote_access" source="google_translate">Luba kaugjuurdepääs</string>
+    <string name="error" source="google_translate">Viga</string>
+    <string name="select_player" source="google_translate">Valige mängija</string>
+    <string name="attention" source="google_translate">Tähelepanu</string>
+    <string name="home" source="google_translate">Kodu</string>
+    <string name="remote_control" source="google_translate">Pult</string>
+    <string name="please_try_again" source="google_translate">Palun proovi uuesti</string>
+    <string name="cannot_start_playback" source="google_translate">Taasesitust ei saa alustada</string>
+    <string name="device_disconnected" source="google_translate">Seade on lahti ühendatud</string>
+    <string name="connection_failed" source="google_translate">Ühendus nurjus</string>
+    <string name="buffering" source="google_translate">Puhverdamine</string>
+    <string name="remember_choice" source="google_translate">Mäleta valik</string>
+    <string name="prefs_transcode_ac3" source="google_translate">Kodeerige ainult AC3-d AAC-le HLS-i jaoks</string>
+    <string name="ok_sure" source="google_translate">OK, kindlasti</string>
+    <string name="no_thanks" source="google_translate">Ei aitäh</string>
+    <string name="rate_yes" source="google_translate">Jah!</string>
+    <string name="rate_not" source="google_translate">Mitte päris</string>
+    <string name="rate_do_you_like" source="google_translate">Ace Streami nautimine?</string>
+    <string name="rate_on_google" source="google_translate">Kuidas oleks siis Google Play reiting?</string>
+    <string name="rate_give_feedback" source="google_translate">Kas sa annaksid meile tagasisidet?</string>
+    <string name="prefs_transcode_audio" source="google_translate">Kodeerige kõik helisid AAC-le HLS-i jaoks</string>
+    <string name="want_restart" source="google_translate">Kas soovite jätkata taasesitust viimasest positsioonist?</string>
+    <string name="restart_from_beginning" source="google_translate">Alusta algusest</string>
+    <string name="menu_content_id" source="google_translate">Sisesta sisu ID</string>
+    <string name="enter_content_id" source="google_translate">Sisesta sisu ID</string>
+    <string name="bad_content_id" source="google_translate">Halb sisu ID</string>
+    <string name="send" source="google_translate">Saada</string>
+    <string name="report_problem" source="google_translate">Teavita probleemist</string>
+    <string name="report_has_been_sent" source="google_translate">Aruanne on saadetud</string>
+    <string name="report_failed" source="google_translate">Aruanne ebaõnnestus</string>
+    <string name="allow_mobile_networks" source="google_translate">Kas lubate mobiilsidevõrkude kasutamist?</string>
+    <string name="problem_description" source="google_translate">Probleemi kirjeldus</string>
+    <string name="directory_is_not_writable" source="google_translate">Kataloog ei ole kirjutatav</string>
+    <string name="device_storage" source="google_translate">Seadme salvestamine</string>
+    <string name="sd_card" source="google_translate">SD-kaart</string>
+    <string name="select_directory" source="google_translate">Valige kataloog</string>
+    <string name="select_category" source="google_translate">Vali kategooria</string>
+    <string name="language" source="google_translate">Keel</string>
+    <string name="sign_in_or_register" source="google_translate">Logi sisse või registreeru Ace Stream\'is</string>
+    <string name="sign_in_or_register_continue" source="google_translate">Jätkamiseks logige sisse või registreeruge</string>
+    <string name="selected_player" source="google_translate">Valitud mängija</string>
+    <string name="opengl_usage" source="google_translate">OpenGL ES2 kasutamine</string>
+    <string name="auto" source="google_translate">Automaatne</string>
+    <string name="force_on" source="google_translate">Force On</string>
+    <string name="force_off" source="google_translate">Jäta välja</string>
+    <string name="video_hardware_acceleration" source="google_translate">Video riistvara kiirendus</string>
+    <string name="disabled" source="google_translate">Keelatud</string>
+    <string name="decoding_acceleration" source="google_translate">Kiirenduse dekodeerimine</string>
+    <string name="full_acceleration" source="google_translate">Täielik kiirendus</string>
+    <string name="show_debug_info" source="google_translate">Kuva silumisinfo</string>
+    <string name="enable_debug_logging" source="google_translate">Luba silumine logimine</string>
+    <string name="start_acecast_server" source="google_translate">Käivitage AceCast Server</string>
+    <string name="avi_opendml_warning" source="google_translate">See video ei pruugi Ace Streami mängija korral õigesti esitada. Vali teine mängija?</string>
+    <string name="player_preferences" source="google_translate">Mängija seaded</string>
+    <string name="ads_preferences" source="google_translate">Reklaami seaded</string>
+    <string name="ads_preferences_short" source="google_translate">Reklaamid</string>
+    <string name="show_lock_button" source="google_translate">Näita lukustusnuppu</string>
+    <string name="engine_preferences" source="google_translate">Mootori seaded</string>
+    <string name="engine_preferences_short" source="google_translate">Mootor</string>
+    <string name="need_proxy_server_option" source="google_translate">Väliste mängijate sisu vaatamiseks peate aktiveerima puhverserveri valiku. Või saate vaadata Ace Playeris tasuta sisu</string>
+    <string name="need_proxy_server_option_tmp" source="google_translate">Sisu vaatamiseks peate aktiveerima puhverserveri valiku või värskendama Ace Streami rakendust</string>
+    <string name="pause_on_audiofocus_loss" source="google_translate">Peatage audiofookuse kadu</string>
+    <string name="upgrade" source="google_translate">Uuenda</string>
+    <string name="to_continue_visit_link" source="google_translate">Jätkamiseks külastage seda linki:</string>
+    <string name="and_enter_pin" source="google_translate">ja sisestage PIN:</string>
+    <string name="gdpr_consent" source="google_translate">GDPR nõusolek</string>
+    <string name="show_rewarded_ads" source="google_translate">Näita premeeritud reklaame</string>
+    <string name="show_ads_on_main_screen" source="google_translate">Näita reklaame põhiekraanil</string>
+    <string name="show_ads_on_preroll" source="google_translate">Näita reklaame eelvalikus</string>
+    <string name="show_ads_on_pause" source="google_translate">Kuva reklaamid pausil</string>
+    <string name="show_ads_on_close" source="google_translate">Näita reklaame mängija lähedal</string>
+    <string name="agreement" source="google_translate">Leping</string>
+    <string name="license_agreement" source="google_translate">Litsentsilepingu</string>
+    <string name="privacy_policy" source="google_translate">Privaatsuspoliitika</string>
+    <string name="application_version" source="google_translate">Rakenduse versioon</string>
+    <string name="disable_ads" source="google_translate">Keela reklaamid</string>
+    <string name="learn_more" source="google_translate">Lisateave</string>
+    <string name="skip_ad" source="google_translate">Jäta Reklaam vahele</string>
+    <string name="you_can_skip_this_ad_in" source="google_translate">Selle reklaami saate vahele jätta %d</string>
+    <string name="clearing_cache_etc" source="google_translate">Vahemälu tühjendamine…</string>
+    <string name="cache_cleared" source="google_translate">Vahemälu tühjendati</string>
+    <string name="not_connected_to_engine" source="google_translate">Ei ole ühendatud mootoriga</string>
+    <string name="gdpr_consent_pref_title" source="google_translate">GDPR nõusolek</string>
+    <string name="gdpr_consent_pref_summary" source="google_translate">GDPR nõusolek</string>
+    <string name="application" source="google_translate">Rakendus</string>
+    <string name="device_name" source="google_translate">Seadme nimi</string>
+    <string name="empty_playlist" source="google_translate">Tühjenda esitusloend</string>
+    <string name="profile" source="google_translate">Profiil</string>
+    <string name="not_selected" source="google_translate">Ei ole valitud</string>
+    <string name="restart_application" source="google_translate">Taaskäivitage rakendus</string>
+    <string name="restart_confirmation" source="google_translate">Taaskäivitage rakendus nüüd?</string>
+    <string name="parsing_transport_files" source="google_translate">Transpordifailide parsimine</string>
+    <string name="user_profile" source="google_translate">Kasutajaprofiil</string>
+    <string name="account_balance" source="google_translate">Kontojääk</string>
+</resources>

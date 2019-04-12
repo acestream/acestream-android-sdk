@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lbl_version" source="google_translate">Versi</string>
+    <string name="lbl_portal" source="google_translate">Portal maklumat</string>
+    <string name="lbl_prefshththtml" source="google_translate">Tetapan</string>
+    <string name="lbl_account" source="google_translate">Akaun</string>
+    <string name="lbl_sign_out" source="google_translate">Keluar</string>
+    <string name="menu_prefs" source="google_translate">Tetapan</string>
+    <string name="menu_profile" source="google_translate">Profil pengguna</string>
+    <string name="menu_services" source="google_translate">Perkhidmatan</string>
+    <string name="menu_clearcache" source="google_translate">Kosongkan cache</string>
+    <string name="menu_quit" source="google_translate">Berhenti</string>
+    <string name="menu_action_fail" source="google_translate">Tidak dapat melaksanakan tindakan ini dengan enjin yang tidak aktif</string>
+    <string name="dialog_wait" source="google_translate">Sila tunggu</string>
+    <string name="dialog_unpack" source="google_translate">Membongkar</string>
+    <string name="dialog_start" source="google_translate">Bermula</string>
+    <string name="dialog_prefs" source="google_translate">Mendapatkan pilihan</string>
+    <string name="dialog_services" source="google_translate">Mendapatkan senarai perkhidmatan</string>
+    <string name="dialog_cache" source="google_translate">Mengosongkan cache</string>
+    <string name="dialog_shutdown" source="google_translate">Penutupan</string>
+    <string name="dialog_no_connection" source="google_translate">Tiada sambungan internet yang tersedia. Perkhidmatan Stream Ace Ace akan bermula secara automatik selepas sambungan.</string>
+    <string name="task_prefs_fail" source="google_translate">Mengambil semula ralat tetapan</string>
+    <string name="task_services_fail" source="google_translate">Mendapatkan kesilapan perkhidmatan</string>
+    <string name="start_ok" source="google_translate">Mula berjaya</string>
+    <string name="start_fail" source="google_translate">Mula gagal</string>
+    <string name="notify_starting" source="google_translate">Idle</string>
+    <string name="notify_unpack" source="google_translate">Membongkar dalam proses</string>
+    <string name="notify_unpack_complete" source="google_translate">Pembongkaran selesai</string>
+    <string name="notify_connect" source="google_translate">Menyambung</string>
+    <string name="notify_connect_complete" source="google_translate">Penyambungan selesai</string>
+    <string name="notify_running" source="google_translate">Berjalan</string>
+    <string name="notify_stopped" source="google_translate">Berhenti</string>
+    <string name="notify_error" source="google_translate">Ralat</string>
+    <string name="notify_wait_connection" source="google_translate">Tiada sambungan rangkaian yang tersedia</string>
+    <string name="prefs_group_main" source="google_translate">Pilihan utama</string>
+    <string name="prefs_item_mobile" source="google_translate">Akses data rangkaian mudah alih</string>
+    <string name="prefs_item_mobile_summary" source="google_translate">Dayakan akses data melalui rangkaian mudah alih</string>
+    <string name="prefs_item_vod_buffer" source="google_translate">Penampan VOD, s</string>
+    <string name="prefs_item_live_buffer" source="google_translate">Penampan langsung, s</string>
+    <string name="prefs_item_download_limit" source="google_translate">Had muat turun (0 - tiada had), Kb / s</string>
+    <string name="prefs_item_upload_limit" source="google_translate">Had muat naik (0 - tiada had), Kb / s</string>
+    <string name="prefs_group_advanced" source="google_translate">Keutamaan lanjutan</string>
+    <string name="prefs_item_port" source="google_translate">Pelabuhan</string>
+    <string name="prefs_item_total_max_connects" source="google_translate">Max menghubungkan</string>
+    <string name="prefs_item_download_max_connects" source="google_translate">Muat turun pautan max</string>
+    <string name="prefs_group_profile" source="google_translate">Profil pengguna</string>
+    <string name="prefs_item_gender" source="google_translate">Jantina</string>
+    <string name="prefs_item_age" source="google_translate">Umur</string>
+    <string name="prefs_item_login" source="google_translate">Log masuk</string>
+    <string name="prefs_item_password" source="google_translate">Kata laluan</string>
+    <string name="prefs_gender_value_male" source="google_translate">Lelaki</string>
+    <string name="prefs_gender_value_female" source="google_translate">Perempuan</string>
+    <string name="prefs_age_value_under13" source="google_translate">Di bawah 13 tahun</string>
+    <string name="prefs_age_value_above64" source="google_translate">Di atas 64</string>
+    <string name="prefs_group_cache" source="google_translate">Tetapan cache</string>
+    <string name="prefs_item_disk_cache_limit" source="google_translate">Had cache cakera, Mb</string>
+    <string name="prefs_item_memory_cache_limit" source="google_translate">Had cache RAM, Mb</string>
+    <string name="prefs_item_cache_dir" source="google_translate">Direktori cache</string>
+    <string name="prefs_cache_live_use_disk" source="google_translate">Gunakan cakera untuk hidup</string>
+    <string name="prefs_cache_vod_use_disk" source="google_translate">Gunakan cakera untuk VOD</string>
+    <string name="prefs_output_format_live" source="google_translate">Format output (Langsung)</string>
+    <string name="prefs_output_format_vod" source="google_translate">Format output (VOD)</string>
+    <string name="extension_name" source="google_translate">Nama:</string>
+    <string name="extension_description" source="google_translate">Penerangan:</string>
+    <string name="extension_issued_by" source="google_translate">Dikeluarkan oleh:</string>
+    <string name="extension_url" source="google_translate">Url:</string>
+    <string name="extension_enabled" source="google_translate">Dihidupkan:</string>
+    <string name="extension_valid_from" source="google_translate">Sah dari:</string>
+    <string name="extension_valid_to" source="google_translate">Sah untuk:</string>
+    <string name="no_services" source="google_translate">Tiada perkhidmatan</string>
+    <string name="message_unsupported_cpu" source="google_translate">CPU anda tidak disokong lagi.</string>
+    <string name="starting" source="google_translate">Bermula ...</string>
+    <string name="starting_player" source="google_translate">Pemain mula ...</string>
+    <string name="install" source="google_translate">Pasang</string>
+    <string name="close" source="google_translate">Tutup</string>
+    <string name="no_players" source="google_translate">Tiada pemain dijumpai</string>
+    <string name="failed_to_start" source="google_translate">Gagal bermula</string>
+    <string name="option_proxy_server" source="google_translate">Pelayan Proksi</string>
+    <string name="option_generic_premium" source="google_translate">Premium</string>
+    <string name="activate" source="google_translate">Aktifkan</string>
+    <string name="prompt_email" source="google_translate">E-mel</string>
+    <string name="prompt_password" source="google_translate">Kata laluan</string>
+    <string name="action_sign_in" source="google_translate">Masuk</string>
+    <string name="action_sign_in_or_register" source="google_translate">Masuk / Daftar</string>
+    <string name="action_sign_out" source="google_translate">Keluar</string>
+    <string name="error_invalid_email" source="google_translate">Alamat e-mel ini tidak sah</string>
+    <string name="error_invalid_password" source="google_translate">Kata laluan ini terlalu singkat</string>
+    <string name="error_field_required" source="google_translate">Bidang ini diperlukan</string>
+    <string name="upgrage_user_level" source="google_translate">Naik taraf</string>
+    <string name="select_file" source="google_translate">Pilih fail</string>
+    <string name="auth_error_user_not_found" source="google_translate">Pengguna tidak dijumpai</string>
+    <string name="auth_error_user_disabled" source="google_translate">Pengguna dinyahdayakan</string>
+    <string name="auth_error_bad_password" source="google_translate">Kata laluan ini salah</string>
+    <string name="auth_internal_error" source="google_translate">Masalah dalaman. Sila cuba kemudian.</string>
+    <string name="auth_network_error" source="google_translate">Ralat rangkaian. Sila cuba kemudian.</string>
+    <string name="auth_failed_error" source="google_translate">Pengarang gagal. Sila cuba kemudian.</string>
+    <string name="uninstall" source="google_translate">Nyahpasang</string>
+    <string name="uninstall_prev_version_to_continue" source="google_translate">Anda perlu menyahpasang versi terdahulu untuk meneruskan</string>
+    <string name="prefs_allow_intranet_access" source="google_translate">Benarkan akses intranet</string>
+    <string name="prefs_allow_remote_access" source="google_translate">Benarkan akses jauh</string>
+    <string name="error" source="google_translate">Ralat</string>
+    <string name="select_player" source="google_translate">Pilih pemain</string>
+    <string name="attention" source="google_translate">Perhatian</string>
+    <string name="home" source="google_translate">Rumah</string>
+    <string name="remote_control" source="google_translate">Alat kawalan jauh</string>
+    <string name="please_try_again" source="google_translate">Sila cuba lagi</string>
+    <string name="cannot_start_playback" source="google_translate">Tidak dapat memulakan main balik</string>
+    <string name="device_disconnected" source="google_translate">Peranti diputuskan</string>
+    <string name="connection_failed" source="google_translate">Sambungan gagal</string>
+    <string name="buffering" source="google_translate">Buffering</string>
+    <string name="remember_choice" source="google_translate">Ingat pilihan</string>
+    <string name="prefs_transcode_ac3" source="google_translate">Transcode hanya AC3 ke AAC untuk HLS</string>
+    <string name="ok_sure" source="google_translate">Baiklah</string>
+    <string name="no_thanks" source="google_translate">Tidak, Terima kasih</string>
+    <string name="rate_yes" source="google_translate">Ya!</string>
+    <string name="rate_not" source="google_translate">Tidak betul</string>
+    <string name="rate_do_you_like" source="google_translate">Menikmati Ace Stream?</string>
+    <string name="rate_on_google" source="google_translate">Bagaimana pula penarafan di Google Play, kemudian?</string>
+    <string name="rate_give_feedback" source="google_translate">Adakah anda keberatan memberikan maklum balas kepada kami?</string>
+    <string name="prefs_transcode_audio" source="google_translate">Transcode semua audio ke AAC untuk HLS</string>
+    <string name="want_restart" source="google_translate">Adakah anda ingin meneruskan main balik dari kedudukan terakhir?</string>
+    <string name="restart_from_beginning" source="google_translate">Bermula dari awal</string>
+    <string name="menu_content_id" source="google_translate">Masukkan ID Kandungan</string>
+    <string name="enter_content_id" source="google_translate">Masukkan ID Kandungan</string>
+    <string name="bad_content_id" source="google_translate">ID Kandungan Buruk</string>
+    <string name="send" source="google_translate">Hantar</string>
+    <string name="report_problem" source="google_translate">Laporkan masalah</string>
+    <string name="report_has_been_sent" source="google_translate">Laporan telah dihantar</string>
+    <string name="report_failed" source="google_translate">Laporan gagal</string>
+    <string name="allow_mobile_networks" source="google_translate">Benarkan penggunaan rangkaian mudah alih?</string>
+    <string name="problem_description" source="google_translate">Masalah Penerangan</string>
+    <string name="directory_is_not_writable" source="google_translate">Direktori tidak boleh ditulis</string>
+    <string name="device_storage" source="google_translate">Storan Peranti</string>
+    <string name="sd_card" source="google_translate">Kad SD</string>
+    <string name="select_directory" source="google_translate">Pilih direktori</string>
+    <string name="select_category" source="google_translate">Pilih Kategori</string>
+    <string name="language" source="google_translate">Bahasa</string>
+    <string name="sign_in_or_register" source="google_translate">Masuk atau mendaftar di Ace Stream</string>
+    <string name="sign_in_or_register_continue" source="google_translate">Masuk atau mendaftar untuk meneruskan</string>
+    <string name="selected_player" source="google_translate">Pemain Terpilih</string>
+    <string name="opengl_usage" source="google_translate">Penggunaan OpenGL ES2</string>
+    <string name="auto" source="google_translate">Auto</string>
+    <string name="force_on" source="google_translate">Berpaksikan</string>
+    <string name="force_off" source="google_translate">Memaksa</string>
+    <string name="video_hardware_acceleration" source="google_translate">Pecutan Perkakasan Video</string>
+    <string name="disabled" source="google_translate">Dinyahdayakan</string>
+    <string name="decoding_acceleration" source="google_translate">Percepatan penyahkodan</string>
+    <string name="full_acceleration" source="google_translate">Pecutan Penuh</string>
+    <string name="show_debug_info" source="google_translate">Tunjukkan maklumat debug</string>
+    <string name="enable_debug_logging" source="google_translate">Dayakan pembalakan debug</string>
+    <string name="start_acecast_server" source="google_translate">Mula Server AceCast</string>
+    <string name="avi_opendml_warning" source="google_translate">Video ini tidak boleh dimainkan dengan betul dalam pemain Ace Stream. Pilih pemain lain?</string>
+    <string name="player_preferences" source="google_translate">Tetapan pemain</string>
+    <string name="ads_preferences" source="google_translate">Tetapan iklan</string>
+    <string name="ads_preferences_short" source="google_translate">Iklan</string>
+    <string name="show_lock_button" source="google_translate">Tunjukkan butang kunci</string>
+    <string name="engine_preferences" source="google_translate">Tetapan enjin</string>
+    <string name="engine_preferences_short" source="google_translate">Enjin</string>
+    <string name="need_proxy_server_option" source="google_translate">Anda perlu mengaktifkan pilihan Pelayan Proksi untuk menonton kandungan dalam pemain luaran. Atau anda boleh menonton kandungan secara percuma dalam Ace Player</string>
+    <string name="need_proxy_server_option_tmp" source="google_translate">Untuk menonton kandungan yang anda perlukan untuk mengaktifkan opsyen Pelayan Proksi atau naik taraf aplikasi Ace Stream</string>
+    <string name="pause_on_audiofocus_loss" source="google_translate">Jeda dengan kehilangan audiofokus</string>
+    <string name="upgrade" source="google_translate">Naik taraf</string>
+    <string name="to_continue_visit_link" source="google_translate">Untuk terus melawat pautan ini:</string>
+    <string name="and_enter_pin" source="google_translate">dan masukkan PIN:</string>
+    <string name="gdpr_consent" source="google_translate">Persetujuan GDPR</string>
+    <string name="show_rewarded_ads" source="google_translate">Tunjukkan iklan yang dihargai</string>
+    <string name="show_ads_on_main_screen" source="google_translate">Paparkan iklan pada skrin utama</string>
+    <string name="show_ads_on_preroll" source="google_translate">Paparkan iklan pada preroll</string>
+    <string name="show_ads_on_pause" source="google_translate">Paparkan iklan pada jeda</string>
+    <string name="show_ads_on_close" source="google_translate">Tunjukkan iklan pada pemain dekat</string>
+    <string name="agreement" source="google_translate">Perjanjian</string>
+    <string name="license_agreement" source="google_translate">Perjanjian Lesen</string>
+    <string name="privacy_policy" source="google_translate">Dasar privasi</string>
+    <string name="application_version" source="google_translate">Versi permohonan</string>
+    <string name="disable_ads" source="google_translate">Lumpuhkan iklan</string>
+    <string name="learn_more" source="google_translate">Ketahui lebih lanjut</string>
+    <string name="skip_ad" source="google_translate">Langkau Iklan</string>
+    <string name="you_can_skip_this_ad_in" source="google_translate">Anda boleh melangkau iklan ini dalam %d</string>
+    <string name="clearing_cache_etc" source="google_translate">Mengosongkan cache ...</string>
+    <string name="cache_cleared" source="google_translate">Cache dibersihkan</string>
+    <string name="not_connected_to_engine" source="google_translate">Tidak disambungkan kepada enjin</string>
+    <string name="gdpr_consent_pref_title" source="google_translate">Persetujuan GDPR</string>
+    <string name="gdpr_consent_pref_summary" source="google_translate">Persetujuan GDPR</string>
+    <string name="application" source="google_translate">Permohonan</string>
+    <string name="device_name" source="google_translate">Nama peranti</string>
+    <string name="empty_playlist" source="google_translate">Senarai main kosong</string>
+    <string name="profile" source="google_translate">Profil</string>
+    <string name="not_selected" source="google_translate">Tidak terpilih</string>
+    <string name="restart_application" source="google_translate">Mulakan semula aplikasi</string>
+    <string name="restart_confirmation" source="google_translate">Mulakan semula aplikasi sekarang?</string>
+    <string name="parsing_transport_files" source="google_translate">Parsing file pengangkutan</string>
+    <string name="user_profile" source="google_translate">Profil pengguna</string>
+    <string name="account_balance" source="google_translate">Baki akaun</string>
+</resources>

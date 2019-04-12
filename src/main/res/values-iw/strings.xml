@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lbl_version" source="google_translate">גרסה</string>
+    <string name="lbl_portal" source="google_translate">פורטל מידע</string>
+    <string name="lbl_prefshththtml" source="google_translate">הגדרות</string>
+    <string name="lbl_account" source="google_translate">חשבון</string>
+    <string name="lbl_sign_out" source="google_translate">התנתק</string>
+    <string name="menu_prefs" source="google_translate">הגדרות</string>
+    <string name="menu_profile" source="google_translate">פרופיל משתמש</string>
+    <string name="menu_services" source="google_translate">שירותים</string>
+    <string name="menu_clearcache" source="google_translate">נקה מטמון</string>
+    <string name="menu_quit" source="google_translate">צא</string>
+    <string name="menu_action_fail" source="google_translate">לא ניתן לבצע פעולה זו באמצעות מנוע לא פעיל</string>
+    <string name="dialog_wait" source="google_translate">המתן בבקשה</string>
+    <string name="dialog_unpack" source="google_translate">פורקים</string>
+    <string name="dialog_start" source="google_translate">החל</string>
+    <string name="dialog_prefs" source="google_translate">אחזור העדפות</string>
+    <string name="dialog_services" source="google_translate">אחזור רשימת השירותים</string>
+    <string name="dialog_cache" source="google_translate">ניקוי מטמון</string>
+    <string name="dialog_shutdown" source="google_translate">כיבוי</string>
+    <string name="dialog_no_connection" source="google_translate">אין חיבור לאינטרנט זמין. Ace זרם שירות מנוע יתחיל באופן אוטומטי לאחר חיבור.</string>
+    <string name="task_prefs_fail" source="google_translate">אחזור שגיאת הגדרות</string>
+    <string name="task_services_fail" source="google_translate">אחזור שגיאת שירותים</string>
+    <string name="start_ok" source="google_translate">התחל להצליח</string>
+    <string name="start_fail" source="google_translate">ההתחלה נכשלה</string>
+    <string name="notify_starting" source="google_translate">לא פעיל</string>
+    <string name="notify_unpack" source="google_translate">פריקה בתהליך</string>
+    <string name="notify_unpack_complete" source="google_translate">פריקה הושלמה</string>
+    <string name="notify_connect" source="google_translate">מתחבר</string>
+    <string name="notify_connect_complete" source="google_translate">החיבור הושלם</string>
+    <string name="notify_running" source="google_translate">רץ</string>
+    <string name="notify_stopped" source="google_translate">עצר</string>
+    <string name="notify_error" source="google_translate">שגיאה</string>
+    <string name="notify_wait_connection" source="google_translate">אין חיבור רשת זמין</string>
+    <string name="prefs_group_main" source="google_translate">העדפות עיקריות</string>
+    <string name="prefs_item_mobile" source="google_translate">גישה לנתונים ברשת לנייד</string>
+    <string name="prefs_item_mobile_summary" source="google_translate">הפעל גישה לנתונים ברשתות לנייד</string>
+    <string name="prefs_item_vod_buffer" source="google_translate">חיץ VOD, s</string>
+    <string name="prefs_item_live_buffer" source="google_translate">חי חיץ, s</string>
+    <string name="prefs_item_download_limit" source="google_translate">מגבלת הורדה (0 - ללא הגבלה), Kb / s</string>
+    <string name="prefs_item_upload_limit" source="google_translate">מגבלת העלאה (0 - ללא הגבלה), Kb / s</string>
+    <string name="prefs_group_advanced" source="google_translate">העדפות מתקדמות</string>
+    <string name="prefs_item_port" source="google_translate">נמל</string>
+    <string name="prefs_item_total_max_connects" source="google_translate">מקס מתחבר</string>
+    <string name="prefs_item_download_max_connects" source="google_translate">ההורדות המקסימליות</string>
+    <string name="prefs_group_profile" source="google_translate">פרופיל משתמש</string>
+    <string name="prefs_item_gender" source="google_translate">מין</string>
+    <string name="prefs_item_age" source="google_translate">גיל</string>
+    <string name="prefs_item_login" source="google_translate">התחברות</string>
+    <string name="prefs_item_password" source="google_translate">סיסמה</string>
+    <string name="prefs_gender_value_male" source="google_translate">זכר</string>
+    <string name="prefs_gender_value_female" source="google_translate">נקבה</string>
+    <string name="prefs_age_value_under13" source="google_translate">מתחת לגיל 13</string>
+    <string name="prefs_age_value_above64" source="google_translate">מעל 64</string>
+    <string name="prefs_group_cache" source="google_translate">הגדרות מטמון</string>
+    <string name="prefs_item_disk_cache_limit" source="google_translate">מגבלת מטמון הדיסק, Mb</string>
+    <string name="prefs_item_memory_cache_limit" source="google_translate">מגבלת מטמון RAM, Mb</string>
+    <string name="prefs_item_cache_dir" source="google_translate">ספריית מטמון</string>
+    <string name="prefs_cache_live_use_disk" source="google_translate">השתמש בדיסק לחי</string>
+    <string name="prefs_cache_vod_use_disk" source="google_translate">השתמש בדיסק עבור VOD</string>
+    <string name="prefs_output_format_live" source="google_translate">פורמט פלט (Live)</string>
+    <string name="prefs_output_format_vod" source="google_translate">פורמט פלט (VOD)</string>
+    <string name="extension_name" source="google_translate">שם:</string>
+    <string name="extension_description" source="google_translate">תיאור:</string>
+    <string name="extension_issued_by" source="google_translate">הונפק בתאריך:</string>
+    <string name="extension_url" source="google_translate">כתובת אתר:</string>
+    <string name="extension_enabled" source="google_translate">מופעל:</string>
+    <string name="extension_valid_from" source="google_translate">בתוקף מ:</string>
+    <string name="extension_valid_to" source="google_translate">תקף ל:</string>
+    <string name="no_services" source="google_translate">אין שירותים</string>
+    <string name="message_unsupported_cpu" source="google_translate">המעבד שלך עדיין אינו נתמך.</string>
+    <string name="starting" source="google_translate">מתחיל ...</string>
+    <string name="starting_player" source="google_translate">מפעיל את הנגן ...</string>
+    <string name="install" source="google_translate">להתקין</string>
+    <string name="close" source="google_translate">סגור</string>
+    <string name="no_players" source="google_translate">לא נמצאו שחקנים</string>
+    <string name="failed_to_start" source="google_translate">נכשל בנסיון להתחיל</string>
+    <string name="option_proxy_server" source="google_translate">שרת פרוקסי</string>
+    <string name="option_generic_premium" source="google_translate">פרמיה</string>
+    <string name="activate" source="google_translate">הפעל</string>
+    <string name="prompt_email" source="google_translate">דוא\"ל</string>
+    <string name="prompt_password" source="google_translate">סיסמה</string>
+    <string name="action_sign_in" source="google_translate">היכנס</string>
+    <string name="action_sign_in_or_register" source="google_translate">כניסה / הרשמה</string>
+    <string name="action_sign_out" source="google_translate">התנתק</string>
+    <string name="error_invalid_email" source="google_translate">כתובת האימייל הזו אינה חוקית</string>
+    <string name="error_invalid_password" source="google_translate">סיסמה זו קצרה מדי</string>
+    <string name="error_field_required" source="google_translate">שדה חובה</string>
+    <string name="upgrage_user_level" source="google_translate">שדרג</string>
+    <string name="select_file" source="google_translate">בחר קובץ</string>
+    <string name="auth_error_user_not_found" source="google_translate">המשתמש לא נמצא</string>
+    <string name="auth_error_user_disabled" source="google_translate">המשתמש מושבת</string>
+    <string name="auth_error_bad_password" source="google_translate">סיסמה זו שגויה</string>
+    <string name="auth_internal_error" source="google_translate">שגיאה פנימית. אנא נסה מאוחר יותר.</string>
+    <string name="auth_network_error" source="google_translate">תקלת רשת. אנא נסה מאוחר יותר.</string>
+    <string name="auth_failed_error" source="google_translate">Auth נכשל. אנא נסה מאוחר יותר.</string>
+    <string name="uninstall" source="google_translate">הסר את ההתקנה</string>
+    <string name="uninstall_prev_version_to_continue" source="google_translate">עליך להסיר את הגרסה הקודמת כדי להמשיך</string>
+    <string name="prefs_allow_intranet_access" source="google_translate">אפשר גישה לרשת אינטרא-נט</string>
+    <string name="prefs_allow_remote_access" source="google_translate">אפשר גישה מרחוק</string>
+    <string name="error" source="google_translate">שגיאה</string>
+    <string name="select_player" source="google_translate">בחר שחקן</string>
+    <string name="attention" source="google_translate">תשומת הלב</string>
+    <string name="home" source="google_translate">בית</string>
+    <string name="remote_control" source="google_translate">שלט רחוק</string>
+    <string name="please_try_again" source="google_translate">בבקשה נסה שוב</string>
+    <string name="cannot_start_playback" source="google_translate">לא ניתן להתחיל בהפעלה</string>
+    <string name="device_disconnected" source="google_translate">ההתקן מנותק</string>
+    <string name="connection_failed" source="google_translate">חיבור נכשל</string>
+    <string name="buffering" source="google_translate">אגירה</string>
+    <string name="remember_choice" source="google_translate">זכור בחירה</string>
+    <string name="prefs_transcode_ac3" source="google_translate">הקלט רק AC3 ל- AAC עבור HLS</string>
+    <string name="ok_sure" source="google_translate">כן בטח</string>
+    <string name="no_thanks" source="google_translate">לא תודה</string>
+    <string name="rate_yes" source="google_translate">כן!</string>
+    <string name="rate_not" source="google_translate">לא באמת</string>
+    <string name="rate_do_you_like" source="google_translate">נהנה זרם אייס?</string>
+    <string name="rate_on_google" source="google_translate">מה דעתך על דירוג ב- Google Play?</string>
+    <string name="rate_give_feedback" source="google_translate">אכפת לך לתת לנו משוב?</string>
+    <string name="prefs_transcode_audio" source="google_translate">להמיר את כל שמע AAC עבור HLS</string>
+    <string name="want_restart" source="google_translate">האם ברצונך להמשיך את ההשמעה מהמצב האחרון?</string>
+    <string name="restart_from_beginning" source="google_translate">התחל מההתחלה</string>
+    <string name="menu_content_id" source="google_translate">הזן מזהה תוכן</string>
+    <string name="enter_content_id" source="google_translate">הזן מזהה תוכן</string>
+    <string name="bad_content_id" source="google_translate">מזהה תוכן שגוי</string>
+    <string name="send" source="google_translate">שלח</string>
+    <string name="report_problem" source="google_translate">לדווח על בעיה</string>
+    <string name="report_has_been_sent" source="google_translate">הדוח נשלח</string>
+    <string name="report_failed" source="google_translate">הדוח נכשל</string>
+    <string name="allow_mobile_networks" source="google_translate">האם לאפשר שימוש ברשתות לנייד?</string>
+    <string name="problem_description" source="google_translate">תיאור הבעיה</string>
+    <string name="directory_is_not_writable" source="google_translate">המדריך אינו ניתן לכתיבה</string>
+    <string name="device_storage" source="google_translate">אחסון התקן</string>
+    <string name="sd_card" source="google_translate">כרטיס זיכרון</string>
+    <string name="select_directory" source="google_translate">בחר בספרייה</string>
+    <string name="select_category" source="google_translate">בחר קטגוריה</string>
+    <string name="language" source="google_translate">שפה</string>
+    <string name="sign_in_or_register" source="google_translate">היכנס או הירשם לזרם Ace</string>
+    <string name="sign_in_or_register_continue" source="google_translate">היכנס או הירשם כדי להמשיך</string>
+    <string name="selected_player" source="google_translate">שחקן נבחר</string>
+    <string name="opengl_usage" source="google_translate">השימוש ב - OpenGL ES2</string>
+    <string name="auto" source="google_translate">אוטומטי</string>
+    <string name="force_on" source="google_translate">כפה על</string>
+    <string name="force_off" source="google_translate">כוח כבוי</string>
+    <string name="video_hardware_acceleration" source="google_translate">האצת חומרה וידאו</string>
+    <string name="disabled" source="google_translate">מושבת</string>
+    <string name="decoding_acceleration" source="google_translate">פענוח האצה</string>
+    <string name="full_acceleration" source="google_translate">האצה מלאה</string>
+    <string name="show_debug_info" source="google_translate">הצג פרטי ניקוי באגים</string>
+    <string name="enable_debug_logging" source="google_translate">אפשר רישום באגים</string>
+    <string name="start_acecast_server" source="google_translate">הפעל שרת AceCast</string>
+    <string name="avi_opendml_warning" source="google_translate">ייתכן שהסרטון הזה לא פועל כהלכה בנגן Ace Stream. לבחור שחקן אחר?</string>
+    <string name="player_preferences" source="google_translate">הגדרות נגן</string>
+    <string name="ads_preferences" source="google_translate">הגדרות מודעות</string>
+    <string name="ads_preferences_short" source="google_translate">מודעות</string>
+    <string name="show_lock_button" source="google_translate">הצג לחצן נעילה</string>
+    <string name="engine_preferences" source="google_translate">הגדרות מנוע</string>
+    <string name="engine_preferences_short" source="google_translate">מנוע</string>
+    <string name="need_proxy_server_option" source="google_translate">אתה צריך להפעיל את האפשרות שרת Proxy כדי לצפות בתוכן שחקנים חיצוניים. או שאתה יכול לצפות תוכן בחינם ב Ace Player</string>
+    <string name="need_proxy_server_option_tmp" source="google_translate">כדי לצפות בתוכן עליך להפעיל את האפשרות שרת Proxy או לשדרג את היישום Ace Stream</string>
+    <string name="pause_on_audiofocus_loss" source="google_translate">השהה על אובדן</string>
+    <string name="upgrade" source="google_translate">שדרג</string>
+    <string name="to_continue_visit_link" source="google_translate">כדי להמשיך בקישור זה:</string>
+    <string name="and_enter_pin" source="google_translate">והזן PIN:</string>
+    <string name="gdpr_consent" source="google_translate">הסכמת תוצר</string>
+    <string name="show_rewarded_ads" source="google_translate">הצג מודעות מתוגמלות</string>
+    <string name="show_ads_on_main_screen" source="google_translate">הצג מודעות במסך הראשי</string>
+    <string name="show_ads_on_preroll" source="google_translate">הצג מודעות ב- preroll</string>
+    <string name="show_ads_on_pause" source="google_translate">הצג מודעות בהשהיה</string>
+    <string name="show_ads_on_close" source="google_translate">הצג מודעות בנגן</string>
+    <string name="agreement" source="google_translate">הסכם</string>
+    <string name="license_agreement" source="google_translate">הסכם רישיון</string>
+    <string name="privacy_policy" source="google_translate">מדיניות הפרטיות</string>
+    <string name="application_version" source="google_translate">גרסת אפליקציה</string>
+    <string name="disable_ads" source="google_translate">השבת מודעות</string>
+    <string name="learn_more" source="google_translate">למד עוד</string>
+    <string name="skip_ad" source="google_translate">לדלג על מודעה</string>
+    <string name="you_can_skip_this_ad_in" source="google_translate">תוכל לדלג על מודעה זו ב- %d</string>
+    <string name="clearing_cache_etc" source="google_translate">מנקה קובץ שמור ...</string>
+    <string name="cache_cleared" source="google_translate">המטמון נמחק</string>
+    <string name="not_connected_to_engine" source="google_translate">לא מחובר למנוע</string>
+    <string name="gdpr_consent_pref_title" source="google_translate">הסכמת תוצר</string>
+    <string name="gdpr_consent_pref_summary" source="google_translate">הסכמת תוצר</string>
+    <string name="application" source="google_translate">יישום</string>
+    <string name="device_name" source="google_translate">שם התקן</string>
+    <string name="empty_playlist" source="google_translate">רשימת השמעה ריקה</string>
+    <string name="profile" source="google_translate">פרופיל</string>
+    <string name="not_selected" source="google_translate">לא נבחר</string>
+    <string name="restart_application" source="google_translate">הפעל מחדש את היישום</string>
+    <string name="restart_confirmation" source="google_translate">להפעיל מחדש את היישום עכשיו?</string>
+    <string name="parsing_transport_files" source="google_translate">ניתוח קבצי תחבורה</string>
+    <string name="user_profile" source="google_translate">פרופיל משתמש</string>
+    <string name="account_balance" source="google_translate">יתרת חשבון</string>
+</resources>

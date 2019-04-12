@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:orientation="vertical" >
+	
+	<TextView android:id="@+id/txt_current_path"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_margin="10sp"
+		android:gravity="left"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:text="" />
+	
+	<ListView android:id="@+id/dialog_list" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="10sp"
+		android:layout_below="@id/txt_current_path" />
+			
+</RelativeLayout>

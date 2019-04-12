@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lbl_version" source="google_translate">نسخه</string>
+    <string name="lbl_portal" source="google_translate">پورتال اطلاعات</string>
+    <string name="lbl_prefshththtml" source="google_translate">تنظیمات</string>
+    <string name="lbl_account" source="google_translate">حساب</string>
+    <string name="lbl_sign_out" source="google_translate">خروج</string>
+    <string name="menu_prefs" source="google_translate">تنظیمات</string>
+    <string name="menu_profile" source="google_translate">مشخصات کاربر</string>
+    <string name="menu_services" source="google_translate">خدمات</string>
+    <string name="menu_clearcache" source="google_translate">پاک کردن حافظه پنهان</string>
+    <string name="menu_quit" source="google_translate">ترک</string>
+    <string name="menu_action_fail" source="google_translate">این عمل را نمی توان با موتور غیر فعال انجام داد</string>
+    <string name="dialog_wait" source="google_translate">لطفا صبر کنید</string>
+    <string name="dialog_unpack" source="google_translate">باز کردن</string>
+    <string name="dialog_start" source="google_translate">راه افتادن</string>
+    <string name="dialog_prefs" source="google_translate">ترجیحات بازیابی</string>
+    <string name="dialog_services" source="google_translate">بازیابی لیست خدمات</string>
+    <string name="dialog_cache" source="google_translate">پاک کردن حافظه پنهان</string>
+    <string name="dialog_shutdown" source="google_translate">خاموش شدن</string>
+    <string name="dialog_no_connection" source="google_translate">بدون اتصال به اینترنت در دسترس نیست سرویس Ace Stream Engine پس از اتصال به طور خودکار شروع می شود.</string>
+    <string name="task_prefs_fail" source="google_translate">بازیابی خطای تنظیمات</string>
+    <string name="task_services_fail" source="google_translate">خطا در دریافت خدمات</string>
+    <string name="start_ok" source="google_translate">موفق باشید</string>
+    <string name="start_fail" source="google_translate">شروع نشد</string>
+    <string name="notify_starting" source="google_translate">بیکار</string>
+    <string name="notify_unpack" source="google_translate">باز کردن در روند</string>
+    <string name="notify_unpack_complete" source="google_translate">باز کردن بسته</string>
+    <string name="notify_connect" source="google_translate">برقراری ارتباط</string>
+    <string name="notify_connect_complete" source="google_translate">اتصال به پایان رسید</string>
+    <string name="notify_running" source="google_translate">در حال اجرا</string>
+    <string name="notify_stopped" source="google_translate">متوقف شد</string>
+    <string name="notify_error" source="google_translate">خطا</string>
+    <string name="notify_wait_connection" source="google_translate">اتصال به شبکه موجود نیست</string>
+    <string name="prefs_group_main" source="google_translate">تنظیمات اصلی</string>
+    <string name="prefs_item_mobile" source="google_translate">دسترسی به داده های شبکه های تلفن همراه</string>
+    <string name="prefs_item_mobile_summary" source="google_translate">دسترسی داده ها را از طریق شبکه های تلفن همراه فعال کنید</string>
+    <string name="prefs_item_vod_buffer" source="google_translate">بافر VOD، s</string>
+    <string name="prefs_item_live_buffer" source="google_translate">بافر زنده، s</string>
+    <string name="prefs_item_download_limit" source="google_translate">محدودیت دانلود (0 - بدون محدودیت)، Kb / s</string>
+    <string name="prefs_item_upload_limit" source="google_translate">محدودیت آپلود (0 - بدون محدودیت)، Kb / s</string>
+    <string name="prefs_group_advanced" source="google_translate">تنظیمات پیشرفته</string>
+    <string name="prefs_item_port" source="google_translate">بندر</string>
+    <string name="prefs_item_total_max_connects" source="google_translate">حداکثر اتصال</string>
+    <string name="prefs_item_download_max_connects" source="google_translate">دانلود max connects</string>
+    <string name="prefs_group_profile" source="google_translate">مشخصات کاربر</string>
+    <string name="prefs_item_gender" source="google_translate">جنسيت</string>
+    <string name="prefs_item_age" source="google_translate">سن</string>
+    <string name="prefs_item_login" source="google_translate">ورود</string>
+    <string name="prefs_item_password" source="google_translate">کلمه عبور</string>
+    <string name="prefs_gender_value_male" source="google_translate">نر</string>
+    <string name="prefs_gender_value_female" source="google_translate">زن</string>
+    <string name="prefs_age_value_under13" source="google_translate">زیر 13 سال</string>
+    <string name="prefs_age_value_above64" source="google_translate">بالاتر از 64</string>
+    <string name="prefs_group_cache" source="google_translate">تنظیمات کش</string>
+    <string name="prefs_item_disk_cache_limit" source="google_translate">محدودیت ذخیره سازی دیسک، Mb</string>
+    <string name="prefs_item_memory_cache_limit" source="google_translate">محدودیت حافظه RAM، Mb</string>
+    <string name="prefs_item_cache_dir" source="google_translate">دایرکتوری کش</string>
+    <string name="prefs_cache_live_use_disk" source="google_translate">از دیسک برای زندگی استفاده کنید</string>
+    <string name="prefs_cache_vod_use_disk" source="google_translate">استفاده از دیسک برای VOD</string>
+    <string name="prefs_output_format_live" source="google_translate">فرمت خروجی (زنده)</string>
+    <string name="prefs_output_format_vod" source="google_translate">فرمت خروجی (VOD)</string>
+    <string name="extension_name" source="google_translate">نام:</string>
+    <string name="extension_description" source="google_translate">شرح:</string>
+    <string name="extension_issued_by" source="google_translate">صادر شده توسط:</string>
+    <string name="extension_url" source="google_translate">آدرس:</string>
+    <string name="extension_enabled" source="google_translate">فعال شده:</string>
+    <string name="extension_valid_from" source="google_translate">معتبر از:</string>
+    <string name="extension_valid_to" source="google_translate">معتبر به:</string>
+    <string name="no_services" source="google_translate">بدون خدمات</string>
+    <string name="message_unsupported_cpu" source="google_translate">CPU شما هنوز پشتیبانی نمی شود</string>
+    <string name="starting" source="google_translate">راه افتادن…</string>
+    <string name="starting_player" source="google_translate">شروع پخش ...</string>
+    <string name="install" source="google_translate">نصب</string>
+    <string name="close" source="google_translate">نزدیک</string>
+    <string name="no_players" source="google_translate">هیچ بازیکنی پیدا نشد</string>
+    <string name="failed_to_start" source="google_translate">شروع نشد</string>
+    <string name="option_proxy_server" source="google_translate">سرور پروکسی</string>
+    <string name="option_generic_premium" source="google_translate">حق بیمه</string>
+    <string name="activate" source="google_translate">فعالسازی</string>
+    <string name="prompt_email" source="google_translate">پست الکترونیک</string>
+    <string name="prompt_password" source="google_translate">کلمه عبور</string>
+    <string name="action_sign_in" source="google_translate">ورود</string>
+    <string name="action_sign_in_or_register" source="google_translate">وارد شوید / ثبت نام کنید</string>
+    <string name="action_sign_out" source="google_translate">خروج</string>
+    <string name="error_invalid_email" source="google_translate">این آدرس ایمیل نامعتبر است</string>
+    <string name="error_invalid_password" source="google_translate">این رمز عبور خیلی کوتاه است</string>
+    <string name="error_field_required" source="google_translate">این فیلد مورد نیاز است</string>
+    <string name="upgrage_user_level" source="google_translate">ارتقاء</string>
+    <string name="select_file" source="google_translate">فایل را انتخاب کنید</string>
+    <string name="auth_error_user_not_found" source="google_translate">کاربر یافت نشد</string>
+    <string name="auth_error_user_disabled" source="google_translate">کاربر غیرفعال است</string>
+    <string name="auth_error_bad_password" source="google_translate">این رمز عبور نادرست است</string>
+    <string name="auth_internal_error" source="google_translate">خطای داخلی. لطفا بعدا تلاش کنید.</string>
+    <string name="auth_network_error" source="google_translate">خطای شبکه. لطفا بعدا تلاش کنید.</string>
+    <string name="auth_failed_error" source="google_translate">Auth شکست خورده است لطفا بعدا تلاش کنید.</string>
+    <string name="uninstall" source="google_translate">حذف کردن</string>
+    <string name="uninstall_prev_version_to_continue" source="google_translate">برای ادامه باید نسخه قبلی را حذف کنید</string>
+    <string name="prefs_allow_intranet_access" source="google_translate">اجازه دسترسی به اینترانت</string>
+    <string name="prefs_allow_remote_access" source="google_translate">اجازه دسترسی از راه دور</string>
+    <string name="error" source="google_translate">خطا</string>
+    <string name="select_player" source="google_translate">بازیکن را انتخاب کنید</string>
+    <string name="attention" source="google_translate">توجه</string>
+    <string name="home" source="google_translate">خانه</string>
+    <string name="remote_control" source="google_translate">کنترل از راه دور</string>
+    <string name="please_try_again" source="google_translate">لطفا دوباره تلاش کنید</string>
+    <string name="cannot_start_playback" source="google_translate">نمیتوان شروع پخش کرد</string>
+    <string name="device_disconnected" source="google_translate">دستگاه قطع شده است</string>
+    <string name="connection_failed" source="google_translate">ارتباط ناموفق بود</string>
+    <string name="buffering" source="google_translate">بافر</string>
+    <string name="remember_choice" source="google_translate">به یاد داشته باشید انتخاب</string>
+    <string name="prefs_transcode_ac3" source="google_translate">فقط AC3 را به AAC برای HLS انتقال دهید</string>
+    <string name="ok_sure" source="google_translate">بسیار خوب، حتما</string>
+    <string name="no_thanks" source="google_translate">نه ممنون</string>
+    <string name="rate_yes" source="google_translate">بله</string>
+    <string name="rate_not" source="google_translate">نه واقعا</string>
+    <string name="rate_do_you_like" source="google_translate">لذت بردن از Ace Stream؟</string>
+    <string name="rate_on_google" source="google_translate">پس از آن در مورد رتبه بندی در Google Play چگونه؟</string>
+    <string name="rate_give_feedback" source="google_translate">آیا شما ذهن ما را به برخی از بازخورد دادن؟</string>
+    <string name="prefs_transcode_audio" source="google_translate">همه صوتی را به AAC برای HLS انتقال دهید</string>
+    <string name="want_restart" source="google_translate">میخواهید پخش از آخرین موقعیت را ادامه دهید؟</string>
+    <string name="restart_from_beginning" source="google_translate">شروع از ابتدا</string>
+    <string name="menu_content_id" source="google_translate">شناسه محتوا را وارد کنید</string>
+    <string name="enter_content_id" source="google_translate">شناسه محتوا را وارد کنید</string>
+    <string name="bad_content_id" source="google_translate">شناسه نامناسب</string>
+    <string name="send" source="google_translate">ارسال</string>
+    <string name="report_problem" source="google_translate">گزارش مشکل</string>
+    <string name="report_has_been_sent" source="google_translate">گزارش فرستاده شده است</string>
+    <string name="report_failed" source="google_translate">گزارش ناموفق بود</string>
+    <string name="allow_mobile_networks" source="google_translate">اجازه استفاده از شبکه های تلفن همراه</string>
+    <string name="problem_description" source="google_translate">شرح مشکل</string>
+    <string name="directory_is_not_writable" source="google_translate">دایرکتوری قابل نوشتن نیست</string>
+    <string name="device_storage" source="google_translate">ذخیره سازی دستگاه</string>
+    <string name="sd_card" source="google_translate">کارت SD</string>
+    <string name="select_directory" source="google_translate">دایرکتوری را انتخاب کنید</string>
+    <string name="select_category" source="google_translate">دسته را انتخاب کنید</string>
+    <string name="language" source="google_translate">زبان</string>
+    <string name="sign_in_or_register" source="google_translate">ورود یا ثبت نام در Ace Stream</string>
+    <string name="sign_in_or_register_continue" source="google_translate">برای ادامه وارد شوید یا ثبت نام کنید</string>
+    <string name="selected_player" source="google_translate">پخش کننده انتخاب شده</string>
+    <string name="opengl_usage" source="google_translate">استفاده از OpenGL ES2</string>
+    <string name="auto" source="google_translate">خودکار</string>
+    <string name="force_on" source="google_translate">نیروی روشن</string>
+    <string name="force_off" source="google_translate">نیروی خاموش</string>
+    <string name="video_hardware_acceleration" source="google_translate">شتاب سختافزاری فیلم</string>
+    <string name="disabled" source="google_translate">معلول</string>
+    <string name="decoding_acceleration" source="google_translate">سرعت شتاب دهی</string>
+    <string name="full_acceleration" source="google_translate">شتاب کامل</string>
+    <string name="show_debug_info" source="google_translate">نمایش اشکال زدایی اطلاعات</string>
+    <string name="enable_debug_logging" source="google_translate">فعال کردن گزارش خطا</string>
+    <string name="start_acecast_server" source="google_translate">شروع سرور AceCast</string>
+    <string name="avi_opendml_warning" source="google_translate">این ویدیو ممکن است به درستی در پخش Ace Stream پخش شود. بازیکن دیگری را انتخاب کنید؟</string>
+    <string name="player_preferences" source="google_translate">تنظیمات پخش</string>
+    <string name="ads_preferences" source="google_translate">تنظیمات آگهی</string>
+    <string name="ads_preferences_short" source="google_translate">تبلیغات</string>
+    <string name="show_lock_button" source="google_translate">نمایش دکمه قفل</string>
+    <string name="engine_preferences" source="google_translate">تنظیمات موتور</string>
+    <string name="engine_preferences_short" source="google_translate">موتور</string>
+    <string name="need_proxy_server_option" source="google_translate">شما باید گزینه پروکسی سرور را فعال کنید تا محتوای را در بازیکنان خارجی تماشا کنید. یا شما می توانید محتوای رایگان را در Ace Player تماشا کنید</string>
+    <string name="need_proxy_server_option_tmp" source="google_translate">برای تماشای محتوا باید گزینه Proxy Server را فعال کنید یا برنامه Ace Stream را ارتقا دهید</string>
+    <string name="pause_on_audiofocus_loss" source="google_translate">توقف فوکوس از بین بردن صوت</string>
+    <string name="upgrade" source="google_translate">ارتقاء</string>
+    <string name="to_continue_visit_link" source="google_translate">برای ادامه بازدید از این لینک:</string>
+    <string name="and_enter_pin" source="google_translate">و پین را وارد کنید:</string>
+    <string name="gdpr_consent" source="google_translate">موافقت GDPR</string>
+    <string name="show_rewarded_ads" source="google_translate">نمایش آگهی های پاداش</string>
+    <string name="show_ads_on_main_screen" source="google_translate">نمایش تبلیغات در صفحه اصلی</string>
+    <string name="show_ads_on_preroll" source="google_translate">نمایش تبلیغات در preroll</string>
+    <string name="show_ads_on_pause" source="google_translate">نمایش تبلیغات در مکث</string>
+    <string name="show_ads_on_close" source="google_translate">نمایش تبلیغات در بستر بازیکن</string>
+    <string name="agreement" source="google_translate">توافق</string>
+    <string name="license_agreement" source="google_translate">توافقنامه مجوز</string>
+    <string name="privacy_policy" source="google_translate">سیاست حفظ حریم خصوصی</string>
+    <string name="application_version" source="google_translate">نسخه برنامه</string>
+    <string name="disable_ads" source="google_translate">تبلیغات را غیرفعال کنید</string>
+    <string name="learn_more" source="google_translate">بیشتر بدانید</string>
+    <string name="skip_ad" source="google_translate">پرش تبلیغ</string>
+    <string name="you_can_skip_this_ad_in" source="google_translate">شما می توانید این آگهی را در %d رد کنید</string>
+    <string name="clearing_cache_etc" source="google_translate">پاک کردن حافظه پنهان ...</string>
+    <string name="cache_cleared" source="google_translate">کش کشف شد</string>
+    <string name="not_connected_to_engine" source="google_translate">به موتور متصل نیست</string>
+    <string name="gdpr_consent_pref_title" source="google_translate">موافقت GDPR</string>
+    <string name="gdpr_consent_pref_summary" source="google_translate">موافقت GDPR</string>
+    <string name="application" source="google_translate">کاربرد</string>
+    <string name="device_name" source="google_translate">نام دستگاه</string>
+    <string name="empty_playlist" source="google_translate">لیست پخش خالی</string>
+    <string name="profile" source="google_translate">مشخصات</string>
+    <string name="not_selected" source="google_translate">انتخاب نشده</string>
+    <string name="restart_application" source="google_translate">راه اندازی مجدد برنامه</string>
+    <string name="restart_confirmation" source="google_translate">اکنون برنامه را دوباره راه اندازی کنید؟</string>
+    <string name="parsing_transport_files" source="google_translate">تجزیه فایل های حمل و نقل</string>
+    <string name="user_profile" source="google_translate">مشخصات کاربر</string>
+    <string name="account_balance" source="google_translate">موجودی حساب</string>
+</resources>

@@ -1,0 +1,39 @@
+apply plugin: 'com.android.feature'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+
+    baseFeature true
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            consumerProguardFiles 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    api project(':acestream-engine-client')
+
+    // Need to access android.support.v4.media.session.PlaybackStateCompat
+    implementation "androidx.media:media:1.0.1"
+
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation "com.squareup.retrofit2:retrofit:$rootProject.ext.retrofitVersion"
+    implementation "com.squareup.retrofit2:converter-gson:$rootProject.ext.retrofitVersion"
+    api("com.squareup.okhttp3:okhttp:$rootProject.ext.okHttpVersion") {
+        exclude group: 'org.json'
+    }
+    api("com.squareup.okhttp3:okhttp-urlconnection:$rootProject.ext.okHttpVersion") {
+        exclude group: 'org.json'
+    }
+}

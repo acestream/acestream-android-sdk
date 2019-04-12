@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lbl_version" source="google_translate">версія</string>
+    <string name="lbl_portal" source="google_translate">інфармацыйны партал</string>
+    <string name="lbl_prefshththtml" source="google_translate">налады</string>
+    <string name="lbl_account" source="google_translate">рахункі</string>
+    <string name="lbl_sign_out" source="google_translate">Выйсці</string>
+    <string name="menu_prefs" source="google_translate">налады</string>
+    <string name="menu_profile" source="google_translate">профіль карыстальніка</string>
+    <string name="menu_services" source="google_translate">паслугі</string>
+    <string name="menu_clearcache" source="google_translate">ачысціць кэш</string>
+    <string name="menu_quit" source="google_translate">выхад</string>
+    <string name="menu_action_fail" source="google_translate">Немагчыма выканаць гэтае дзеянне з неактыўным рухавіком</string>
+    <string name="dialog_wait" source="google_translate">Калі ласка пачакай</string>
+    <string name="dialog_unpack" source="google_translate">распакаванне</string>
+    <string name="dialog_start" source="google_translate">пачатак</string>
+    <string name="dialog_prefs" source="google_translate">атрыманне перавагі</string>
+    <string name="dialog_services" source="google_translate">Атрыманне спісу паслуг</string>
+    <string name="dialog_cache" source="google_translate">ачыстка кэша</string>
+    <string name="dialog_shutdown" source="google_translate">Shutdowning</string>
+    <string name="dialog_no_connection" source="google_translate">Няма вольнага падлучэння да Інтэрнэту. сэрвіс Ace паток рухавіка пачнецца аўтаматычна пасля падключэння.</string>
+    <string name="task_prefs_fail" source="google_translate">Памылка загрузкі налад</string>
+    <string name="task_services_fail" source="google_translate">Памылка пры атрыманні паслугі</string>
+    <string name="start_ok" source="google_translate">Пачатак поспеху</string>
+    <string name="start_fail" source="google_translate">Не атрымалася запусціць</string>
+    <string name="notify_starting" source="google_translate">ўхаластую</string>
+    <string name="notify_unpack" source="google_translate">Распакаванне ў працэсе</string>
+    <string name="notify_unpack_complete" source="google_translate">распакаванне завершана</string>
+    <string name="notify_connect" source="google_translate">злучальны</string>
+    <string name="notify_connect_complete" source="google_translate">падключэнне завершана</string>
+    <string name="notify_running" source="google_translate">ідучыя</string>
+    <string name="notify_stopped" source="google_translate">спыніўся</string>
+    <string name="notify_error" source="google_translate">памылка</string>
+    <string name="notify_wait_connection" source="google_translate">Няма вольнага падлучэння да сеткі</string>
+    <string name="prefs_group_main" source="google_translate">асноўныя перавагі</string>
+    <string name="prefs_item_mobile" source="google_translate">Мабільныя сеткі доступ да дадзеных</string>
+    <string name="prefs_item_mobile_summary" source="google_translate">Дазволіць доступ да дадзеных праз мабільныя сеткі</string>
+    <string name="prefs_item_vod_buffer" source="google_translate">ВОД буфер, з</string>
+    <string name="prefs_item_live_buffer" source="google_translate">Жывы буфер, s</string>
+    <string name="prefs_item_download_limit" source="google_translate">Мяжа загрузкі (0 - без абмежаванняў), Kb / s</string>
+    <string name="prefs_item_upload_limit" source="google_translate">Мяжа загрузкі (0 - без абмежаванняў), Kb / s</string>
+    <string name="prefs_group_advanced" source="google_translate">дадатковыя налады</string>
+    <string name="prefs_item_port" source="google_translate">порт</string>
+    <string name="prefs_item_total_max_connects" source="google_translate">макс злучае</string>
+    <string name="prefs_item_download_max_connects" source="google_translate">Спампаваць макс злучаецца</string>
+    <string name="prefs_group_profile" source="google_translate">профіль карыстальніка</string>
+    <string name="prefs_item_gender" source="google_translate">падлогу</string>
+    <string name="prefs_item_age" source="google_translate">ўзрост</string>
+    <string name="prefs_item_login" source="google_translate">Увайсці</string>
+    <string name="prefs_item_password" source="google_translate">пароль</string>
+    <string name="prefs_gender_value_male" source="google_translate">мужчына</string>
+    <string name="prefs_gender_value_female" source="google_translate">жанчына</string>
+    <string name="prefs_age_value_under13" source="google_translate">пад 13</string>
+    <string name="prefs_age_value_above64" source="google_translate">вышэй 64</string>
+    <string name="prefs_group_cache" source="google_translate">налады кэша</string>
+    <string name="prefs_item_disk_cache_limit" source="google_translate">Дыск абмежаванне кэша, Мб</string>
+    <string name="prefs_item_memory_cache_limit" source="google_translate">RAM мяжа кэш, Мб</string>
+    <string name="prefs_item_cache_dir" source="google_translate">каталог кэша</string>
+    <string name="prefs_cache_live_use_disk" source="google_translate">Выкарыстоўвайце дыск для жывых</string>
+    <string name="prefs_cache_vod_use_disk" source="google_translate">Выкарыстоўвайце дыск для VOD</string>
+    <string name="prefs_output_format_live" source="google_translate">Выхадны фармат (Live)</string>
+    <string name="prefs_output_format_vod" source="google_translate">Выхадны фармат (відэа па запыце)</string>
+    <string name="extension_name" source="google_translate">імя:</string>
+    <string name="extension_description" source="google_translate">апісанне:</string>
+    <string name="extension_issued_by" source="google_translate">Выдадзены:</string>
+    <string name="extension_url" source="google_translate">адрас:</string>
+    <string name="extension_enabled" source="google_translate">уключана:</string>
+    <string name="extension_valid_from" source="google_translate">Дзейнічае з:</string>
+    <string name="extension_valid_to" source="google_translate">Тэрмін дзеяння:</string>
+    <string name="no_services" source="google_translate">няма паслугі</string>
+    <string name="message_unsupported_cpu" source="google_translate">Ваш працэсар не падтрымліваецца.</string>
+    <string name="starting" source="google_translate">Пачынаючы з ...</string>
+    <string name="starting_player" source="google_translate">Запуск гульца ...</string>
+    <string name="install" source="google_translate">ўсталёўваць</string>
+    <string name="close" source="google_translate">блізка</string>
+    <string name="no_players" source="google_translate">Гульцы не знойдзены</string>
+    <string name="failed_to_start" source="google_translate">Не атрымалася запусціць</string>
+    <string name="option_proxy_server" source="google_translate">Проксі-сервер</string>
+    <string name="option_generic_premium" source="google_translate">прэмія</string>
+    <string name="activate" source="google_translate">актываваць</string>
+    <string name="prompt_email" source="google_translate">E-mail</string>
+    <string name="prompt_password" source="google_translate">пароль</string>
+    <string name="action_sign_in" source="google_translate">Увайсці</string>
+    <string name="action_sign_in_or_register" source="google_translate">Уваход / Рэгістрацыя</string>
+    <string name="action_sign_out" source="google_translate">Выйсці</string>
+    <string name="error_invalid_email" source="google_translate">Гэты адрас электроннай пошты ня дзейнічае</string>
+    <string name="error_invalid_password" source="google_translate">Гэты пароль занадта кароткі</string>
+    <string name="error_field_required" source="google_translate">Гэта поле абавязкова для запаўнення</string>
+    <string name="upgrage_user_level" source="google_translate">апгрэйд</string>
+    <string name="select_file" source="google_translate">выберыце файл</string>
+    <string name="auth_error_user_not_found" source="google_translate">Карыстальнік не знойдзены</string>
+    <string name="auth_error_user_disabled" source="google_translate">Карыстальнік адключаны</string>
+    <string name="auth_error_bad_password" source="google_translate">Гэты няправільны пароль</string>
+    <string name="auth_internal_error" source="google_translate">Унутраная памылка. Калі ласка, паспрабуйце пазней.</string>
+    <string name="auth_network_error" source="google_translate">Памылка сеткі. Калі ласка, паспрабуйце пазней.</string>
+    <string name="auth_failed_error" source="google_translate">Auth не ўдалося. Калі ласка, паспрабуйце пазней.</string>
+    <string name="uninstall" source="google_translate">выдаліць</string>
+    <string name="uninstall_prev_version_to_continue" source="google_translate">Вы павінны выдаліць папярэднюю версію, каб працягнуць</string>
+    <string name="prefs_allow_intranet_access" source="google_translate">Дазволіць доступ да інтрасеткі</string>
+    <string name="prefs_allow_remote_access" source="google_translate">Дазволіць аддалены доступ</string>
+    <string name="error" source="google_translate">памылка</string>
+    <string name="select_player" source="google_translate">выберыце прайгравальнік</string>
+    <string name="attention" source="google_translate">увагу</string>
+    <string name="home" source="google_translate">дома</string>
+    <string name="remote_control" source="google_translate">дыстанцыйнае кіраванне</string>
+    <string name="please_try_again" source="google_translate">Калі ласка, паспрабуйце яшчэ раз</string>
+    <string name="cannot_start_playback" source="google_translate">Немагчыма пачаць прайграванне</string>
+    <string name="device_disconnected" source="google_translate">прылада адключана</string>
+    <string name="connection_failed" source="google_translate">Падключэнне не ўдалося</string>
+    <string name="buffering" source="google_translate">буферызацыя</string>
+    <string name="remember_choice" source="google_translate">запомніць выбар</string>
+    <string name="prefs_transcode_ac3" source="google_translate">Пераносіце толькі AC3 ў AAC для ЗОЖ</string>
+    <string name="ok_sure" source="google_translate">Так, вядома</string>
+    <string name="no_thanks" source="google_translate">Не, дзякуй</string>
+    <string name="rate_yes" source="google_translate">Да!</string>
+    <string name="rate_not" source="google_translate">не вельмі</string>
+    <string name="rate_do_you_like" source="google_translate">Атрымліваючы асалоду ад Ace паток?</string>
+    <string name="rate_on_google" source="google_translate">Як наконт рэйтынгу на Google Play, тады?</string>
+    <string name="rate_give_feedback" source="google_translate">Не маглі б вы даць нам зваротную сувязь?</string>
+    <string name="prefs_transcode_audio" source="google_translate">Пераносіце ўсе аўдыё ў AAC для ЗОЖА</string>
+    <string name="want_restart" source="google_translate">Вы хочаце, каб аднавіць прайграванне з апошняй пазіцыі?</string>
+    <string name="restart_from_beginning" source="google_translate">Пачаць з пачатку</string>
+    <string name="menu_content_id" source="google_translate">Калі ласка, увядзіце ідэнтыфікатар кантэнту</string>
+    <string name="enter_content_id" source="google_translate">Калі ласка, увядзіце ідэнтыфікатар кантэнту</string>
+    <string name="bad_content_id" source="google_translate">Bad Content ID</string>
+    <string name="send" source="google_translate">паслаць</string>
+    <string name="report_problem" source="google_translate">Паведаміць аб праблеме</string>
+    <string name="report_has_been_sent" source="google_translate">Даклад быў адпраўлены</string>
+    <string name="report_failed" source="google_translate">Справаздача не ўдалося</string>
+    <string name="allow_mobile_networks" source="google_translate">Дазволіць выкарыстанне мабільных сетак?</string>
+    <string name="problem_description" source="google_translate">апісанне праблемы</string>
+    <string name="directory_is_not_writable" source="google_translate">Даведнік не даступны для запісу</string>
+    <string name="device_storage" source="google_translate">запамінальная прылада</string>
+    <string name="sd_card" source="google_translate">картка SD</string>
+    <string name="select_directory" source="google_translate">абярыце каталог</string>
+    <string name="select_category" source="google_translate">выберыце катэгорыю</string>
+    <string name="language" source="google_translate">мова</string>
+    <string name="sign_in_or_register" source="google_translate">Увайдзіце або зарэгіструйцеся ў Ace паток</string>
+    <string name="sign_in_or_register_continue" source="google_translate">Увайдзіце або зарэгіструйцеся, каб працягнуць</string>
+    <string name="selected_player" source="google_translate">абраны гулец</string>
+    <string name="opengl_usage" source="google_translate">Выкарыстанне OpenGL ES2</string>
+    <string name="auto" source="google_translate">аўтаматычны</string>
+    <string name="force_on" source="google_translate">Force On</string>
+    <string name="force_off" source="google_translate">Force Off</string>
+    <string name="video_hardware_acceleration" source="google_translate">Апаратнае паскарэнне відэа</string>
+    <string name="disabled" source="google_translate">інвалід</string>
+    <string name="decoding_acceleration" source="google_translate">дэкадаванне Паскарэнне</string>
+    <string name="full_acceleration" source="google_translate">поўнае паскарэнне</string>
+    <string name="show_debug_info" source="google_translate">Паказаць адладкавую інфармацыю</string>
+    <string name="enable_debug_logging" source="google_translate">Ўключыць вядзенне часопіса адладкі</string>
+    <string name="start_acecast_server" source="google_translate">Пачатак AceCast сервера</string>
+    <string name="avi_opendml_warning" source="google_translate">Гэта відэа не можа правільна прайграць у Ace Stream Player. Выбраць іншы гулец?</string>
+    <string name="player_preferences" source="google_translate">налады плэера</string>
+    <string name="ads_preferences" source="google_translate">аб\'явы налады</string>
+    <string name="ads_preferences_short" source="google_translate">аб\'явы</string>
+    <string name="show_lock_button" source="google_translate">Паказаць кнопку блакавання</string>
+    <string name="engine_preferences" source="google_translate">параметры рухавіка</string>
+    <string name="engine_preferences_short" source="google_translate">рухавік</string>
+    <string name="need_proxy_server_option" source="google_translate">Вам трэба актываваць опцыю проксі-сервер, каб назіраць змест знешніх гульцоў. Ці вы можаце глядзець кантэнт бясплатна ў Ace плэер</string>
+    <string name="need_proxy_server_option_tmp" source="google_translate">Для прагляду змесціва неабходна актываваць опцыю проксі-сервера або абнаўлення Ace паток прыкладання</string>
+    <string name="pause_on_audiofocus_loss" source="google_translate">Паўза пры страты audiofocus</string>
+    <string name="upgrade" source="google_translate">апгрэйд</string>
+    <string name="to_continue_visit_link" source="google_translate">Для працягу перайдзіце па гэтай спасылцы:</string>
+    <string name="and_enter_pin" source="google_translate">і ўвесці PIN-код:</string>
+    <string name="gdpr_consent" source="google_translate">GDPR Згода</string>
+    <string name="show_rewarded_ads" source="google_translate">Паказаць аб\'явы ўзнагароджаныя</string>
+    <string name="show_ads_on_main_screen" source="google_translate">Паказ аб\'явы на галоўным экране</string>
+    <string name="show_ads_on_preroll" source="google_translate">Паказаць аб\'явы на подмотка</string>
+    <string name="show_ads_on_pause" source="google_translate">Паказваць аб\'явы на паўзе</string>
+    <string name="show_ads_on_close" source="google_translate">Паказаць аб\'явы на гульца закрыцця</string>
+    <string name="agreement" source="google_translate">пагадненне</string>
+    <string name="license_agreement" source="google_translate">Ліцэнзійнае пагадненне</string>
+    <string name="privacy_policy" source="google_translate">Палітыка прыватнасці</string>
+    <string name="application_version" source="google_translate">версія прыкладання</string>
+    <string name="disable_ads" source="google_translate">адключэнне рэкламы</string>
+    <string name="learn_more" source="google_translate">падрабязней</string>
+    <string name="skip_ad" source="google_translate">Прапусціць аб\'яву</string>
+    <string name="you_can_skip_this_ad_in" source="google_translate">Вы можаце прапусціць гэта аб\'яву ў %d</string>
+    <string name="clearing_cache_etc" source="google_translate">Ачыстка кэша ...</string>
+    <string name="cache_cleared" source="google_translate">кэш чысціцца</string>
+    <string name="not_connected_to_engine" source="google_translate">Не падлучаны да рухавіка</string>
+    <string name="gdpr_consent_pref_title" source="google_translate">GDPR Згода</string>
+    <string name="gdpr_consent_pref_summary" source="google_translate">GDPR Згода</string>
+    <string name="application" source="google_translate">дадатак</string>
+    <string name="device_name" source="google_translate">імя прылады</string>
+    <string name="empty_playlist" source="google_translate">Пусты спіс прайгравання</string>
+    <string name="profile" source="google_translate">профіль</string>
+    <string name="not_selected" source="google_translate">Не выбрана</string>
+    <string name="restart_application" source="google_translate">перазапуск прыкладання</string>
+    <string name="restart_confirmation" source="google_translate">Перазапусціце прыкладанне зараз?</string>
+    <string name="parsing_transport_files" source="google_translate">Сінтаксічны транспартныя файлы</string>
+    <string name="user_profile" source="google_translate">профіль карыстальніка</string>
+    <string name="account_balance" source="google_translate">сальда рахунку</string>
+</resources>

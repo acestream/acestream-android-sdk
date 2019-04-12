@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lbl_version" source="google_translate">Változat</string>
+    <string name="lbl_portal" source="google_translate">Információs portál</string>
+    <string name="lbl_prefshththtml" source="google_translate">Beállítások</string>
+    <string name="lbl_account" source="google_translate">számla</string>
+    <string name="lbl_sign_out" source="google_translate">Kijelentkezés</string>
+    <string name="menu_prefs" source="google_translate">Beállítások</string>
+    <string name="menu_profile" source="google_translate">Felhasználói profil</string>
+    <string name="menu_services" source="google_translate">Szolgáltatások</string>
+    <string name="menu_clearcache" source="google_translate">Gyorsítótár törlése</string>
+    <string name="menu_quit" source="google_translate">quit</string>
+    <string name="menu_action_fail" source="google_translate">Ezt a műveletet nem lehet végrehajtani nem aktív motorral</string>
+    <string name="dialog_wait" source="google_translate">Kérlek várj</string>
+    <string name="dialog_unpack" source="google_translate">kicsomagolás</string>
+    <string name="dialog_start" source="google_translate">Kezdve</string>
+    <string name="dialog_prefs" source="google_translate">Beállítások lekérése</string>
+    <string name="dialog_services" source="google_translate">A szolgáltatások listájának lekérése</string>
+    <string name="dialog_cache" source="google_translate">Gyorsítótár törlése</string>
+    <string name="dialog_shutdown" source="google_translate">Shutdowning</string>
+    <string name="dialog_no_connection" source="google_translate">Nincs elérhető internet-kapcsolat. Az Ace Stream Engine szolgáltatás a csatlakozás után automatikusan elindul.</string>
+    <string name="task_prefs_fail" source="google_translate">A beállítások hibaelhárítása</string>
+    <string name="task_services_fail" source="google_translate">Szolgáltatáshiba lekérése</string>
+    <string name="start_ok" source="google_translate">A Start sikeres</string>
+    <string name="start_fail" source="google_translate">A Start nem sikerült</string>
+    <string name="notify_starting" source="google_translate">Tétlen</string>
+    <string name="notify_unpack" source="google_translate">Kicsomagolás folyamatban</string>
+    <string name="notify_unpack_complete" source="google_translate">Kicsomagolás befejeződött</string>
+    <string name="notify_connect" source="google_translate">Csatlakozó</string>
+    <string name="notify_connect_complete" source="google_translate">Csatlakozás befejeződött</string>
+    <string name="notify_running" source="google_translate">Futás</string>
+    <string name="notify_stopped" source="google_translate">megállt</string>
+    <string name="notify_error" source="google_translate">Hiba</string>
+    <string name="notify_wait_connection" source="google_translate">Nincs elérhető hálózati kapcsolat</string>
+    <string name="prefs_group_main" source="google_translate">Főbb preferenciák</string>
+    <string name="prefs_item_mobile" source="google_translate">A mobilhálózatok hozzáférése</string>
+    <string name="prefs_item_mobile_summary" source="google_translate">Adathozzáférés engedélyezése mobilhálózatokon</string>
+    <string name="prefs_item_vod_buffer" source="google_translate">VOD puffer, s</string>
+    <string name="prefs_item_live_buffer" source="google_translate">Élő puffer, s</string>
+    <string name="prefs_item_download_limit" source="google_translate">Letöltési határ (0 - nincs korlát), Kb / s</string>
+    <string name="prefs_item_upload_limit" source="google_translate">Feltöltési határérték (0 - nincs limit), Kb / s</string>
+    <string name="prefs_group_advanced" source="google_translate">Speciális beállítások</string>
+    <string name="prefs_item_port" source="google_translate">Kikötő</string>
+    <string name="prefs_item_total_max_connects" source="google_translate">Max csatlakozik</string>
+    <string name="prefs_item_download_max_connects" source="google_translate">A max</string>
+    <string name="prefs_group_profile" source="google_translate">Felhasználói profil</string>
+    <string name="prefs_item_gender" source="google_translate">nem</string>
+    <string name="prefs_item_age" source="google_translate">Kor</string>
+    <string name="prefs_item_login" source="google_translate">Belépés</string>
+    <string name="prefs_item_password" source="google_translate">Jelszó</string>
+    <string name="prefs_gender_value_male" source="google_translate">Férfi</string>
+    <string name="prefs_gender_value_female" source="google_translate">Női</string>
+    <string name="prefs_age_value_under13" source="google_translate">13 év alatt</string>
+    <string name="prefs_age_value_above64" source="google_translate">64 felett</string>
+    <string name="prefs_group_cache" source="google_translate">Gyorsítótár-beállítások</string>
+    <string name="prefs_item_disk_cache_limit" source="google_translate">Disk cache limit, Mb</string>
+    <string name="prefs_item_memory_cache_limit" source="google_translate">RAM cache limit, Mb</string>
+    <string name="prefs_item_cache_dir" source="google_translate">Gyorsítótár könyvtár</string>
+    <string name="prefs_cache_live_use_disk" source="google_translate">Használja a lemezt élőben</string>
+    <string name="prefs_cache_vod_use_disk" source="google_translate">Használjon lemezet a VOD-hoz</string>
+    <string name="prefs_output_format_live" source="google_translate">Kimeneti formátum (Élő)</string>
+    <string name="prefs_output_format_vod" source="google_translate">Kimeneti formátum (VOD)</string>
+    <string name="extension_name" source="google_translate">Név:</string>
+    <string name="extension_description" source="google_translate">Leírás:</string>
+    <string name="extension_issued_by" source="google_translate">Által kiadott:</string>
+    <string name="extension_url" source="google_translate">url:</string>
+    <string name="extension_enabled" source="google_translate">Engedélyezett:</string>
+    <string name="extension_valid_from" source="google_translate">Től érvényes:</string>
+    <string name="extension_valid_to" source="google_translate">Érvényes:</string>
+    <string name="no_services" source="google_translate">Nincs szolgáltatás</string>
+    <string name="message_unsupported_cpu" source="google_translate">A CPU még nem támogatott.</string>
+    <string name="starting" source="google_translate">Kezdés ...</string>
+    <string name="starting_player" source="google_translate">Kezdő játékos…</string>
+    <string name="install" source="google_translate">Telepítés</string>
+    <string name="close" source="google_translate">Bezárás</string>
+    <string name="no_players" source="google_translate">Nincsenek játékosok</string>
+    <string name="failed_to_start" source="google_translate">Nem sikerült elindítani</string>
+    <string name="option_proxy_server" source="google_translate">Proxy szerver</string>
+    <string name="option_generic_premium" source="google_translate">Prémium</string>
+    <string name="activate" source="google_translate">Aktiválja</string>
+    <string name="prompt_email" source="google_translate">Email</string>
+    <string name="prompt_password" source="google_translate">Jelszó</string>
+    <string name="action_sign_in" source="google_translate">Bejelentkezés</string>
+    <string name="action_sign_in_or_register" source="google_translate">Bejelentkezés / Regisztráció</string>
+    <string name="action_sign_out" source="google_translate">Kijelentkezés</string>
+    <string name="error_invalid_email" source="google_translate">Ez az e-mail cím érvénytelen</string>
+    <string name="error_invalid_password" source="google_translate">Ez a jelszó túl rövid</string>
+    <string name="error_field_required" source="google_translate">Ez a mező kötelező</string>
+    <string name="upgrage_user_level" source="google_translate">frissítés</string>
+    <string name="select_file" source="google_translate">Válaszd ki a fájlt</string>
+    <string name="auth_error_user_not_found" source="google_translate">Felhasználó nem található</string>
+    <string name="auth_error_user_disabled" source="google_translate">A felhasználó le van tiltva</string>
+    <string name="auth_error_bad_password" source="google_translate">Ez a jelszó helytelen</string>
+    <string name="auth_internal_error" source="google_translate">Belső hiba. Kérjük, próbálja később.</string>
+    <string name="auth_network_error" source="google_translate">Hálózati hiba. Kérjük, próbálja később.</string>
+    <string name="auth_failed_error" source="google_translate">A hitelesítés sikertelen. Kérjük, próbálja később.</string>
+    <string name="uninstall" source="google_translate">Eltávolítás</string>
+    <string name="uninstall_prev_version_to_continue" source="google_translate">A folytatáshoz el kell távolítania a korábbi verziót</string>
+    <string name="prefs_allow_intranet_access" source="google_translate">Engedélyezze az intranet hozzáférést</string>
+    <string name="prefs_allow_remote_access" source="google_translate">Távoli hozzáférés engedélyezése</string>
+    <string name="error" source="google_translate">Hiba</string>
+    <string name="select_player" source="google_translate">Válasszon lejátszót</string>
+    <string name="attention" source="google_translate">Figyelem</string>
+    <string name="home" source="google_translate">itthon</string>
+    <string name="remote_control" source="google_translate">Távirányító</string>
+    <string name="please_try_again" source="google_translate">Kérlek próbáld újra</string>
+    <string name="cannot_start_playback" source="google_translate">Nem lehet elindítani a lejátszást</string>
+    <string name="device_disconnected" source="google_translate">Az eszköz le van kapcsolva</string>
+    <string name="connection_failed" source="google_translate">Kapcsolat nem sikerült</string>
+    <string name="buffering" source="google_translate">Pufferoló</string>
+    <string name="remember_choice" source="google_translate">Ne feledje a választást</string>
+    <string name="prefs_transcode_ac3" source="google_translate">Csak AC3 kódoljon AAC-ra a HLS számára</string>
+    <string name="ok_sure" source="google_translate">Oké, rendben</string>
+    <string name="no_thanks" source="google_translate">Nem köszönöm</string>
+    <string name="rate_yes" source="google_translate">Igen!</string>
+    <string name="rate_not" source="google_translate">Nem igazán</string>
+    <string name="rate_do_you_like" source="google_translate">Élvezi az Ace Stream-et?</string>
+    <string name="rate_on_google" source="google_translate">Mi lenne a minősítés a Google Playen?</string>
+    <string name="rate_give_feedback" source="google_translate">Gondolná, ha visszajelzést adna nekünk?</string>
+    <string name="prefs_transcode_audio" source="google_translate">Átkódolja az összes hangot AAC-ra a HLS számára</string>
+    <string name="want_restart" source="google_translate">Szeretné folytatni a lejátszást az utolsó pozícióból?</string>
+    <string name="restart_from_beginning" source="google_translate">Kezdje az elejétől</string>
+    <string name="menu_content_id" source="google_translate">Adja meg a tartalomazonosítót</string>
+    <string name="enter_content_id" source="google_translate">Adja meg a tartalomazonosítót</string>
+    <string name="bad_content_id" source="google_translate">Rossz tartalomazonosító</string>
+    <string name="send" source="google_translate">Elküld</string>
+    <string name="report_problem" source="google_translate">Jelentem a problémát</string>
+    <string name="report_has_been_sent" source="google_translate">A jelentés elküldve</string>
+    <string name="report_failed" source="google_translate">A jelentés nem sikerült</string>
+    <string name="allow_mobile_networks" source="google_translate">Engedélyezi a mobilhálózatok használatát?</string>
+    <string name="problem_description" source="google_translate">Problémaleírás</string>
+    <string name="directory_is_not_writable" source="google_translate">A címtár nem írható</string>
+    <string name="device_storage" source="google_translate">Eszköz tárolása</string>
+    <string name="sd_card" source="google_translate">SD kártya</string>
+    <string name="select_directory" source="google_translate">Válassza ki a könyvtárat</string>
+    <string name="select_category" source="google_translate">Válassz kategóriát</string>
+    <string name="language" source="google_translate">Nyelv</string>
+    <string name="sign_in_or_register" source="google_translate">Jelentkezzen be vagy regisztráljon az Ace Stream-ben</string>
+    <string name="sign_in_or_register_continue" source="google_translate">Jelentkezzen be vagy regisztráljon a folytatáshoz</string>
+    <string name="selected_player" source="google_translate">Kiválasztott lejátszó</string>
+    <string name="opengl_usage" source="google_translate">OpenGL ES2 használat</string>
+    <string name="auto" source="google_translate">kocsi</string>
+    <string name="force_on" source="google_translate">Erő bekapcsolva</string>
+    <string name="force_off" source="google_translate">Kikapcsolás</string>
+    <string name="video_hardware_acceleration" source="google_translate">Videó hardvergyorsítása</string>
+    <string name="disabled" source="google_translate">Tiltva</string>
+    <string name="decoding_acceleration" source="google_translate">Dekódolás gyorsítása</string>
+    <string name="full_acceleration" source="google_translate">Teljes gyorsulás</string>
+    <string name="show_debug_info" source="google_translate">A hibakeresési információ megjelenítése</string>
+    <string name="enable_debug_logging" source="google_translate">A hibakeresés engedélyezése</string>
+    <string name="start_acecast_server" source="google_translate">Indítsa el az AceCast kiszolgálót</string>
+    <string name="avi_opendml_warning" source="google_translate">Előfordulhat, hogy ez a videó nem megfelelően jelenik meg az Ace Stream lejátszóban. Válasszon másik lejátszót?</string>
+    <string name="player_preferences" source="google_translate">A lejátszó beállításai</string>
+    <string name="ads_preferences" source="google_translate">Hirdetési beállítások</string>
+    <string name="ads_preferences_short" source="google_translate">A hirdetések</string>
+    <string name="show_lock_button" source="google_translate">A zár gomb megjelenítése</string>
+    <string name="engine_preferences" source="google_translate">A motor beállításai</string>
+    <string name="engine_preferences_short" source="google_translate">Motor</string>
+    <string name="need_proxy_server_option" source="google_translate">A külső játékosok tartalmának megtekintéséhez aktiválni kell a Proxy Server opciót. Vagy ingyenesen nézheti meg a tartalmat az Ace Playerben</string>
+    <string name="need_proxy_server_option_tmp" source="google_translate">A tartalmak megtekintéséhez aktiválni kell a Proxy Server opciót, vagy frissítenie kell az Ace Stream alkalmazást</string>
+    <string name="pause_on_audiofocus_loss" source="google_translate">Az audiofókuszvesztés szüneteltetése</string>
+    <string name="upgrade" source="google_translate">frissítés</string>
+    <string name="to_continue_visit_link" source="google_translate">A folytatáshoz látogasson el erre a linkre:</string>
+    <string name="and_enter_pin" source="google_translate">és írja be a PIN-kódot:</string>
+    <string name="gdpr_consent" source="google_translate">GDPR beleegyezése</string>
+    <string name="show_rewarded_ads" source="google_translate">Jutalmazott hirdetések megjelenítése</string>
+    <string name="show_ads_on_main_screen" source="google_translate">Hirdetések megjelenítése a főképernyőn</string>
+    <string name="show_ads_on_preroll" source="google_translate">Hirdetések megjelenítése a prerollon</string>
+    <string name="show_ads_on_pause" source="google_translate">Hirdetések megjelenítése szünetben</string>
+    <string name="show_ads_on_close" source="google_translate">A hirdetések közeli lejátszása</string>
+    <string name="agreement" source="google_translate">Megegyezés</string>
+    <string name="license_agreement" source="google_translate">Licencszerződés</string>
+    <string name="privacy_policy" source="google_translate">Adatvédelmi irányelvek</string>
+    <string name="application_version" source="google_translate">Alkalmazás verziója</string>
+    <string name="disable_ads" source="google_translate">Hirdetések letiltása</string>
+    <string name="learn_more" source="google_translate">Tudj meg többet</string>
+    <string name="skip_ad" source="google_translate">Hirdetés átugrása</string>
+    <string name="you_can_skip_this_ad_in" source="google_translate">Ezt a hirdetést kihagyhatja %d-ben</string>
+    <string name="clearing_cache_etc" source="google_translate">Gyorsítótár törlése…</string>
+    <string name="cache_cleared" source="google_translate">A gyorsítótár törölve</string>
+    <string name="not_connected_to_engine" source="google_translate">Nincs csatlakoztatva a motorhoz</string>
+    <string name="gdpr_consent_pref_title" source="google_translate">GDPR beleegyezése</string>
+    <string name="gdpr_consent_pref_summary" source="google_translate">GDPR beleegyezése</string>
+    <string name="application" source="google_translate">Alkalmazás</string>
+    <string name="device_name" source="google_translate">Eszköz neve</string>
+    <string name="empty_playlist" source="google_translate">Üres lejátszási lista</string>
+    <string name="profile" source="google_translate">Profil</string>
+    <string name="not_selected" source="google_translate">Nincs kiválasztva</string>
+    <string name="restart_application" source="google_translate">Indítsa újra az alkalmazást</string>
+    <string name="restart_confirmation" source="google_translate">Indítsa újra az alkalmazást most?</string>
+    <string name="parsing_transport_files" source="google_translate">Szállítási fájlok elemzése</string>
+    <string name="user_profile" source="google_translate">Felhasználói profil</string>
+    <string name="account_balance" source="google_translate">Számlaegyenleg</string>
+</resources>

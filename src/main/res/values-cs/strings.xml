@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lbl_version" source="google_translate">Verze</string>
+    <string name="lbl_portal" source="google_translate">Informační portál</string>
+    <string name="lbl_prefshththtml" source="google_translate">Nastavení</string>
+    <string name="lbl_account" source="google_translate">Účet</string>
+    <string name="lbl_sign_out" source="google_translate">Odhlásit se</string>
+    <string name="menu_prefs" source="google_translate">Nastavení</string>
+    <string name="menu_profile" source="google_translate">Uživatelský profil</string>
+    <string name="menu_services" source="google_translate">Služby</string>
+    <string name="menu_clearcache" source="google_translate">Vyčistit mezipaměť</string>
+    <string name="menu_quit" source="google_translate">Přestat</string>
+    <string name="menu_action_fail" source="google_translate">Tuto akci nelze provést pomocí neaktivního motoru</string>
+    <string name="dialog_wait" source="google_translate">Prosím, čekejte</string>
+    <string name="dialog_unpack" source="google_translate">Rozbalení</string>
+    <string name="dialog_start" source="google_translate">Začíná</string>
+    <string name="dialog_prefs" source="google_translate">Načítání předvolby</string>
+    <string name="dialog_services" source="google_translate">Načtení seznamu služeb</string>
+    <string name="dialog_cache" source="google_translate">Vymazání mezipaměti</string>
+    <string name="dialog_shutdown" source="google_translate">Vypnutí</string>
+    <string name="dialog_no_connection" source="google_translate">Žádné dostupné připojení k internetu. Služba Ace Stream Engine se po připojení spustí automaticky.</string>
+    <string name="task_prefs_fail" source="google_translate">Načítání chyby nastavení</string>
+    <string name="task_services_fail" source="google_translate">Chyba služby načítání</string>
+    <string name="start_ok" source="google_translate">Start úspěšný</string>
+    <string name="start_fail" source="google_translate">Start se nezdařil</string>
+    <string name="notify_starting" source="google_translate">Líný</string>
+    <string name="notify_unpack" source="google_translate">Vybalení v procesu</string>
+    <string name="notify_unpack_complete" source="google_translate">Rozbalení bylo dokončeno</string>
+    <string name="notify_connect" source="google_translate">Spojovací</string>
+    <string name="notify_connect_complete" source="google_translate">Připojení bylo dokončeno</string>
+    <string name="notify_running" source="google_translate">Běh</string>
+    <string name="notify_stopped" source="google_translate">Zastavil</string>
+    <string name="notify_error" source="google_translate">Chyba</string>
+    <string name="notify_wait_connection" source="google_translate">Žádné dostupné síťové připojení</string>
+    <string name="prefs_group_main" source="google_translate">Hlavní předvolby</string>
+    <string name="prefs_item_mobile" source="google_translate">Přístup k datům v mobilních sítích</string>
+    <string name="prefs_item_mobile_summary" source="google_translate">Povolit přístup k datům v mobilních sítích</string>
+    <string name="prefs_item_vod_buffer" source="google_translate">VOD buffer, s</string>
+    <string name="prefs_item_live_buffer" source="google_translate">Live buffer, s</string>
+    <string name="prefs_item_download_limit" source="google_translate">Limit stahování (0 - bez omezení), Kb / s</string>
+    <string name="prefs_item_upload_limit" source="google_translate">Limit nahrávání (0 - bez omezení), Kb / s</string>
+    <string name="prefs_group_advanced" source="google_translate">Pokročilé předvolby</string>
+    <string name="prefs_item_port" source="google_translate">Přístav</string>
+    <string name="prefs_item_total_max_connects" source="google_translate">Max se připojí</string>
+    <string name="prefs_item_download_max_connects" source="google_translate">Stáhnout max připojení</string>
+    <string name="prefs_group_profile" source="google_translate">Uživatelský profil</string>
+    <string name="prefs_item_gender" source="google_translate">Rod</string>
+    <string name="prefs_item_age" source="google_translate">Stáří</string>
+    <string name="prefs_item_login" source="google_translate">Přihlásit se</string>
+    <string name="prefs_item_password" source="google_translate">Heslo</string>
+    <string name="prefs_gender_value_male" source="google_translate">mužský</string>
+    <string name="prefs_gender_value_female" source="google_translate">ženský</string>
+    <string name="prefs_age_value_under13" source="google_translate">Pod 13</string>
+    <string name="prefs_age_value_above64" source="google_translate">Nad 64</string>
+    <string name="prefs_group_cache" source="google_translate">Nastavení mezipaměti</string>
+    <string name="prefs_item_disk_cache_limit" source="google_translate">Limit mezipaměti disku, Mb</string>
+    <string name="prefs_item_memory_cache_limit" source="google_translate">Limit vyrovnávací paměti RAM, Mb</string>
+    <string name="prefs_item_cache_dir" source="google_translate">Adresář mezipaměti</string>
+    <string name="prefs_cache_live_use_disk" source="google_translate">Použijte disk pro živé</string>
+    <string name="prefs_cache_vod_use_disk" source="google_translate">Použijte disk pro VOD</string>
+    <string name="prefs_output_format_live" source="google_translate">Výstupní formát (živý)</string>
+    <string name="prefs_output_format_vod" source="google_translate">Výstupní formát (VOD)</string>
+    <string name="extension_name" source="google_translate">Název:</string>
+    <string name="extension_description" source="google_translate">Popis:</string>
+    <string name="extension_issued_by" source="google_translate">Vystaveno:</string>
+    <string name="extension_url" source="google_translate">Url:</string>
+    <string name="extension_enabled" source="google_translate">Povoleno:</string>
+    <string name="extension_valid_from" source="google_translate">Platnost od:</string>
+    <string name="extension_valid_to" source="google_translate">Platný do:</string>
+    <string name="no_services" source="google_translate">Žádné služby</string>
+    <string name="message_unsupported_cpu" source="google_translate">Váš CPU zatím není podporován.</string>
+    <string name="starting" source="google_translate">Začíná…</string>
+    <string name="starting_player" source="google_translate">Spuštění hráče ...</string>
+    <string name="install" source="google_translate">Nainstalujte</string>
+    <string name="close" source="google_translate">Zavřít</string>
+    <string name="no_players" source="google_translate">Nebyli nalezeni žádní hráči</string>
+    <string name="failed_to_start" source="google_translate">Nepodařilo se spustit</string>
+    <string name="option_proxy_server" source="google_translate">Proxy Server</string>
+    <string name="option_generic_premium" source="google_translate">Pojistné</string>
+    <string name="activate" source="google_translate">aktivovat</string>
+    <string name="prompt_email" source="google_translate">E-mailem</string>
+    <string name="prompt_password" source="google_translate">Heslo</string>
+    <string name="action_sign_in" source="google_translate">Přihlásit se</string>
+    <string name="action_sign_in_or_register" source="google_translate">Přihlaste se / zaregistrujte se</string>
+    <string name="action_sign_out" source="google_translate">Odhlásit se</string>
+    <string name="error_invalid_email" source="google_translate">Tato e-mailová adresa je neplatná</string>
+    <string name="error_invalid_password" source="google_translate">Toto heslo je příliš krátké</string>
+    <string name="error_field_required" source="google_translate">Toto pole je povinné</string>
+    <string name="upgrage_user_level" source="google_translate">Vylepšit</string>
+    <string name="select_file" source="google_translate">Zvolte soubor</string>
+    <string name="auth_error_user_not_found" source="google_translate">Uživatel nenalezen</string>
+    <string name="auth_error_user_disabled" source="google_translate">Uživatel je zakázán</string>
+    <string name="auth_error_bad_password" source="google_translate">Toto heslo je nesprávné</string>
+    <string name="auth_internal_error" source="google_translate">Interní chyba. Prosím zkuste později.</string>
+    <string name="auth_network_error" source="google_translate">Chyba sítě. Prosím zkuste později.</string>
+    <string name="auth_failed_error" source="google_translate">Auth se nezdařil. Prosím zkuste později.</string>
+    <string name="uninstall" source="google_translate">Odinstalovat</string>
+    <string name="uninstall_prev_version_to_continue" source="google_translate">Chcete-li pokračovat, musíte odinstalovat předchozí verzi</string>
+    <string name="prefs_allow_intranet_access" source="google_translate">Povolit přístup do intranetu</string>
+    <string name="prefs_allow_remote_access" source="google_translate">Povolit vzdálený přístup</string>
+    <string name="error" source="google_translate">Chyba</string>
+    <string name="select_player" source="google_translate">Vyberte přehrávač</string>
+    <string name="attention" source="google_translate">Pozor</string>
+    <string name="home" source="google_translate">Domov</string>
+    <string name="remote_control" source="google_translate">Dálkové ovládání</string>
+    <string name="please_try_again" source="google_translate">Prosím zkuste to znovu</string>
+    <string name="cannot_start_playback" source="google_translate">Přehrávání nelze spustit</string>
+    <string name="device_disconnected" source="google_translate">Zařízení bylo odpojeno</string>
+    <string name="connection_failed" source="google_translate">Připojení se nezdařilo</string>
+    <string name="buffering" source="google_translate">Buffering</string>
+    <string name="remember_choice" source="google_translate">Zapamatujte si volbu</string>
+    <string name="prefs_transcode_ac3" source="google_translate">Překódovat pouze AC3 na AAC pro HLS</string>
+    <string name="ok_sure" source="google_translate">OK Jistě</string>
+    <string name="no_thanks" source="google_translate">Ne, díky</string>
+    <string name="rate_yes" source="google_translate">Ano!</string>
+    <string name="rate_not" source="google_translate">Spíš ne</string>
+    <string name="rate_do_you_like" source="google_translate">Potěšení Ace Stream?</string>
+    <string name="rate_on_google" source="google_translate">A co hodnocení na Google Play?</string>
+    <string name="rate_give_feedback" source="google_translate">Mohli byste nám dát nějakou zpětnou vazbu?</string>
+    <string name="prefs_transcode_audio" source="google_translate">Překódovat veškerý zvuk do AAC pro HLS</string>
+    <string name="want_restart" source="google_translate">Chcete obnovit přehrávání z poslední pozice?</string>
+    <string name="restart_from_beginning" source="google_translate">Začněte od začátku</string>
+    <string name="menu_content_id" source="google_translate">Zadejte ID obsahu</string>
+    <string name="enter_content_id" source="google_translate">Zadejte ID obsahu</string>
+    <string name="bad_content_id" source="google_translate">Špatný ID obsahu</string>
+    <string name="send" source="google_translate">Poslat</string>
+    <string name="report_problem" source="google_translate">Nahlásit problém</string>
+    <string name="report_has_been_sent" source="google_translate">Zpráva byla odeslána</string>
+    <string name="report_failed" source="google_translate">Zpráva selhala</string>
+    <string name="allow_mobile_networks" source="google_translate">Povolit využití mobilních sítí?</string>
+    <string name="problem_description" source="google_translate">Popis problému</string>
+    <string name="directory_is_not_writable" source="google_translate">Adresář není zapisovatelný</string>
+    <string name="device_storage" source="google_translate">Uložení zařízení</string>
+    <string name="sd_card" source="google_translate">SD karta</string>
+    <string name="select_directory" source="google_translate">Vyberte adresář</string>
+    <string name="select_category" source="google_translate">Vybrat kategorii</string>
+    <string name="language" source="google_translate">Jazyk</string>
+    <string name="sign_in_or_register" source="google_translate">Přihlaste se nebo se zaregistrujte v Ace Stream</string>
+    <string name="sign_in_or_register_continue" source="google_translate">Chcete-li pokračovat, přihlaste se nebo se zaregistrujte</string>
+    <string name="selected_player" source="google_translate">Vybraný hráč</string>
+    <string name="opengl_usage" source="google_translate">OpenGL ES2 Použití</string>
+    <string name="auto" source="google_translate">Auto</string>
+    <string name="force_on" source="google_translate">Vynucené zapnutí</string>
+    <string name="force_off" source="google_translate">force Off</string>
+    <string name="video_hardware_acceleration" source="google_translate">Zrychlení hardwaru videa</string>
+    <string name="disabled" source="google_translate">Zakázáno</string>
+    <string name="decoding_acceleration" source="google_translate">Dekódování zrychlení</string>
+    <string name="full_acceleration" source="google_translate">Plné zrychlení</string>
+    <string name="show_debug_info" source="google_translate">Zobrazit informace o ladění</string>
+    <string name="enable_debug_logging" source="google_translate">Povolit protokolování ladění</string>
+    <string name="start_acecast_server" source="google_translate">Spusťte server AceCast</string>
+    <string name="avi_opendml_warning" source="google_translate">Toto video nemusí přehrávat správně v přehrávači Ace Stream. Vyberte jiného hráče?</string>
+    <string name="player_preferences" source="google_translate">Nastavení přehrávače</string>
+    <string name="ads_preferences" source="google_translate">Nastavení reklam</string>
+    <string name="ads_preferences_short" source="google_translate">Reklamy</string>
+    <string name="show_lock_button" source="google_translate">Zobrazit tlačítko zámku</string>
+    <string name="engine_preferences" source="google_translate">Nastavení motoru</string>
+    <string name="engine_preferences_short" source="google_translate">Motor</string>
+    <string name="need_proxy_server_option" source="google_translate">Pro sledování obsahu v externích přehrávačích musíte aktivovat možnost Proxy Server. Nebo můžete sledovat obsah v Ace Playeru zdarma</string>
+    <string name="need_proxy_server_option_tmp" source="google_translate">Chcete-li sledovat obsah, musíte aktivovat volbu Proxy Server nebo aktualizovat aplikaci Ace Stream</string>
+    <string name="pause_on_audiofocus_loss" source="google_translate">Pozastavení ztráty audiofokusu</string>
+    <string name="upgrade" source="google_translate">Vylepšit</string>
+    <string name="to_continue_visit_link" source="google_translate">Chcete-li pokračovat, navštivte tento odkaz:</string>
+    <string name="and_enter_pin" source="google_translate">a zadejte PIN:</string>
+    <string name="gdpr_consent" source="google_translate">Souhlas GDPR</string>
+    <string name="show_rewarded_ads" source="google_translate">Zobrazit odměněné reklamy</string>
+    <string name="show_ads_on_main_screen" source="google_translate">Zobrazit reklamy na hlavní obrazovce</string>
+    <string name="show_ads_on_preroll" source="google_translate">Zobrazit reklamy v prerolování</string>
+    <string name="show_ads_on_pause" source="google_translate">Zobrazit reklamy v pauze</string>
+    <string name="show_ads_on_close" source="google_translate">Zobrazit reklamy v přehrávači zavřít</string>
+    <string name="agreement" source="google_translate">Dohoda</string>
+    <string name="license_agreement" source="google_translate">Licenční smlouva</string>
+    <string name="privacy_policy" source="google_translate">Zásady ochrany osobních údajů</string>
+    <string name="application_version" source="google_translate">Verze aplikace</string>
+    <string name="disable_ads" source="google_translate">Zakázat reklamy</string>
+    <string name="learn_more" source="google_translate">Další informace</string>
+    <string name="skip_ad" source="google_translate">Přeskočit reklamu</string>
+    <string name="you_can_skip_this_ad_in" source="google_translate">Tuto reklamu můžete přeskočit v %d</string>
+    <string name="clearing_cache_etc" source="google_translate">Vymazání mezipaměti ...</string>
+    <string name="cache_cleared" source="google_translate">Vymažená mezipaměť</string>
+    <string name="not_connected_to_engine" source="google_translate">Není připojen k motoru</string>
+    <string name="gdpr_consent_pref_title" source="google_translate">Souhlas GDPR</string>
+    <string name="gdpr_consent_pref_summary" source="google_translate">Souhlas GDPR</string>
+    <string name="application" source="google_translate">aplikace</string>
+    <string name="device_name" source="google_translate">Název zařízení</string>
+    <string name="empty_playlist" source="google_translate">Prázdný seznam skladeb</string>
+    <string name="profile" source="google_translate">Profil</string>
+    <string name="not_selected" source="google_translate">Nevybraný</string>
+    <string name="restart_application" source="google_translate">Restartujte aplikaci</string>
+    <string name="restart_confirmation" source="google_translate">Restartujte aplikaci nyní?</string>
+    <string name="parsing_transport_files" source="google_translate">Parsování transportních souborů</string>
+    <string name="user_profile" source="google_translate">Uživatelský profil</string>
+    <string name="account_balance" source="google_translate">Zůstatek na účtu</string>
+</resources>
