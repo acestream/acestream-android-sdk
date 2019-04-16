@@ -111,7 +111,7 @@ public class AceStreamManager extends Service implements IAceStreamManager, Serv
     protected CastResultListener mCastResultListener = null;
     private final List<Runnable> mOnReadyQueue = new CopyOnWriteArrayList<>();
     private final List<org.acestream.engine.controller.Callback<AceStreamPreferences>> mOnEngineSettingsQueue = new CopyOnWriteArrayList<>();
-    private AceStreamPreferences mAceStreamPreferences = null;
+    private AceStreamPreferences mAceStreamPreferences = new AceStreamPreferences();
 
     // binder
     private IBinder mLocalBinder = new LocalBinder();
