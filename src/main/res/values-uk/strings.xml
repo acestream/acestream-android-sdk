@@ -218,4 +218,6 @@
     <string name="sign_in_to_get_bonuses">
         Тільки зареєстровані користувачі можуть отримати бонуси за рекламу. Бажаєте увійти?
     </string>
+    <string name="show_bonus_ads_question">Показати бонусну рекламу?</string>
+    <string name="always_show_rewarded_ads">Завжди показувати бонусну рекламу</string>
 </resources>

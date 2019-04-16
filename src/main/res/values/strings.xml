@@ -266,7 +266,7 @@
     <string name="account_balance">Account balance</string>
     <string name="playback_error">Playback error</string>
     <string name="show_bonus_ads_question">Show bonus ads?</string>
-    <string name="always_show_rewarded_ads">Always show rewarded ads</string>
+    <string name="always_show_rewarded_ads">Always show bonus ads</string>
     <string name="resume">Resume</string>
     <string name="ok">OK</string>
     <string name="yes">Yes</string>
