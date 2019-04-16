@@ -10,4 +10,13 @@ public class AdConfig {
     public Map<String,Integer> min_impression_interval;
     public Map<String, List<List<String>>> priorities;
     public List<String> custom_ads_rv_providers;
+    public List<String> providers;
+    public List<String> appodeal_disable_networks;
+    public Map<Integer,String> admob_rewarded_video_segments;
+    public int admob_rewarded_video_default_segment;
+    public int admob_rewarded_video_auto_segment;
+
+    public boolean isProviderEnabled(String name) {
+        return providers != null && providers.contains(name);
+    }
 }
