@@ -220,4 +220,31 @@
     </string>
     <string name="show_bonus_ads_question">Показати бонусну рекламу?</string>
     <string name="always_show_rewarded_ads">Завжди показувати бонусну рекламу</string>
+    <string name="live_streams">Трансляції</string>
+    <string name="resume">Відновити</string>
+    <string name="ok">Гаразд</string>
+    <string name="yes">Так</string>
+    <string name="no">Ні</string>
+    <string name="cancel">Скасувати</string>
+    <string name="all_live_streams">Всі трансляції</string>
+    <string name="video_torrents">Відео торренти</string>
+    <string name="audio_torrents">Аудіо торренти</string>
+    <string name="all_torrents">Всі торренти</string>
+    <string name="main">Основні</string>
+    <string name="media_player">Медіа плеєр</string>
+    <string name="acestream_server">Ace Stream сервер (движок)</string>
+    <string name="media_player_settings">Налаштування медіа плеєра</string>
+    <string name="acestream_server_settings">Налаштування сервера Ace Stream (движка)</string>
+    <string name="sign_out">Вийти</string>
+    <string name="sign_in">Увійти</string>
+    <string name="sign_in_acestream">Увійти чеерз Ace Stream</string>
+    <string name="sign_in_google">Увійти через Google</string>
+    <string name="torrent_files">Torrent файли</string>
+    <string name="video_files">Відео файли</string>
+    <string name="audio_files">Аудіо файли</string>
+    <string name="select_language">Оберіть мову</string>
+    <string name="retry">Повторити</string>
+    <string name="failed_to_load_web_page">Не вдалося завантажити сторінку</string>
+    <string name="user_agreement">Згода користувача</string>
+    <string name="playback_error">Помилка відтворення</string>
 </resources>

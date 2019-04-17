@@ -220,4 +220,31 @@
     </string>
     <string name="show_bonus_ads_question">Показать бонусную рекламу?</string>
     <string name="always_show_rewarded_ads">Всегда показывать бонусную рекламу</string>
+    <string name="live_streams">Трансляции</string>
+    <string name="resume">Возобновить</string>
+    <string name="ok">OK</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="cancel">Отмена</string>
+    <string name="all_live_streams">Все трансляции</string>
+    <string name="video_torrents">Видео торренты</string>
+    <string name="audio_torrents">Аудио торренты</string>
+    <string name="all_torrents">Все торренты</string>
+    <string name="main">Основные</string>
+    <string name="media_player">Медиа плеер</string>
+    <string name="acestream_server">Ace Stream сервер (движок)</string>
+    <string name="media_player_settings">Настройки медиа плеера</string>
+    <string name="acestream_server_settings">Настройки сервера Ace Stream (движка)</string>
+    <string name="sign_out">Выйти</string>
+    <string name="sign_in">Войти</string>
+    <string name="sign_in_acestream">Войти через Ace Stream</string>
+    <string name="sign_in_google">Войти через Google</string>
+    <string name="torrent_files">Torrent файлы</string>
+    <string name="video_files">Видео файлы</string>
+    <string name="audio_files">Аудио файлы</string>
+    <string name="select_language">Выберите язык</string>
+    <string name="retry">Повторить</string>
+    <string name="failed_to_load_web_page">Не удалось загрузить страницу</string>
+    <string name="user_agreement">Пользовательское соглашение</string>
+    <string name="playback_error">Ошибка воспроизведения</string>
 </resources>
