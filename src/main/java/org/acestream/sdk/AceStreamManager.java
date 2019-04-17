@@ -1977,6 +1977,10 @@ public class AceStreamManager extends Service implements IAceStreamManager, Serv
         setPreference("mobile_network_available", value);
     }
 
+    public void setLocale(String value) {
+        setPreference("language", value);
+    }
+
     @Nullable
     public static AceStreamManager getInstance() {
         return sInstance;
