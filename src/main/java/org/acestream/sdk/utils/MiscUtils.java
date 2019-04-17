@@ -422,56 +422,12 @@ public class MiscUtils {
 		double totalMegs = mi.totalMem / 0x100000L;
 		double availableMegs = mi.availMem / 0x100000L;
 
-		//Percentage can be calculated for API 16+
-		double percentAvail = mi.availMem / (double) mi.totalMem * 100.0;
-
-		float cpuUsage = getCpuUsage();
-
 		SystemUsageInfo info = new SystemUsageInfo();
 		info.memoryTotal = totalMegs;
 		info.memoryAvailable = availableMegs;
-		info.cpuUsage = cpuUsage;
+		info.cpuUsage = 0;
 
 		return info;
-	}
-
-	public static float getCpuUsage() {
-		try {
-			// we don't have access to /proc/stat on Android 8+
-			if(Build.VERSION.SDK_INT >= 26) {
-				return 0;
-			}
-
-			RandomAccessFile reader = new RandomAccessFile("/proc/stat", "r");
-			String load = reader.readLine();
-
-			String[] toks = load.split(" ");
-
-			long idle1 = Long.parseLong(toks[5]);
-			long cpu1 = Long.parseLong(toks[2]) + Long.parseLong(toks[3]) + Long.parseLong(toks[4])
-					+ Long.parseLong(toks[6]) + Long.parseLong(toks[7]) + Long.parseLong(toks[8]);
-
-			try {
-				Thread.sleep(360);
-			} catch (Exception e) {}
-
-			reader.seek(0);
-			load = reader.readLine();
-			reader.close();
-
-			toks = load.split(" ");
-
-			long idle2 = Long.parseLong(toks[5]);
-			long cpu2 = Long.parseLong(toks[2]) + Long.parseLong(toks[3]) + Long.parseLong(toks[4])
-					+ Long.parseLong(toks[6]) + Long.parseLong(toks[7]) + Long.parseLong(toks[8]);
-
-			return (float)(cpu2 - cpu1) / ((cpu2 + idle2) - (cpu1 + idle1));
-
-		} catch (IOException ex) {
-			// pass
-		}
-
-		return 0;
 	}
 
 	public static String getMyIp(Context context) {
