@@ -86,7 +86,7 @@
     <string name="notification_visit_site">Для активации перейдите на этот сайт:\n%s</string>
     <string name="activate">Активировать</string>
     <string name="action_sign_in">Войти</string>
-    <string name="action_sign_in_or_register">Войти/ Зарегистрироваться</string>
+    <string name="action_sign_in_or_register">Войти / Зарегистрироваться</string>
     <string name="action_sign_out">Выйти</string>
     <string name="error_field_required">Обязательное поле</string>
     <string name="auth_error_bad_password">Неверный пароль</string>
