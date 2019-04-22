@@ -1362,7 +1362,11 @@ public class AceStreamManager extends Service implements IAceStreamManager, Serv
         }
 
         public void connect() {
-            Log.d(TAG, "connect: bound=" + mBound + " context=" + mContext);
+            connect(true);
+        }
+
+        public void connect(boolean persist) {
+            Log.d(TAG, "connect: bound=" + mBound + " persist=" + persist + " context=" + mContext);
             if (mBound) {
                 if(BuildConfig.DEBUG) {
                     throw new IllegalStateException("already connected");
@@ -1373,7 +1377,9 @@ public class AceStreamManager extends Service implements IAceStreamManager, Serv
                 }
             }
             final Intent serviceIntent = getServiceIntent(mContext);
-            mContext.startService(serviceIntent);
+            if(persist) {
+                mContext.startService(serviceIntent);
+            }
             mBound = mContext.bindService(serviceIntent, mServiceConnection, BIND_AUTO_CREATE);
         }
 
