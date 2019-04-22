@@ -782,9 +782,15 @@ public class AceStreamManager extends Service implements IAceStreamManager, Serv
     }
 
     public void getEngine(@NonNull EngineStateCallback callback) {
+        getEngine(true, callback);
+    }
+
+    public void getEngine(boolean forceStart, @NonNull EngineStateCallback callback) {
         if(mEngineApi == null) {
             mEngineStateCallbacks.add(callback);
-            startEngine();
+            if(forceStart) {
+                startEngine();
+            }
         }
         else {
             callback.onEngineConnected(this, mEngineApi);
