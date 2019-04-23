@@ -18,4 +18,8 @@ public class Workers {
             sMainThreadHandler.post(runnable);
         }
     }
+
+    public static void postOnMainThread(Runnable runnable, long delay) {
+        sMainThreadHandler.postDelayed(runnable, delay);
+    }
 }
