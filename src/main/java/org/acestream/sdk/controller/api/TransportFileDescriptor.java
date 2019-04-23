@@ -455,7 +455,12 @@ public class TransportFileDescriptor {
                 mDescriptor.mTransportFileData = data;
             }
             else {
-                mDescriptor.mTransportFileData = Base64.encodeToString(MiscUtils.readBytesFromContentUri(resolver, uri), Base64.DEFAULT);
+                try {
+                    mDescriptor.mTransportFileData = Base64.encodeToString(MiscUtils.readBytesFromContentUri(resolver, uri), Base64.DEFAULT);
+                }
+                catch(OutOfMemoryError e) {
+                    throw new IOException("Failed to read from URI", e);
+                }
             }
             return this;
         }
