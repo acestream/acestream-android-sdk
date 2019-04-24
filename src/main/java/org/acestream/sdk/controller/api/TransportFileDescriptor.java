@@ -135,8 +135,10 @@ public class TransportFileDescriptor {
                                 builder.setContentUri(resolver, Uri.parse(item.getValue()));
                             } else if (item.getValue().startsWith("/")) {
                                 builder.setLocalFile(item.getValue());
+                            } else if (item.getValue().startsWith("http:") || item.getValue().startsWith("https:")) {
+                                builder.setUrl(item.getValue());
                             } else {
-                                throw new TransportFileParsingException("Cannot parse local file URI: uri=" + item.getValue());
+                                throw new TransportFileParsingException("Cannot parse local file URI: mrl=" + mrl + " uri=" + item.getValue());
                             }
                         }
                         catch(IOException e) {
@@ -521,6 +523,17 @@ public class TransportFileDescriptor {
         if(Pattern.matches("^acestream://[0-9a-f]{40}$", uri.toString().toLowerCase())) {
             uri = Uri.parse("acestream:?content_id=" + uri.toString().substring(12));
             Logger.v(TAG, "processAceStreamUri: convert old content id format: mrl=" + uri);
+        }
+
+        if(!TextUtils.equals(uri.getScheme(), "acestream") && uri.toString().endsWith(".torrent")) {
+            uri = Uri.parse("acestream:?data=" + Uri.encode(uri.toString()));
+            try {
+                TransportFileDescriptor descriptor = TransportFileDescriptor.fromMrl(AceStream.context().getContentResolver(), uri);
+                uri = descriptor.getMrl(0);
+            }
+            catch(TransportFileParsingException e) {
+                Log.e(TAG, "processAceStreamUri: error", e);
+            }
         }
 
         return uri;
