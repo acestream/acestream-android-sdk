@@ -572,7 +572,40 @@ public class MiscUtils {
 
 	public static byte[] readBytesFromContentUri(@NonNull ContentResolver resolver, @NonNull Uri uri) throws IOException {
 		try {
-			return readBytesFromStream(resolver.openInputStream(uri));
+			InputStream input = resolver.openInputStream(uri);
+			if(input == null) {
+				throw new IOException("failed to open input stream");
+			}
+			return readBytesFromStream(input);
+		}
+		catch(SecurityException e) {
+			throw new IOException(e);
+		}
+	}
+
+	public static void readBytesFromContentUri(@NonNull ContentResolver resolver,
+											   @NonNull Uri uri,
+											   @NonNull FileOutputStream output) throws IOException {
+		readBytesFromContentUri(resolver, uri, output, 0);
+	}
+
+	public static void readBytesFromContentUri(@NonNull ContentResolver resolver,
+											   @NonNull Uri uri,
+											   @NonNull FileOutputStream output,
+											   long maxInputLength) throws IOException {
+		try {
+			InputStream input = resolver.openInputStream(uri);
+			if(input == null) {
+				throw new IOException("failed to open input stream");
+			}
+
+			int available = input.available();
+			if(available > maxInputLength) {
+				Log.e(TAG, "readBytesFromContentUri: input stream has too big length: available=" + available + " max=" + maxInputLength);
+				throw new IOException("input stream has too big length");
+			}
+			readBytesFromStream(input, output);
+			input.close();
 		}
 		catch(SecurityException e) {
 			throw new IOException(e);
@@ -584,6 +617,16 @@ public class MiscUtils {
 		stream.read(buffer);
 		stream.close();
 		return buffer;
+	}
+
+	public static void readBytesFromStream(
+			@NonNull InputStream input,
+			@NonNull FileOutputStream output) throws IOException {
+		int n;
+		byte[] buffer = new byte[4096];
+		while(-1 != (n = input.read(buffer))) {
+			output.write(buffer, 0, n);
+		}
 	}
 
 	public static int randomIntRange(int from, int to) {
