@@ -33,6 +33,21 @@ public class SelectedPlayer {
         return player;
     }
 
+    public static String getTypeName(int type) {
+        switch(type) {
+            case LOCAL_PLAYER:
+                return "external";
+            case CONNECTABLE_DEVICE:
+                return "csdk";
+            case ACESTREAM_DEVICE:
+                return "acecast";
+            case OUR_PLAYER:
+                return "acestream";
+            default:
+                return "unknown";
+        }
+    }
+
     public SelectedPlayer() {
     }
 
@@ -52,6 +67,10 @@ public class SelectedPlayer {
 
     public boolean isRemote() {
         return this.type == ACESTREAM_DEVICE || this.type == CONNECTABLE_DEVICE;
+    }
+
+    public String getTypeName() {
+        return getTypeName(this.type);
     }
 
     public boolean canResume() {
