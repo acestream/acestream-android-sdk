@@ -16,12 +16,12 @@ public class Logger {
     }
 
     public static boolean verbose() {
-        return sLogLevel <= android.util.Log.VERBOSE;
+        return sLogLevel <= Log.VERBOSE;
     }
 
     public static void v(String tag, String message, Throwable e) {
         if(verbose()) {
-            android.util.Log.v(tag, message, e);
+            Log.v(tag, message, e);
         }
     }
 
@@ -30,8 +30,30 @@ public class Logger {
     }
 
     public static void d(String tag, String message) {
-        if(sLogLevel <= android.util.Log.DEBUG) {
-            android.util.Log.d(tag, message);
+        if(sLogLevel <= Log.DEBUG) {
+            Log.d(tag, message);
+        }
+    }
+
+    public static void i(String tag, String message) {
+        if(sLogLevel <= Log.INFO) {
+            Log.i(tag, message);
+        }
+    }
+
+    public static void w(String tag, String message) {
+        if(sLogLevel <= Log.WARN) {
+            Log.w(tag, message);
+        }
+    }
+
+    public static void e(String tag, String message) {
+        e(tag, message, null);
+    }
+
+    public static void e(String tag, String message, Throwable error) {
+        if(sLogLevel <= Log.ERROR) {
+            Log.e(tag, message, error);
         }
     }
 
