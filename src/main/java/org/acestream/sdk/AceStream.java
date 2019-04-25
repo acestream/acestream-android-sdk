@@ -60,6 +60,7 @@ public class AceStream {
     public final static String ACTION_OPEN_LOGIN_ACTIVITY = PACKAGE_PREFIX + "action.open_login_activity";
 
     public final static String ACTION_RESTART_APP = PACKAGE_PREFIX + "action.restart_app";
+    public final static String ACTION_STOP_APP = PACKAGE_PREFIX + "action.stop_app";
     public final static String BROADCAST_APP_IN_BACKGROUND = PACKAGE_PREFIX + "broadcast.app_in_background";
 
     public final static String EXTRA_CURRENT_MEDIA_URI = "current_media_uri";
@@ -643,6 +644,11 @@ public class AceStream {
 
     public static void restartApp() {
         Intent intent = new Intent(ACTION_RESTART_APP);
+        context().sendBroadcast(intent);
+    }
+
+    public static void stopApp() {
+        Intent intent = new Intent(ACTION_STOP_APP);
         context().sendBroadcast(intent);
     }
 

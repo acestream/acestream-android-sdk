@@ -37,7 +37,6 @@ public class VlcBridge {
     public static final String EXTRA_SKIP_PLAYER = "skipPlayer";
     public static final String EXTRA_SKIP_RESETTINGS_DEVICES = "skipResettingDevices";
     public static final String EXTRA_FRAGMENT_ID = "fragmentId";
-    public static final String EXTRA_SHUTDOWN_ENGINE = "shutdownEngine";
 
     // Predefined values
     public static final String FRAGMENT_VIDEO_LOCAL = "VIDEO_LOCAL";
@@ -191,12 +190,6 @@ public class VlcBridge {
 
     public static void openMainActivity() {
         AceStream.context().sendBroadcast(getTargetIntent(ACTION_START_MAIN_ACTVITY));
-    }
-
-    public static void engineShutdown() {
-        Intent intent = getTargetIntent(ACTION_START_MAIN_ACTVITY);
-        intent.putExtra(EXTRA_SHUTDOWN_ENGINE, true);
-        AceStream.context().sendBroadcast(intent);
     }
 
     public static void openVideoLocal() {

@@ -42,6 +42,7 @@
     <string name="notify_connect_complete">Connecting completed</string>
     <string name="notify_running">Running</string>
     <string name="notify_stopped">Stopped</string>
+    <string name="notify_stopping">Stopping</string>
     <string name="notify_error">Error</string>
     <string name="notify_wait_connection">No available network connection</string>
 

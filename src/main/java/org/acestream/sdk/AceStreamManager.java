@@ -3,10 +3,12 @@ package org.acestream.sdk;
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.app.Service;
+import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.ServiceConnection;
 import android.os.Binder;
 import android.os.Bundle;
@@ -127,6 +129,18 @@ public class AceStreamManager extends Service implements IAceStreamManager, Serv
         return binder.getService();
     }
 
+    // broadcast receiver
+    private final BroadcastReceiver mBroadcastReceiver = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            if(intent == null) return;
+            if(TextUtils.equals(intent.getAction(), AceStream.ACTION_STOP_APP)) {
+                Log.d(TAG, "receiver: stop app");
+                stopSelf();
+            }
+        }
+    };
+
     ////////////////////////////////////////////////////////////////////////////////////////////////
     // interfaces
     @SuppressWarnings("unused")
@@ -157,6 +171,11 @@ public class AceStreamManager extends Service implements IAceStreamManager, Serv
         super.onCreate();
 
         sInstance = this;
+
+        final IntentFilter filter = new IntentFilter();
+        filter.addAction(AceStream.ACTION_STOP_APP);
+        registerReceiver(mBroadcastReceiver, filter);
+
         mRemoteClient.connect();
     }
 
@@ -166,6 +185,7 @@ public class AceStreamManager extends Service implements IAceStreamManager, Serv
         super.onDestroy();
 
         sInstance = null;
+        unregisterReceiver(mBroadcastReceiver);
         unregister();
         disconnectEngineService();
         mRemoteClient.disconnect();

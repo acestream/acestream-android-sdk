@@ -28,6 +28,7 @@
     <string name="notify_connect_complete">Соединение выполнено</string>
     <string name="notify_running">Выполняется</string>
     <string name="notify_stopped">Остановлено</string>
+    <string name="notify_stopping">Останавливается</string>
     <string name="notify_error">Ошибка</string>
     <string name="notify_wait_connection">Отсутствует соединение</string>
     <string name="prefs_group_main">Основные настройки</string>

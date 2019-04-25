@@ -28,6 +28,7 @@
     <string name="notify_connect_complete">З\'єднання виконане</string>
     <string name="notify_running">Виконується</string>
     <string name="notify_stopped">Зупинено</string>
+    <string name="notify_stopping">Зупиняється</string>
     <string name="notify_error">Помилка</string>
     <string name="notify_wait_connection">Відсутнє з\'єднання</string>
     <string name="prefs_group_main">Основні налаштування</string>
