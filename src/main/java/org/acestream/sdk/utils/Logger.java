@@ -57,6 +57,10 @@ public class Logger {
         }
     }
 
+    public static void wtf(String tag, String message, Throwable error) {
+        Log.e(tag, message, error);
+    }
+
     public static void vv(String tag, String message, Throwable e) {
         if(BuildConfig.DEBUG) {
             v(tag, message);

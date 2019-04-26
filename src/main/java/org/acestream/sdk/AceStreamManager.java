@@ -1427,7 +1427,17 @@ public class AceStreamManager extends Service implements IAceStreamManager, Serv
             mService = null;
             if (mBound) {
                 mBound = false;
-                mContext.unbindService(mServiceConnection);
+                try {
+                    mContext.unbindService(mServiceConnection);
+                }
+                catch(IllegalArgumentException e) {
+                    if(BuildConfig.DEBUG) {
+                        throw e;
+                    }
+                    else {
+                        Logger.wtf(TAG, "disconnect: error", e);
+                    }
+                }
                 mCallback.onDisconnected();
             }
         }
