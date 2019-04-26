@@ -648,6 +648,7 @@ public class AceStream {
     }
 
     public static void stopApp() {
+        Logger.d(TAG, "stopApp");
         Intent intent = new Intent(ACTION_STOP_APP);
         context().sendBroadcast(intent);
     }
