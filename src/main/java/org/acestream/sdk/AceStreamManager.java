@@ -314,16 +314,28 @@ public class AceStreamManager extends Service implements IAceStreamManager, Serv
     // engine status listeners
     public void addEngineStatusListener(EngineStatusListener listener) {
         mEngineStatusListeners.add(listener);
+        updateEngineStatusListeners();
     }
 
     public void removeEngineStatusListener(EngineStatusListener listener) {
         mEngineStatusListeners.remove(listener);
+        updateEngineStatusListeners();
     }
 
     private void notifyEngineStatus(EngineStatus status, RemoteDevice remoteDevice) {
         for(EngineStatusListener listener: mEngineStatusListeners) {
             listener.onEngineStatus(status, remoteDevice);
         }
+    }
+
+    private void updateEngineStatusListeners() {
+        int count = mEngineStatusListeners.size();
+        Log.d(TAG, "updateEngineStatusListeners: count=" + count);
+        Message msg = obtainMessage(MSG_SET_ENGINE_STATUS_LISTENERS);
+        Bundle data = new Bundle(1);
+        data.putInt(MSG_PARAM_COUNT, count);
+        msg.setData(data);
+        sendMessage(msg);
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1106,6 +1118,7 @@ public class AceStreamManager extends Service implements IAceStreamManager, Serv
     public final static int MSG_SAVE_SELECTED_PLAYER = 1029;
     public final static int MSG_CHECK_PENDING_NOTIFICATIONS = 1030;
     public final static int MSG_SHOW_BONUS_ADS = 1031;
+    public final static int MSG_SET_ENGINE_STATUS_LISTENERS = 1032;
 
     // Remote messages params
     public final static String MSG_PARAM_AUTH_DATA = "auth_data";
@@ -1144,6 +1157,7 @@ public class AceStreamManager extends Service implements IAceStreamManager, Serv
     public final static String MSG_PARAM_PREFERENCES = "preferences";
     public final static String MSG_PARAM_FROM_USER = "from_user";
     public final static String MSG_PARAM_AVAILABLE = "available";
+    public final static String MSG_PARAM_COUNT = "count";
 
     // Handle messages from remote PlaybackManager service
     @SuppressLint("HandlerLeak")
