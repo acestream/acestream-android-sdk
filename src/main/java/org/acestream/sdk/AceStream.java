@@ -210,15 +210,13 @@ public class AceStream {
         }
 
         List<ResolveInfo> installedPlayers = getInstalledPlayers();
-        if(installedPlayers != null) {
-            for (ResolveInfo ri : installedPlayers) {
-                if(excludeOurPlayer && ri.activityInfo.packageName.startsWith("org.acestream.")) {
-                    continue;
-                }
+        for (ResolveInfo ri : installedPlayers) {
+            if(excludeOurPlayer && ri.activityInfo.packageName.startsWith("org.acestream.")) {
+                continue;
+            }
 
-                if (!foundPlayers.contains(ri.activityInfo.packageName)) {
-                    availablePlayers.add(SelectedPlayer.fromResolveInfo(context(), ri));
-                }
+            if (!foundPlayers.contains(ri.activityInfo.packageName)) {
+                availablePlayers.add(SelectedPlayer.fromResolveInfo(context(), ri));
             }
         }
 
@@ -257,14 +255,20 @@ public class AceStream {
         return players;
     }
 
+    @NonNull
     public static List<ResolveInfo> getInstalledPlayers() {
-        Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_VIEW);
-        String mime = "video/*";
-        Uri uri = Uri.withAppendedPath(MediaStore.Video.Media.INTERNAL_CONTENT_URI, "1");
-        intent.setDataAndType(uri, mime);
+        Intent intent;
+        List<Intent> intents = new ArrayList<>();
 
-        return MiscUtils.resolveActivityIntent(context(), intent);
+        intent = new Intent(Intent.ACTION_VIEW);
+        intent.setDataAndType(Uri.withAppendedPath(MediaStore.Video.Media.INTERNAL_CONTENT_URI, "1"), "video/*");
+        intents.add(intent);
+
+        intent = new Intent(Intent.ACTION_VIEW);
+        intent.setDataAndType(Uri.parse("http://example.com/test.mp4"), "video/mp4");
+        intents.add(intent);
+
+        return MiscUtils.resolveActivityIntents(context(), intents);
     }
 
     public static boolean isAppInstalled(String packageName) {
@@ -639,7 +643,7 @@ public class AceStream {
 
     public static boolean isInstalled() {
         List<ResolveInfo> ri = MiscUtils.resolveActivityIntent(context(), new Intent(ACTION_START_PLAYER));
-        return ri != null && ri.size() > 0;
+        return ri.size() > 0;
     }
 
     public static void restartApp() {

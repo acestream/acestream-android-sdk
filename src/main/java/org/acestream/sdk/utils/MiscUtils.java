@@ -36,6 +36,7 @@ import java.net.URLDecoder;
 import java.net.UnknownHostException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
@@ -487,11 +488,23 @@ public class MiscUtils {
 		}
 	}
 
+	@NonNull
+	public static List<ResolveInfo> resolveActivityIntents(@NonNull Context ctx, @NonNull List<Intent> intents) {
+		List<ResolveInfo> result = new ArrayList<>();
+		for(Intent intent: intents) {
+			List<ResolveInfo> ri = resolveActivityIntent(ctx, intent);
+			result.addAll(ri);
+		}
+
+		return result;
+	}
+
+	@NonNull
 	public static List<ResolveInfo> resolveActivityIntent(Context ctx, Intent intent) {
 		PackageManager pm = ctx.getPackageManager();
 		List<ResolveInfo> resolveInfo = pm.queryIntentActivities(intent, PackageManager.MATCH_DEFAULT_ONLY);
-		if(resolveInfo == null || resolveInfo.size() == 0) {
-			return null;
+		if(resolveInfo == null) {
+			resolveInfo = new ArrayList<>();
 		}
 
 		return resolveInfo;
