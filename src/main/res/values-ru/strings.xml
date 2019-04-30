@@ -248,4 +248,6 @@
     <string name="failed_to_load_web_page">Не удалось загрузить страницу</string>
     <string name="user_agreement">Пользовательское соглашение</string>
     <string name="playback_error">Ошибка воспроизведения</string>
+    <string name="grant_permissions">Выдать разрешения</string>
+    <string name="need_storage_access">Для продолжения требуется разрешение на доступ к файлам</string>
 </resources>

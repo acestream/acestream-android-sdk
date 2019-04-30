@@ -297,4 +297,6 @@
     <string name="failed_to_load_web_page">Failed to load web page</string>
 
     <string name="sign_in_to_get_bonuses">Only registered users can get bonuses for ads. Do you want to sign in?</string>
+    <string name="grant_permissions">Grant permissions</string>
+    <string name="need_storage_access">Need storage access to continue</string>
 </resources>

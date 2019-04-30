@@ -248,4 +248,6 @@
     <string name="failed_to_load_web_page">Не вдалося завантажити сторінку</string>
     <string name="user_agreement">Згода користувача</string>
     <string name="playback_error">Помилка відтворення</string>
+    <string name="grant_permissions">Надати дозволи</string>
+    <string name="need_storage_access">Для продовження потрібний дозвіл на доступ до файлів</string>
 </resources>
