@@ -259,6 +259,10 @@ public class MiscUtils {
 			return Collections.emptyMap();
 		}
 
+		return getQueryParameters(uri.toString());
+	}
+
+	public static Map<String,String> getQueryParameters(String uri) throws UnsupportedEncodingException {
 		// Don't use uri.getQuery(), because it urldecodes all query string and makes unable to
 		// parse such uri:
 		// acestream:?data=%2Fpath%2Fto%2Ftest%26file&index=0
@@ -274,18 +278,26 @@ public class MiscUtils {
 
 		Map<String,String> params = new HashMap<>();
 		int start = 0;
+		String name;
+		String value;
 		do {
 			int next = query.indexOf('&', start);
-			int end = (next == -1) ? query.length() : next;
+			int end = (next == -1) ? query.length() - 1 : next;
 
 			int separator = query.indexOf('=', start);
 			if (separator > end || separator == -1) {
 				separator = end;
 			}
 
-			String name = query.substring(start, separator);
-			String value = URLDecoder.decode(query.substring(separator+1, end), "UTF-8");
-			params.put(name, value);
+			if(separator > start) {
+				name = query.substring(start, separator);
+				if (separator < end) {
+					value = URLDecoder.decode(query.substring(separator + 1, end), "UTF-8");
+				} else {
+					value = "";
+				}
+				params.put(name, value);
+			}
 
 			// Move start to end of name.
 			start = end + 1;
