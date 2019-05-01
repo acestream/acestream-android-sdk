@@ -292,7 +292,13 @@ public class MiscUtils {
 			if(separator > start) {
 				name = query.substring(start, separator);
 				if (separator < end) {
-					value = URLDecoder.decode(query.substring(separator + 1, end), "UTF-8");
+					value = query.substring(separator + 1, end);
+					try {
+						value = URLDecoder.decode(value, "UTF-8");
+					}
+					catch(IllegalArgumentException e) {
+						Log.e(TAG, "error while decoding: " + e.getMessage());
+					}
 				} else {
 					value = "";
 				}
