@@ -651,10 +651,13 @@ public class AceStream {
         context().sendBroadcast(intent);
     }
 
+    public static Intent getStopAppIntent() {
+        return new Intent(ACTION_STOP_APP);
+    }
+
     public static void stopApp() {
         Logger.d(TAG, "stopApp");
-        Intent intent = new Intent(ACTION_STOP_APP);
-        context().sendBroadcast(intent);
+        context().sendBroadcast(getStopAppIntent());
     }
 
     public static void setBaseApplicationFactory(IBaseApplicationFactory factory) {
