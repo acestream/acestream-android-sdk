@@ -8,6 +8,8 @@ import org.acestream.sdk.controller.api.AuthCredentials;
 
 import java.util.Locale;
 
+import androidx.annotation.NonNull;
+
 public class AuthData {
     public String method;
     public String token;
@@ -65,6 +67,22 @@ public class AuthData {
 
     public String toJson() {
         return new Gson().toJson(this);
+    }
+
+    public AuthData() {
+    }
+
+    public AuthData(@NonNull AuthData other) {
+        method = other.method;
+        token = other.token;
+        auth_level = other.auth_level;
+        package_name = other.package_name;
+        package_color = other.package_color;
+        package_days_left = other.package_days_left;
+        purse_amount = other.purse_amount;
+        bonus_amount = other.bonus_amount;
+        got_error = other.got_error;
+        auth_error = other.auth_error;
     }
 
     public String toString() {
