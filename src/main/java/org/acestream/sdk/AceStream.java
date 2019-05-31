@@ -24,6 +24,7 @@ import org.acestream.sdk.utils.EnvironmentUtils;
 import org.acestream.sdk.utils.Logger;
 import org.acestream.sdk.utils.MiscUtils;
 import org.acestream.sdk.utils.PermissionUtils;
+import org.acestream.sdk.utils.Workers;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -415,8 +416,13 @@ public class AceStream {
         toast(context().getString(resId));
     }
 
-    public static void toast(String message) {
-        Toast.makeText(context(), message, Toast.LENGTH_LONG).show();
+    public static void toast(final String message) {
+        Workers.runOnMainThread(new Runnable() {
+            @Override
+            public void run() {
+                Toast.makeText(context(), message, Toast.LENGTH_LONG).show();
+            }
+        });
     }
 
     public static List<CacheDirLocation> getCacheDirLocations() {
