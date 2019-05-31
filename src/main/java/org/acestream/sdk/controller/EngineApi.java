@@ -65,7 +65,9 @@ public class EngineApi {
             mPort = service.getHttpApiPort();
         }
         catch(RemoteException e) {
-            throw new IllegalStateException(e);
+            Log.e(TAG, "Failed to get HTTP API port", e);
+            // Fallback to default port
+            mPort = 6878;
         }
 
         mRetrofit = createRetrofit();
