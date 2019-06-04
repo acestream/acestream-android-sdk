@@ -113,6 +113,10 @@ public class MediaItem {
         return mUri;
     }
 
+    public void setUri(Uri uri) {
+        mUri = uri;
+    }
+
     public Uri getPlaybackUri() {
         return isP2PItem() ? mPlaybackUri : mUri;
     }
@@ -206,6 +210,8 @@ public class MediaItem {
             @NonNull final IAceStreamManager manager,
             final int[] nextFileIndexes,
             final int streamIndex,
+            final boolean restartSessionWithOriginalInitiator,
+            @Nullable final String productKey,
             @NonNull final P2PItemStartListener listener) {
         mEngineSessionListener = listener;
 
@@ -237,7 +243,7 @@ public class MediaItem {
                                 if(mf.index == fileIndex) {
                                     mMediaFile = mf;
                                     setTitle(mf.filename);
-                                    startP2P(manager, nextFileIndexes, streamIndex, listener);
+                                    startP2P(manager, nextFileIndexes, streamIndex, restartSessionWithOriginalInitiator, productKey, listener);
                                     return;
                                 }
                             }
@@ -271,6 +277,8 @@ public class MediaItem {
         pb.stopPrevReadThread = 1;
         pb.resumePlayback = false;
         pb.useTimeshift = true;
+        pb.keepOriginalSessionInitiator = restartSessionWithOriginalInitiator;
+        pb.productKey = productKey;
 
         manager.addPlaybackStateCallback(mPlaybackStateCallback);
         manager.initEngineSession(pb, new EngineSessionStartListener() {
@@ -304,7 +312,7 @@ public class MediaItem {
         return mUserAgent;
     }
 
-    private void setTitle(String title) {
+    public void setTitle(String title) {
         if(!TextUtils.equals(title, mTitle)) {
             mTitle = title;
             if(mUpdateListener != null) {

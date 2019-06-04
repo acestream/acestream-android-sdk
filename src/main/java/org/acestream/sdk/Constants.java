@@ -69,6 +69,7 @@ public class Constants {
     public static final String EXTRA_ALLOW_REMEMBER_PLAYER = "org.acestream.EXTRA_ALLOW_REMEMBER_PLAYER";
     public static final String EXTRA_STARTED_FROM_EXTERNAL_REQUEST = "org.acestream.EXTRA_STARTED_FROM_EXTERNAL_REQUEST";
     public static final String EXTRA_SKIP_REMEMBERED_PLAYER = "org.acestream.EXTRA_SKIP_REMEMBERED_PLAYER";
+    public static final String EXTRA_PRODUCT_KEY = "product_key";
 
     public final static String PREF_KEY_SHOW_REWARDED_ADS= "show_rewarded_ads";
     public final static boolean PREF_DEFAULT_SHOW_REWARDED_ADS = false;

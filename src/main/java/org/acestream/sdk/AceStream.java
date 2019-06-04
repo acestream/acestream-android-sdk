@@ -287,19 +287,19 @@ public class AceStream {
         return !isAndroidTv();
     }
 
-    public static String isAceStreamContentUrl(@Nullable Uri uri) {
+    public static String parseAceStreamContentUrl(@Nullable Uri uri) {
         if(uri == null) {
             return null;
         }
         else {
-            return isAceStreamContentUrl(uri.toString());
+            return parseAceStreamContentUrl(uri.toString());
         }
     }
 
     @Nullable
-    public static String isAceStreamContentUrl(@Nullable String url) {
+    public static String parseAceStreamContentUrl(@Nullable String url) {
         if(url == null) {
-            Log.v(TAG, "isAceStreamContentUrl: null url");
+            Log.v(TAG, "parseAceStreamContentUrl: null url");
             return null;
         }
 
@@ -311,12 +311,12 @@ public class AceStream {
             Matcher m = p.matcher(url);
             if(m.find()) {
                 String hash = m.group(1);
-                Logger.vv(TAG, "isAceStreamContentUrl: got match: url=" + url + " hash=" + hash);
+                Logger.vv(TAG, "parseAceStreamContentUrl: got match: url=" + url + " hash=" + hash);
                 return hash;
             }
         }
 
-        Logger.vv(TAG, "isAceStreamContentUrl: no match: url=" + url);
+        Logger.vv(TAG, "parseAceStreamContentUrl: no match: url=" + url);
 
         return null;
     }

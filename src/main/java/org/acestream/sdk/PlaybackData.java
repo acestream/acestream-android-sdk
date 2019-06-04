@@ -24,6 +24,8 @@ public class PlaybackData {
     public boolean resumePlayback = false;
     public boolean useTimeshift = false;
     public int[] nextFileIndexes = null;
+    public boolean keepOriginalSessionInitiator = false;
+    public String productKey;
 
     public static PlaybackData fromJson(String data) {
         return new Gson().fromJson(data, PlaybackData.class);
