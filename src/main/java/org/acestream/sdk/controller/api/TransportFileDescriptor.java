@@ -215,7 +215,7 @@ public class TransportFileDescriptor {
         else if(mUrl != null) {
             ds = "url=" + Uri.encode(mUrl);
         }
-        else if(mTransportFileData != null) {
+        else if(mTransportFileData != null && mInfohash == null) {
             if(mLocalPath == null) {
                 throw new IllegalStateException("missing local path");
             }
@@ -229,7 +229,7 @@ public class TransportFileDescriptor {
             ds = "infohash=" + Uri.encode(mInfohash);
         }
         else {
-            throw new IllegalStateException("missing content descriptor");
+            throw new IllegalStateException("missing content descriptor: " + dump());
         }
 
         return ds;
@@ -544,6 +544,17 @@ public class TransportFileDescriptor {
         return String.format(Locale.getDefault(),
                 "<TFD: desc=%s data=%b>",
                 getDescriptorString(),
+                !TextUtils.isEmpty(mTransportFileData));
+    }
+
+    private String dump() {
+        return String.format(Locale.getDefault(),
+                "content_id=%s infohash=%s url=%s magnet=%s path=%s data=%b>",
+                mContentId,
+                mInfohash,
+                mUrl,
+                mMagnet,
+                mLocalPath,
                 !TextUtils.isEmpty(mTransportFileData));
     }
 }
