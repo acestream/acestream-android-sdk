@@ -30,6 +30,7 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Random;
 import java.util.Set;
 import java.util.regex.Matcher;
@@ -287,19 +288,90 @@ public class AceStream {
         return !isAndroidTv();
     }
 
-    public static String parseAceStreamContentUrl(@Nullable Uri uri) {
+    public static boolean isAceStreamUrl(@Nullable Uri uri) {
+        return parseAceStreamHttpApiUrl(uri) != null || parseAceStreamPlaybackUrl(uri) != null;
+    }
+
+    @Nullable
+    public static String parseAceStreamHttpApiUrl(@Nullable Uri uri) {
         if(uri == null) {
             return null;
         }
         else {
-            return parseAceStreamContentUrl(uri.toString());
+            return parseAceStreamHttpApiUrl(uri.toString());
+        }
+    }
+
+    /**
+     * Convert HTTP API URL to acestream:
+     * @param url
+     * @return String
+     */
+    @Nullable
+    public static String parseAceStreamHttpApiUrl(@Nullable String url) {
+        if(url == null) {
+            Log.v(TAG, "parseAceStreamHttpApiUrl: null url");
+            return null;
+        }
+
+        Pattern p = Pattern.compile("/(?:ace|hls)/(?:getstream|manifest\\.m3u8)");
+        Matcher m = p.matcher(url);
+        if(!m.find()) {
+            Logger.vv(TAG, "parseAceStreamHttpApiUrl: no match: url=" + url);
+            return null;
+        }
+
+        Logger.vv(TAG, "parseAceStreamHttpApiUrl: got match: url=" + url);
+
+        Map<String, String> params;
+        try {
+            params = MiscUtils.getQueryParameters(url);
+        }
+        catch(Exception e) {
+            Logger.e(TAG, "failed to parse url: " + url, e);
+            return null;
+        }
+
+        //TODO: add support of 'manifest_url' param
+        String acestreamLink = null;
+        for(Map.Entry<String, String> item: params.entrySet()) {
+            switch (item.getKey()) {
+                case "id":
+                case "content_id":
+                    acestreamLink = "acestream:?content_id=" + Uri.encode(item.getValue());
+                    break;
+                case "url":
+                    acestreamLink = "acestream:?url=" + Uri.encode(item.getValue());
+                    break;
+                case "magnet":
+                    acestreamLink = "acestream:?magnet=" + Uri.encode(item.getValue());
+                    break;
+                case "infohash":
+                    acestreamLink = "acestream:?infohash=" + Uri.encode(item.getValue());
+                    break;
+            }
+        }
+
+        if(acestreamLink == null) {
+            Logger.e(TAG, "Failed to detect url: " + url);
+        }
+
+        return acestreamLink;
+    }
+
+    public static String parseAceStreamPlaybackUrl(@Nullable Uri uri) {
+        if(uri == null) {
+            return null;
+        }
+        else {
+            return parseAceStreamPlaybackUrl(uri.toString());
         }
     }
 
     @Nullable
-    public static String parseAceStreamContentUrl(@Nullable String url) {
+    public static String parseAceStreamPlaybackUrl(@Nullable String url) {
         if(url == null) {
-            Log.v(TAG, "parseAceStreamContentUrl: null url");
+            Log.v(TAG, "parseAceStreamPlaybackUrl: null url");
             return null;
         }
 
@@ -311,12 +383,12 @@ public class AceStream {
             Matcher m = p.matcher(url);
             if(m.find()) {
                 String hash = m.group(1);
-                Logger.vv(TAG, "parseAceStreamContentUrl: got match: url=" + url + " hash=" + hash);
+                Logger.vv(TAG, "parseAceStreamPlaybackUrl: got match: url=" + url + " hash=" + hash);
                 return hash;
             }
         }
 
-        Logger.vv(TAG, "parseAceStreamContentUrl: no match: url=" + url);
+        Logger.vv(TAG, "parseAceStreamPlaybackUrl: no match: url=" + url);
 
         return null;
     }
