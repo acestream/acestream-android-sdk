@@ -469,12 +469,7 @@ public class AceStream {
             boolean startedFromExternalRequest,
             boolean skipRememberedPlayer) {
 
-        if(!TextUtils.equals(uri.getScheme(), "acestream")) {
-            throw new IllegalStateException("acestream: scheme expected");
-        }
-
         Intent intent = new Intent(ACTION_START_CONTENT);
-        intent.setAction(Intent.ACTION_VIEW);
         intent.setData(uri);
         intent.putExtra(Constants.EXTRA_STARTED_FROM_EXTERNAL_REQUEST, startedFromExternalRequest);
         intent.putExtra(Constants.EXTRA_SKIP_REMEMBERED_PLAYER, skipRememberedPlayer);
