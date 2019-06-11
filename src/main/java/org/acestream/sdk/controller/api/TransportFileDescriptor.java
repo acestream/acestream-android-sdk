@@ -19,11 +19,9 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.UnsupportedEncodingException;
 import java.security.NoSuchAlgorithmException;
 import java.util.Locale;
@@ -185,7 +183,7 @@ public class TransportFileDescriptor {
         return builder.build();
     }
 
-    public static TransportFileDescriptor fromFile(String path) throws IOException {
+    public static TransportFileDescriptor fromFile(String path) {
         Builder builder = new Builder();
         builder.setLocalFile(path);
         return builder.build();
@@ -217,7 +215,7 @@ public class TransportFileDescriptor {
         }
         else if(mTransportFileData != null && mInfohash == null) {
             if(mLocalPath == null) {
-                throw new IllegalStateException("missing local path");
+                throw new IllegalStateException("missing local path: " + dump());
             }
             ds = "data=" + Uri.encode(mLocalPath);
         }
@@ -299,12 +297,15 @@ public class TransportFileDescriptor {
                     }
                 }
                 else {
-                    Log.v(TAG,"fetchTransportFileData: missing local path: descriptor=" + getDescriptorString());
+                    Log.v(TAG,"fetchTransportFileData: missing local path: descriptor=" + dump());
                 }
             }
         }
         catch(IOException e) {
-            throw new TransportFileParsingException("Got IOException: descriptor=" + getDescriptorString(), e);
+            throw new TransportFileParsingException("Got IOException: descriptor=" + dump(), e);
+        }
+        catch(OutOfMemoryError e) {
+            throw new TransportFileParsingException("Got OutOfMemoryError: descriptor=" + dump(), e);
         }
     }
 
@@ -330,7 +331,11 @@ public class TransportFileDescriptor {
             query = "url=" + Uri.encode(mUrl);
         }
         else if(mLocalPath != null) {
-            query = "url=" + Uri.encode(mLocalPath);
+            String url = mLocalPath;
+            if(!url.startsWith("file:")) {
+                url = "file://" + url;
+            }
+            query = "url=" + Uri.encode(url);
         }
         else if(mMagnet != null) {
             query = "magnet=" + Uri.encode(mMagnet);
@@ -415,9 +420,8 @@ public class TransportFileDescriptor {
             return this;
         }
 
-        public Builder setLocalFile(@NonNull String path) throws IOException {
+        public Builder setLocalFile(@NonNull String path) {
             setLocalPath(path);
-            mDescriptor.mTransportFileData = Base64.encodeToString(MiscUtils.readBytesFromFile(path), Base64.DEFAULT);
             return this;
         }
 
@@ -451,19 +455,6 @@ public class TransportFileDescriptor {
             }
 
             setLocalPath(uri.toString());
-            // Always first try to read from cache
-            String data = AceStream.getTransportFileFromCache(mDescriptor.getDescriptorString());
-            if(data != null) {
-                mDescriptor.mTransportFileData = data;
-            }
-            else {
-                try {
-                    mDescriptor.mTransportFileData = Base64.encodeToString(MiscUtils.readBytesFromContentUri(resolver, uri), Base64.DEFAULT);
-                }
-                catch(OutOfMemoryError e) {
-                    throw new IOException("Failed to read from URI", e);
-                }
-            }
             return this;
         }
 
