@@ -16,6 +16,7 @@ public class VlcBridge {
     // Target actions
     public static final String ACTION_START_PLAYBACK_SERVICE = "org.acestream.vlc.bridge.start_playback_service";
     public static final String ACTION_START_MAIN_ACTVITY = "org.acestream.vlc.bridge.start_main_activity";
+    public static final String ACTION_CLOSE_PLAYER = "org.acestream.vlc.bridge.close_player";
 
     // Subactions
     public static final String ACTION_LOAD_P2P_PLAYLIST = "LOAD_P2P_PLAYLIST";
@@ -267,6 +268,10 @@ public class VlcBridge {
     public static void openSettingsPlayer() {
         Intent intent = getTargetIntent(ACTION_START_MAIN_ACTVITY);
         intent.putExtra(EXTRA_FRAGMENT_ID, FRAGMENT_SETTINGS_PLAYER);
+        AceStream.context().sendBroadcast(intent);
+    }
+    public static void closeVlcPlayer() {
+        Intent intent = new Intent(ACTION_CLOSE_PLAYER);
         AceStream.context().sendBroadcast(intent);
     }
 }
