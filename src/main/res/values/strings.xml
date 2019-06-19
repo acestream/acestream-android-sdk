@@ -225,6 +225,8 @@
     <string name="need_proxy_server_option">You need to activate Proxy Server option to watch content in external players. Or you can watch content for free in Ace Player</string>
     <string name="need_proxy_server_option_tmp">To watch content you need to activate Proxy Server option or upgrade Ace Stream app</string>
     <string name="pause_on_audiofocus_loss">Pause on audiofocus loss</string>
+    <string name="fix_audio_volume">Fix audio volume</string>
+    <string name="fix_audio_volume_summary">Check audio volume while playing and restore it if necessary</string>
     <string name="upgrade">Upgrade</string>
     <string name="to_continue_visit_link">To continue visit this link:</string>
     <string name="and_enter_pin">and enter PIN:</string>

@@ -169,6 +169,8 @@
     <string name="need_proxy_server_option">Вам необхідно активувати опцію Proxy Server для перегляду в сторонніх плеєрах. Або ви можете дивитися безкоштовно в плеєрі Ace Player</string>
     <string name="need_proxy_server_option_tmp">Для перегляду вам необхідно активувати опцію Proxy Server або обновити додаток Ace Stream</string>
     <string name="pause_on_audiofocus_loss">Пауза при втраті аудіофокуса</string>
+    <string name="fix_audio_volume">Корегувати гучність</string>
+    <string name="fix_audio_volume_summary">Перевіряти гучність під час перегляду та відновлювати при необхідності</string>
     <string name="upgrade">Прокачати</string>
     <string name="to_continue_visit_link">Для продовження перейдіть за посиланням:</string>
     <string name="and_enter_pin">та введіть ПІН-код:</string>
