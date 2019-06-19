@@ -667,6 +667,11 @@ public class AceStream {
         return sApplicationId;
     }
 
+    public static String getApplicationIdShort() {
+        if(sApplicationId == null) return null;
+        return sApplicationId.replaceFirst("org\\.acestream\\.", "");
+    }
+
     public static int getApplicationVersionCode() {
         return sApplicationVersionCode;
     }
