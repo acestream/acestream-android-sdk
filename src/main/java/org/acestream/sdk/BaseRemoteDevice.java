@@ -56,6 +56,7 @@ public abstract class BaseRemoteDevice implements IRemoteDevice {
     protected SelectedPlayer mSelectedPlayer = null;
     protected String mOutputFormat = null;
     protected PlayerState mPlayerState = new PlayerState();
+    protected EngineStatus mEngineStatus = null;
 
     public String getId() {
         return mId;
@@ -177,6 +178,7 @@ public abstract class BaseRemoteDevice implements IRemoteDevice {
                 setSelectedPlayer(SelectedPlayer.fromId(msg.getString("selectedPlayer")));
                 break;
             case Messages.ENGINE_STATUS:
+                mEngineStatus = EngineStatus.fromJson(msg.getString("status"));
                 setSelectedPlayer(SelectedPlayer.fromId(msg.getString("selectedPlayer")));
                 setOutputFormat(msg.getString("outputFormat"));
                 break;
@@ -207,6 +209,10 @@ public abstract class BaseRemoteDevice implements IRemoteDevice {
 
     public int getPlaybackState() {
         return mPlayerState.getPlaybackState();
+    }
+
+    public EngineStatus getEngineStatus() {
+        return mEngineStatus;
     }
 
     public float getPosition() {
