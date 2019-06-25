@@ -74,7 +74,7 @@
     <string name="failed_to_start">Ошибка запуска</string>
     <string name="status_prebuffering" formatted="false">Пребуферизация %d%%\nPeers: %d\nDL: %d Kb/s</string>
     <string name="status_buffering" formatted="false">Буферизация %d%%\nPeers: %d\nDL: %d Kb/s</string>
-    <string name="status_checking" formatted="false">Проверка %d%%</string>
+    <string name="status_info" formatted="false">Peers: %d\nDL: %d Kb/s\nUL: %d Kb/s</string><string name="status_checking" formatted="false">Проверка %d%%</string>
     <plurals name="numberOfPeers">
         <item quantity="one">%d поток</item>
         <item quantity="few">%d потока</item>

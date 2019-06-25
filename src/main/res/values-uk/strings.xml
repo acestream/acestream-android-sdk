@@ -75,6 +75,7 @@
     <string name="status_prebuffering" formatted="false">Пребуферизація %d%%\nPeers: %d\nDL: %d Kb/s</string>
     <string name="status_buffering" formatted="false">Буферизація %d%%\nPeers: %d\nDL: %d Kb/s</string>
     <string name="status_checking" formatted="false">Перевірка %d%%</string>
+    <string name="status_info" formatted="false">Peers: %d\nDL: %d Kb/s\nUL: %d Kb/s</string>
     <plurals name="numberOfPeers">
         <item quantity="one">%d потік</item>
         <item quantity="few">%d потоки</item>
