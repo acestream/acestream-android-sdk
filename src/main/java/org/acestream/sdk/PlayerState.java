@@ -46,6 +46,10 @@ public class PlayerState {
         return getPlaybackState() == PlaybackStateCompat.STATE_PLAYING;
     }
 
+    public boolean isPaused() {
+        return getPlaybackState() == PlaybackStateCompat.STATE_PAUSED;
+    }
+
     public boolean isPausable() {
         return true;
     }

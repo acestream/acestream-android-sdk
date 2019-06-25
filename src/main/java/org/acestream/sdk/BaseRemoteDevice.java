@@ -226,6 +226,10 @@ public abstract class BaseRemoteDevice implements IRemoteDevice {
         return mPlayerState.isPlaying();
     }
 
+    public boolean isPaused() {
+        return mPlayerState.isPaused();
+    }
+
     public boolean isSeekable() {
         return mPlayerState.isSeekable();
     }
