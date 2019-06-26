@@ -26,6 +26,7 @@ import java.io.UnsupportedEncodingException;
 import java.security.NoSuchAlgorithmException;
 import java.util.Locale;
 import java.util.Map;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class TransportFileDescriptor {
@@ -490,9 +491,12 @@ public class TransportFileDescriptor {
             return null;
         }
 
+        Matcher m;
+
         // Accept plain content id
-        if(Pattern.matches("^[0-9a-f]{40}$", uri.toString().toLowerCase())) {
-            uri = Uri.parse("acestream:?content_id=" + uri.toString());
+        m = Pattern.compile("^[0-9a-f]{40}").matcher(uri.toString().toLowerCase());
+        if(m.find()) {
+            uri = Uri.parse("acestream:?content_id=" + m.group(0));
             Logger.v(TAG, "processAceStreamUri: convert plain content id: mrl=" + uri);
         }
 
@@ -511,8 +515,9 @@ public class TransportFileDescriptor {
 
         // Convert old format:
         // acestream://94c2fd8fb9bc8f2fc71a2cbe9d4b866f227a0209 -> acestream:?content_id=94c2fd8fb9bc8f2fc71a2cbe9d4b866f227a0209
-        if(Pattern.matches("^acestream://[0-9a-f]{40}$", uri.toString().toLowerCase())) {
-            uri = Uri.parse("acestream:?content_id=" + uri.toString().substring(12));
+        m = Pattern.compile("^acestream://([0-9a-f]{40})").matcher(uri.toString().toLowerCase());
+        if(m.find()) {
+            uri = Uri.parse("acestream:?content_id=" + m.group(1));
             Logger.v(TAG, "processAceStreamUri: convert old content id format: mrl=" + uri);
         }
 
