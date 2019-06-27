@@ -49,6 +49,7 @@ public class EngineStatus {
     public SystemUsageInfo systemInfo = null;
     public String outputFormat = null;
     public int fileIndex = -1;
+    public int debugLevel = 0;
 
     // internal session: used in tests
     public int initiatorType = -1;
