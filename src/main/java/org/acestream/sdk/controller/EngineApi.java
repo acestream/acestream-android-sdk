@@ -116,6 +116,12 @@ public class EngineApi {
         apiCall(url, null, callback, new TypeToken<EngineApiResponse<String>>(){});
     }
 
+    public void setDebugLevel(int level, @Nullable final Callback<Boolean> callback) {
+        String url = "/server/api?api_version=2&method=set_debug_level&level=" + level;
+        // Returns string "ok" on success
+        apiCall(url, null, callback, new TypeToken<EngineApiResponse<String>>(){});
+    }
+
     protected <T> void apiCall(String url,
                              Map<String, String> params,
                              @Nullable final Callback<T> callback,
