@@ -50,6 +50,7 @@ public class EngineStatus {
     public String outputFormat = null;
     public int fileIndex = -1;
     public int debugLevel = 0;
+    public int wanConnectionStatus = 0;
 
     // internal session: used in tests
     public int initiatorType = -1;
@@ -155,6 +156,8 @@ public class EngineStatus {
             engineStatus.errorMessage = root.getString("errorMessage");
             engineStatus.currentStreamIndex = root.getInt("currentStreamIndex");
             engineStatus.isLive = root.getInt("isLive");
+            engineStatus.debugLevel = root.optInt("debug_level");
+            engineStatus.wanConnectionStatus = root.optInt("wan_connection_status");
 
             // parse optional
             engineStatus.outputFormat = root.optString("outputFormat");
