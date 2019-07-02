@@ -302,4 +302,5 @@
     <string name="sign_in_to_get_bonuses">Only registered users can get bonuses for ads. Do you want to sign in?</string>
     <string name="grant_permissions">Grant permissions</string>
     <string name="need_storage_access">Need storage access to continue</string>
+    <string name="error_broadcast_is_unavailable">Channel is unavailable</string>
 </resources>
