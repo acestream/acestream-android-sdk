@@ -1,5 +1,7 @@
 package org.acestream.sdk;
 
+import android.content.res.Resources;
+import android.text.TextUtils;
 import android.util.Log;
 
 import org.json.JSONArray;
@@ -11,7 +13,7 @@ import java.util.List;
 import java.util.Locale;
 
 public class EngineStatus {
-    private final static String TAG = "AceStream/EngStatus";
+    private final static String TAG = "AS/EngineStatus";
 
     public static class LivePosition {
         public int first;
@@ -57,6 +59,15 @@ public class EngineStatus {
     public String initiatorId = null;
     public String contentKey = null;
     public int isOurPlayer = -1;
+
+    public static String translateEngineError(String message) {
+        // Translate known error messages
+        Resources resources = AceStream.context().getResources();
+        if(TextUtils.equals(message, "failed to get manifest")) {
+            message = resources.getString(R.string.error_broadcast_is_unavailable);
+        }
+        return message;
+    }
 
     public static EngineStatus error(String errorMessage) {
         EngineStatus status = new EngineStatus();
