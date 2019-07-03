@@ -14,6 +14,8 @@ public class AuthData {
     public String method;
     public String token;
     public int auth_level;
+    public int global_auth_level;
+    public int session_auth_level;
     public String package_name = "?";
     public String package_color = "green";
     public int package_days_left;
@@ -86,10 +88,12 @@ public class AuthData {
     }
 
     public String toString() {
-        return String.format(Locale.ENGLISH, "<AuthData: method=%s token=%s level=%d package=%s color=%s left=%d purse=%d bonus=%d got_error=%d errmsg=%s>",
+        return String.format(Locale.ENGLISH, "<AuthData: method=%s token=%s level=%d(g=%d s=%d) package=%s color=%s left=%d purse=%d bonus=%d got_error=%d errmsg=%s>",
                 method,
                 token,
                 auth_level,
+                global_auth_level,
+                session_auth_level,
                 package_name,
                 package_color,
                 package_days_left,
