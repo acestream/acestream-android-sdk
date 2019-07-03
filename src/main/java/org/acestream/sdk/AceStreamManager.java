@@ -687,6 +687,10 @@ public class AceStreamManager extends Service implements IAceStreamManager, Serv
     }
 
     @Override
+    public void onAuthUpdated() {
+    }
+
+    @Override
     public void onRestartPlayer() {
         notifyRestartPlayer();
     }
