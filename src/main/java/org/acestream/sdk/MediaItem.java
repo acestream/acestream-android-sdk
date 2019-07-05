@@ -13,6 +13,7 @@ import org.acestream.sdk.controller.api.TransportFileDescriptor;
 import org.acestream.sdk.controller.api.response.MediaFilesResponse;
 import org.acestream.sdk.errors.TransportFileParsingException;
 import org.acestream.sdk.interfaces.IAceStreamManager;
+import org.acestream.sdk.utils.Logger;
 import org.acestream.sdk.utils.MiscUtils;
 
 import java.util.Locale;
@@ -32,6 +33,7 @@ public class MediaItem {
     private String mInfohash = null;
     private int mFileIndex = 0;
     private EngineSession mEngineSession = null;
+    private int mEngineSessionId = -1;
     private P2PItemStartListener mEngineSessionListener = null;
     private String mUserAgent = null;
     private long mId = 0;
@@ -201,6 +203,7 @@ public class MediaItem {
     public void resetP2PItem(IAceStreamManager playbackManager) {
         mPlaybackUri = null;
         mEngineSession = null;
+        mEngineSessionId = -1;
         if(playbackManager != null) {
             playbackManager.removePlaybackStateCallback(mPlaybackStateCallback);
         }
@@ -281,12 +284,18 @@ public class MediaItem {
         pb.productKey = productKey;
 
         manager.addPlaybackStateCallback(mPlaybackStateCallback);
-        manager.initEngineSession(pb, new EngineSessionStartListener() {
+        mEngineSessionId = manager.initEngineSession(pb, new EngineSessionStartListener() {
             @Override
             public void onSuccess(EngineSession session) {
-                mPlaybackUri = Uri.parse(session.playbackUrl);
-                mEngineSession = session;
-                listener.onSessionStarted(session);
+                if(session.clientSessionId == mEngineSessionId) {
+                    Logger.v(TAG, "startP2P: session started: " + session);
+                    mPlaybackUri = Uri.parse(session.playbackUrl);
+                    mEngineSession = session;
+                    listener.onSessionStarted(session);
+                }
+                else {
+                    Logger.v(TAG, "startP2P: old session started: expectedId=" + mEngineSessionId + " session=" + session);
+                }
             }
 
             @Override

@@ -4,7 +4,10 @@ import com.google.gson.Gson;
 
 import org.acestream.sdk.controller.api.response.VastTag;
 
+import java.util.Locale;
+
 import androidx.annotation.Keep;
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 @Keep
@@ -20,6 +23,7 @@ public class EngineSession {
     public long startedAt;
     public boolean isDirect = false;
     public int isLive = -1;
+    public int clientSessionId = -1;
 
     public static EngineSession fromJson(@Nullable String json) {
         if(json == null) return null;
@@ -39,7 +43,16 @@ public class EngineSession {
     }
 
     @Override
+    @NonNull
     public String toString() {
-        return String.format("outputFormat=%s playback=%s stat=%s cmd=%s event=%s", playbackData.outputFormat, playbackUrl, statUrl, commandUrl, eventUrl);
+        return String.format(
+                Locale.getDefault(),
+                "id=%d outputFormat=%s playback=%s stat=%s cmd=%s event=%s",
+                clientSessionId,
+                playbackData.outputFormat,
+                playbackUrl,
+                statUrl,
+                commandUrl,
+                eventUrl);
     }
 }

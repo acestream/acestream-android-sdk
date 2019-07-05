@@ -53,6 +53,7 @@ public class EngineStatus {
     public int fileIndex = -1;
     public int debugLevel = 0;
     public int wanConnectionStatus = 0;
+    public int clientSessionId = -1;
 
     // internal session: used in tests
     public int initiatorType = -1;

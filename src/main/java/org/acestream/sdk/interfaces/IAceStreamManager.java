@@ -35,6 +35,6 @@ public interface IAceStreamManager {
     void addPlaybackStateCallback(PlaybackStateCallback cb);
     void removePlaybackStateCallback(PlaybackStateCallback cb);
     void getEngine(@NonNull EngineStateCallback callback);
-    void initEngineSession(PlaybackData playbackData, EngineSessionStartListener listener);
+    int initEngineSession(PlaybackData playbackData, EngineSessionStartListener listener);
     OutputFormat getOutputFormatForContent(String type, String mime, String playerPackageName, boolean isAirCast, boolean isOurPlayer);
 }

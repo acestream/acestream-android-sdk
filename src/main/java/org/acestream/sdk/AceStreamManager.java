@@ -1010,7 +1010,7 @@ public class AceStreamManager extends Service implements IAceStreamManager, Serv
         sendMessage(obtainMessage(MSG_CHECK_PENDING_NOTIFICATIONS));
     }
 
-    public void initEngineSession(PlaybackData playbackData, @Nullable EngineSessionStartListener listener) {
+    public int initEngineSession(PlaybackData playbackData, @Nullable EngineSessionStartListener listener) {
         Logger.vv(TAG, "initEngineSession: playbackData=" + playbackData);
         Message msg = obtainMessage(MSG_INIT_ENGINE_SESSION);
         Bundle data = new Bundle(2);
@@ -1020,6 +1020,8 @@ public class AceStreamManager extends Service implements IAceStreamManager, Serv
         }
         msg.setData(data);
         sendMessage(msg);
+
+        return -1;
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////
