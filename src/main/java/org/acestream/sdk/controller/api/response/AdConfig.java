@@ -16,6 +16,7 @@ public class AdConfig {
     public int admob_rewarded_video_default_segment;
     public int admob_rewarded_video_auto_segment;
     public int admob_interstitial_background_load_interval;
+    public boolean show_bonus_ads_activity;
 
     public boolean isProviderEnabled(String name) {
         return providers != null && providers.contains(name);
