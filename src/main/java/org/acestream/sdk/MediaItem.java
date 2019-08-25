@@ -204,6 +204,7 @@ public class MediaItem {
         mPlaybackUri = null;
         mEngineSession = null;
         mEngineSessionId = -1;
+        setUserAgent(null);
         if(playbackManager != null) {
             playbackManager.removePlaybackStateCallback(mPlaybackStateCallback);
         }
